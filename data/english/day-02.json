@@ -1,0 +1,622 @@
+{
+ "day": 2,
+ "date": "2026-10-14",
+ "generated": false,
+ "words": [
+  {
+   "id": 103,
+   "word": "admittance",
+   "pos": "n",
+   "zh": "n. 進入；入場許可"
+  },
+  {
+   "id": 104,
+   "word": "adolescence",
+   "pos": "n",
+   "zh": "n. 青春期；青少年時期"
+  },
+  {
+   "id": 105,
+   "word": "adolescent",
+   "pos": "a/n",
+   "zh": "a. 青少年的；幼稚的｜n. 青少年"
+  },
+  {
+   "id": 106,
+   "word": "adopt",
+   "pos": "v",
+   "zh": "v. 採取；採納"
+  },
+  {
+   "id": 107,
+   "word": "adoption",
+   "pos": "n",
+   "zh": "n. 採納；採用"
+  },
+  {
+   "id": 108,
+   "word": "adorn",
+   "pos": "v",
+   "zh": "v. 裝飾；使生色"
+  },
+  {
+   "id": 109,
+   "word": "adult",
+   "pos": "n/a",
+   "zh": "n. 成年人｜a. 成年的；成熟的"
+  },
+  {
+   "id": 110,
+   "word": "advance",
+   "pos": "v/n/a",
+   "zh": "v. 前進；進展｜n. 前進；發展｜a. 先行的；預先的"
+  },
+  {
+   "id": 111,
+   "word": "advanced",
+   "pos": "a",
+   "zh": "a. 在前面的；先進的；開明的"
+  },
+  {
+   "id": 112,
+   "word": "advantage",
+   "pos": "n/v",
+   "zh": "n. 優點；利益｜v. 有利於；使處於優勢"
+  },
+  {
+   "id": 113,
+   "word": "adventure",
+   "pos": "n",
+   "zh": "n. 冒險;冒險精神"
+  },
+  {
+   "id": 114,
+   "word": "adversary",
+   "pos": "n",
+   "zh": "n. 敵手；敵人"
+  },
+  {
+   "id": 115,
+   "word": "adverse",
+   "pos": "a",
+   "zh": "a. 反面的；不利的"
+  },
+  {
+   "id": 116,
+   "word": "advertise",
+   "pos": "v",
+   "zh": "v. 廣告；公布"
+  },
+  {
+   "id": 117,
+   "word": "advertisement",
+   "pos": "n",
+   "zh": "n. 廣告；宣傳"
+  },
+  {
+   "id": 118,
+   "word": "advice",
+   "pos": "n",
+   "zh": "n. 勸告；忠告"
+  },
+  {
+   "id": 119,
+   "word": "advisable",
+   "pos": "a",
+   "zh": "a. 可取的；適當的"
+  },
+  {
+   "id": 120,
+   "word": "advise",
+   "pos": "v",
+   "zh": "v. 勸告；忠告"
+  },
+  {
+   "id": 121,
+   "word": "adviser",
+   "pos": "n",
+   "zh": "n. 顧問；勸告者"
+  },
+  {
+   "id": 122,
+   "word": "advocate",
+   "pos": "n",
+   "zh": "n. 提倡者；辯護者；律師"
+  },
+  {
+   "id": 123,
+   "word": "affair",
+   "pos": "n",
+   "zh": "n. 事件；事務"
+  },
+  {
+   "id": 124,
+   "word": "affect",
+   "pos": "v",
+   "zh": "v. 影響；對……發生作用"
+  },
+  {
+   "id": 125,
+   "word": "affection",
+   "pos": "n",
+   "zh": "n. 愛；情愛"
+  },
+  {
+   "id": 126,
+   "word": "affirm",
+   "pos": "v",
+   "zh": "v. 申明；堅稱；證實"
+  },
+  {
+   "id": 127,
+   "word": "affirmative",
+   "pos": "a",
+   "zh": "a. 肯定的；表示贊成的"
+  },
+  {
+   "id": 128,
+   "word": "affix",
+   "pos": "v",
+   "zh": "v. 貼上；添上；附上"
+  },
+  {
+   "id": 129,
+   "word": "afraid",
+   "pos": "a",
+   "zh": "a. 害怕的；恐怕；遺憾"
+  },
+  {
+   "id": 130,
+   "word": "after",
+   "pos": "prep/conj/ad/a",
+   "zh": "prep. 在…之後｜conj. 在…之後｜ad. 以後；之後｜a. 以後的；後部的"
+  },
+  {
+   "id": 131,
+   "word": "afternoon",
+   "pos": "n",
+   "zh": "n. 下午；午後"
+  },
+  {
+   "id": 132,
+   "word": "after-tax",
+   "pos": "a",
+   "zh": "a. 稅後；淨收的"
+  },
+  {
+   "id": 133,
+   "word": "afterward",
+   "pos": "ad",
+   "zh": "ad. 之後；以後"
+  },
+  {
+   "id": 134,
+   "word": "again",
+   "pos": "ad",
+   "zh": "ad. 再；再一次"
+  },
+  {
+   "id": 135,
+   "word": "against",
+   "pos": "prep",
+   "zh": "prep. 反對；違反"
+  },
+  {
+   "id": 136,
+   "word": "age",
+   "pos": "n/v",
+   "zh": "n. 年齡｜v. 變老；成熟"
+  },
+  {
+   "id": 137,
+   "word": "agency",
+   "pos": "n",
+   "zh": "n. 經銷處；代理機構"
+  },
+  {
+   "id": 138,
+   "word": "agenda",
+   "pos": "n",
+   "zh": "n. 待議諸事項；議程"
+  },
+  {
+   "id": 139,
+   "word": "agent",
+   "pos": "n",
+   "zh": "n. 代理商；仲介人"
+  },
+  {
+   "id": 140,
+   "word": "aggression",
+   "pos": "n",
+   "zh": "n. 侵略"
+  },
+  {
+   "id": 141,
+   "word": "aggressive",
+   "pos": "a",
+   "zh": "a. 侵略的；好鬥的"
+  },
+  {
+   "id": 142,
+   "word": "agility",
+   "pos": "n",
+   "zh": "n. 敏捷；靈活"
+  },
+  {
+   "id": 143,
+   "word": "ago",
+   "pos": "ad",
+   "zh": "ad. 在……以前"
+  },
+  {
+   "id": 144,
+   "word": "agree",
+   "pos": "v",
+   "zh": "v. 同意；贊同"
+  },
+  {
+   "id": 145,
+   "word": "agreement",
+   "pos": "n",
+   "zh": "n. 同意；協定"
+  },
+  {
+   "id": 146,
+   "word": "agricultural",
+   "pos": "a",
+   "zh": "a. 農業的；務農的"
+  },
+  {
+   "id": 147,
+   "word": "ahead",
+   "pos": "ad",
+   "zh": "ad. 在前；向前；預先"
+  },
+  {
+   "id": 148,
+   "word": "aid",
+   "pos": "v/n",
+   "zh": "v. 幫助；救助｜n. 幫助；救助"
+  },
+  {
+   "id": 149,
+   "word": "aim",
+   "pos": "v",
+   "zh": "v. 瞄準；目的"
+  },
+  {
+   "id": 150,
+   "word": "air-conditioner",
+   "pos": "n",
+   "zh": "n. 冷氣機"
+  },
+  {
+   "id": 151,
+   "word": "aircraft",
+   "pos": "n",
+   "zh": "n. 飛機；飛艇"
+  },
+  {
+   "id": 152,
+   "word": "airline",
+   "pos": "n",
+   "zh": "n. 航線；航空公司"
+  },
+  {
+   "id": 153,
+   "word": "airport",
+   "pos": "n",
+   "zh": "n. 機場"
+  },
+  {
+   "id": 154,
+   "word": "aisle",
+   "pos": "n",
+   "zh": "n. 通道；走道"
+  },
+  {
+   "id": 155,
+   "word": "alarm",
+   "pos": "n/v",
+   "zh": "n. 警報；鬧鐘｜v. 使驚慌不安；使恐懼"
+  },
+  {
+   "id": 156,
+   "word": "alert",
+   "pos": "v/n/a",
+   "zh": "v. 使警覺；使注意｜n. 警戒；警報｜a. 警覺的；警惕的"
+  },
+  {
+   "id": 157,
+   "word": "align",
+   "pos": "v",
+   "zh": "v. 排成直線；使結盟"
+  },
+  {
+   "id": 158,
+   "word": "alike",
+   "pos": "a/ad",
+   "zh": "a. 相同的；相像的｜ad. 一樣地；相似地"
+  },
+  {
+   "id": 159,
+   "word": "allege",
+   "pos": "v",
+   "zh": "v. 斷言；宣稱"
+  },
+  {
+   "id": 160,
+   "word": "allegedly",
+   "pos": "ad",
+   "zh": "ad. 據傳說；據宣稱"
+  },
+  {
+   "id": 161,
+   "word": "allergy",
+   "pos": "n",
+   "zh": "n. 過敏症"
+  },
+  {
+   "id": 162,
+   "word": "alley",
+   "pos": "n",
+   "zh": "n. 小巷；小徑"
+  },
+  {
+   "id": 163,
+   "word": "alliance",
+   "pos": "n",
+   "zh": "n. 結盟；聯盟"
+  },
+  {
+   "id": 164,
+   "word": "allocate",
+   "pos": "v",
+   "zh": "v. 分派；分配"
+  },
+  {
+   "id": 165,
+   "word": "allow",
+   "pos": "v",
+   "zh": "v. 允許；准許"
+  },
+  {
+   "id": 166,
+   "word": "allowance",
+   "pos": "n",
+   "zh": "n. 津貼；補貼"
+  },
+  {
+   "id": 167,
+   "word": "allure",
+   "pos": "v/n",
+   "zh": "v. 引誘；誘惑｜n. 誘惑力，魅力"
+  },
+  {
+   "id": 168,
+   "word": "almost",
+   "pos": "ad",
+   "zh": "ad. 幾乎；差不多"
+  },
+  {
+   "id": 169,
+   "word": "along",
+   "pos": "prep/ad",
+   "zh": "prep. 沿著；順著｜ad. 向前；一起"
+  },
+  {
+   "id": 170,
+   "word": "already",
+   "pos": "ad",
+   "zh": "ad. 已經；先前"
+  },
+  {
+   "id": 171,
+   "word": "alter",
+   "pos": "v",
+   "zh": "v. 改變；修改"
+  },
+  {
+   "id": 172,
+   "word": "alternate",
+   "pos": "a/n",
+   "zh": "a. 交替的；輪流的｜n. 代理人；代替者"
+  },
+  {
+   "id": 173,
+   "word": "alternative",
+   "pos": "a/n",
+   "zh": "a. 替代的；供選擇的｜n. 選擇；二擇一"
+  },
+  {
+   "id": 174,
+   "word": "altogether",
+   "pos": "ad",
+   "zh": "ad. 完全；全然"
+  },
+  {
+   "id": 175,
+   "word": "amateur",
+   "pos": "a/n",
+   "zh": "a. 業餘的；外行的｜n. 業餘；外行"
+  },
+  {
+   "id": 176,
+   "word": "amaze",
+   "pos": "v",
+   "zh": "v. 使驚奇；使驚愕"
+  },
+  {
+   "id": 177,
+   "word": "ambiguous",
+   "pos": "a",
+   "zh": "a. 含糊不清的；引起歧義的"
+  },
+  {
+   "id": 178,
+   "word": "ambition",
+   "pos": "n",
+   "zh": "n. 雄心；抱負"
+  },
+  {
+   "id": 179,
+   "word": "amend",
+   "pos": "v",
+   "zh": "v. 修訂；修改"
+  },
+  {
+   "id": 180,
+   "word": "amendment",
+   "pos": "n",
+   "zh": "n. 改正；修正；修正案"
+  },
+  {
+   "id": 181,
+   "word": "amid",
+   "pos": "prep",
+   "zh": "prep. 在…之間；被…包圍"
+  },
+  {
+   "id": 182,
+   "word": "among",
+   "pos": "prep",
+   "zh": "prep. 在…之中；在…中間"
+  },
+  {
+   "id": 183,
+   "word": "amount",
+   "pos": "n/v",
+   "zh": "n. 總數；總額｜v. 共計；相當於"
+  },
+  {
+   "id": 184,
+   "word": "amplify",
+   "pos": "v",
+   "zh": "v. 增強；擴大"
+  },
+  {
+   "id": 185,
+   "word": "amuse",
+   "pos": "v",
+   "zh": "v. 使歡樂；使發笑"
+  },
+  {
+   "id": 186,
+   "word": "analyze",
+   "pos": "v",
+   "zh": "v. 分析"
+  },
+  {
+   "id": 187,
+   "word": "angle",
+   "pos": "n",
+   "zh": "n. 角；角度"
+  },
+  {
+   "id": 188,
+   "word": "animate",
+   "pos": "v",
+   "zh": "v. 賦予生命；使有生命"
+  },
+  {
+   "id": 189,
+   "word": "anniversary",
+   "pos": "n/a",
+   "zh": "n. 週年紀念｜a. 週年的"
+  },
+  {
+   "id": 190,
+   "word": "announce",
+   "pos": "v",
+   "zh": "v. 宣布；發布"
+  },
+  {
+   "id": 191,
+   "word": "announcement",
+   "pos": "n",
+   "zh": "n. 通告；布告"
+  },
+  {
+   "id": 192,
+   "word": "annual",
+   "pos": "a",
+   "zh": "a. 一年一次的；每年的"
+  },
+  {
+   "id": 193,
+   "word": "annually",
+   "pos": "ad",
+   "zh": "ad. 每年；每年一次"
+  },
+  {
+   "id": 194,
+   "word": "anonymous",
+   "pos": "a",
+   "zh": "a. 匿名的；姓氏不明的"
+  },
+  {
+   "id": 195,
+   "word": "another",
+   "pos": "a",
+   "zh": "a. 又一；再一"
+  },
+  {
+   "id": 196,
+   "word": "answer",
+   "pos": "v/n",
+   "zh": "v. 回答；答覆｜n. 回答；答覆"
+  },
+  {
+   "id": 197,
+   "word": "antibiotic",
+   "pos": "a/n",
+   "zh": "a. 抗生的；抗菌的｜n. 抗生素；抗菌素"
+  },
+  {
+   "id": 198,
+   "word": "anxiety",
+   "pos": "n",
+   "zh": "n. 焦慮；掛念"
+  },
+  {
+   "id": 199,
+   "word": "anxious",
+   "pos": "a",
+   "zh": "a. 焦慮的；掛念的"
+  },
+  {
+   "id": 200,
+   "word": "any",
+   "pos": "a/prep",
+   "zh": "a. 任一；每一｜prep. 任何一個；任何人"
+  },
+  {
+   "id": 201,
+   "word": "apart",
+   "pos": "ad",
+   "zh": "ad. 分開地；有距離地"
+  },
+  {
+   "id": 202,
+   "word": "apologetic",
+   "pos": "a",
+   "zh": "a. 道歉的；認錯的"
+  },
+  {
+   "id": 203,
+   "word": "apology",
+   "pos": "n",
+   "zh": "n. 道歉；陪罪"
+  },
+  {
+   "id": 204,
+   "word": "apparent",
+   "pos": "a",
+   "zh": "a. 表面的；外觀的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

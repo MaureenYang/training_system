@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TOEIC 每日英文</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<main>
+  <div class="row">
+    <div>
+      <div class="kicker">🕛 中午 60 分鐘：單字 25 · 測驗 15 · 閱讀 15 · 複習 5</div>
+      <h1 id="title">TOEIC</h1>
+    </div>
+    <span class="spacer"></span>
+    <label class="small muted">切換天數
+      <select id="day-select" aria-label="切換天數"></select>
+    </label>
+  </div>
+  <div id="status" class="row small" style="margin-top:6px"></div>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <section id="panel"></section>
+</main>
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const { h } = TS;
+TS.nav();
+
+const TABS = [["flash", "單字卡"], ["list", "單字表"], ["phrases", "片語"], ["quiz", "測驗"], ["reading", "閱讀"], ["review", "複習不熟"]];
+let M, DAY, DATA, tab = new URLSearchParams(location.search).get("tab") || "flash";
+
+function dayRec() { return TS.get("en_days", String(DAY)) || {}; }
+function updateDay(patch) {
+  const r = { ...dayRec(), ...patch };
+  delete r.ts;
+  if (!r.done && r.flash && r.quiz && (r.reading || !DATA.reading)) {
+    r.done = true;
+    TS.toast("🎉 今天的英文完成了！");
+  }
+  TS.set("en_days", String(DAY), r);
+  TS.markActivity("en");
+  renderStatus();
+}
+
+function renderStatus() {
+  const r = dayRec();
+  const s = document.getElementById("status");
+  const chip = (ok, label) => h("span", { class: `pill ${ok ? "ahead" : ""}` }, `${ok ? "✓" : "○"} ${label}`);
+  s.replaceChildren(
+    chip(r.flash, "單字卡"),
+    chip(r.quiz, r.quiz ? `測驗 ${r.quiz.score}/${r.quiz.total}` : "測驗"),
+    chip(r.reading, "閱讀"),
+    chip(r.review, "複習"),
+    h("span", { class: "spacer" }),
+    r.done ? h("span", { class: "pill ahead" }, "今日完成")
+      : h("button", { class: "ghost", onclick: () => { TS.set("en_days", String(DAY), { ...dayRec(), done: true }); TS.markActivity("en"); renderStatus(); } }, "標記今日完成"));
+}
+
+function renderTabs() {
+  const t = document.getElementById("tabs");
+  t.replaceChildren(...TABS.map(([k, label]) => h("button", {
+    role: "tab", class: k === tab ? "active" : null, "aria-selected": k === tab ? "true" : "false",
+    onclick: () => { tab = k; renderTabs(); renderPanel(); },
+  }, label)));
+}
+
+function wordStatus(w) { return (TS.get("words", String(w.id)) || {}).s; }
+function setWord(w, s) {
+  TS.set("words", String(w.id), { s, w: w.word, zh: w.zh, day: DAY });
+}
+
+// ---------------------------------------------------------------- 單字卡
+let fi = 0, flipped = false, onlyUnknown = false;
+function renderFlash(panel, list = DATA.words, isReview = false) {
+  const words = onlyUnknown ? list.filter((w) => wordStatus(w) !== "known") : list;
+  if (!words.length) {
+    panel.append(h("p", { class: "notice" }, isReview ? "沒有標記「不熟」的單字 👍" : "這一天的單字都熟記了！"));
+    return;
+  }
+  fi = Math.min(fi, words.length - 1);
+  const w = words[fi];
+  const st = wordStatus(w);
+  const card = h("div", { class: "card flash", tabindex: "0", "aria-label": "單字卡，點擊翻面" },
+    h("div", { class: "small muted" }, `${fi + 1} / ${words.length}`, st ? h("span", { class: st === "known" ? "mark-known" : "mark-unsure" }, st === "known" ? " · 已熟" : " · 不熟") : null),
+    h("div", { class: "word" }, w.word),
+    h("div", { class: "kk" }, [w.kk, w.pos].filter(Boolean).join("  ")),
+    flipped ? [
+      h("div", { class: "zh" }, w.zh),
+      w.example_en ? h("div", { class: "ex" }, h("div", {}, w.example_en), h("div", { class: "muted small" }, w.example_zh)) : null,
+      w.collocation ? h("div", { class: "small muted" }, "搭配：" + w.collocation) : null,
+    ] : h("div", { class: "hint" }, "點卡片或按空白鍵看解釋"));
+  card.addEventListener("click", () => { flipped = !flipped; renderPanel(); });
+  const go = (d) => {
+    fi = (fi + d + words.length) % words.length;
+    flipped = false;
+    if (!isReview && fi === 0 && d > 0 && !dayRec().flash) updateDay({ flash: true });
+    if (!isReview && fi === words.length - 1 && !dayRec().flash) updateDay({ flash: true });
+    renderPanel();
+  };
+  const mark = (s) => { setWord(w, s); go(1); };
+  panel.append(card,
+    h("div", { class: "row", style: "margin-top:12px; justify-content:center" },
+      h("button", { onclick: () => go(-1), "aria-label": "上一個" }, "← 上一個"),
+      h("button", { class: "mark-unsure", onclick: () => mark("unsure") }, "✗ 不熟 (2)"),
+      h("button", { class: "mark-known", onclick: () => mark("known") }, "✓ 熟了 (1)"),
+      h("button", { onclick: () => go(1), "aria-label": "下一個" }, "下一個 →")),
+    h("div", { class: "row small muted", style: "margin-top:10px; justify-content:center" },
+      h("label", {}, h("input", { type: "checkbox", checked: onlyUnknown, onchange: (e) => { onlyUnknown = e.target.checked; fi = 0; renderPanel(); } }), " 只看還沒熟的"),
+      h("span", {}, "鍵盤：空白翻面、←→ 切換、1 熟、2 不熟")),
+    isReview ? h("div", { class: "row", style: "margin-top:12px; justify-content:center" },
+      h("button", { class: "primary", onclick: () => { updateDay({ review: true }); TS.toast("複習完成"); } }, "複習完成")) : "");
+  keyHandler = (e) => {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+    if (e.key === " ") { e.preventDefault(); flipped = !flipped; renderPanel(); }
+    else if (e.key === "ArrowRight") go(1);
+    else if (e.key === "ArrowLeft") go(-1);
+    else if (e.key === "1") mark("known");
+    else if (e.key === "2") mark("unsure");
+  };
+}
+let keyHandler = null;
+document.addEventListener("keydown", (e) => keyHandler && keyHandler(e));
+
+// ---------------------------------------------------------------- 單字表
+function renderList(panel) {
+  const tbody = h("tbody");
+  for (const w of DATA.words) {
+    const st = wordStatus(w);
+    tbody.append(h("tr", {},
+      h("td", {}, w.word, h("div", { class: "small muted" }, w.kk || "")),
+      h("td", {}, h("div", {}, w.zh), w.example_en ? h("div", { class: "small" }, w.example_en) : null,
+        w.example_zh ? h("div", { class: "small muted" }, w.example_zh) : null),
+      h("td", {}, h("select", { "aria-label": `${w.word} 的熟悉度`, onchange: (e) => { e.target.value ? setWord(w, e.target.value) : TS.set("words", String(w.id), null); } },
+        h("option", { value: "" }, "—"),
+        h("option", { value: "known", selected: st === "known" }, "熟"),
+        h("option", { value: "unsure", selected: st === "unsure" }, "不熟")))));
+  }
+  panel.append(h("div", { class: "card", style: "overflow-x:auto" }, h("table", { class: "wordlist" }, tbody)));
+}
+
+// ---------------------------------------------------------------- 片語
+function renderPhrases(panel) {
+  if (!DATA.phrases || !DATA.phrases.length) return panel.append(notGenerated());
+  panel.append(h("div", { class: "card" }, DATA.phrases.map((p) => h("div", { class: "q" },
+    h("div", { class: "stem" }, p.phrase, h("span", { class: "muted" }, "　" + p.zh)),
+    h("div", {}, p.example_en), h("div", { class: "small muted" }, p.example_zh)))));
+}
+
+// ---------------------------------------------------------------- 題目（測驗與閱讀共用）
+function quizBlock(questions, key, onFinish) {
+  const answers = {};
+  const wrap = h("div");
+  const score = h("div", { class: "row" });
+  const update = () => {
+    const n = Object.keys(answers).length;
+    const correct = Object.entries(answers).filter(([i, a]) => questions[i].answer === a).length;
+    score.replaceChildren(h("strong", {}, `已作答 ${n}/${questions.length} · 答對 ${correct}`));
+    if (n === questions.length) {
+      onFinish({ score: correct, total: questions.length });
+      score.append(h("button", { class: "ghost", onclick: () => { wrap.replaceWith(quizBlock(questions, key, onFinish)); } }, "重做"));
+    }
+  };
+  questions.forEach((q, i) => {
+    const explain = h("div", { class: "explain hidden" }, q.explanation_zh);
+    const btns = q.options.map((o, j) => h("button", {
+      onclick: () => {
+        if (i in answers) return;
+        answers[i] = j;
+        btns.forEach((b, k) => { b.disabled = true; if (k === q.answer) b.classList.add("correct"); });
+        if (j !== q.answer) btns[j].classList.add("wrong");
+        explain.classList.remove("hidden");
+        update();
+      },
+    }, `${"ABCD"[j]}. ${o}`));
+    wrap.append(h("div", { class: "q card" },
+      h("div", { class: "stem" }, `${i + 1}. `, q.kind ? h("span", { class: "pill en" }, { part5: "Part 5", vocab: "字彙", phrase: "片語" }[q.kind] || q.kind) : null, " ", q.question),
+      h("div", { class: "opts" }, btns), explain));
+  });
+  update();
+  return h("div", {}, score, h("div", { style: "height:10px" }), wrap);
+}
+
+function renderQuiz(panel) {
+  if (!DATA.quiz || !DATA.quiz.length) return panel.append(notGenerated());
+  panel.append(quizBlock(DATA.quiz, "quiz", (r) => { if (!dayRec().quiz) updateDay({ quiz: r }); }));
+}
+
+// ---------------------------------------------------------------- 閱讀
+function forms(word) {
+  const w = word.toLowerCase();
+  const out = new Set([w, w + "s", w + "es", w + "ed", w + "d", w + "ing", w + "er", w + "ly"]);
+  if (w.endsWith("e")) out.add(w.slice(0, -1) + "ing");
+  if (w.endsWith("y")) { out.add(w.slice(0, -1) + "ies"); out.add(w.slice(0, -1) + "ied"); }
+  return [...out];
+}
+function highlight(text, words) {
+  const map = new Map();
+  for (const w of words) if (/^[a-z][a-z\-]+$/i.test(w.word)) for (const f of forms(w.word)) map.set(f, w);
+  if (!map.size) return TS.esc(text);
+  const re = new RegExp(`\\b(${[...map.keys()].sort((a, b) => b.length - a.length).map((s) => s.replace(/[-]/g, "\\-")).join("|")})\\b`, "gi");
+  return TS.esc(text).replace(re, (m) => {
+    const w = map.get(m.toLowerCase());
+    return `<mark title="${TS.esc(w.word + "：" + w.zh)}">${m}</mark>`;
+  });
+}
+function renderReading(panel) {
+  const r = DATA.reading;
+  if (!r) return panel.append(notGenerated());
+  const trans = h("div", { class: "reading muted hidden", style: "margin-top:12px" }, r.translation_zh);
+  panel.append(
+    h("div", { class: "card" },
+      h("div", { class: "kicker" }, r.genre || "Reading"),
+      h("h3", {}, r.title),
+      h("div", { class: "reading", html: highlight(r.text, DATA.words) }),
+      h("div", { class: "row", style: "margin-top:10px" },
+        h("span", { class: "small muted" }, "標示的是今天的單字，滑鼠移上去（手機長按）看中文"),
+        h("span", { class: "spacer" }),
+        h("button", { class: "ghost", onclick: () => trans.classList.toggle("hidden") }, "顯示 / 隱藏翻譯")),
+      trans),
+    h("h2", {}, "閱讀測驗"),
+    quizBlock(r.questions, "reading", (res) => { if (!dayRec().reading) updateDay({ reading: res }); }));
+}
+
+// ---------------------------------------------------------------- 複習
+function renderReview(panel) {
+  const unsure = Object.entries(TS.all("words")).filter(([, r]) => r.s === "unsure")
+    .map(([id, r]) => ({ id: Number(id), word: r.w, zh: r.zh, day: r.day }));
+  panel.append(h("p", { class: "small muted" }, `所有天數裡標記「不熟」的單字，共 ${unsure.length} 個。按「熟了」就會從清單移除。`));
+  const prevOnly = onlyUnknown;
+  onlyUnknown = false;
+  renderFlash(panel, unsure, true);
+  onlyUnknown = prevOnly;
+}
+
+function notGenerated() {
+  return h("p", { class: "notice" }, "這一天的例句、片語、測驗與閱讀還沒生成（GitHub Actions 需要設定 ANTHROPIC_API_KEY）。單字卡和單字表可以先用。");
+}
+
+function renderPanel() {
+  keyHandler = null;
+  const panel = document.getElementById("panel");
+  panel.replaceChildren();
+  ({ flash: renderFlash, list: renderList, phrases: renderPhrases, quiz: renderQuiz, reading: renderReading, review: renderReview })[tab](panel);
+}
+
+async function init() {
+  M = await TS.meta();
+  const cur = TS.englishDay(M);
+  const q = Number(new URLSearchParams(location.search).get("day"));
+  DAY = q >= 1 && q <= M.english_days ? q : cur.day;
+  DATA = await TS.getJSON(`english/day-${String(DAY).padStart(2, "0")}.json`);
+  if (!DATA) {
+    document.getElementById("panel").append(h("p", { class: "notice" }, `Day ${DAY} 的內容還沒產生，請等每日排程或手動執行 workflow。`));
+    return;
+  }
+  document.getElementById("title").textContent = `TOEIC Day ${DAY} / ${M.english_days}` + (cur.review && DAY === cur.day ? "（複習）" : "");
+  const sel = document.getElementById("day-select");
+  for (let d = 1; d <= M.english_days; d++) {
+    const r = TS.get("en_days", String(d));
+    const label = `Day ${d}${d === cur.day ? "（今天）" : ""}${r && r.done ? " ✓" : ""}`;
+    sel.append(h("option", { value: d, selected: d === DAY }, label));
+  }
+  sel.addEventListener("change", () => { location.search = `?day=${sel.value}&tab=${tab}`; });
+  renderStatus();
+  renderTabs();
+  renderPanel();
+}
+init().catch((e) => document.querySelector("main").prepend(h("p", { class: "notice" }, "載入失敗：" + e.message)));
+</script>
+</body>
+</html>

@@ -1,0 +1,622 @@
+{
+ "day": 1,
+ "date": "2026-10-13",
+ "generated": false,
+ "words": [
+  {
+   "id": 1,
+   "word": "abandon",
+   "pos": "v",
+   "zh": "v. 拋棄；遺棄"
+  },
+  {
+   "id": 2,
+   "word": "abide",
+   "pos": "v",
+   "zh": "v. 忍受；容忍"
+  },
+  {
+   "id": 3,
+   "word": "ability",
+   "pos": "n",
+   "zh": "n. 能力；才能"
+  },
+  {
+   "id": 4,
+   "word": "able",
+   "pos": "a",
+   "zh": "a. 能；可；會"
+  },
+  {
+   "id": 5,
+   "word": "abnormal",
+   "pos": "a",
+   "zh": "a. 不正常的；反常的"
+  },
+  {
+   "id": 6,
+   "word": "abroad",
+   "pos": "ad",
+   "zh": "ad. 在國外；到國外"
+  },
+  {
+   "id": 7,
+   "word": "aboard",
+   "pos": "ad/prep",
+   "zh": "ad. 在（交通工具）上；上（交通工具）｜prep. 在（交通工具）上"
+  },
+  {
+   "id": 8,
+   "word": "abolish",
+   "pos": "v",
+   "zh": "v. 廢除；廢止"
+  },
+  {
+   "id": 9,
+   "word": "aborigine",
+   "pos": "n",
+   "zh": "n. 土著；原住民"
+  },
+  {
+   "id": 10,
+   "word": "abort",
+   "pos": "v",
+   "zh": "v. 流產；夭折；（計畫等）失敗"
+  },
+  {
+   "id": 11,
+   "word": "abound",
+   "pos": "v",
+   "zh": "v. 富足；充滿"
+  },
+  {
+   "id": 12,
+   "word": "about",
+   "pos": "ad/prep",
+   "zh": "ad. 在四周；到處｜prep. 關於；對於；在……的周圍"
+  },
+  {
+   "id": 13,
+   "word": "above",
+   "pos": "ad/prep",
+   "zh": "ad. 在上面；向上面｜prep. 在……上面；優於；勝過"
+  },
+  {
+   "id": 14,
+   "word": "above-average",
+   "pos": "a",
+   "zh": "a. 在平均水平以上；超過平均水平"
+  },
+  {
+   "id": 15,
+   "word": "abrupt",
+   "pos": "a",
+   "zh": "a. 突然的；唐突的"
+  },
+  {
+   "id": 16,
+   "word": "abruptly",
+   "pos": "ad",
+   "zh": "ad. 突然地；唐突地"
+  },
+  {
+   "id": 17,
+   "word": "absence",
+   "pos": "n",
+   "zh": "n. 不在，缺席"
+  },
+  {
+   "id": 18,
+   "word": "absent",
+   "pos": "a",
+   "zh": "a. 缺席的，不在場的"
+  },
+  {
+   "id": 19,
+   "word": "absolute",
+   "pos": "a",
+   "zh": "a. 純粹的；完全的"
+  },
+  {
+   "id": 20,
+   "word": "absolutely",
+   "pos": "ad",
+   "zh": "ad. 絕對地，完全地"
+  },
+  {
+   "id": 21,
+   "word": "absorb",
+   "pos": "v",
+   "zh": "v. 吸收；理解"
+  },
+  {
+   "id": 22,
+   "word": "abstract",
+   "pos": "a/n",
+   "zh": "a. 抽象的；深奧的｜n. 摘要，抽象派藝術作品"
+  },
+  {
+   "id": 23,
+   "word": "absurd",
+   "pos": "a",
+   "zh": "a. 不合理的，荒謬的"
+  },
+  {
+   "id": 24,
+   "word": "abundance",
+   "pos": "n",
+   "zh": "n. 豐富；充足"
+  },
+  {
+   "id": 25,
+   "word": "abundant",
+   "pos": "n",
+   "zh": "n. 大量的；充足的"
+  },
+  {
+   "id": 26,
+   "word": "abuse",
+   "pos": "n",
+   "zh": "n. 濫用；虐待"
+  },
+  {
+   "id": 27,
+   "word": "abusive",
+   "pos": "n",
+   "zh": "n. 辱罵的；濫用的"
+  },
+  {
+   "id": 28,
+   "word": "academic",
+   "pos": "a/n",
+   "zh": "a. 學校的；學術的｜n. 學者；學究"
+  },
+  {
+   "id": 29,
+   "word": "academy",
+   "pos": "n",
+   "zh": "n. 學院；大學"
+  },
+  {
+   "id": 30,
+   "word": "accelerate",
+   "pos": "v",
+   "zh": "v. 加快；增長"
+  },
+  {
+   "id": 31,
+   "word": "accent",
+   "pos": "n/v",
+   "zh": "n. 口音，腔調｜v. 強調，著重"
+  },
+  {
+   "id": 32,
+   "word": "accept",
+   "pos": "v",
+   "zh": "v. 接受；答應"
+  },
+  {
+   "id": 33,
+   "word": "acceptable",
+   "pos": "a",
+   "zh": "a. 可以接受的；令人滿意的"
+  },
+  {
+   "id": 34,
+   "word": "acceptance",
+   "pos": "n",
+   "zh": "n. 接受；贊同"
+  },
+  {
+   "id": 35,
+   "word": "access",
+   "pos": "n/v",
+   "zh": "n. 進入；入口｜v. 使用；接近"
+  },
+  {
+   "id": 36,
+   "word": "accessibility",
+   "pos": "n",
+   "zh": "n. 易接近；易受影響"
+  },
+  {
+   "id": 37,
+   "word": "accessible",
+   "pos": "a",
+   "zh": "a. 可接近的；可進入的"
+  },
+  {
+   "id": 38,
+   "word": "accessory",
+   "pos": "n/a",
+   "zh": "n. 附件；配件｜a. 附屬的；輔助的"
+  },
+  {
+   "id": 39,
+   "word": "accident",
+   "pos": "n",
+   "zh": "n. 事故；災禍"
+  },
+  {
+   "id": 40,
+   "word": "accidental",
+   "pos": "a",
+   "zh": "a. 偶然的；意外的"
+  },
+  {
+   "id": 41,
+   "word": "accident-prone",
+   "pos": "a",
+   "zh": "a. 容易受傷的；容易出意外的"
+  },
+  {
+   "id": 42,
+   "word": "acclaim",
+   "pos": "v",
+   "zh": "v. 歡呼；喝采"
+  },
+  {
+   "id": 43,
+   "word": "acclimatize",
+   "pos": "v",
+   "zh": "v. 使適應新環境"
+  },
+  {
+   "id": 44,
+   "word": "accommodate",
+   "pos": "v",
+   "zh": "v. 使適應；使相符"
+  },
+  {
+   "id": 45,
+   "word": "accommodation",
+   "pos": "n",
+   "zh": "n. 適應；調節"
+  },
+  {
+   "id": 46,
+   "word": "accompany",
+   "pos": "v",
+   "zh": "v. 陪同，伴隨"
+  },
+  {
+   "id": 47,
+   "word": "accomplish",
+   "pos": "v",
+   "zh": "v. 完成，實現，達到"
+  },
+  {
+   "id": 48,
+   "word": "accomplishment",
+   "pos": "n",
+   "zh": "n. 成就；成績"
+  },
+  {
+   "id": 49,
+   "word": "accord",
+   "pos": "v",
+   "zh": "v. 使一致，調解"
+  },
+  {
+   "id": 50,
+   "word": "according",
+   "pos": "a",
+   "zh": "a. 相符的；和諧的"
+  },
+  {
+   "id": 51,
+   "word": "account",
+   "pos": "n/v",
+   "zh": "n. 帳目，帳單｜v. 把……視為"
+  },
+  {
+   "id": 52,
+   "word": "accountable",
+   "pos": "a",
+   "zh": "a. 應負責任的；可說明的"
+  },
+  {
+   "id": 53,
+   "word": "accountant",
+   "pos": "n",
+   "zh": "n. 會計師；會計人員"
+  },
+  {
+   "id": 54,
+   "word": "accounting",
+   "pos": "n",
+   "zh": "n. 會計學；結帳"
+  },
+  {
+   "id": 55,
+   "word": "accrue",
+   "pos": "v",
+   "zh": "v. 積累；獲得"
+  },
+  {
+   "id": 56,
+   "word": "accumulate",
+   "pos": "v",
+   "zh": "v. 累積；積聚"
+  },
+  {
+   "id": 57,
+   "word": "accumulation",
+   "pos": "n",
+   "zh": "n. 積累；積聚"
+  },
+  {
+   "id": 58,
+   "word": "accuracy",
+   "pos": "n",
+   "zh": "n. 正確；準確"
+  },
+  {
+   "id": 59,
+   "word": "accurate",
+   "pos": "a",
+   "zh": "a. 準確的；精確的"
+  },
+  {
+   "id": 60,
+   "word": "accuse",
+   "pos": "v",
+   "zh": "v. 控告；譴責"
+  },
+  {
+   "id": 61,
+   "word": "accustom",
+   "pos": "v",
+   "zh": "v. 習慣（於）"
+  },
+  {
+   "id": 62,
+   "word": "ache",
+   "pos": "n/v",
+   "zh": "n. 疼痛｜v. 疼痛；感到痛苦"
+  },
+  {
+   "id": 63,
+   "word": "achieve",
+   "pos": "v",
+   "zh": "v. 完成，實現"
+  },
+  {
+   "id": 64,
+   "word": "achievement",
+   "pos": "n",
+   "zh": "n. 達成；完成"
+  },
+  {
+   "id": 65,
+   "word": "acknowledge",
+   "pos": "v",
+   "zh": "v. 承認"
+  },
+  {
+   "id": 66,
+   "word": "acknowledgement",
+   "pos": "n",
+   "zh": "n. 承認；確認；認可"
+  },
+  {
+   "id": 67,
+   "word": "acquire",
+   "pos": "v",
+   "zh": "v. 取得；獲得"
+  },
+  {
+   "id": 68,
+   "word": "acquisitive",
+   "pos": "a",
+   "zh": "a. 想獲得的；貪得無厭的"
+  },
+  {
+   "id": 69,
+   "word": "acquisition",
+   "pos": "n",
+   "zh": "n. 獲得，取得"
+  },
+  {
+   "id": 70,
+   "word": "acre",
+   "pos": "n",
+   "zh": "n. 英畝；地產"
+  },
+  {
+   "id": 71,
+   "word": "across",
+   "pos": "prep/ad",
+   "zh": "prep. 橫越，穿過；在……那邊｜ad. 橫過"
+  },
+  {
+   "id": 72,
+   "word": "act",
+   "pos": "v/n",
+   "zh": "v. 扮演；做事；見效｜n. 行為；行動"
+  },
+  {
+   "id": 73,
+   "word": "action",
+   "pos": "n",
+   "zh": "n. 行動；行為"
+  },
+  {
+   "id": 74,
+   "word": "activate",
+   "pos": "v",
+   "zh": "v. 使活化；使活潑"
+  },
+  {
+   "id": 75,
+   "word": "active",
+   "pos": "a",
+   "zh": "a. 活躍的；活潑的；積極的"
+  },
+  {
+   "id": 76,
+   "word": "activity",
+   "pos": "n",
+   "zh": "n. 活動；行動"
+  },
+  {
+   "id": 77,
+   "word": "actor",
+   "pos": "n",
+   "zh": "n. 演員；行動者"
+  },
+  {
+   "id": 78,
+   "word": "actress",
+   "pos": "n",
+   "zh": "n. 女演員"
+  },
+  {
+   "id": 79,
+   "word": "actual",
+   "pos": "a",
+   "zh": "a. 實際的；事實上的"
+  },
+  {
+   "id": 80,
+   "word": "actually",
+   "pos": "ad",
+   "zh": "ad. 實際上；真的"
+  },
+  {
+   "id": 81,
+   "word": "acute",
+   "pos": "a",
+   "zh": "a. 嚴重的；敏銳的"
+  },
+  {
+   "id": 82,
+   "word": "adapt",
+   "pos": "v",
+   "zh": "v. 使適應，使適合"
+  },
+  {
+   "id": 83,
+   "word": "adapter",
+   "pos": "n",
+   "zh": "n. 改編者；轉接器"
+  },
+  {
+   "id": 84,
+   "word": "add",
+   "pos": "v",
+   "zh": "v. 添加；增加"
+  },
+  {
+   "id": 85,
+   "word": "addict",
+   "pos": "v",
+   "zh": "v. 使沉溺；使醉心"
+  },
+  {
+   "id": 86,
+   "word": "addiction",
+   "pos": "n",
+   "zh": "n. 沉溺；成癮"
+  },
+  {
+   "id": 87,
+   "word": "addictive",
+   "pos": "a",
+   "zh": "a. 成癮的；上癮的"
+  },
+  {
+   "id": 88,
+   "word": "addition",
+   "pos": "n",
+   "zh": "n. 加；附加"
+  },
+  {
+   "id": 89,
+   "word": "additionally",
+   "pos": "ad",
+   "zh": "ad. 附加地；同時；此外"
+  },
+  {
+   "id": 90,
+   "word": "address",
+   "pos": "n/v",
+   "zh": "n. 住址；地址｜v. 向……致詞；向……發表演說"
+  },
+  {
+   "id": 91,
+   "word": "adept",
+   "pos": "n",
+   "zh": "n. 能手；內行"
+  },
+  {
+   "id": 92,
+   "word": "adequate",
+   "pos": "a",
+   "zh": "a. 足夠的；適當的"
+  },
+  {
+   "id": 93,
+   "word": "adhere",
+   "pos": "v",
+   "zh": "v. 黏附；遵守；堅持"
+  },
+  {
+   "id": 94,
+   "word": "adjust",
+   "pos": "v",
+   "zh": "v. 調整；校正"
+  },
+  {
+   "id": 95,
+   "word": "adjustment",
+   "pos": "n",
+   "zh": "n. 調整；校正"
+  },
+  {
+   "id": 96,
+   "word": "administrate",
+   "pos": "v",
+   "zh": "v. 管理；支配"
+  },
+  {
+   "id": 97,
+   "word": "administration",
+   "pos": "v",
+   "zh": "v. 管理；經營；行政"
+  },
+  {
+   "id": 98,
+   "word": "administrator",
+   "pos": "n",
+   "zh": "n. 管理人；行政官員"
+  },
+  {
+   "id": 99,
+   "word": "admirable",
+   "pos": "a",
+   "zh": "a. 值得讚揚的；令人欽佩的"
+  },
+  {
+   "id": 100,
+   "word": "admiration",
+   "pos": "n",
+   "zh": "n. 欽佩；欣賞"
+  },
+  {
+   "id": 101,
+   "word": "admire",
+   "pos": "v",
+   "zh": "v. 欽佩；欣賞"
+  },
+  {
+   "id": 102,
+   "word": "admit",
+   "pos": "v",
+   "zh": "v. 承認；准許進入"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

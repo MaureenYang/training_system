@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>轉職讀書計畫</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<main>
+  <div class="row">
+    <div>
+      <h1 id="hello">今天</h1>
+      <div class="muted small" id="subtitle"></div>
+    </div>
+  </div>
+
+  <h2>今天要做什麼</h2>
+  <div class="grid">
+    <section class="card en" id="today-en"></section>
+    <section class="card code" id="today-code"></section>
+  </div>
+  <section class="card news" style="margin-top:12px" id="today-news"></section>
+
+  <h2>進度追蹤</h2>
+  <div class="grid">
+    <section class="card" id="prog-en"></section>
+    <section class="card" id="prog-code"></section>
+  </div>
+
+  <h2>英文統計</h2>
+  <section class="card" id="stats-en"></section>
+
+  <h2>程式統計</h2>
+  <section class="card" id="stats-code"></section>
+
+  <h2>打卡日曆</h2>
+  <section class="card" id="streak"></section>
+
+  <h2>進度資料</h2>
+  <section class="card">
+    <p class="small muted" style="margin-top:0">進度只存在這個瀏覽器裡。換手機或電腦時，先在舊裝置「匯出」，再到新裝置「匯入」（會自動合併兩邊的紀錄）。</p>
+    <div class="row">
+      <button id="btn-export">⬇️ 匯出進度</button>
+      <label class="btn">⬆️ 匯入進度<input type="file" id="file-import" accept="application/json,.json" class="hidden"></label>
+      <span class="spacer"></span>
+      <button id="btn-reset" class="ghost">重設全部進度</button>
+    </div>
+  </section>
+</main>
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const { h } = TS;
+TS.nav();
+
+function paceLabel(done, expected, todayDone) {
+  // 應有進度算到昨天；今天也做完時把今天算進去，才不會顯示「超前」
+  const diff = done - expected - (todayDone ? 1 : 0);
+  if (diff > 0) return h("span", { class: "pill ahead" }, `超前 ${diff} 天`);
+  if (diff < 0) return h("span", { class: "pill behind" }, `落後 ${-diff} 天`);
+  return h("span", { class: "pill" }, "進度剛好");
+}
+
+function codeDayDone(day) {
+  return day.items.every((it) => TS.get("code", it.id));
+}
+
+async function render() {
+  const m = await TS.meta();
+  const cur = (await TS.getJSON("coding/curriculum.json")) || { weeks: [] };
+  const allDays = cur.weeks.flatMap((w) => w.days.map((d) => ({ ...d, week: w.week, weekTitle: w.title })));
+  const allItems = allDays.flatMap((d) => d.items);
+  const en = TS.englishDay(m);
+  const cd = TS.codingDay(m);
+  const enFile = await TS.getJSON(`english/day-${String(en.day).padStart(2, "0")}.json`);
+  const news = (await TS.getJSON("news/items.json")) || { items: [] };
+
+  // ---------- 標題
+  document.getElementById("hello").textContent = m.dayNum < 1
+    ? `距離開始還有 ${1 - m.dayNum} 天`
+    : `第 ${m.dayNum} 天`;
+  document.getElementById("subtitle").textContent =
+    `${m.today}（${new Intl.DateTimeFormat("zh-TW", { weekday: "long", timeZone: "UTC" }).format(new Date(m.today + "T00:00:00Z"))}）· 開始日 ${m.start_date} · 資料更新 ${m.updated || "-"}`;
+
+  // ---------- 今日英文
+  const enBox = document.getElementById("today-en");
+  const enRec = TS.get("en_days", String(en.day)) || {};
+  const words = enFile ? enFile.words : [];
+  enBox.append(
+    h("div", { class: "kicker" }, "🕛 中午 12:00–13:00 · 英文 60 分鐘"),
+    h("div", { class: "big" }, en.review ? `複習 Day ${en.day}` : `TOEIC Day ${en.day} / ${m.english_days}`),
+    h("p", { class: "muted small" }, words.length
+      ? `${words.length} 個單字：${words.slice(0, 6).map((w) => w.word).join("、")}…`
+      : "今天的單字還沒產生"),
+    h("ul", { class: "todo" },
+      [["flash", "單字卡（25 分）"], ["quiz", "15 題測驗（15 分）"], ["reading", "短篇閱讀（15 分）"], ["review", "複習不熟的字（5 分）"]]
+        .map(([k, label]) => h("li", { class: enRec[k] ? "done" : "" },
+          h("span", {}, enRec[k] ? "✅" : "⬜"),
+          h("div", { class: "body" }, h("div", { class: "title" }, label),
+            k === "quiz" && enRec.quiz ? h("div", { class: "meta" }, `得分 ${enRec.quiz.score}/${enRec.quiz.total}`) : null)))),
+    h("div", { class: "row", style: "margin-top:10px" },
+      h("a", { class: "btn", href: `english.html?day=${en.day}` }, "開始英文 →"),
+      enRec.done ? h("span", { class: "pill ahead" }, "今日完成") : null),
+  );
+
+  // ---------- 今日程式
+  const codeBox = document.getElementById("today-code");
+  const today = allDays[cd.day - 1];
+  codeBox.append(
+    h("div", { class: "kicker" }, "🌙 晚上 · C++ & 資料結構 180 分鐘"),
+    h("div", { class: "big" }, cd.finished ? "8 週課程已結束 🎉" : `第 ${cd.week} 週 · 第 ${cd.weekday} 天`),
+    h("p", { class: "muted small" }, today ? (today.review ? "本週複習日 · " : "") + today.weekTitle : ""),
+  );
+  if (today && !cd.finished) {
+    const ul = h("ul", { class: "todo" });
+    for (const it of today.items) {
+      const rec = TS.get("code", it.id);
+      const cb = h("input", { type: "checkbox", checked: !!rec, "aria-label": it.title });
+      const li = h("li", { class: rec ? "done" : "" }, cb,
+        h("div", { class: "body" },
+          h("div", { class: "title" }, it.url ? h("a", { href: it.url, target: "_blank", rel: "noopener" }, it.title) : it.title),
+          h("div", { class: "meta" }, `${it.minutes} 分`, it.type === "problem" ? h("span", { class: "pill code" }, it.difficulty) : null)));
+      cb.addEventListener("change", () => {
+        TS.set("code", it.id, cb.checked ? { done: true } : null);
+        li.classList.toggle("done", cb.checked);
+        if (cb.checked) TS.markActivity("code");
+        renderStats();
+      });
+      ul.append(li);
+    }
+    codeBox.append(ul, h("div", { class: "row", style: "margin-top:10px" }, h("a", { class: "btn", href: "coding.html" }, "看完整課表 →")));
+  }
+
+  // ---------- 今日新聞
+  const newsBox = document.getElementById("today-news");
+  const recent = news.items.filter((i) => TS.daysBetween(i.date, m.today) <= 3)
+    .sort((a, b) => (b.importance || 0) - (a.importance || 0)).slice(0, 3);
+  newsBox.append(h("div", { class: "row" }, h("div", { class: "kicker" }, "📰 AI 技術動態（近 3 天重點）"), h("span", { class: "spacer" }),
+    h("a", { href: "news.html", class: "small" }, "全部新聞與技術演變 →")));
+  if (!recent.length) newsBox.append(h("p", { class: "muted small" }, "近 3 天沒有新消息。"));
+  for (const it of recent) {
+    newsBox.append(h("div", { class: "newsitem" },
+      h("div", { class: "row small" }, h("span", { class: `co co-${it.company}` }, it.company), h("span", { class: "muted" }, it.date)),
+      h("h3", {}, h("a", { href: it.url, target: "_blank", rel: "noopener" }, it.title_zh || it.title)),
+      it.trend ? h("div", { class: "small muted" }, "趨勢：" + it.trend) : null));
+  }
+
+  // ---------- 進度與統計（打勾後會重畫）
+  function renderStats() {
+    const enDaysDone = Object.values(TS.all("en_days")).filter((r) => r.done).length;
+    const enExpected = Math.max(0, Math.min(m.dayNum - 1, m.english_days));
+    const codeDaysDone = allDays.filter(codeDayDone).length;
+    const codeExpected = Math.max(0, Math.min(m.dayNum - 1, allDays.length));
+    const doneItems = allItems.filter((it) => TS.get("code", it.id));
+
+    const pe = document.getElementById("prog-en");
+    pe.replaceChildren(
+      h("div", { class: "row" }, h("h3", {}, "🕛 英文 30 天"), h("span", { class: "spacer" }), paceLabel(enDaysDone, enExpected, !en.review && m.dayNum >= 1 && (TS.get("en_days", String(en.day)) || {}).done)),
+      h("div", { class: "big" }, `${enDaysDone} / ${m.english_days} 天`),
+      TS.bar(enDaysDone, m.english_days, "en"),
+      h("p", { class: "small muted" }, `到昨天應完成 ${enExpected} 天`));
+
+    const pc = document.getElementById("prog-code");
+    pc.replaceChildren(
+      h("div", { class: "row" }, h("h3", {}, "🌙 程式 8 週"), h("span", { class: "spacer" }), paceLabel(codeDaysDone, codeExpected, !cd.before && !cd.finished && codeDayDone(allDays[cd.day - 1]))),
+      h("div", { class: "big" }, `${doneItems.length} / ${allItems.length} 項`),
+      TS.bar(doneItems.length, allItems.length, "code"),
+      h("p", { class: "small muted" }, `完成 ${codeDaysDone} 天 · 到昨天應完成 ${codeExpected} 天` +
+        (codeDaysDone < codeExpected ? " · 建議用每週第 7 天補進度" : "")));
+
+    // 英文統計
+    const wordsRec = TS.all("words");
+    const known = Object.values(wordsRec).filter((w) => w.s === "known").length;
+    const unsure = Object.values(wordsRec).filter((w) => w.s === "unsure").length;
+    const enDays = TS.all("en_days");
+    const quizPts = Object.entries(enDays).filter(([, r]) => r.quiz).map(([d, r]) => [Number(d), r.quiz.score / r.quiz.total])
+      .sort((a, b) => a[0] - b[0]);
+    const avg = quizPts.length ? Math.round((quizPts.reduce((s, p) => s + p[1], 0) / quizPts.length) * 100) : null;
+    const studied = Object.values(enDays).filter((r) => r.flash).length;
+    document.getElementById("stats-en").replaceChildren(
+      h("div", { class: "stats" },
+        stat("看過單字卡", `${studied} 天`),
+        stat("已熟記", `${known} 字`, `共 ${m.total_words || "-"} 字`),
+        stat("不熟待複習", `${unsure} 字`),
+        stat("測驗平均", avg === null ? "—" : `${avg}%`)),
+      h("div", { class: "small muted", style: "margin-top:12px" }, "每日測驗正確率"),
+      lineChart(quizPts, m.english_days));
+
+    // 程式統計
+    const lessons = allItems.filter((i) => i.type === "lesson");
+    const probs = allItems.filter((i) => i.type === "problem");
+    const ac = probs.filter((p) => (TS.get("code", p.id) || {}).verdict === "AC").length;
+    const mins = doneItems.reduce((s, i) => s + i.minutes, 0);
+    const grid = h("div", { class: "weekgrid" }, h("span"), ["一", "二", "三", "四", "五", "六", "複習"].map((d) => h("span", { class: "muted", style: "text-align:center" }, d)));
+    for (const w of cur.weeks) {
+      grid.append(h("span", { class: "muted" }, `W${w.week}`));
+      for (const d of w.days) {
+        const n = d.items.filter((it) => TS.get("code", it.id)).length;
+        const ratio = n / d.items.length;
+        const bg = ratio === 0 ? "" : `background: color-mix(in srgb, var(--code) ${Math.round(25 + ratio * 75)}%, var(--surface-2))`;
+        grid.append(h("div", { class: `cell ${d.day === cd.day && !cd.before ? "today" : ""}`, style: bg, title: `第 ${d.day} 天：${n}/${d.items.length}` }));
+      }
+    }
+    document.getElementById("stats-code").replaceChildren(
+      h("div", { class: "stats" },
+        stat("教學已讀", `${lessons.filter((i) => TS.get("code", i.id)).length} / ${lessons.length}`),
+        stat("題目完成", `${probs.filter((i) => TS.get("code", i.id)).length} / ${probs.length}`),
+        stat("自評 AC", `${ac} 題`),
+        stat("累計時數", `${(mins / 60).toFixed(1)} 小時`)),
+      h("div", { class: "small muted", style: "margin:12px 0 6px" }, "8 週 × 7 天完成度（顏色越深完成越多）"),
+      grid);
+
+    renderStreak(m);
+  }
+
+  function stat(label, value, sub) {
+    return h("div", { class: "stat" }, h("span", { class: "small muted" }, label), h("span", { class: "num" }, value),
+      sub ? h("span", { class: "small muted" }, sub) : null);
+  }
+
+  renderStats();
+}
+
+function lineChart(points, maxX) {
+  const W = 600, H = 140, P = 24;
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("class", "chart");
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "每日測驗正確率折線圖");
+  svg.style.width = "100%";
+  const x = (d) => P + ((d - 1) / Math.max(1, maxX - 1)) * (W - 2 * P);
+  const y = (v) => H - P - v * (H - 2 * P);
+  let s = "";
+  for (const v of [0, 0.5, 1]) s += `<line class="grid" x1="${P}" x2="${W - P}" y1="${y(v)}" y2="${y(v)}"/><text x="0" y="${y(v) + 3}">${v * 100}%</text>`;
+  if (points.length) {
+    s += `<polyline class="line" points="${points.map(([d, v]) => `${x(d)},${y(v)}`).join(" ")}"/>`;
+    s += points.map(([d, v]) => `<circle class="dot" cx="${x(d)}" cy="${y(v)}" r="3.5"><title>Day ${d}: ${Math.round(v * 100)}%</title></circle>`).join("");
+  } else {
+    s += `<text x="${W / 2 - 60}" y="${H / 2}">做完第一份測驗後會出現</text>`;
+  }
+  svg.innerHTML = s;
+  return svg;
+}
+
+function renderStreak(m) {
+  const log = TS.all("log");
+  const total = Math.max(m.coding_weeks * 7, m.english_days);
+  const heat = h("div", { class: "heat" });
+  for (let i = 0; i < total; i++) {
+    const day = TS.addDays(m.start_date, i);
+    const r = log[day] || {};
+    const color = r.en && r.code ? "var(--accent)" : r.en ? "var(--en)" : r.code ? "var(--code)" : "";
+    const future = day > m.today;
+    heat.append(h("div", { class: `c ${future ? "future" : ""}`, style: color ? `background:${color}` : "", title: `${day}${r.en ? " 英文✓" : ""}${r.code ? " 程式✓" : ""}` }));
+  }
+  // 連續天數：從今天（今天還沒做就從昨天）往回算
+  let streak = 0;
+  let d = m.today;
+  if (!(log[d] && (log[d].en || log[d].code))) d = TS.addDays(d, -1);
+  while (d >= m.start_date && log[d] && (log[d].en || log[d].code)) {
+    streak++;
+    d = TS.addDays(d, -1);
+  }
+  const both = Object.values(log).filter((r) => r.en && r.code).length;
+  document.getElementById("streak").replaceChildren(
+    h("div", { class: "stats" },
+      h("div", { class: "stat" }, h("span", { class: "small muted" }, "連續打卡"), h("span", { class: "num" }, `${streak} 天`)),
+      h("div", { class: "stat" }, h("span", { class: "small muted" }, "英文＋程式都完成"), h("span", { class: "num" }, `${both} 天`))),
+    h("div", { class: "small muted", style: "margin:12px 0 6px" }, "從開始日起每一欄是一週"),
+    heat,
+    h("div", { class: "legend" },
+      h("span", {}, h("i", { style: "background:var(--accent)" }), "兩者都完成"),
+      h("span", {}, h("i", { style: "background:var(--en)" }), "只有英文"),
+      h("span", {}, h("i", { style: "background:var(--code)" }), "只有程式"),
+      h("span", {}, h("i", { style: "background:var(--surface-2)" }), "沒有紀錄")));
+}
+
+document.getElementById("btn-export").addEventListener("click", TS.exportFile);
+document.getElementById("file-import").addEventListener("change", async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  try {
+    await TS.importFile(f);
+    TS.toast("已匯入並合併進度");
+    setTimeout(() => location.reload(), 600);
+  } catch (err) {
+    TS.toast("匯入失敗：" + err.message);
+  }
+});
+document.getElementById("btn-reset").addEventListener("click", () => {
+  if (confirm("確定要清除這個瀏覽器裡的所有進度？建議先匯出備份。")) {
+    TS.reset();
+    location.reload();
+  }
+});
+
+render().catch((e) => {
+  document.querySelector("main").prepend(h("p", { class: "notice" }, "載入資料失敗：" + e.message));
+});
+</script>
+</body>
+</html>

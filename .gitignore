@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+/_site/
+# 單字書原始 PDF 不進 git（版權）；只 commit 整理後的 CSV
+data/vocab/source/*.pdf

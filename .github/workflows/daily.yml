@@ -1,0 +1,80 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "30 21 * * *" # 每天台灣時間 05:30
+  workflow_dispatch:
+    inputs:
+      english_all:
+        description: "一次生成全部 30 天的英文內容"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ["data/news/**", "data/english/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch AI news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_news.py
+
+      - name: Generate English content
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.english_all }}" = "true" ]; then
+            python scripts/gen_english.py --all
+          else
+            python scripts/gen_english.py
+          fi
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "沒有新資料"
+          else
+            git commit -m "Daily update $(TZ=Asia/Taipei date +%F)"
+            git push
+          fi
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

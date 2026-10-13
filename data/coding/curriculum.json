@@ -1,0 +1,1520 @@
+{
+ "repo": "https://github.com/MaureenYang/coding_classes",
+ "minutes_per_day": 180,
+ "weeks": [
+  {
+   "week": 1,
+   "title": "第 1 週：C++ 語言基礎",
+   "days": [
+    {
+     "day": 1,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "t-d1-0",
+       "minutes": 30,
+       "type": "task",
+       "title": "環境設定：安裝 g++ (C++17)、clone coding_classes、執行 python3 judge.py serve"
+      },
+      {
+       "id": "l-ds00",
+       "minutes": 20,
+       "type": "lesson",
+       "title": "00. 如何使用這個平台",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/00_how_to_use.md"
+      },
+      {
+       "id": "l-cpp00",
+       "minutes": 20,
+       "type": "lesson",
+       "title": "C++ 00. 學習路線圖",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/00_roadmap.md"
+      },
+      {
+       "id": "l-cpp01",
+       "minutes": 80,
+       "type": "lesson",
+       "title": "C++ 01. 型別、變數與型別轉換",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/01_types_variables.md"
+      },
+      {
+       "id": "t-d1-4",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 2,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "l-cpp02",
+       "minutes": 90,
+       "type": "lesson",
+       "title": "C++ 02. 運算式",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/02_expressions.md"
+      },
+      {
+       "id": "p-c01",
+       "minutes": 60,
+       "type": "problem",
+       "title": "C01 運算式求值",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c01_expression_eval/problem.md",
+       "commands": [
+        "python3 judge.py start c1",
+        "python3 judge.py test c1",
+        "python3 judge.py stress c1"
+       ]
+      },
+      {
+       "id": "t-d2-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 3,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "p-c02",
+       "minutes": 90,
+       "type": "problem",
+       "title": "C02 位元運算",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c02_bit_ops/problem.md",
+       "commands": [
+        "python3 judge.py start c2",
+        "python3 judge.py test c2",
+        "python3 judge.py stress c2"
+       ]
+      },
+      {
+       "id": "t-d3-1",
+       "minutes": 60,
+       "type": "task",
+       "title": "完成 C++ 02 課後習題（預測輸出、找 bug）"
+      },
+      {
+       "id": "t-d3-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 4,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "l-cpp03",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "C++ 03. 敘述與控制流程",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/03_statements.md"
+      },
+      {
+       "id": "p-c03",
+       "minutes": 75,
+       "type": "problem",
+       "title": "C03 日期計算",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c03_date_calc/problem.md",
+       "commands": [
+        "python3 judge.py start c3",
+        "python3 judge.py test c3",
+        "python3 judge.py stress c3"
+       ]
+      },
+      {
+       "id": "t-d4-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 5,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "l-cpp04",
+       "minutes": 110,
+       "type": "lesson",
+       "title": "C++ 04. 函式",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/04_functions.md"
+      },
+      {
+       "id": "t-d5-1",
+       "minutes": 40,
+       "type": "task",
+       "title": "C++ 04 課後習題"
+      },
+      {
+       "id": "t-d5-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 6,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "p-c04",
+       "minutes": 90,
+       "type": "problem",
+       "title": "C04 多條件排序",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c04_custom_sort/problem.md",
+       "commands": [
+        "python3 judge.py start c4",
+        "python3 judge.py test c4",
+        "python3 judge.py stress c4"
+       ]
+      },
+      {
+       "id": "t-d6-1",
+       "minutes": 60,
+       "type": "task",
+       "title": "回頭重寫本週卡最久的一題，不看解答"
+      },
+      {
+       "id": "t-d6-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 7,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d7-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d7-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：C01 運算式求值"
+      },
+      {
+       "id": "t-d7-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "title": "第 2 週：指標、記憶體、類別",
+   "days": [
+    {
+     "day": 8,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "l-cpp05",
+       "minutes": 120,
+       "type": "lesson",
+       "title": "C++ 05. 指標與參考",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/05_pointers_references.md"
+      },
+      {
+       "id": "t-d8-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "C++ 05 課後習題"
+      },
+      {
+       "id": "t-d8-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 9,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "p-c05",
+       "minutes": 120,
+       "type": "problem",
+       "title": "C05 用指標做矩陣",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c05_matrix_pointers/problem.md",
+       "commands": [
+        "python3 judge.py start c5",
+        "python3 judge.py test c5",
+        "python3 judge.py stress c5"
+       ]
+      },
+      {
+       "id": "t-d9-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "用 --debug (AddressSanitizer) 跑一次 c05，理解每個警告"
+      },
+      {
+       "id": "t-d9-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 10,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "l-cpp06",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "C++ 06. 記憶體管理、RAII 與移動語意",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/06_memory_raii.md"
+      },
+      {
+       "id": "t-d10-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 11,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "p-c06",
+       "minutes": 150,
+       "type": "problem",
+       "title": "C06 自己做一個字串類別",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c06_my_string/problem.md",
+       "commands": [
+        "python3 judge.py start c6",
+        "python3 judge.py test c6",
+        "python3 judge.py stress c6"
+       ]
+      },
+      {
+       "id": "t-d11-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 12,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "l-cpp07",
+       "minutes": 120,
+       "type": "lesson",
+       "title": "C++ 07. 類別與物件導向",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/07_classes_oop.md"
+      },
+      {
+       "id": "t-d12-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "C++ 07 課後習題"
+      },
+      {
+       "id": "t-d12-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 13,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "p-c07",
+       "minutes": 120,
+       "type": "problem",
+       "title": "C07 分數類別",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c07_fraction/problem.md",
+       "commands": [
+        "python3 judge.py start c7",
+        "python3 judge.py test c7",
+        "python3 judge.py stress c7"
+       ]
+      },
+      {
+       "id": "t-d13-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "整理筆記：三/五/零法則、RAII、const 成員函式"
+      },
+      {
+       "id": "t-d13-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 14,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d14-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d14-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：C06 自己做一個字串類別"
+      },
+      {
+       "id": "t-d14-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "title": "第 3 週：複雜度與遞迴",
+   "days": [
+    {
+     "day": 15,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "l-ds01",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "01. C++ 基礎與時間複雜度",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/01_cpp_basics_and_complexity.md"
+      },
+      {
+       "id": "t-d15-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 16,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "l-ds01b",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "01b. 時間複雜度考題（40 題）",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/01b_complexity_exam.md"
+      },
+      {
+       "id": "t-d16-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 17,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "l-ds02",
+       "minutes": 90,
+       "type": "lesson",
+       "title": "02. 遞迴：河內塔與回溯法",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/02_recursion.md"
+      },
+      {
+       "id": "p-p01",
+       "minutes": 60,
+       "type": "problem",
+       "title": "P01 河內塔",
+       "difficulty": "★☆☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/01_hanoi/problem.md",
+       "commands": [
+        "python3 judge.py start 1",
+        "python3 judge.py test 1",
+        "python3 judge.py stress 1"
+       ]
+      },
+      {
+       "id": "t-d17-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 18,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "p-p02",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P02 河內塔的第 k 步",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/02_hanoi_kth/problem.md",
+       "commands": [
+        "python3 judge.py start 2",
+        "python3 judge.py test 2",
+        "python3 judge.py stress 2"
+       ]
+      },
+      {
+       "id": "t-d18-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 19,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "p-p17",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P17 N 皇后",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/17_n_queens/problem.md",
+       "commands": [
+        "python3 judge.py start 17",
+        "python3 judge.py test 17",
+        "python3 judge.py stress 17"
+       ]
+      },
+      {
+       "id": "t-d19-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 20,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "t-d20-0",
+       "minutes": 45,
+       "type": "task",
+       "title": "複習 C++ 06 移動語意與 unique_ptr"
+      },
+      {
+       "id": "p-c14",
+       "minutes": 105,
+       "type": "problem",
+       "title": "C14 智慧指標串列",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c14_unique_ptr_list/problem.md",
+       "commands": [
+        "python3 judge.py start c14",
+        "python3 judge.py test c14",
+        "python3 judge.py stress c14"
+       ]
+      },
+      {
+       "id": "t-d20-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 21,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d21-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d21-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：C14 智慧指標串列"
+      },
+      {
+       "id": "t-d21-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 4,
+   "title": "第 4 週：vector、鏈結串列、多型",
+   "days": [
+    {
+     "day": 22,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "l-ds03",
+       "minutes": 60,
+       "type": "lesson",
+       "title": "03. 動態陣列 (vector)",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/03_dynamic_array.md"
+      },
+      {
+       "id": "p-p03",
+       "minutes": 90,
+       "type": "problem",
+       "title": "P03 自己做一個 vector",
+       "difficulty": "★☆☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/03_my_vector/problem.md",
+       "commands": [
+        "python3 judge.py start 3",
+        "python3 judge.py test 3",
+        "python3 judge.py stress 3"
+       ]
+      },
+      {
+       "id": "t-d22-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 23,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "l-ds04",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "04. 鏈結串列",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/04_linked_list.md"
+      },
+      {
+       "id": "t-d23-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 24,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "p-p04",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P04 單向鏈結串列",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/04_linked_list/problem.md",
+       "commands": [
+        "python3 judge.py start 4",
+        "python3 judge.py test 4",
+        "python3 judge.py stress 4"
+       ]
+      },
+      {
+       "id": "t-d24-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 25,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "l-cpp08",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "C++ 08. 繼承與多型",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/08_inheritance_polymorphism.md"
+      },
+      {
+       "id": "t-d25-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 26,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "p-c08",
+       "minutes": 150,
+       "type": "problem",
+       "title": "C08 圖形與多型",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c08_shapes/problem.md",
+       "commands": [
+        "python3 judge.py start c8",
+        "python3 judge.py test c8",
+        "python3 judge.py stress c8"
+       ]
+      },
+      {
+       "id": "t-d26-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 27,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "l-ds05",
+       "minutes": 90,
+       "type": "lesson",
+       "title": "05. 堆疊、佇列、雙端佇列",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/05_stack_queue.md"
+      },
+      {
+       "id": "p-p05",
+       "minutes": 60,
+       "type": "problem",
+       "title": "P05 括號配對",
+       "difficulty": "★☆☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/05_brackets/problem.md",
+       "commands": [
+        "python3 judge.py start 5",
+        "python3 judge.py test 5",
+        "python3 judge.py stress 5"
+       ]
+      },
+      {
+       "id": "t-d27-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 28,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d28-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d28-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：P04 單向鏈結串列"
+      },
+      {
+       "id": "t-d28-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "title": "第 5 週：Stack / Queue / Hash",
+   "days": [
+    {
+     "day": 29,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "p-p06",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P06 最小值堆疊",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/06_min_stack/problem.md",
+       "commands": [
+        "python3 judge.py start 6",
+        "python3 judge.py test 6",
+        "python3 judge.py stress 6"
+       ]
+      },
+      {
+       "id": "t-d29-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 30,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "p-p07",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P07 環狀佇列",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/07_circular_queue/problem.md",
+       "commands": [
+        "python3 judge.py start 7",
+        "python3 judge.py test 7",
+        "python3 judge.py stress 7"
+       ]
+      },
+      {
+       "id": "t-d30-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 31,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "p-p08",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P08 下一個更大的元素",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/08_next_greater/problem.md",
+       "commands": [
+        "python3 judge.py start 8",
+        "python3 judge.py test 8",
+        "python3 judge.py stress 8"
+       ]
+      },
+      {
+       "id": "t-d31-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 32,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "p-p09",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P09 滑動視窗最大值",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/09_sliding_window_max/problem.md",
+       "commands": [
+        "python3 judge.py start 9",
+        "python3 judge.py test 9",
+        "python3 judge.py stress 9"
+       ]
+      },
+      {
+       "id": "t-d32-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 33,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "l-ds06",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "06. 雜湊表",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/06_hash_table.md"
+      },
+      {
+       "id": "p-p10",
+       "minutes": 75,
+       "type": "problem",
+       "title": "P10 自己做一個雜湊表",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/10_hash_table/problem.md",
+       "commands": [
+        "python3 judge.py start 10",
+        "python3 judge.py test 10",
+        "python3 judge.py stress 10"
+       ]
+      },
+      {
+       "id": "t-d33-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 34,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "p-p11",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P11 LRU 快取",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/11_lru_cache/problem.md",
+       "commands": [
+        "python3 judge.py start 11",
+        "python3 judge.py test 11",
+        "python3 judge.py stress 11"
+       ]
+      },
+      {
+       "id": "t-d34-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 35,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d35-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d35-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：P09 滑動視窗最大值"
+      },
+      {
+       "id": "t-d35-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 6,
+   "title": "第 6 週：ADT、模板、STL、Heap",
+   "days": [
+    {
+     "day": 36,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "l-cpp09",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "C++ 09. 抽象資料型別與設計",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/09_adt_design.md"
+      },
+      {
+       "id": "t-d36-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 37,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "p-c09",
+       "minutes": 150,
+       "type": "problem",
+       "title": "C09 銀行帳戶系統",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c09_bank_adt/problem.md",
+       "commands": [
+        "python3 judge.py start c9",
+        "python3 judge.py test c9",
+        "python3 judge.py stress c9"
+       ]
+      },
+      {
+       "id": "t-d37-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 38,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "l-cpp10",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "C++ 10. 模板與泛型程式設計",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/10_templates.md"
+      },
+      {
+       "id": "p-c10",
+       "minutes": 75,
+       "type": "problem",
+       "title": "C10 泛型堆疊",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c10_templates/problem.md",
+       "commands": [
+        "python3 judge.py start c10",
+        "python3 judge.py test c10",
+        "python3 judge.py stress c10"
+       ]
+      },
+      {
+       "id": "t-d38-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 39,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "l-cpp11",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "C++ 11. STL 深入",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/11_stl.md"
+      },
+      {
+       "id": "p-c11",
+       "minutes": 75,
+       "type": "problem",
+       "title": "C11 單字頻率統計",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c11_word_freq/problem.md",
+       "commands": [
+        "python3 judge.py start c11",
+        "python3 judge.py test c11",
+        "python3 judge.py stress c11"
+       ]
+      },
+      {
+       "id": "t-d39-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 40,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "l-ds07",
+       "minutes": 60,
+       "type": "lesson",
+       "title": "07. 堆積與優先佇列",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/07_heap.md"
+      },
+      {
+       "id": "p-p12",
+       "minutes": 90,
+       "type": "problem",
+       "title": "P12 二元堆積",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/12_binary_heap/problem.md",
+       "commands": [
+        "python3 judge.py start 12",
+        "python3 judge.py test 12",
+        "python3 judge.py stress 12"
+       ]
+      },
+      {
+       "id": "t-d40-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 41,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "l-ds08",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "08. 二元搜尋樹",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/08_bst.md"
+      },
+      {
+       "id": "t-d41-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 42,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d42-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d42-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：C09 銀行帳戶系統"
+      },
+      {
+       "id": "t-d42-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "title": "第 7 週：BST、併查集、圖、字串 IO",
+   "days": [
+    {
+     "day": 43,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "p-p13",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P13 二元搜尋樹",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/13_bst/problem.md",
+       "commands": [
+        "python3 judge.py start 13",
+        "python3 judge.py test 13",
+        "python3 judge.py stress 13"
+       ]
+      },
+      {
+       "id": "t-d43-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 44,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "l-ds10",
+       "minutes": 60,
+       "type": "lesson",
+       "title": "10. 併查集",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/10_union_find.md"
+      },
+      {
+       "id": "p-p14",
+       "minutes": 90,
+       "type": "problem",
+       "title": "P14 併查集",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/14_union_find/problem.md",
+       "commands": [
+        "python3 judge.py start 14",
+        "python3 judge.py test 14",
+        "python3 judge.py stress 14"
+       ]
+      },
+      {
+       "id": "t-d44-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 45,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "l-ds09",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "09. 圖：BFS、DFS 與拓撲排序",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/09_graph.md"
+      },
+      {
+       "id": "t-d45-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 46,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "p-p15",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P15 迷宮最短路徑",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/15_maze_bfs/problem.md",
+       "commands": [
+        "python3 judge.py start 15",
+        "python3 judge.py test 15",
+        "python3 judge.py stress 15"
+       ]
+      },
+      {
+       "id": "t-d46-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 47,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "p-p16",
+       "minutes": 150,
+       "type": "problem",
+       "title": "P16 拓撲排序",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/problems/16_topo_sort/problem.md",
+       "commands": [
+        "python3 judge.py start 16",
+        "python3 judge.py test 16",
+        "python3 judge.py stress 16"
+       ]
+      },
+      {
+       "id": "t-d47-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 48,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "l-cpp12",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "C++ 12. 字串與輸入輸出",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/12_strings_io.md"
+      },
+      {
+       "id": "p-c12",
+       "minutes": 75,
+       "type": "problem",
+       "title": "C12 成績單解析",
+       "difficulty": "★★☆",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c12_csv_grades/problem.md",
+       "commands": [
+        "python3 judge.py start c12",
+        "python3 judge.py test c12",
+        "python3 judge.py stress c12"
+       ]
+      },
+      {
+       "id": "t-d48-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 49,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d49-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d49-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：P13 二元搜尋樹"
+      },
+      {
+       "id": "t-d49-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "week": 8,
+   "title": "第 8 週：例外、編譯模型、總複習",
+   "days": [
+    {
+     "day": 50,
+     "weekday": 1,
+     "items": [
+      {
+       "id": "l-cpp13",
+       "minutes": 75,
+       "type": "lesson",
+       "title": "C++ 13. 例外處理",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/13_exceptions.md"
+      },
+      {
+       "id": "p-c13",
+       "minutes": 75,
+       "type": "problem",
+       "title": "C13 安全的計算機",
+       "difficulty": "★★★",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/problems/c13_exceptions/problem.md",
+       "commands": [
+        "python3 judge.py start c13",
+        "python3 judge.py test c13",
+        "python3 judge.py stress c13"
+       ]
+      },
+      {
+       "id": "t-d50-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 51,
+     "weekday": 2,
+     "items": [
+      {
+       "id": "l-cpp14",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "C++ 14. 編譯模型",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/14_compilation_model.md"
+      },
+      {
+       "id": "t-d51-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 52,
+     "weekday": 3,
+     "items": [
+      {
+       "id": "l-cpp15",
+       "minutes": 150,
+       "type": "lesson",
+       "title": "C++ 15. 現代 C++ 與未定義行為",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/cpp/lessons/15_modern_cpp.md"
+      },
+      {
+       "id": "t-d52-1",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 53,
+     "weekday": 4,
+     "items": [
+      {
+       "id": "l-ds11",
+       "minutes": 90,
+       "type": "lesson",
+       "title": "11. Corner Case、產生測資、對拍",
+       "url": "https://github.com/MaureenYang/coding_classes/blob/HEAD/lessons/11_testing_and_corner_cases.md"
+      },
+      {
+       "id": "t-d53-1",
+       "minutes": 60,
+       "type": "task",
+       "title": "挑一題自己寫測資產生器，用 judge.py stress 對拍"
+      },
+      {
+       "id": "t-d53-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 54,
+     "weekday": 5,
+     "items": [
+      {
+       "id": "t-d54-0",
+       "minutes": 75,
+       "type": "task",
+       "title": "計時重寫（90 分鐘內、不看解答）：09 滑動視窗最大值"
+      },
+      {
+       "id": "t-d54-1",
+       "minutes": 75,
+       "type": "task",
+       "title": "計時重寫：11 LRU 快取"
+      },
+      {
+       "id": "t-d54-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 55,
+     "weekday": 6,
+     "items": [
+      {
+       "id": "t-d55-0",
+       "minutes": 75,
+       "type": "task",
+       "title": "計時重寫：13 二元搜尋樹"
+      },
+      {
+       "id": "t-d55-1",
+       "minutes": 75,
+       "type": "task",
+       "title": "計時重寫：16 拓撲排序；寫下 8 週總結與下一步"
+      },
+      {
+       "id": "t-d55-2",
+       "minutes": 30,
+       "type": "task",
+       "title": "評測、對拍 (stress)、debug，寫今天的筆記"
+      }
+     ]
+    },
+    {
+     "day": 56,
+     "weekday": 7,
+     "review": true,
+     "items": [
+      {
+       "id": "t-d56-0",
+       "type": "task",
+       "minutes": 60,
+       "title": "補完本週還沒打勾的項目（沒有落後就跳過）"
+      },
+      {
+       "id": "t-d56-1",
+       "type": "task",
+       "minutes": 90,
+       "title": "不看解答重寫本週最難的一題：C13 安全的計算機"
+      },
+      {
+       "id": "t-d56-2",
+       "type": "task",
+       "minutes": 30,
+       "title": "整理本週筆記：名詞、踩過的坑、複雜度"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

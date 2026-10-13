@@ -1,0 +1,2 @@
+anthropic>=0.70
+# 只有轉換單字 PDF 時需要：pip install pdfplumber

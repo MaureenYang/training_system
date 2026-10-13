@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 技術動態</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<main>
+  <h1>AI 技術動態</h1>
+  <p class="small muted" id="updated">OpenAI · Anthropic · DeepSeek · Qwen · GLM，每天自動更新。</p>
+
+  <h2>技術演變</h2>
+  <section class="card news" id="timeline"></section>
+
+  <h2>最新消息</h2>
+  <div class="chips" id="filters" role="group" aria-label="依公司篩選"></div>
+  <div class="row small" style="margin:10px 0">
+    <label><input type="checkbox" id="unread-only"> 只看未讀</label>
+    <label><input type="checkbox" id="open-only"> 只看開源權重</label>
+  </div>
+  <section class="card" id="list"></section>
+</main>
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const { h } = TS;
+TS.nav();
+
+const COMPANIES = ["全部", "OpenAI", "Anthropic", "DeepSeek", "Qwen", "GLM"];
+let filter = "全部";
+let ITEMS = [];
+
+function renderTimeline(tl) {
+  const box = document.getElementById("timeline");
+  if (!tl) {
+    box.append(h("p", { class: "muted small" }, "還沒有技術演變整理（需要設定 ANTHROPIC_API_KEY，且至少抓到一則新聞）。"));
+    return;
+  }
+  box.append(
+    h("div", { class: "kicker" }, `最近 ${tl.days} 天 · ${tl.count} 則消息 · ${tl.date} 整理`),
+    h("p", { class: "big", style: "font-size:1.15rem" }, tl.headline),
+    h("div", {}, tl.companies.map((c) => h("details", { open: c.themes.length ? true : null },
+      h("summary", {}, h("span", { class: `co co-${c.company}` }, c.company), " ", h("span", { class: "small muted" }, c.summary)),
+      c.themes.map((t) => h("div", { class: "theme" }, h("strong", {}, t.theme), h("div", { class: "small" }, t.evolution)))))),
+    h("h3", { style: "margin-top:16px" }, "閉源 vs 開源權重"),
+    h("p", { class: "small" }, tl.open_vs_closed),
+    h("h3", {}, "接下來值得關注"),
+    h("ul", { class: "small" }, tl.watch_next.map((w) => h("li", {}, w))));
+}
+
+function renderFilters() {
+  document.getElementById("filters").replaceChildren(...COMPANIES.map((c) => h("button", {
+    class: c === filter ? "active" : null, "aria-pressed": c === filter ? "true" : "false",
+    onclick: () => { filter = c; renderFilters(); renderList(); },
+  }, c)));
+}
+
+function renderList() {
+  const unreadOnly = document.getElementById("unread-only").checked;
+  const openOnly = document.getElementById("open-only").checked;
+  const items = ITEMS.filter((i) => (filter === "全部" || i.company === filter)
+    && (!unreadOnly || !TS.get("news", i.key)) && (!openOnly || i.open_weights));
+  const box = document.getElementById("list");
+  if (!items.length) return box.replaceChildren(h("p", { class: "muted small" }, "沒有符合條件的消息。"));
+  box.replaceChildren(...items.slice(0, 200).map((it) => {
+    const read = !!TS.get("news", it.key);
+    const el = h("article", { class: `newsitem ${read ? "read" : ""}` });
+    const markRead = () => { TS.set("news", it.key, { r: 1 }); el.classList.add("read"); };
+    const local = it.local ? h("div", { class: "small" }, "💻 地端：", h("strong", {}, it.local.runnable),
+      it.local.vram ? `，${it.local.vram}` : "", it.local.note ? `。${it.local.note}` : "") : null;
+    const hf = it.hf ? h("div", { class: "small muted" },
+      [it.hf.params_b ? `${it.hf.params_b}B 參數` : null, it.hf.license ? `授權 ${it.hf.license}` : null,
+        it.hf.gguf && it.hf.gguf.length ? `GGUF：${it.hf.gguf.join("、")}` : null].filter(Boolean).join(" · ")) : null;
+    el.append(
+      h("div", { class: "row small" },
+        h("span", { class: `co co-${it.company}` }, it.company),
+        h("span", { class: "muted" }, it.date),
+        (it.tags || []).map((t) => h("span", { class: "pill" }, t)),
+        it.importance >= 4 ? h("span", { class: "pill behind" }, "重要") : null,
+        h("span", { class: "spacer" }),
+        read ? null : h("button", { class: "ghost small", onclick: markRead }, "標為已讀")),
+      h("h3", {}, h("a", { href: it.url, target: "_blank", rel: "noopener", onclick: markRead }, it.title_zh || it.title)),
+      it.title_zh && it.title_zh !== it.title ? h("div", { class: "small muted" }, it.title) : null,
+      it.points && it.points.length ? h("ul", { class: "small" }, it.points.map((p) => h("li", {}, p))) : null,
+      it.trend ? h("div", { class: "small" }, "📈 ", it.trend) : null,
+      local || "", hf || "");
+    return el;
+  }));
+}
+
+async function init() {
+  const [store, tl] = await Promise.all([TS.getJSON("news/items.json"), TS.getJSON("news/timeline.json")]);
+  ITEMS = (store && store.items) || [];
+  if (store && store.updated) document.getElementById("updated").textContent += ` 最後更新 ${store.updated}。`;
+  renderTimeline(tl);
+  renderFilters();
+  document.getElementById("unread-only").addEventListener("change", renderList);
+  document.getElementById("open-only").addEventListener("change", renderList);
+  renderList();
+}
+init().catch((e) => document.querySelector("main").prepend(h("p", { class: "notice" }, "載入失敗：" + e.message)));
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C++ 程式課表</title>
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<main>
+  <div class="kicker">🌙 每晚 3 小時：讀教學 ~1h · 寫題 ~1.5h · 評測 / 對拍 / 筆記 ~0.5h</div>
+  <h1>C++ & 資料結構 8 週課表</h1>
+  <p class="small muted">教材：<a href="https://github.com/MaureenYang/coding_classes" target="_blank" rel="noopener">MaureenYang/coding_classes</a>。
+    在自己電腦 clone 後執行 <code>python3 judge.py serve</code>，打開 <code>http://127.0.0.1:8000</code> 寫題、評測。點指令可以複製。</p>
+
+  <h2 id="today-title">今天</h2>
+  <section class="card code" id="today"></section>
+
+  <h2>全部課表</h2>
+  <div id="weeks"></div>
+</main>
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const { h } = TS;
+TS.nav();
+
+const VERDICTS = ["", "AC", "WA", "TLE", "RE", "CE"];
+
+function itemRow(it, onChange) {
+  const rec = TS.get("code", it.id);
+  const cb = h("input", { type: "checkbox", checked: !!rec, "aria-label": `完成 ${it.title}` });
+  const li = h("li", { class: rec ? "done" : "" });
+  const save = (patch) => {
+    const cur = TS.get("code", it.id) || {};
+    TS.set("code", it.id, { ...cur, done: true, ...patch });
+  };
+  cb.addEventListener("change", () => {
+    if (cb.checked) { save({}); TS.markActivity("code"); }
+    else TS.set("code", it.id, null);
+    li.classList.toggle("done", cb.checked);
+    onChange && onChange();
+  });
+  const meta = h("div", { class: "meta" },
+    h("span", { class: `pill ${it.type === "problem" ? "code" : ""}` }, { lesson: "教學", problem: "題目", task: "任務" }[it.type]),
+    `${it.minutes} 分`,
+    it.difficulty ? h("span", {}, it.difficulty) : null);
+  if (it.type === "problem") {
+    const sel = h("select", { "aria-label": `${it.title} 的評測結果` }, VERDICTS.map((v) => h("option", { value: v, selected: rec && rec.verdict === v }, v || "評測結果")));
+    sel.addEventListener("change", () => {
+      save({ verdict: sel.value });
+      cb.checked = true;
+      li.classList.add("done");
+      TS.markActivity("code");
+      onChange && onChange();
+    });
+    meta.append(sel);
+    for (const c of it.commands || []) {
+      meta.append(h("button", { class: "cmd", title: "點一下複製", onclick: () => navigator.clipboard.writeText(c).then(() => TS.toast("已複製：" + c), () => TS.toast(c)) }, c));
+    }
+  }
+  li.append(cb, h("div", { class: "body" },
+    h("div", { class: "title" }, it.url ? h("a", { href: it.url, target: "_blank", rel: "noopener" }, it.title) : it.title), meta));
+  return li;
+}
+
+function dayProgress(d) {
+  return d.items.filter((it) => TS.get("code", it.id)).length;
+}
+
+async function init() {
+  const m = await TS.meta();
+  const cur = await TS.getJSON("coding/curriculum.json");
+  if (!cur) throw new Error("找不到課表");
+  const cd = TS.codingDay(m);
+  const all = cur.weeks.flatMap((w) => w.days.map((d) => ({ ...d, week: w }))) ;
+  const today = all[cd.day - 1];
+
+  document.getElementById("today-title").textContent = cd.before
+    ? `開始日 ${m.start_date}：第 1 週第 1 天預覽`
+    : cd.finished ? "課程已結束，可以回頭挑題目重寫" : `今天：第 ${cd.week} 週第 ${cd.weekday} 天`;
+  const todayBox = document.getElementById("today");
+  const renderToday = () => {
+    const n = dayProgress(today);
+    todayBox.replaceChildren(
+      h("div", { class: "row" }, h("strong", {}, today.week.title), h("span", { class: "spacer" }),
+        h("span", { class: "pill" }, `${n}/${today.items.length}`)),
+      today.review ? h("p", { class: "small muted" }, "複習日：沒有新進度，用來補做、重寫難題、整理筆記。") : "",
+      h("ul", { class: "todo" }, today.items.map((it) => itemRow(it, () => { renderToday(); renderWeeks(); }))));
+  };
+  renderToday();
+
+  const weeksBox = document.getElementById("weeks");
+  function renderWeeks() {
+    weeksBox.replaceChildren(...cur.weeks.map((w) => {
+      const done = w.days.reduce((s, d) => s + dayProgress(d), 0);
+      const total = w.days.reduce((s, d) => s + d.items.length, 0);
+      const det = h("details", { class: "card", style: "margin-bottom:10px", open: w.week === cd.week ? true : null },
+        h("summary", {}, h("span", {}, w.title), " ", h("span", { class: "pill" }, `${done}/${total}`)),
+        TS.bar(done, total, "code"),
+        w.days.map((d) => h("div", { style: "margin-top:12px" },
+          h("div", { class: "row small" }, h("strong", {}, d.review ? `第 ${d.day} 天 · 複習日` : `第 ${d.day} 天`),
+            h("span", { class: "muted" }, TS.addDays(m.start_date, d.day - 1)),
+            d.day === cd.day && !cd.before ? h("span", { class: "pill code" }, "今天") : null),
+          h("ul", { class: "todo" }, d.items.map((it) => itemRow(it, () => { renderToday(); renderWeeks(); }))))));
+      return det;
+    }));
+  }
+  renderWeeks();
+}
+init().catch((e) => document.querySelector("main").prepend(h("p", { class: "notice" }, "載入失敗：" + e.message)));
+</script>
+</body>
+</html>
