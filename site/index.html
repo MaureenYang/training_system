@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>轉職讀書計畫</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem("training-system-theme")||"dark"}catch(e){document.documentElement.dataset.theme="dark"}</script>
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
@@ -251,7 +255,7 @@ function renderStreak(m) {
   for (let i = 0; i < total; i++) {
     const day = TS.addDays(m.start_date, i);
     const r = log[day] || {};
-    const color = r.en && r.code ? "var(--accent)" : r.en ? "var(--en)" : r.code ? "var(--code)" : "";
+    const color = r.en && r.code ? "var(--accent)" : r.en ? "color-mix(in srgb, var(--en) 45%, var(--surface-2))" : r.code ? "var(--code)" : "";
     const future = day > m.today;
     heat.append(h("div", { class: `c ${future ? "future" : ""}`, style: color ? `background:${color}` : "", title: `${day}${r.en ? " 英文✓" : ""}${r.code ? " 程式✓" : ""}` }));
   }
@@ -272,7 +276,7 @@ function renderStreak(m) {
     heat,
     h("div", { class: "legend" },
       h("span", {}, h("i", { style: "background:var(--accent)" }), "兩者都完成"),
-      h("span", {}, h("i", { style: "background:var(--en)" }), "只有英文"),
+      h("span", {}, h("i", { style: "background:color-mix(in srgb, var(--en) 45%, var(--surface-2))" }), "只有英文"),
       h("span", {}, h("i", { style: "background:var(--code)" }), "只有程式"),
       h("span", {}, h("i", { style: "background:var(--surface-2)" }), "沒有紀錄")));
 }

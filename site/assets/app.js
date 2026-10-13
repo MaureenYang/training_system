@@ -174,10 +174,26 @@ const TS = (() => {
   }
   function nav() {
     const here = location.pathname.split("/").pop() || "index.html";
+    const root = document.documentElement;
+    const toggle = h("button", { class: "ghost theme-toggle", type: "button" });
+    const paint = () => {
+      const dark = root.dataset.theme !== "light";
+      toggle.textContent = dark ? "☀️ 米白" : "🌙 黑底";
+      toggle.setAttribute("aria-label", dark ? "切換成米白主題" : "切換成黑底主題");
+    };
+    toggle.addEventListener("click", () => {
+      root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";
+      try {
+        localStorage.setItem("training-system-theme", root.dataset.theme);
+      } catch (e) {}
+      paint();
+    });
+    paint();
     const bar = h("nav", { class: "topnav" },
       h("a", { class: "brand", href: "index.html" }, "轉職讀書計畫"),
       h("div", { class: "links" },
-        PAGES.map(([href, label]) => h("a", { href, class: here === href ? "active" : null }, label))));
+        PAGES.map(([href, label]) => h("a", { href, class: here === href ? "active" : null }, label))),
+      toggle);
     document.body.prepend(bar);
   }
   function bar(value, max, cls = "") {
