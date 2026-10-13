@@ -10,6 +10,21 @@
 
 首頁 `index.html` 是進度追蹤主頁：今日待辦、超前/落後天數、單字熟記數、測驗正確率、8 週完成度、打卡日曆。
 
+## 先在自己電腦上看看（不需要 API 金鑰）
+
+1. 下載這個 repo（GitHub 頁面綠色「Code」→「Download ZIP」，解壓縮），在終端機 `cd` 到資料夾
+2. 依序執行（Windows 把 `python3` 換成 `python`）：
+
+```bash
+python3 scripts/gen_english.py --all        # 準備 30 天單字卡（沒有金鑰時只有單字與中文）
+python3 scripts/build_site.py               # 組合網站
+python3 -m http.server -d _site 8080        # 啟動，按 Ctrl+C 結束
+```
+
+3. 瀏覽器打開 http://127.0.0.1:8080
+
+沒有金鑰時看不到例句、考題、閱讀與新聞摘要，其他功能（進度追蹤、單字卡、程式課表）都能用。
+
 ## 第一次設定
 
 1. **設定 API 金鑰**：GitHub repo → Settings → Secrets and variables → Actions → New repository secret，

@@ -34,11 +34,19 @@ def load_config():
 CONFIG = load_config()
 
 
+def tz(cfg=CONFIG):
+    """設定的時區。Windows 的 Python 沒有內建時區資料，找不到時改用台灣時間 UTC+8。"""
+    try:
+        return ZoneInfo(cfg["timezone"])
+    except Exception:
+        return dt.timezone(dt.timedelta(hours=8))
+
+
 def today(cfg=CONFIG):
     """依設定的時區回傳今天日期；可用環境變數 TODAY=YYYY-MM-DD 覆寫（測試用）。"""
     if os.environ.get("TODAY"):
         return dt.date.fromisoformat(os.environ["TODAY"])
-    return dt.datetime.now(ZoneInfo(cfg["timezone"])).date()
+    return dt.datetime.now(tz(cfg)).date()
 
 
 def start_date(cfg=CONFIG):
@@ -64,6 +72,14 @@ def write_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=1)
         f.write("\n")
     os.replace(tmp, path)
+
+
+# Windows 終端機的編碼可能印不出某些字元，印不出來的改成 ? 而不是讓程式中斷
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(errors="replace")
+    except (AttributeError, ValueError):
+        pass
 
 
 def log(*args):

@@ -8,10 +8,9 @@ import datetime as dt
 import os
 import shutil
 import sys
-from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import CONFIG, DATA, ROOT, read_json, write_json  # noqa: E402
+from common import CONFIG, DATA, ROOT, read_json, tz, write_json  # noqa: E402
 
 OUT = os.path.join(ROOT, "_site")
 
@@ -34,7 +33,7 @@ def main():
             shutil.copy(src, os.path.join(out_data, "news", name))
 
     words = read_json(os.path.join(DATA, "vocab", "words.json"), [])
-    now = dt.datetime.now(ZoneInfo(CONFIG["timezone"]))
+    now = dt.datetime.now(tz())
     write_json(os.path.join(out_data, "meta.json"), {
         "start_date": CONFIG["start_date"],
         "timezone": CONFIG["timezone"],
