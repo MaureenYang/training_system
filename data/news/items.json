@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -152,6 +152,7 @@
    "https://openai.com/index/albertsons-reimagining-retail",
    "https://openai.com/index/altera",
    "https://openai.com/index/amazon-partnership",
+   "https://openai.com/index/amp-beyond-coding",
    "https://openai.com/index/an-alien-mind",
    "https://openai.com/index/announcing-devday-2025",
    "https://openai.com/index/announcing-openai-devday",
@@ -195,6 +196,7 @@
    "https://openai.com/index/beyond-rate-limits",
    "https://openai.com/index/bio-bug-bounty",
    "https://openai.com/index/biodefense-in-the-intelligence-age",
+   "https://openai.com/index/block-ai-powered-security",
    "https://openai.com/index/block-sparse-gpu-kernels",
    "https://openai.com/index/blue-j",
    "https://openai.com/index/bny",
@@ -1102,6 +1104,7 @@
    "https://openai.com/index/searchgpt-prototype",
    "https://openai.com/index/security-on-the-path-to-agi",
    "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+   "https://openai.com/index/sentinelone",
    "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
    "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
    "https://openai.com/index/sharing-ai-progress-in-mathematics",
@@ -1191,6 +1194,7 @@
    "https://openai.com/index/the-defenders-window",
    "https://openai.com/index/the-den-family-social",
    "https://openai.com/index/the-eternal-complement",
+   "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
    "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
    "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
    "https://openai.com/index/the-instruction-hierarchy",
@@ -1204,6 +1208,7 @@
    "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
    "https://openai.com/index/the-work-now-within-reach",
    "https://openai.com/index/thinking-with-images",
+   "https://openai.com/index/third-moment-research",
    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
    "https://openai.com/index/third-person-imitation-learning",
    "https://openai.com/index/thrive-holdings",
@@ -1291,7 +1296,9 @@
    "https://openai.com/openai-o1-contributions",
    "https://openai.com/signals/research/2026q1-update"
   ],
-  "openai-changelog": [],
+  "openai-changelog": [
+   "https://platform.openai.com/docs/changelog#2026-10-15"
+  ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
    "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
@@ -1320,6 +1327,7 @@
    "https://www.anthropic.com/engineering/swe-bench-sonnet",
    "https://www.anthropic.com/engineering/writing-tools-for-agents",
    "https://www.anthropic.com/news/100k-context-windows",
+   "https://www.anthropic.com/news/2026-us-midterms",
    "https://www.anthropic.com/news/2026-usage-policy-update",
    "https://www.anthropic.com/news/3-5-models-and-computer-use",
    "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
@@ -1553,6 +1561,7 @@
    "https://www.anthropic.com/news/series-h",
    "https://www.anthropic.com/news/servicenow-anthropic-claude",
    "https://www.anthropic.com/news/services-track-partner-hub",
+   "https://www.anthropic.com/news/singapore-office-opening",
    "https://www.anthropic.com/news/skills",
    "https://www.anthropic.com/news/skt-partnership-announcement",
    "https://www.anthropic.com/news/snowflake-anthropic-expanded-partnership",
@@ -1759,7 +1768,9 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "claude-release-notes": [],
+  "claude-release-notes": [
+   "https://docs.claude.com/en/release-notes/overview#2026-10-15"
+  ],
   "deepseek-news": [],
   "deepseek-hf": [
    "hf:deepseek-ai:DeepSeek-Math-V2:2025-11-27",
@@ -1900,6 +1911,128 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-15",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "Evaluation\nEvaluation best practices\nPromptfoo\nMaintaining software with the GPT-6 family"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-15",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "October 14, 2026\nWe've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Pyt"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/amp-beyond-coding",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/amp-beyond-coding",
+   "title": "Amp puts AI agents to work beyond code with OpenAI models",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/sentinelone",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/sentinelone",
+   "title": "SentinelOne cuts malware analysis from weeks to hours",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/third-moment-research",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/third-moment-research",
+   "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/block-ai-powered-security",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/block-ai-powered-security",
+   "title": "How Block is building AI-powered security with OpenAI technology",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "title": "The EU’s next chapter in AI is agentic",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [
+    "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/2026-us-midterms",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/2026-us-midterms",
+   "title": "Preparing for the 2026 US midterms",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/singapore-office-opening",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/singapore-office-opening",
+   "title": "Singapore office and government MOU | Anthropic",
+   "date": "2026-10-14",
+   "open_weights": false,
+   "fetched": "2026-10-15",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://openai.com/index/higgsfield-longer-videos-voice",
    "company": "OpenAI",

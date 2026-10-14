@@ -45,7 +45,6 @@ Getting started
 Working with evals
 Prompt optimizer
 External models
-Best practices
 Graders
 Fine-tuning
 Optimization cycle
@@ -200,6 +199,9 @@ Ultrafast mode
 Latency optimization
 Predicted Outputs
 Accuracy optimization
+Evaluation
+Evaluation best practices
+Promptfoo
 Cost and throughput
 Cost optimization
 Prompt caching
@@ -605,11 +607,11 @@ Showcase
 DocsSelect...
 All posts
 Recent
+Maintaining software with the GPT-6 family
 Bringing my LED display to life with GPT-Live-1 and Codex
 Rethinking skills and prompts for GPT-6 Astra
 Architectural visualization with Astra
 Building games with Astra
-Meet Rosalind Workbench: Empowering every scientist to be their own research team
 Topics
 General
 API

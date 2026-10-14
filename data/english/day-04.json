@@ -1,0 +1,622 @@
+{
+ "day": 4,
+ "date": "2026-10-16",
+ "generated": false,
+ "words": [
+  {
+   "id": 307,
+   "word": "bait",
+   "pos": "n/v",
+   "zh": "n. 餌；引誘物｜v. 引誘；誘惑"
+  },
+  {
+   "id": 308,
+   "word": "bake",
+   "pos": "v",
+   "zh": "v. 烘；烤；烘培"
+  },
+  {
+   "id": 309,
+   "word": "baker",
+   "pos": "n",
+   "zh": "n. 麵包師：糕點師"
+  },
+  {
+   "id": 310,
+   "word": "bakery",
+   "pos": "n",
+   "zh": "n. 麵包店；糕點店"
+  },
+  {
+   "id": 311,
+   "word": "balance",
+   "pos": "n/v",
+   "zh": "n. 平衡；均衡｜v. 使平衡"
+  },
+  {
+   "id": 312,
+   "word": "balcony",
+   "pos": "n",
+   "zh": "n. 陽臺；露臺"
+  },
+  {
+   "id": 313,
+   "word": "bald",
+   "pos": "a",
+   "zh": "a. 禿頭的；赤裸裸的"
+  },
+  {
+   "id": 314,
+   "word": "ball (party)",
+   "pos": "n",
+   "zh": "n. 舞會"
+  },
+  {
+   "id": 315,
+   "word": "ballroom",
+   "pos": "n",
+   "zh": "n. 跳舞的大廳"
+  },
+  {
+   "id": 316,
+   "word": "ban",
+   "pos": "n/v",
+   "zh": "n. 禁止；禁令｜v. 禁止；取締"
+  },
+  {
+   "id": 317,
+   "word": "band",
+   "pos": "n",
+   "zh": "n. 帶；細繩；樂團"
+  },
+  {
+   "id": 318,
+   "word": "banish",
+   "pos": "v",
+   "zh": "v. 流放；放逐"
+  },
+  {
+   "id": 319,
+   "word": "bank",
+   "pos": "n",
+   "zh": "n. 銀行；堤；岸"
+  },
+  {
+   "id": 320,
+   "word": "bankbook",
+   "pos": "n",
+   "zh": "n. 銀行存摺"
+  },
+  {
+   "id": 321,
+   "word": "bankcard",
+   "pos": "n",
+   "zh": "n. 銀行信用卡"
+  },
+  {
+   "id": 322,
+   "word": "banker",
+   "pos": "n",
+   "zh": "n. 銀行家"
+  },
+  {
+   "id": 323,
+   "word": "banking",
+   "pos": "n",
+   "zh": "n. 銀行業務；銀行業"
+  },
+  {
+   "id": 324,
+   "word": "bankrupt",
+   "pos": "a/v/n",
+   "zh": "a. 破產的｜v. 使破產｜n. 破產者"
+  },
+  {
+   "id": 325,
+   "word": "bankruptcy",
+   "pos": "n",
+   "zh": "n. 破產；倒閉"
+  },
+  {
+   "id": 326,
+   "word": "banner",
+   "pos": "n",
+   "zh": "n. 旗幟；橫幅"
+  },
+  {
+   "id": 327,
+   "word": "banquet",
+   "pos": "n/v",
+   "zh": "n. 宴會；盛宴｜v. 宴請"
+  },
+  {
+   "id": 328,
+   "word": "bar",
+   "pos": "n",
+   "zh": "n. 棒；條；酒吧"
+  },
+  {
+   "id": 329,
+   "word": "bar code",
+   "pos": "n",
+   "zh": "n. 條碼"
+  },
+  {
+   "id": 330,
+   "word": "barbecue",
+   "pos": "n/v",
+   "zh": "n. 烤肉；燒烤｜v. 烤肉；燒烤"
+  },
+  {
+   "id": 331,
+   "word": "bare",
+   "pos": "a/v",
+   "zh": "a. 裸的；光禿禿的｜v. 使赤裸；露出"
+  },
+  {
+   "id": 332,
+   "word": "barely",
+   "pos": "ad",
+   "zh": "ad. 僅僅；勉強"
+  },
+  {
+   "id": 333,
+   "word": "bareness",
+   "pos": "n",
+   "zh": "n. 赤裸；無遮蓋"
+  },
+  {
+   "id": 334,
+   "word": "bargain",
+   "pos": "n/v",
+   "zh": "n. 協議；買賣｜v. 討價還價"
+  },
+  {
+   "id": 335,
+   "word": "barren",
+   "pos": "a/n",
+   "zh": "a. 不生育的；貧脊的｜n. 瘠地；荒漠"
+  },
+  {
+   "id": 336,
+   "word": "barrier",
+   "pos": "n",
+   "zh": "n. 障礙物；路障"
+  },
+  {
+   "id": 337,
+   "word": "bas",
+   "pos": "n/n",
+   "zh": "n. 基；底；基部｜n. 基本的；基礎的"
+  },
+  {
+   "id": 338,
+   "word": "baseline",
+   "pos": "n",
+   "zh": "n. 基線；底線"
+  },
+  {
+   "id": 339,
+   "word": "basement",
+   "pos": "n",
+   "zh": "n. 地下室；地下層"
+  },
+  {
+   "id": 340,
+   "word": "basic",
+   "pos": "n/n",
+   "zh": "n. 基礎的；基本的｜n. 基礎；基本原理"
+  },
+  {
+   "id": 341,
+   "word": "basically",
+   "pos": "ad",
+   "zh": "ad. 在根本上"
+  },
+  {
+   "id": 342,
+   "word": "basis",
+   "pos": "n",
+   "zh": "n. 基礎；根據"
+  },
+  {
+   "id": 343,
+   "word": "basket",
+   "pos": "n",
+   "zh": "n. 籃；簍；筐"
+  },
+  {
+   "id": 344,
+   "word": "bat",
+   "pos": "n/v",
+   "zh": "n. 球棒；球拍｜v. 打；揮打"
+  },
+  {
+   "id": 345,
+   "word": "batch",
+   "pos": "n",
+   "zh": "n. 一批生產量；一批"
+  },
+  {
+   "id": 346,
+   "word": "bath",
+   "pos": "n",
+   "zh": "n. 浴缸；洗澡"
+  },
+  {
+   "id": 347,
+   "word": "bathe",
+   "pos": "v",
+   "zh": "v. 浸入；浸洗"
+  },
+  {
+   "id": 348,
+   "word": "bathroom",
+   "pos": "n",
+   "zh": "n. 浴室；化妝室"
+  },
+  {
+   "id": 349,
+   "word": "battery",
+   "pos": "n",
+   "zh": "n. 電池；蓄電池"
+  },
+  {
+   "id": 350,
+   "word": "battle",
+   "pos": "v/n",
+   "zh": "v. 搏鬥；奮爭｜n. 戰鬥；戰役"
+  },
+  {
+   "id": 351,
+   "word": "bay",
+   "pos": "n",
+   "zh": "n. 灣"
+  },
+  {
+   "id": 352,
+   "word": "be",
+   "pos": "v/aux",
+   "zh": "v. 是；等於｜aux. 正在…；在…"
+  },
+  {
+   "id": 353,
+   "word": "beach",
+   "pos": "n",
+   "zh": "n. 海灘；海濱度假地"
+  },
+  {
+   "id": 354,
+   "word": "bearable",
+   "pos": "a",
+   "zh": "a. 能耐的；忍得住的"
+  },
+  {
+   "id": 355,
+   "word": "bearer",
+   "pos": "n",
+   "zh": "n. 持有人；挑夫；搬運工"
+  },
+  {
+   "id": 356,
+   "word": "bearing",
+   "pos": "n",
+   "zh": "n. 舉止；體態；忍耐；忍受"
+  },
+  {
+   "id": 357,
+   "word": "beat",
+   "pos": "v/n/a",
+   "zh": "v. 打；擊；敲｜n. 敲打；敲擊聲｜a. 筋疲力盡的；垂頭喪氣的"
+  },
+  {
+   "id": 358,
+   "word": "beaten",
+   "pos": "a",
+   "zh": "a. 挨打的；被打敗的；筋疲力盡的"
+  },
+  {
+   "id": 359,
+   "word": "beautiful",
+   "pos": "a",
+   "zh": "a. 漂亮的；出色的"
+  },
+  {
+   "id": 360,
+   "word": "beautify",
+   "pos": "v",
+   "zh": "v. 使更加美麗；美化"
+  },
+  {
+   "id": 361,
+   "word": "beauty",
+   "pos": "n",
+   "zh": "n. 美麗；美的事物"
+  },
+  {
+   "id": 362,
+   "word": "because",
+   "pos": "conj",
+   "zh": "conj. 因為"
+  },
+  {
+   "id": 363,
+   "word": "become",
+   "pos": "v",
+   "zh": "v. 變成；成為"
+  },
+  {
+   "id": 364,
+   "word": "becoming",
+   "pos": "a/n",
+   "zh": "a. 合適的；適宜的｜n. 形成；發生"
+  },
+  {
+   "id": 365,
+   "word": "bed",
+   "pos": "n/v",
+   "zh": "n. 床；睡眠處｜v. 睡；臥"
+  },
+  {
+   "id": 366,
+   "word": "bed and breakfast",
+   "pos": "ph",
+   "zh": "ph. 夜宿兼次日早餐（縮寫為B&B）"
+  },
+  {
+   "id": 367,
+   "word": "bedside",
+   "pos": "n/a",
+   "zh": "n. 床邊；床側｜a. 床旁的；臨床的"
+  },
+  {
+   "id": 368,
+   "word": "bedtime",
+   "pos": "n/a",
+   "zh": "n. 就寢時間｜a. 適於睡前的"
+  },
+  {
+   "id": 369,
+   "word": "begin",
+   "pos": "v",
+   "zh": "v. 開始；著手"
+  },
+  {
+   "id": 370,
+   "word": "beginner",
+   "pos": "n",
+   "zh": "n. 初學者；新手"
+  },
+  {
+   "id": 371,
+   "word": "beginning",
+   "pos": "n",
+   "zh": "n. 開始；起始"
+  },
+  {
+   "id": 372,
+   "word": "behalf",
+   "pos": "n",
+   "zh": "n. 代表；利益"
+  },
+  {
+   "id": 373,
+   "word": "behave",
+   "pos": "v",
+   "zh": "v. 表現；行為舉止"
+  },
+  {
+   "id": 374,
+   "word": "behavior",
+   "pos": "n",
+   "zh": "n. 行為；舉止"
+  },
+  {
+   "id": 375,
+   "word": "behavioral",
+   "pos": "a",
+   "zh": "a. 行為的"
+  },
+  {
+   "id": 376,
+   "word": "behind",
+   "pos": "ad/prep/n",
+   "zh": "ad. 在背後｜prep. 在……的後面｜n. 背後"
+  },
+  {
+   "id": 377,
+   "word": "beholder",
+   "pos": "n",
+   "zh": "n. 觀看者；旁觀者"
+  },
+  {
+   "id": 378,
+   "word": "beige",
+   "pos": "a/n",
+   "zh": "a. 米色的｜n. 米黃色"
+  },
+  {
+   "id": 379,
+   "word": "being",
+   "pos": "n",
+   "zh": "n. 存在；生存"
+  },
+  {
+   "id": 380,
+   "word": "belated",
+   "pos": "a",
+   "zh": "a. 誤期的；過時的"
+  },
+  {
+   "id": 381,
+   "word": "belief",
+   "pos": "n",
+   "zh": "n. 相信；信任"
+  },
+  {
+   "id": 382,
+   "word": "believe",
+   "pos": "v",
+   "zh": "v. 相信；信任"
+  },
+  {
+   "id": 383,
+   "word": "believer",
+   "pos": "n",
+   "zh": "n. 信徒；信教者"
+  },
+  {
+   "id": 384,
+   "word": "bell",
+   "pos": "n/v",
+   "zh": "n. 鐘；鈴｜v. 鳴鐘"
+  },
+  {
+   "id": 385,
+   "word": "belly",
+   "pos": "n/v",
+   "zh": "n. 腹；腹部｜v. 鼓起；脹滿"
+  },
+  {
+   "id": 386,
+   "word": "belong",
+   "pos": "v",
+   "zh": "v. 屬於；合適"
+  },
+  {
+   "id": 387,
+   "word": "belongings",
+   "pos": "n",
+   "zh": "n. 財產；攜帶物品"
+  },
+  {
+   "id": 388,
+   "word": "beloved",
+   "pos": "a",
+   "zh": "a. 心愛的；親愛的"
+  },
+  {
+   "id": 389,
+   "word": "below",
+   "pos": "ad/prep",
+   "zh": "ad. 在下面；到下面｜prep. 在…下面"
+  },
+  {
+   "id": 390,
+   "word": "belt",
+   "pos": "n/v",
+   "zh": "n. 腰帶；皮帶｜v. 用皮帶抽打；用帶捆住"
+  },
+  {
+   "id": 391,
+   "word": "bench",
+   "pos": "n",
+   "zh": "n. 長凳；長椅"
+  },
+  {
+   "id": 392,
+   "word": "benchmark",
+   "pos": "n",
+   "zh": "n. 水準點；基準"
+  },
+  {
+   "id": 393,
+   "word": "bend",
+   "pos": "v/n",
+   "zh": "v. 彎曲；轉彎｜n. 彎曲；轉彎處"
+  },
+  {
+   "id": 394,
+   "word": "beneath",
+   "pos": "ad/prep",
+   "zh": "ad. 在下；向下｜prep. 在…之下；向…下面"
+  },
+  {
+   "id": 395,
+   "word": "benefactor",
+   "pos": "n",
+   "zh": "n. 捐助人；施主"
+  },
+  {
+   "id": 396,
+   "word": "beneficial",
+   "pos": "a",
+   "zh": "a. 有益的；有利的"
+  },
+  {
+   "id": 397,
+   "word": "benefit",
+   "pos": "v/n",
+   "zh": "v. 得益；受惠｜n. 利益；好處"
+  },
+  {
+   "id": 398,
+   "word": "benignl",
+   "pos": "a",
+   "zh": "a. 仁慈的；親切的"
+  },
+  {
+   "id": 399,
+   "word": "bent",
+   "pos": "a/n",
+   "zh": "a. 彎曲的；決心的｜n. 愛好；傾向"
+  },
+  {
+   "id": 400,
+   "word": "beside",
+   "pos": "prep",
+   "zh": "prep. 在…旁；在旁邊"
+  },
+  {
+   "id": 401,
+   "word": "besides",
+   "pos": "ad/prep",
+   "zh": "ad. 此外；而且｜prep. 在…之外"
+  },
+  {
+   "id": 402,
+   "word": "bet",
+   "pos": "n/v",
+   "zh": "n. 打賭｜v. 打賭"
+  },
+  {
+   "id": 403,
+   "word": "betray",
+   "pos": "v",
+   "zh": "v. 背叛；出賣"
+  },
+  {
+   "id": 404,
+   "word": "betrayal",
+   "pos": "n",
+   "zh": "n. 背叛；密告"
+  },
+  {
+   "id": 405,
+   "word": "better",
+   "pos": "a/v",
+   "zh": "a. 較佳的；更好的｜v. 改善；改進"
+  },
+  {
+   "id": 406,
+   "word": "between",
+   "pos": "ad/prep",
+   "zh": "ad. 在中間；兩者之間｜prep. 在…之間"
+  },
+  {
+   "id": 407,
+   "word": "beverage",
+   "pos": "n",
+   "zh": "n. 飲料"
+  },
+  {
+   "id": 408,
+   "word": "beware",
+   "pos": "v",
+   "zh": "v. 注意；提防"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
