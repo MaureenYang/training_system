@@ -1,0 +1,622 @@
+{
+ "day": 3,
+ "date": "2026-10-15",
+ "generated": false,
+ "words": [
+  {
+   "id": 205,
+   "word": "apparently",
+   "pos": "ad",
+   "zh": "ad. 顯然地；表面上"
+  },
+  {
+   "id": 206,
+   "word": "appeal",
+   "pos": "v",
+   "zh": "v. 呼籲；懇求"
+  },
+  {
+   "id": 207,
+   "word": "appear",
+   "pos": "v",
+   "zh": "v. 出現；顯露"
+  },
+  {
+   "id": 208,
+   "word": "appearance",
+   "pos": "n",
+   "zh": "n. 出現；顯露"
+  },
+  {
+   "id": 209,
+   "word": "appetite",
+   "pos": "n",
+   "zh": "n. 食慾；胃口"
+  },
+  {
+   "id": 210,
+   "word": "applaud",
+   "pos": "v",
+   "zh": "v. 鼓掌歡迎；喝采"
+  },
+  {
+   "id": 211,
+   "word": "appliance",
+   "pos": "n",
+   "zh": "n. 用具；裝置"
+  },
+  {
+   "id": 212,
+   "word": "applicant",
+   "pos": "n",
+   "zh": "n. 申請人"
+  },
+  {
+   "id": 213,
+   "word": "apply",
+   "pos": "v",
+   "zh": "v. 申請；請求"
+  },
+  {
+   "id": 214,
+   "word": "appoint",
+   "pos": "v",
+   "zh": "v. 任命；指派"
+  },
+  {
+   "id": 215,
+   "word": "appraise",
+   "pos": "v",
+   "zh": "v. 估計；估量"
+  },
+  {
+   "id": 216,
+   "word": "apprehend",
+   "pos": "v",
+   "zh": "v. 逮捕；對……擔慮"
+  },
+  {
+   "id": 217,
+   "word": "apprentice",
+   "pos": "n",
+   "zh": "n. 徒弟；見習生"
+  },
+  {
+   "id": 218,
+   "word": "approach",
+   "pos": "v",
+   "zh": "v. 接近；靠近"
+  },
+  {
+   "id": 219,
+   "word": "appropriate",
+   "pos": "a",
+   "zh": "a. 適當的；恰當的"
+  },
+  {
+   "id": 220,
+   "word": "approval",
+   "pos": "n",
+   "zh": "n. 批准；認可"
+  },
+  {
+   "id": 221,
+   "word": "approve",
+   "pos": "v",
+   "zh": "v. 同意；贊許"
+  },
+  {
+   "id": 222,
+   "word": "approximate",
+   "pos": "a/v",
+   "zh": "a. 接近的；大約的｜v. 接近；近似"
+  },
+  {
+   "id": 223,
+   "word": "apt",
+   "pos": "a",
+   "zh": "a. 易於…的；有…傾向的"
+  },
+  {
+   "id": 224,
+   "word": "architect",
+   "pos": "n",
+   "zh": "n. 建築師；設計師"
+  },
+  {
+   "id": 225,
+   "word": "architecture",
+   "pos": "n",
+   "zh": "n. 建築物；建築學；結構"
+  },
+  {
+   "id": 226,
+   "word": "archive",
+   "pos": "v/n",
+   "zh": "v. 把…存檔；把…收集歸檔｜n. 檔案保管處；文件；記錄"
+  },
+  {
+   "id": 227,
+   "word": "area",
+   "pos": "n",
+   "zh": "n. 地區；區域"
+  },
+  {
+   "id": 228,
+   "word": "arena",
+   "pos": "n",
+   "zh": "n. 圓形運動場；比賽場"
+  },
+  {
+   "id": 229,
+   "word": "argue",
+   "pos": "v",
+   "zh": "v. 爭論；辯論；主張"
+  },
+  {
+   "id": 230,
+   "word": "argument",
+   "pos": "n",
+   "zh": "n. 爭執；爭吵"
+  },
+  {
+   "id": 231,
+   "word": "arise",
+   "pos": "v",
+   "zh": "v. 升起；上升；產生"
+  },
+  {
+   "id": 232,
+   "word": "around",
+   "pos": "ad/prep",
+   "zh": "ad. 到處；周圍｜prep. 圍繞；在……附近"
+  },
+  {
+   "id": 233,
+   "word": "arouse",
+   "pos": "v",
+   "zh": "v. 喚起；激動；使奮發"
+  },
+  {
+   "id": 234,
+   "word": "arrange",
+   "pos": "v",
+   "zh": "v. 整理；安排；籌備"
+  },
+  {
+   "id": 235,
+   "word": "arrest",
+   "pos": "v",
+   "zh": "v. 逮捕；拘留"
+  },
+  {
+   "id": 236,
+   "word": "arrival",
+   "pos": "v",
+   "zh": "v. 到達；到來"
+  },
+  {
+   "id": 237,
+   "word": "arrive",
+   "pos": "v",
+   "zh": "v. 到達；到來"
+  },
+  {
+   "id": 238,
+   "word": "articulate",
+   "pos": "v",
+   "zh": "v. 清楚地講話；清晰地發音；明確有力地表達"
+  },
+  {
+   "id": 239,
+   "word": "artificial",
+   "pos": "a",
+   "zh": "a. 人工的；人造的"
+  },
+  {
+   "id": 240,
+   "word": "ascend",
+   "pos": "v",
+   "zh": "v. 登高；上升"
+  },
+  {
+   "id": 241,
+   "word": "assemble",
+   "pos": "v",
+   "zh": "v. 集合；召集"
+  },
+  {
+   "id": 242,
+   "word": "assert",
+   "pos": "v",
+   "zh": "v. 斷言；聲稱"
+  },
+  {
+   "id": 243,
+   "word": "assess",
+   "pos": "v",
+   "zh": "v. 對……進行估價；評價"
+  },
+  {
+   "id": 244,
+   "word": "assign",
+   "pos": "v",
+   "zh": "v. 分配；分派"
+  },
+  {
+   "id": 245,
+   "word": "assignment",
+   "pos": "n",
+   "zh": "n. 任務；工作"
+  },
+  {
+   "id": 246,
+   "word": "assimilate",
+   "pos": "v",
+   "zh": "v. 被吸收；被消化"
+  },
+  {
+   "id": 247,
+   "word": "assist",
+   "pos": "v",
+   "zh": "v. 幫助；協助"
+  },
+  {
+   "id": 248,
+   "word": "assistance",
+   "pos": "n",
+   "zh": "n. 援助；幫助"
+  },
+  {
+   "id": 249,
+   "word": "associate",
+   "pos": "n/a",
+   "zh": "n. 夥伴；同事｜a. 夥伴的；共事的"
+  },
+  {
+   "id": 250,
+   "word": "association",
+   "pos": "n",
+   "zh": "n. 協會；公會；聯盟"
+  },
+  {
+   "id": 251,
+   "word": "assume",
+   "pos": "v",
+   "zh": "v. 以為；假定為"
+  },
+  {
+   "id": 252,
+   "word": "assurance",
+   "pos": "n",
+   "zh": "n. 保證"
+  },
+  {
+   "id": 253,
+   "word": "assure",
+   "pos": "v",
+   "zh": "v. 向……保證；擔保"
+  },
+  {
+   "id": 254,
+   "word": "astonish",
+   "pos": "v",
+   "zh": "v. 使吃驚；使驚訝"
+  },
+  {
+   "id": 255,
+   "word": "at",
+   "pos": "prep",
+   "zh": "prep. 在…地點；在…時刻"
+  },
+  {
+   "id": 256,
+   "word": "ATM",
+   "pos": "n",
+   "zh": "n. 自動存提款機(= Automatic TellerMachine)"
+  },
+  {
+   "id": 257,
+   "word": "attach",
+   "pos": "v",
+   "zh": "v. 附屬；附加"
+  },
+  {
+   "id": 258,
+   "word": "attachment",
+   "pos": "n",
+   "zh": "n. 附屬物；附件"
+  },
+  {
+   "id": 259,
+   "word": "attain",
+   "pos": "v/n",
+   "zh": "v. 達到；獲得｜n. 成就，造詣"
+  },
+  {
+   "id": 260,
+   "word": "attempt",
+   "pos": "n/v",
+   "zh": "n. 企圖；嘗試｜v. 試圖；企圖"
+  },
+  {
+   "id": 261,
+   "word": "attend",
+   "pos": "v",
+   "zh": "v. 出席；參加"
+  },
+  {
+   "id": 262,
+   "word": "attendance",
+   "pos": "n",
+   "zh": "n. 到場；出席"
+  },
+  {
+   "id": 263,
+   "word": "attention",
+   "pos": "n",
+   "zh": "n. 注意力；專心"
+  },
+  {
+   "id": 264,
+   "word": "attest",
+   "pos": "v",
+   "zh": "v. 證實；證明"
+  },
+  {
+   "id": 265,
+   "word": "attorney",
+   "pos": "n",
+   "zh": "n. 律師"
+  },
+  {
+   "id": 266,
+   "word": "attract",
+   "pos": "v",
+   "zh": "v. 吸引；引起"
+  },
+  {
+   "id": 267,
+   "word": "attribute",
+   "pos": "v",
+   "zh": "v. 把…歸因於；把…歸咎於"
+  },
+  {
+   "id": 268,
+   "word": "auction",
+   "pos": "n/v",
+   "zh": "n. 拍賣｜v. 拍賣"
+  },
+  {
+   "id": 269,
+   "word": "audience",
+   "pos": "n",
+   "zh": "n. 聽眾；觀眾"
+  },
+  {
+   "id": 270,
+   "word": "audit",
+   "pos": "v/n",
+   "zh": "v. 審計；查帳｜n. 審計；查帳"
+  },
+  {
+   "id": 271,
+   "word": "auditory",
+   "pos": "a/n",
+   "zh": "a. 耳朵的；聽覺的｜n. 聽眾；禮堂"
+  },
+  {
+   "id": 272,
+   "word": "author",
+   "pos": "n",
+   "zh": "n. 作者；作家"
+  },
+  {
+   "id": 273,
+   "word": "automatic",
+   "pos": "a",
+   "zh": "a. 自動的；習慣性的"
+  },
+  {
+   "id": 274,
+   "word": "available",
+   "pos": "a",
+   "zh": "a. 可用的；可利用的"
+  },
+  {
+   "id": 275,
+   "word": "avenue",
+   "pos": "n",
+   "zh": "n. 大街；大道"
+  },
+  {
+   "id": 276,
+   "word": "average",
+   "pos": "n/a/v",
+   "zh": "n. 平均；中等｜a. 普通的；中等的｜v. 平均分配；平均達到"
+  },
+  {
+   "id": 277,
+   "word": "avert",
+   "pos": "v",
+   "zh": "v. 避開；移開"
+  },
+  {
+   "id": 278,
+   "word": "avoid",
+   "pos": "v",
+   "zh": "v. 避開；躲開"
+  },
+  {
+   "id": 279,
+   "word": "avoidance",
+   "pos": "n",
+   "zh": "n. 逃避；迴避"
+  },
+  {
+   "id": 280,
+   "word": "await",
+   "pos": "v",
+   "zh": "v. 等候；期待"
+  },
+  {
+   "id": 281,
+   "word": "awareness",
+   "pos": "n",
+   "zh": "n. 察覺；覺悟"
+  },
+  {
+   "id": 282,
+   "word": "bachelor",
+   "pos": "n",
+   "zh": "n. 單身漢；學士"
+  },
+  {
+   "id": 283,
+   "word": "back",
+   "pos": "n/v/ad/a",
+   "zh": "n. 背部；後部｜v. 倒退；後退｜ad. 向後；後退地｜a. 後面的；後部的"
+  },
+  {
+   "id": 284,
+   "word": "backache",
+   "pos": "n",
+   "zh": "n. 背痛；腰痛"
+  },
+  {
+   "id": 285,
+   "word": "backbone",
+   "pos": "n",
+   "zh": "n. 脊骨；脊柱"
+  },
+  {
+   "id": 286,
+   "word": "backbreaking",
+   "pos": "a",
+   "zh": "a. 非常辛勞的"
+  },
+  {
+   "id": 287,
+   "word": "backfire",
+   "pos": "n/v",
+   "zh": "n. 引擎的逆火｜v. 事與願違"
+  },
+  {
+   "id": 288,
+   "word": "background",
+   "pos": "n",
+   "zh": "n. 背景；遠因"
+  },
+  {
+   "id": 289,
+   "word": "backlash",
+   "pos": "n",
+   "zh": "n. 反衝；強烈反對；後座力"
+  },
+  {
+   "id": 290,
+   "word": "backlog",
+   "pos": "n",
+   "zh": "n. 存貨；儲備金"
+  },
+  {
+   "id": 291,
+   "word": "backpack",
+   "pos": "n",
+   "zh": "n. 登山、遠足用的背包"
+  },
+  {
+   "id": 292,
+   "word": "back-to-back",
+   "pos": "ph",
+   "zh": "ph. 背靠背"
+  },
+  {
+   "id": 293,
+   "word": "backup",
+   "pos": "n/a/v",
+   "zh": "n. 備用；備用物｜a. 備用的｜v. 備份"
+  },
+  {
+   "id": 294,
+   "word": "backward",
+   "pos": "a/ad",
+   "zh": "a. 向後的；反向的｜ad. 向後；倒"
+  },
+  {
+   "id": 295,
+   "word": "backyard",
+   "pos": "n",
+   "zh": "n. 後院"
+  },
+  {
+   "id": 296,
+   "word": "bacteria",
+   "pos": "n",
+   "zh": "n. 細菌"
+  },
+  {
+   "id": 297,
+   "word": "bad",
+   "pos": "a/ad",
+   "zh": "a. 壞的；不好的｜ad. 很；非常"
+  },
+  {
+   "id": 298,
+   "word": "badge",
+   "pos": "n",
+   "zh": "n. 徽章；紀念章"
+  },
+  {
+   "id": 299,
+   "word": "badly",
+   "pos": "ad",
+   "zh": "ad. 壞地；拙劣地"
+  },
+  {
+   "id": 300,
+   "word": "bad-tempered",
+   "pos": "a",
+   "zh": "a. 情緒惡劣的；易怒的"
+  },
+  {
+   "id": 301,
+   "word": "baffle",
+   "pos": "v/n",
+   "zh": "v. 使受挫折；阻撓｜n. 困惑；障礙"
+  },
+  {
+   "id": 302,
+   "word": "baffling",
+   "pos": "a",
+   "zh": "a. 令人困惑的；難對付的"
+  },
+  {
+   "id": 303,
+   "word": "bag",
+   "pos": "n",
+   "zh": "n. 袋；提袋"
+  },
+  {
+   "id": 304,
+   "word": "baggage",
+   "pos": "n",
+   "zh": "n. 行李"
+  },
+  {
+   "id": 305,
+   "word": "bail",
+   "pos": "v/n",
+   "zh": "v. 保釋｜n. 保釋；保釋金"
+  },
+  {
+   "id": 306,
+   "word": "bailout",
+   "pos": "n",
+   "zh": "n. 跳傘；緊急（財政）援助"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
