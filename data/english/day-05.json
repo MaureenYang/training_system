@@ -1,0 +1,622 @@
+{
+ "day": 5,
+ "date": "2026-10-17",
+ "generated": false,
+ "words": [
+  {
+   "id": 409,
+   "word": "beyond",
+   "pos": "ad/prep",
+   "zh": "ad. 在更遠處；往更遠處｜prep. 向…的那一邊；越過"
+  },
+  {
+   "id": 410,
+   "word": "bias",
+   "pos": "n",
+   "zh": "n. 成見；偏心"
+  },
+  {
+   "id": 411,
+   "word": "bicycle",
+   "pos": "n",
+   "zh": "n. 腳踏車；自行車"
+  },
+  {
+   "id": 412,
+   "word": "bid",
+   "pos": "v",
+   "zh": "v. 命令；吩咐；出價"
+  },
+  {
+   "id": 413,
+   "word": "bidder",
+   "pos": "n",
+   "zh": "n. 出價人；投標人"
+  },
+  {
+   "id": 414,
+   "word": "bilingual",
+   "pos": "a",
+   "zh": "a. 雙語的"
+  },
+  {
+   "id": 415,
+   "word": "bill",
+   "pos": "n",
+   "zh": "n. 帳單；票據；議案"
+  },
+  {
+   "id": 416,
+   "word": "billboard",
+   "pos": "n",
+   "zh": "n. 廣告牌"
+  },
+  {
+   "id": 417,
+   "word": "billion",
+   "pos": "n",
+   "zh": "n. 十億"
+  },
+  {
+   "id": 418,
+   "word": "bin",
+   "pos": "n",
+   "zh": "n. 箱子；容器"
+  },
+  {
+   "id": 419,
+   "word": "bind",
+   "pos": "v",
+   "zh": "v. 捆；綁"
+  },
+  {
+   "id": 420,
+   "word": "binding",
+   "pos": "n/a",
+   "zh": "n. 裝訂；封皮｜a. 黏合的；有約束力的"
+  },
+  {
+   "id": 421,
+   "word": "biological",
+   "pos": "a",
+   "zh": "a. 生物的；生物學的"
+  },
+  {
+   "id": 422,
+   "word": "biology",
+   "pos": "n",
+   "zh": "n. 生物學"
+  },
+  {
+   "id": 423,
+   "word": "birth",
+   "pos": "n",
+   "zh": "n. 出生；誕生"
+  },
+  {
+   "id": 424,
+   "word": "birthday",
+   "pos": "n",
+   "zh": "n. 生日"
+  },
+  {
+   "id": 425,
+   "word": "bit",
+   "pos": "n",
+   "zh": "n. 小片；小塊；位元"
+  },
+  {
+   "id": 426,
+   "word": "bite",
+   "pos": "v",
+   "zh": "v. 咬；啃"
+  },
+  {
+   "id": 427,
+   "word": "bitter",
+   "pos": "a",
+   "zh": "a. 苦的；痛苦的"
+  },
+  {
+   "id": 428,
+   "word": "bizarre",
+   "pos": "a",
+   "zh": "a. 奇異的；不尋常的；奇怪的"
+  },
+  {
+   "id": 429,
+   "word": "blame",
+   "pos": "v",
+   "zh": "v. 責備；指責"
+  },
+  {
+   "id": 430,
+   "word": "bland",
+   "pos": "a",
+   "zh": "a. 溫和的；淡而無味的"
+  },
+  {
+   "id": 431,
+   "word": "blank",
+   "pos": "a/n/v",
+   "zh": "a. 空的；無內容的｜n. 空白；空白處｜v. 使模糊；刪去"
+  },
+  {
+   "id": 432,
+   "word": "blanket",
+   "pos": "n",
+   "zh": "n. 毛毯；毯子"
+  },
+  {
+   "id": 433,
+   "word": "bleak",
+   "pos": "a",
+   "zh": "a. 荒涼的；無遮蔽的"
+  },
+  {
+   "id": 434,
+   "word": "bleed",
+   "pos": "v",
+   "zh": "v. 出血；流血"
+  },
+  {
+   "id": 435,
+   "word": "blend",
+   "pos": "v/n",
+   "zh": "v. 使混雜；使交融｜n. 混雜；交融"
+  },
+  {
+   "id": 436,
+   "word": "blender",
+   "pos": "n",
+   "zh": "n. 攪拌機；混合器"
+  },
+  {
+   "id": 437,
+   "word": "blind",
+   "pos": "a",
+   "zh": "a. 盲的；視而不見的；不願承認的"
+  },
+  {
+   "id": 438,
+   "word": "block",
+   "pos": "n/v",
+   "zh": "n. 街區；障礙｜v. 阻塞；堵住；封鎖"
+  },
+  {
+   "id": 439,
+   "word": "blockage",
+   "pos": "n",
+   "zh": "n. 封鎖；妨礙"
+  },
+  {
+   "id": 440,
+   "word": "blood",
+   "pos": "n",
+   "zh": "n. 血；血液"
+  },
+  {
+   "id": 441,
+   "word": "bloom",
+   "pos": "n/v",
+   "zh": "n. 開花；開花期｜v. 繁榮；興盛"
+  },
+  {
+   "id": 442,
+   "word": "blossom",
+   "pos": "n/v",
+   "zh": "n. 開花；開花期｜v. 開花；生長茂盛"
+  },
+  {
+   "id": 443,
+   "word": "blow",
+   "pos": "v",
+   "zh": "v. 吹；吹奏"
+  },
+  {
+   "id": 444,
+   "word": "blunder",
+   "pos": "v/n",
+   "zh": "v. 犯大錯；出漏子｜n. 大錯"
+  },
+  {
+   "id": 445,
+   "word": "blur",
+   "pos": "v/n",
+   "zh": "v. 使模糊不清；使朦朧｜n. 模糊"
+  },
+  {
+   "id": 446,
+   "word": "board",
+   "pos": "n",
+   "zh": "n. 木板；委員會；理事會"
+  },
+  {
+   "id": 447,
+   "word": "boardroom",
+   "pos": "n",
+   "zh": "n. 會議室"
+  },
+  {
+   "id": 448,
+   "word": "boast",
+   "pos": "v",
+   "zh": "v. 自吹自擂；誇耀"
+  },
+  {
+   "id": 449,
+   "word": "boat",
+   "pos": "n",
+   "zh": "n. 小船"
+  },
+  {
+   "id": 450,
+   "word": "body",
+   "pos": "n",
+   "zh": "n. 身體；肉體"
+  },
+  {
+   "id": 451,
+   "word": "boil",
+   "pos": "v",
+   "zh": "v. 沸騰；烹煮"
+  },
+  {
+   "id": 452,
+   "word": "bold",
+   "pos": "a",
+   "zh": "a. 無畏的；大膽的"
+  },
+  {
+   "id": 453,
+   "word": "bomb",
+   "pos": "n/v",
+   "zh": "n. 炸彈；失敗｜v. 轟炸；轟擊"
+  },
+  {
+   "id": 454,
+   "word": "bombard",
+   "pos": "v",
+   "zh": "v. 砲擊；轟炸"
+  },
+  {
+   "id": 455,
+   "word": "bond",
+   "pos": "n",
+   "zh": "n. 聯結；聯繫"
+  },
+  {
+   "id": 456,
+   "word": "bone",
+   "pos": "n",
+   "zh": "n. 骨；骨頭"
+  },
+  {
+   "id": 457,
+   "word": "bonus",
+   "pos": "n",
+   "zh": "n. 紅利；獎金"
+  },
+  {
+   "id": 458,
+   "word": "book",
+   "pos": "n",
+   "zh": "n. 書；書籍"
+  },
+  {
+   "id": 459,
+   "word": "booklet",
+   "pos": "n",
+   "zh": "n. 小冊子"
+  },
+  {
+   "id": 460,
+   "word": "bookshelf",
+   "pos": "n",
+   "zh": "n. 書架；書櫃"
+  },
+  {
+   "id": 461,
+   "word": "bookstore",
+   "pos": "n",
+   "zh": "n. 書店"
+  },
+  {
+   "id": 462,
+   "word": "boom",
+   "pos": "n/v",
+   "zh": "n. 激增；繁榮｜v. 迅速發展；興旺"
+  },
+  {
+   "id": 463,
+   "word": "boost",
+   "pos": "v/n",
+   "zh": "v. 推動；幫助｜n. 推動；促進"
+  },
+  {
+   "id": 464,
+   "word": "boot",
+   "pos": "n",
+   "zh": "n. 靴子"
+  },
+  {
+   "id": 465,
+   "word": "booth",
+   "pos": "n",
+   "zh": "n. 攤販；小隔間"
+  },
+  {
+   "id": 466,
+   "word": "border",
+   "pos": "n/v",
+   "zh": "n. 邊緣；邊境｜v. 毗鄰，接界"
+  },
+  {
+   "id": 467,
+   "word": "borderline",
+   "pos": "n",
+   "zh": "n. 邊界；界線"
+  },
+  {
+   "id": 468,
+   "word": "boring",
+   "pos": "a",
+   "zh": "a. 令人生厭的；乏味的"
+  },
+  {
+   "id": 469,
+   "word": "borrow",
+   "pos": "v",
+   "zh": "v. 借用；借"
+  },
+  {
+   "id": 470,
+   "word": "boss",
+   "pos": "n",
+   "zh": "n. 老闆；上司"
+  },
+  {
+   "id": 471,
+   "word": "bother",
+   "pos": "v",
+   "zh": "v. 煩擾；打攪"
+  },
+  {
+   "id": 472,
+   "word": "bothersome",
+   "pos": "a",
+   "zh": "a. 令人討厭的；麻煩的"
+  },
+  {
+   "id": 473,
+   "word": "bottle",
+   "pos": "n",
+   "zh": "n. 瓶子"
+  },
+  {
+   "id": 474,
+   "word": "bottom",
+   "pos": "n",
+   "zh": "n. 底部；下端"
+  },
+  {
+   "id": 475,
+   "word": "boulevard",
+   "pos": "n",
+   "zh": "n. 大道"
+  },
+  {
+   "id": 476,
+   "word": "bounce",
+   "pos": "v",
+   "zh": "v. 彈起；彈回"
+  },
+  {
+   "id": 477,
+   "word": "bound",
+   "pos": "v",
+   "zh": "v. 跳躍；跳起"
+  },
+  {
+   "id": 478,
+   "word": "boundary",
+   "pos": "n",
+   "zh": "n. 邊界；分界線"
+  },
+  {
+   "id": 479,
+   "word": "bow",
+   "pos": "n",
+   "zh": "n. 弓"
+  },
+  {
+   "id": 480,
+   "word": "bowl",
+   "pos": "n/v",
+   "zh": "n. 保齡球｜v. 投：滾"
+  },
+  {
+   "id": 481,
+   "word": "box",
+   "pos": "n",
+   "zh": "n. 箱；盒；匣"
+  },
+  {
+   "id": 482,
+   "word": "box office",
+   "pos": "n",
+   "zh": "n. 售票處；票房"
+  },
+  {
+   "id": 483,
+   "word": "boycott",
+   "pos": "v/n",
+   "zh": "v. 杯葛；聯合抵制｜n. 杯葛；聯合抵制"
+  },
+  {
+   "id": 484,
+   "word": "brace",
+   "pos": "n/v",
+   "zh": "n. 支柱；支撐物｜v. 支撐；加固"
+  },
+  {
+   "id": 485,
+   "word": "bracket",
+   "pos": "n",
+   "zh": "n. 托架；撐架"
+  },
+  {
+   "id": 486,
+   "word": "brain",
+   "pos": "n",
+   "zh": "n. 智力，頭腦"
+  },
+  {
+   "id": 487,
+   "word": "brainstorm",
+   "pos": "v",
+   "zh": "v. 集體研討；集思廣益"
+  },
+  {
+   "id": 488,
+   "word": "brake",
+   "pos": "v/n",
+   "zh": "v. 煞車｜n. 煞車"
+  },
+  {
+   "id": 489,
+   "word": "branch",
+   "pos": "n",
+   "zh": "n. 樹枝；支流；分部；部門"
+  },
+  {
+   "id": 490,
+   "word": "brand",
+   "pos": "n",
+   "zh": "n. 品牌；商標"
+  },
+  {
+   "id": 491,
+   "word": "brand-new",
+   "pos": "a",
+   "zh": "a. 全新的；嶄新的"
+  },
+  {
+   "id": 492,
+   "word": "brave",
+   "pos": "a",
+   "zh": "a. 勇敢的：英勇的"
+  },
+  {
+   "id": 493,
+   "word": "bravely",
+   "pos": "ad",
+   "zh": "ad. 勇敢地：英勇地"
+  },
+  {
+   "id": 494,
+   "word": "bravo",
+   "pos": "n",
+   "zh": "n. 喝采聲"
+  },
+  {
+   "id": 495,
+   "word": "breach",
+   "pos": "n/v",
+   "zh": "n. 破壞，違反｜v. 破壞，違反"
+  },
+  {
+   "id": 496,
+   "word": "bread",
+   "pos": "n",
+   "zh": "n. 麵包"
+  },
+  {
+   "id": 497,
+   "word": "breadth",
+   "pos": "n",
+   "zh": "n. 寬度；幅度"
+  },
+  {
+   "id": 498,
+   "word": "break",
+   "pos": "v/n",
+   "zh": "v. 打破；折斷｜n. 破損；休息；機會"
+  },
+  {
+   "id": 499,
+   "word": "breakable",
+   "pos": "a",
+   "zh": "a. 會破的；脆的"
+  },
+  {
+   "id": 500,
+   "word": "breakdown",
+   "pos": "n",
+   "zh": "n. 故障；損壞"
+  },
+  {
+   "id": 501,
+   "word": "breakfast",
+   "pos": "n",
+   "zh": "n. 早餐"
+  },
+  {
+   "id": 502,
+   "word": "breakout",
+   "pos": "n",
+   "zh": "n. 包圍突破"
+  },
+  {
+   "id": 503,
+   "word": "breakthrough",
+   "pos": "n",
+   "zh": "n. 突破性進展；突破"
+  },
+  {
+   "id": 504,
+   "word": "breakup",
+   "pos": "n",
+   "zh": "n. 中斷；中止"
+  },
+  {
+   "id": 505,
+   "word": "breathe",
+   "pos": "v",
+   "zh": "v. 呼吸；呼氣"
+  },
+  {
+   "id": 506,
+   "word": "breathless",
+   "pos": "a",
+   "zh": "a. 呼吸困難的；扣人心弦的"
+  },
+  {
+   "id": 507,
+   "word": "breathtaking",
+   "pos": "a",
+   "zh": "a. 驚人的；令人屏息的"
+  },
+  {
+   "id": 508,
+   "word": "breeze",
+   "pos": "n",
+   "zh": "n. 微風；和風"
+  },
+  {
+   "id": 509,
+   "word": "brick",
+   "pos": "n",
+   "zh": "n. 磚；磚塊"
+  },
+  {
+   "id": 510,
+   "word": "bride",
+   "pos": "n",
+   "zh": "n. 新娘"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

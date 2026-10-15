@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -723,6 +723,7 @@
    "https://openai.com/index/introducing-the-model-spec",
    "https://openai.com/index/introducing-the-openai-economic-research-exchange",
    "https://openai.com/index/introducing-the-realtime-api",
+   "https://openai.com/index/introducing-the-rosalind-academic-plan",
    "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
    "https://openai.com/index/introducing-the-teen-safety-blueprint",
    "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
@@ -1175,6 +1176,7 @@
    "https://openai.com/index/target-partnership",
    "https://openai.com/index/teacher-student-curriculum-learning",
    "https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words",
+   "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
    "https://openai.com/index/teaching-with-ai",
    "https://openai.com/index/team-plus-plus",
    "https://openai.com/index/team-update",
@@ -1297,7 +1299,8 @@
    "https://openai.com/signals/research/2026q1-update"
   ],
   "openai-changelog": [
-   "https://platform.openai.com/docs/changelog#2026-10-15"
+   "https://platform.openai.com/docs/changelog#2026-10-15",
+   "https://platform.openai.com/docs/changelog#2026-10-16"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1343,6 +1346,7 @@
    "https://www.anthropic.com/news/ai-for-science-program",
    "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
    "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
+   "https://www.anthropic.com/news/an-update-on-independent-evaluators",
    "https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy",
    "https://www.anthropic.com/news/anthropic-accenture-partnership",
    "https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai",
@@ -1769,7 +1773,8 @@
    "https://www.anthropic.com/research/zero-days"
   ],
   "claude-release-notes": [
-   "https://docs.claude.com/en/release-notes/overview#2026-10-15"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-15",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-16"
   ],
   "deepseek-news": [],
   "deepseek-hf": [
@@ -1911,6 +1916,74 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-16",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-16",
+   "points": [
+    "Idira\nComposer Predictions\nCreate a site\nData and connections\nPublish and share\nManage a site\nFeature Configuration\nDocsShowcase"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-16",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-16",
+   "points": [
+    "October 15, 2026\nThe Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise orga"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+   "title": "Bringing GPT-Rosalind to academic research labs",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-16",
+   "points": [
+    "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+   "title": "Teaching students to think and learn through questions",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-16",
+   "points": [
+    "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "title": "Anthropic update on independent evaluators",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-16",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-10-15",
    "company": "OpenAI",
