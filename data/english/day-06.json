@@ -1,0 +1,622 @@
+{
+ "day": 6,
+ "date": "2026-10-18",
+ "generated": false,
+ "words": [
+  {
+   "id": 511,
+   "word": "bridge",
+   "pos": "n",
+   "zh": "n. 橋：橋墩"
+  },
+  {
+   "id": 512,
+   "word": "brief",
+   "pos": "a",
+   "zh": "a. 簡短的；短暫的"
+  },
+  {
+   "id": 513,
+   "word": "briefcase",
+   "pos": "n",
+   "zh": "n. 公事包"
+  },
+  {
+   "id": 514,
+   "word": "briefly",
+   "pos": "a",
+   "zh": "a. 簡短地；短暫地"
+  },
+  {
+   "id": 515,
+   "word": "bright",
+   "pos": "a",
+   "zh": "a. 發亮的；晴朗的"
+  },
+  {
+   "id": 516,
+   "word": "brighten",
+   "pos": "v",
+   "zh": "v. 使明亮；使閃亮"
+  },
+  {
+   "id": 517,
+   "word": "brilliant",
+   "pos": "a",
+   "zh": "a. 光輝的；明亮的"
+  },
+  {
+   "id": 518,
+   "word": "brisk",
+   "pos": "a",
+   "zh": "a. 活潑的；生氣勃勃的"
+  },
+  {
+   "id": 519,
+   "word": "brittle",
+   "pos": "a",
+   "zh": "a. 易碎的；敏感的；難相處的"
+  },
+  {
+   "id": 520,
+   "word": "broadcast",
+   "pos": "v",
+   "zh": "v. 廣播；播送"
+  },
+  {
+   "id": 521,
+   "word": "brochure",
+   "pos": "n",
+   "zh": "n. 小冊子"
+  },
+  {
+   "id": 522,
+   "word": "broker",
+   "pos": "n",
+   "zh": "n. 代理人，中間人"
+  },
+  {
+   "id": 523,
+   "word": "brokered",
+   "pos": "v",
+   "zh": "v. 以中間人等身分安排……"
+  },
+  {
+   "id": 524,
+   "word": "browse",
+   "pos": "v",
+   "zh": "v. 瀏覽；觀看"
+  },
+  {
+   "id": 525,
+   "word": "browser",
+   "pos": "n",
+   "zh": "n. 瀏覽器"
+  },
+  {
+   "id": 526,
+   "word": "bruise",
+   "pos": "n/v",
+   "zh": "n. 傷痕；青腫｜v. 使受瘀傷，使青腫"
+  },
+  {
+   "id": 527,
+   "word": "brush",
+   "pos": "v/n",
+   "zh": "v. 刷；刷洗｜n. 刷子"
+  },
+  {
+   "id": 528,
+   "word": "brush-off",
+   "pos": "n",
+   "zh": "n. 拒絕；不理睬"
+  },
+  {
+   "id": 529,
+   "word": "bruta",
+   "pos": "a",
+   "zh": "a. 冷酷的；野蠻的"
+  },
+  {
+   "id": 530,
+   "word": "brutally",
+   "pos": "ad",
+   "zh": "ad. 冷酷地；野蠻地"
+  },
+  {
+   "id": 531,
+   "word": "bubble",
+   "pos": "n/v",
+   "zh": "n. 泡泡｜v. 沸騰；冒泡"
+  },
+  {
+   "id": 532,
+   "word": "bucket",
+   "pos": "n",
+   "zh": "n. 水桶；提桶"
+  },
+  {
+   "id": 533,
+   "word": "buckle",
+   "pos": "n/v",
+   "zh": "n. 釦子；搭鉤｜v. 扣住；扣緊"
+  },
+  {
+   "id": 534,
+   "word": "budge",
+   "pos": "v",
+   "zh": "v. 微微移動；讓步"
+  },
+  {
+   "id": 535,
+   "word": "budget",
+   "pos": "n",
+   "zh": "n. 預算；經費"
+  },
+  {
+   "id": 536,
+   "word": "build",
+   "pos": "v/n",
+   "zh": "v. 建造；建立｜n. 體格；體型"
+  },
+  {
+   "id": 537,
+   "word": "building",
+   "pos": "n",
+   "zh": "n. 建築物；大樓"
+  },
+  {
+   "id": 538,
+   "word": "bulk",
+   "pos": "n/a",
+   "zh": "n. 體積；容積｜a. 大量的；大批的"
+  },
+  {
+   "id": 539,
+   "word": "business",
+   "pos": "n",
+   "zh": "n. 商業；職業"
+  },
+  {
+   "id": 540,
+   "word": "businessman",
+   "pos": "n",
+   "zh": "n. 商人"
+  },
+  {
+   "id": 541,
+   "word": "busy",
+   "pos": "a",
+   "zh": "a. 忙碌的"
+  },
+  {
+   "id": 542,
+   "word": "button",
+   "pos": "n",
+   "zh": "n. 鈕扣；按鈕"
+  },
+  {
+   "id": 543,
+   "word": "buy",
+   "pos": "v",
+   "zh": "v. 買；購買"
+  },
+  {
+   "id": 544,
+   "word": "buyer",
+   "pos": "n",
+   "zh": "n. 買主；買家"
+  },
+  {
+   "id": 545,
+   "word": "cab",
+   "pos": "n",
+   "zh": "n. 計程車"
+  },
+  {
+   "id": 546,
+   "word": "cabin",
+   "pos": "n",
+   "zh": "n. 客艙；駕駛艙"
+  },
+  {
+   "id": 547,
+   "word": "cabine",
+   "pos": "n",
+   "zh": "n. 櫥；櫃"
+  },
+  {
+   "id": 548,
+   "word": "cable",
+   "pos": "n",
+   "zh": "n. 纜；索"
+  },
+  {
+   "id": 549,
+   "word": "café",
+   "pos": "n",
+   "zh": "n. 咖啡廳"
+  },
+  {
+   "id": 550,
+   "word": "cafeteria",
+   "pos": "n",
+   "zh": "n. 自助餐廳"
+  },
+  {
+   "id": 551,
+   "word": "caffeine",
+   "pos": "n",
+   "zh": "n. 咖啡因"
+  },
+  {
+   "id": 552,
+   "word": "calcium",
+   "pos": "n",
+   "zh": "n. 鈣"
+  },
+  {
+   "id": 553,
+   "word": "calculate",
+   "pos": "v",
+   "zh": "v. 計算；算"
+  },
+  {
+   "id": 554,
+   "word": "calculation",
+   "pos": "n",
+   "zh": "n. 計算；估計"
+  },
+  {
+   "id": 555,
+   "word": "calculator",
+   "pos": "n",
+   "zh": "n. 計算機"
+  },
+  {
+   "id": 556,
+   "word": "calendar",
+   "pos": "n",
+   "zh": "n. 日曆"
+  },
+  {
+   "id": 557,
+   "word": "caliber",
+   "pos": "n",
+   "zh": "n. 口徑；水準，程度"
+  },
+  {
+   "id": 558,
+   "word": "call",
+   "pos": "v/n",
+   "zh": "v. 叫喊；呼叫｜n. 呼叫；通話"
+  },
+  {
+   "id": 559,
+   "word": "caller",
+   "pos": "n",
+   "zh": "n. 訪問者；探望者"
+  },
+  {
+   "id": 560,
+   "word": "calling",
+   "pos": "n",
+   "zh": "n. 呼喊；召喚"
+  },
+  {
+   "id": 561,
+   "word": "calm",
+   "pos": "a/v",
+   "zh": "a. 鎮靜的；沉著的｜v. 使鎮定；使平靜"
+  },
+  {
+   "id": 562,
+   "word": "camera",
+   "pos": "n",
+   "zh": "n. 照相機"
+  },
+  {
+   "id": 563,
+   "word": "camp",
+   "pos": "n/v",
+   "zh": "n. 營地；帳篷｜v. 紮營；宿營"
+  },
+  {
+   "id": 564,
+   "word": "campaign",
+   "pos": "n",
+   "zh": "n. 競選；活動"
+  },
+  {
+   "id": 565,
+   "word": "campus",
+   "pos": "n",
+   "zh": "n. 校園；校區"
+  },
+  {
+   "id": 566,
+   "word": "cancel",
+   "pos": "v",
+   "zh": "v. 取消；廢除；中止"
+  },
+  {
+   "id": 567,
+   "word": "cancellation",
+   "pos": "n",
+   "zh": "n. 取消"
+  },
+  {
+   "id": 568,
+   "word": "candid",
+   "pos": "a",
+   "zh": "a. 公正的，公平的"
+  },
+  {
+   "id": 569,
+   "word": "candidate",
+   "pos": "n",
+   "zh": "n. 候選人；候補者"
+  },
+  {
+   "id": 570,
+   "word": "capability",
+   "pos": "n",
+   "zh": "n. 能力；才能"
+  },
+  {
+   "id": 571,
+   "word": "capable",
+   "pos": "a",
+   "zh": "a. 有能力的；能幹的"
+  },
+  {
+   "id": 572,
+   "word": "capacity",
+   "pos": "n",
+   "zh": "n. 容量；容積"
+  },
+  {
+   "id": 573,
+   "word": "capital",
+   "pos": "n",
+   "zh": "n. 首都；資本"
+  },
+  {
+   "id": 574,
+   "word": "capitalization",
+   "pos": "n",
+   "zh": "n. 資本化；資本額"
+  },
+  {
+   "id": 575,
+   "word": "capitalize",
+   "pos": "v",
+   "zh": "v. 利用；供給（資本）"
+  },
+  {
+   "id": 576,
+   "word": "capture",
+   "pos": "v/n",
+   "zh": "v. 捕獲；俘虜｜n. 捕獲；俘虜"
+  },
+  {
+   "id": 577,
+   "word": "care",
+   "pos": "v",
+   "zh": "v. 在乎：關心"
+  },
+  {
+   "id": 578,
+   "word": "career",
+   "pos": "n",
+   "zh": "n. 職業；工作"
+  },
+  {
+   "id": 579,
+   "word": "careful",
+   "pos": "a",
+   "zh": "a. 小心翼翼的；仔細的"
+  },
+  {
+   "id": 580,
+   "word": "carefully",
+   "pos": "ad",
+   "zh": "ad. 小心翼翼地；仔細地"
+  },
+  {
+   "id": 581,
+   "word": "cargo",
+   "pos": "n",
+   "zh": "n. 貨物"
+  },
+  {
+   "id": 582,
+   "word": "carpet",
+   "pos": "n",
+   "zh": "n. 地毯"
+  },
+  {
+   "id": 583,
+   "word": "carrier",
+   "pos": "n",
+   "zh": "n. 運送人；搬運人"
+  },
+  {
+   "id": 584,
+   "word": "carry",
+   "pos": "v",
+   "zh": "v. 運載；搬運；支撐"
+  },
+  {
+   "id": 585,
+   "word": "carry out",
+   "pos": "ph",
+   "zh": "ph. 實行；執行"
+  },
+  {
+   "id": 586,
+   "word": "cart",
+   "pos": "n",
+   "zh": "n. 小車，手推車"
+  },
+  {
+   "id": 587,
+   "word": "carton",
+   "pos": "n",
+   "zh": "n. 紙盒；紙板箱"
+  },
+  {
+   "id": 588,
+   "word": "case",
+   "pos": "n",
+   "zh": "n. 盒；套"
+  },
+  {
+   "id": 589,
+   "word": "cash",
+   "pos": "n/v",
+   "zh": "n. 現金；現款｜v. 把……兌現"
+  },
+  {
+   "id": 590,
+   "word": "cast",
+   "pos": "v/n",
+   "zh": "v. 投；擲；拋｜n. 投；班底；演員"
+  },
+  {
+   "id": 591,
+   "word": "catalog",
+   "pos": "n",
+   "zh": "n. 目錄；目錄冊"
+  },
+  {
+   "id": 592,
+   "word": "categorize",
+   "pos": "v",
+   "zh": "v. 將…分類"
+  },
+  {
+   "id": 593,
+   "word": "category",
+   "pos": "n",
+   "zh": "n. 種類；部屬；類目"
+  },
+  {
+   "id": 594,
+   "word": "cater",
+   "pos": "v",
+   "zh": "v. 提供飲食；承辦宴席"
+  },
+  {
+   "id": 595,
+   "word": "catering",
+   "pos": "n",
+   "zh": "n. 承辦酒席；提供飲食及服務"
+  },
+  {
+   "id": 596,
+   "word": "cause",
+   "pos": "n/v",
+   "zh": "n. 原因；起因｜v. 導致；使發生"
+  },
+  {
+   "id": 597,
+   "word": "caution",
+   "pos": "n",
+   "zh": "n. 小心；謹慎"
+  },
+  {
+   "id": 598,
+   "word": "cautious",
+   "pos": "a",
+   "zh": "a. 十分小心的；謹慎的"
+  },
+  {
+   "id": 599,
+   "word": "central",
+   "pos": "a",
+   "zh": "a. 中心的；中央的"
+  },
+  {
+   "id": 600,
+   "word": "century",
+   "pos": "n",
+   "zh": "n. 世紀；一百年"
+  },
+  {
+   "id": 601,
+   "word": "ceremony",
+   "pos": "n",
+   "zh": "n. 儀式；典禮"
+  },
+  {
+   "id": 602,
+   "word": "certain",
+   "pos": "a",
+   "zh": "a. 確鑿的；無疑的"
+  },
+  {
+   "id": 603,
+   "word": "certainly",
+   "pos": "ad",
+   "zh": "ad. 無疑地；必定"
+  },
+  {
+   "id": 604,
+   "word": "certificate",
+   "pos": "n",
+   "zh": "n. 證明書；執照"
+  },
+  {
+   "id": 605,
+   "word": "certify",
+   "pos": "v",
+   "zh": "v. 證明，證實"
+  },
+  {
+   "id": 606,
+   "word": "chain",
+   "pos": "n",
+   "zh": "n. 鏈條；連鎖；連續"
+  },
+  {
+   "id": 607,
+   "word": "challenge",
+   "pos": "v",
+   "zh": "v. 挑戰；提出異議"
+  },
+  {
+   "id": 608,
+   "word": "change",
+   "pos": "v/n",
+   "zh": "v. 改變；更改｜n. 變化；變更；零錢"
+  },
+  {
+   "id": 609,
+   "word": "changeable",
+   "pos": "a",
+   "zh": "a. 易變的；不定的"
+  },
+  {
+   "id": 610,
+   "word": "chapter",
+   "pos": "n",
+   "zh": "n. 篇章；篇"
+  },
+  {
+   "id": 611,
+   "word": "character",
+   "pos": "n",
+   "zh": "n. 角色；性格；特性"
+  },
+  {
+   "id": 612,
+   "word": "characteristic",
+   "pos": "a",
+   "zh": "a. 特有的；獨特的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

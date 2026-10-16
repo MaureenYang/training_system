@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -736,6 +736,7 @@
    "https://openai.com/index/invideo-builds-with-gpt-6-astra",
    "https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
    "https://openai.com/index/ironclad",
+   "https://openai.com/index/itau-generative-ai",
    "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist",
    "https://openai.com/index/jalapeno-first-results",
    "https://openai.com/index/japan-economic-blueprint",
@@ -1139,6 +1140,7 @@
    "https://openai.com/index/spinning-up-in-deep-rl",
    "https://openai.com/index/spinning-up-in-deep-rl-workshop-review",
    "https://openai.com/index/spring-update",
+   "https://openai.com/index/stack-overflow-chatgpt-plugin",
    "https://openai.com/index/stadler",
    "https://openai.com/index/stampli",
    "https://openai.com/index/stargate-advances-with-partnership-with-oracle",
@@ -1159,6 +1161,7 @@
    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
    "https://openai.com/index/strengthening-the-us-ai-supply-chain",
    "https://openai.com/index/stripe",
+   "https://openai.com/index/sullivan-cromwell",
    "https://openai.com/index/summarizing-books",
    "https://openai.com/index/summer-health",
    "https://openai.com/index/superalignment-fast-grants",
@@ -1300,7 +1303,8 @@
   ],
   "openai-changelog": [
    "https://platform.openai.com/docs/changelog#2026-10-15",
-   "https://platform.openai.com/docs/changelog#2026-10-16"
+   "https://platform.openai.com/docs/changelog#2026-10-16",
+   "https://platform.openai.com/docs/changelog#2026-10-17"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1608,6 +1612,7 @@
    "https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits",
    "https://www.anthropic.com/research/agentic-misalignment",
    "https://www.anthropic.com/research/agents-in-biology",
+   "https://www.anthropic.com/research/ai-expectations-gap",
    "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
    "https://www.anthropic.com/research/alignment-faking",
    "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
@@ -1653,6 +1658,7 @@
    "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
    "https://www.anthropic.com/research/deprecation-commitments",
    "https://www.anthropic.com/research/deprecation-updates-opus-3",
+   "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
    "https://www.anthropic.com/research/diff-tool",
    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
    "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
@@ -1660,6 +1666,7 @@
    "https://www.anthropic.com/research/distillation-defenses",
    "https://www.anthropic.com/research/distributed-representations-composition-superposition",
    "https://www.anthropic.com/research/donating-open-source-petri",
+   "https://www.anthropic.com/research/ecdsa-curve-origins",
    "https://www.anthropic.com/research/economic-index-geography",
    "https://www.anthropic.com/research/economic-index-june-2026-report",
    "https://www.anthropic.com/research/economic-index-march-2026-report",
@@ -1668,6 +1675,7 @@
    "https://www.anthropic.com/research/economic-policy-responses",
    "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
    "https://www.anthropic.com/research/emotion-concepts-function",
+   "https://www.anthropic.com/research/employment-at-anthropic",
    "https://www.anthropic.com/research/enabling-independent-research",
    "https://www.anthropic.com/research/end-subset-conversations",
    "https://www.anthropic.com/research/engineering-challenges-interpretability",
@@ -1675,6 +1683,7 @@
    "https://www.anthropic.com/research/evaluating-ai-systems",
    "https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions",
    "https://www.anthropic.com/research/evaluating-feature-steering",
+   "https://www.anthropic.com/research/expectations-for-the-future",
    "https://www.anthropic.com/research/exploit",
    "https://www.anthropic.com/research/exploit-evals",
    "https://www.anthropic.com/research/exploring-model-welfare",
@@ -1774,9 +1783,12 @@
   ],
   "claude-release-notes": [
    "https://docs.claude.com/en/release-notes/overview#2026-10-15",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-16"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-16",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-17"
   ],
-  "deepseek-news": [],
+  "deepseek-news": [
+   "https://api-docs.deepseek.com/news#2026-10-17"
+  ],
   "deepseek-hf": [
    "hf:deepseek-ai:DeepSeek-Math-V2:2025-11-27",
    "hf:deepseek-ai:DeepSeek-OCR-2:2026-01-27",
@@ -1917,6 +1929,136 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-17",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-17",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "Integration recipes\nDriver reference\nCodex Security SDK\nWindows app and CLI deployment\nCodex security cookbook\nDesigning failover across OpenAI model providers\nv1/audio/voices\nReleased prompt-to-voice"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-17",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-17",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests tha"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://api-docs.deepseek.com/news#2026-10-17",
+   "company": "DeepSeek",
+   "source": "deepseek-news",
+   "url": "https://api-docs.deepseek.com/news",
+   "title": "DeepSeek 官方新聞更新",
+   "date": "2026-10-17",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "base_url=\"https://api.deepseek.com\",\nextra_body={\"thinking\": {\"type\": \"enabled\"}},"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/itau-generative-ai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/ai-expectations-gap",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/ai-expectations-gap",
+   "title": "The AI expectations gap",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "title": "Designing more efficient quantum circuits with Claude",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "title": "Claude reveals ECDSA curve origins",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/employment-at-anthropic",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/employment-at-anthropic",
+   "title": "How employment is changing at Anthropic",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/expectations-for-the-future",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/expectations-for-the-future",
+   "title": "Working at the frontier shapes expectations for the future",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-16",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -1941,6 +2083,20 @@
    "fetched": "2026-10-16",
    "points": [
     "October 15, 2026\nThe Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise orga"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/sullivan-cromwell",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/sullivan-cromwell",
+   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+   "date": "2026-10-15",
+   "open_weights": false,
+   "fetched": "2026-10-17",
+   "points": [
+    "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement."
    ],
    "pending": true
   },
