@@ -1,0 +1,622 @@
+{
+ "day": 7,
+ "date": "2026-10-19",
+ "generated": false,
+ "words": [
+  {
+   "id": 613,
+   "word": "characterize",
+   "pos": "v",
+   "zh": "v. 具有……的特徵；以……為特徵"
+  },
+  {
+   "id": 614,
+   "word": "charge",
+   "pos": "v",
+   "zh": "v. 控告；索價"
+  },
+  {
+   "id": 615,
+   "word": "chart",
+   "pos": "n",
+   "zh": "n. 圖表；曲線圖"
+  },
+  {
+   "id": 616,
+   "word": "check",
+   "pos": "n",
+   "zh": "n. （美）檢查；支票；帳單"
+  },
+  {
+   "id": 617,
+   "word": "chef",
+   "pos": "n",
+   "zh": "n. 廚師"
+  },
+  {
+   "id": 618,
+   "word": "cheque",
+   "pos": "n",
+   "zh": "n. （英）支票"
+  },
+  {
+   "id": 619,
+   "word": "choice",
+   "pos": "n",
+   "zh": "n. 選擇；挑選"
+  },
+  {
+   "id": 620,
+   "word": "choose",
+   "pos": "v",
+   "zh": "v. 選擇；挑選"
+  },
+  {
+   "id": 621,
+   "word": "chore",
+   "pos": "n",
+   "zh": "n. 例行工作；家務活"
+  },
+  {
+   "id": 622,
+   "word": "circle",
+   "pos": "n/v",
+   "zh": "n. 圓形的東西；圈｜v. 畫圓圈；圈出；圍著"
+  },
+  {
+   "id": 623,
+   "word": "circumspect",
+   "pos": "a",
+   "zh": "a. 慎重的；謹慎小心的"
+  },
+  {
+   "id": 624,
+   "word": "circumstance",
+   "pos": "n",
+   "zh": "n. 情況；環境；情勢"
+  },
+  {
+   "id": 625,
+   "word": "circumvent",
+   "pos": "v",
+   "zh": "v. 規避；防止……發生"
+  },
+  {
+   "id": 626,
+   "word": "citation",
+   "pos": "n",
+   "zh": "n. 引用；引證"
+  },
+  {
+   "id": 627,
+   "word": "citizen",
+   "pos": "n",
+   "zh": "n. 市民；居民"
+  },
+  {
+   "id": 628,
+   "word": "citizenship",
+   "pos": "n",
+   "zh": "n. 公民權；公民身分"
+  },
+  {
+   "id": 629,
+   "word": "city",
+   "pos": "n",
+   "zh": "n. 城市；都市"
+  },
+  {
+   "id": 630,
+   "word": "civic",
+   "pos": "a",
+   "zh": "a. 城市的；市民的"
+  },
+  {
+   "id": 631,
+   "word": "claim",
+   "pos": "v",
+   "zh": "v. 主張；斷言；聲稱"
+  },
+  {
+   "id": 632,
+   "word": "clarify",
+   "pos": "v",
+   "zh": "v. 澄清；闡明"
+  },
+  {
+   "id": 633,
+   "word": "clause",
+   "pos": "n",
+   "zh": "n. 條款；款"
+  },
+  {
+   "id": 634,
+   "word": "clear",
+   "pos": "a/v",
+   "zh": "a. 明亮的；顯然的｜v. 清除；收拾"
+  },
+  {
+   "id": 635,
+   "word": "clearance",
+   "pos": "n",
+   "zh": "n. 清除；清掃"
+  },
+  {
+   "id": 636,
+   "word": "clearly",
+   "pos": "ad",
+   "zh": "ad. 顯然地；無疑地；明亮地"
+  },
+  {
+   "id": 637,
+   "word": "clerk",
+   "pos": "n",
+   "zh": "n. 辦事員；職員"
+  },
+  {
+   "id": 638,
+   "word": "client",
+   "pos": "n",
+   "zh": "n. 委託人；客戶"
+  },
+  {
+   "id": 639,
+   "word": "climate",
+   "pos": "n",
+   "zh": "n. 氣候"
+  },
+  {
+   "id": 640,
+   "word": "climb",
+   "pos": "v",
+   "zh": "v. 爬；攀爬"
+  },
+  {
+   "id": 641,
+   "word": "clip",
+   "pos": "v/n",
+   "zh": "v. 剪；修剪｜n. 剪；修剪"
+  },
+  {
+   "id": 642,
+   "word": "clock",
+   "pos": "n",
+   "zh": "n. 時鐘"
+  },
+  {
+   "id": 643,
+   "word": "coach",
+   "pos": "n/v",
+   "zh": "n. 教練｜v. 訓練；指導"
+  },
+  {
+   "id": 644,
+   "word": "cognition",
+   "pos": "n",
+   "zh": "n. 認知；知識"
+  },
+  {
+   "id": 645,
+   "word": "coherent",
+   "pos": "a",
+   "zh": "a. 一致的；協調的"
+  },
+  {
+   "id": 646,
+   "word": "cohesive",
+   "pos": "a",
+   "zh": "a. 凝聚性的；有結合力的"
+  },
+  {
+   "id": 647,
+   "word": "coin",
+   "pos": "n",
+   "zh": "n. 硬幣"
+  },
+  {
+   "id": 648,
+   "word": "coincidence",
+   "pos": "n",
+   "zh": "n. 巧合；符合"
+  },
+  {
+   "id": 649,
+   "word": "collaborate",
+   "pos": "v",
+   "zh": "v. 合作；勾結"
+  },
+  {
+   "id": 650,
+   "word": "collaboration",
+   "pos": "v",
+   "zh": "v. 合作；勾結"
+  },
+  {
+   "id": 651,
+   "word": "collateral",
+   "pos": "a/n",
+   "zh": "a. 並行的；附屬的｜n. 擔保品；抵押品"
+  },
+  {
+   "id": 652,
+   "word": "colleague",
+   "pos": "n",
+   "zh": "n. 同事；同僚"
+  },
+  {
+   "id": 653,
+   "word": "collect",
+   "pos": "v",
+   "zh": "v. 收集；採集"
+  },
+  {
+   "id": 654,
+   "word": "collectible",
+   "pos": "a",
+   "zh": "a. 可收集的"
+  },
+  {
+   "id": 655,
+   "word": "collection",
+   "pos": "n",
+   "zh": "n. 採集；收取"
+  },
+  {
+   "id": 656,
+   "word": "college",
+   "pos": "n",
+   "zh": "n. 大學；學院"
+  },
+  {
+   "id": 657,
+   "word": "collide",
+   "pos": "v",
+   "zh": "v. 碰撞；相撞"
+  },
+  {
+   "id": 658,
+   "word": "combination",
+   "pos": "n",
+   "zh": "n. 結合；聯合"
+  },
+  {
+   "id": 659,
+   "word": "combine",
+   "pos": "v",
+   "zh": "v. 結合；聯合"
+  },
+  {
+   "id": 660,
+   "word": "come",
+   "pos": "v",
+   "zh": "v. 來；來到"
+  },
+  {
+   "id": 661,
+   "word": "come across",
+   "pos": "ph",
+   "zh": "ph. 碰見；被理解"
+  },
+  {
+   "id": 662,
+   "word": "comfort",
+   "pos": "v/n",
+   "zh": "v. 安慰；慰問｜n. 安逸；舒適"
+  },
+  {
+   "id": 663,
+   "word": "comfortable",
+   "pos": "a",
+   "zh": "a. 舒適的；舒服的"
+  },
+  {
+   "id": 664,
+   "word": "comforting",
+   "pos": "a",
+   "zh": "a. 令人欣慰的"
+  },
+  {
+   "id": 665,
+   "word": "command",
+   "pos": "v",
+   "zh": "v. 指揮；控制"
+  },
+  {
+   "id": 666,
+   "word": "comment",
+   "pos": "n/v",
+   "zh": "n. 註釋；評論｜v. 下評論"
+  },
+  {
+   "id": 667,
+   "word": "commentary",
+   "pos": "n",
+   "zh": "n. 評論"
+  },
+  {
+   "id": 668,
+   "word": "commerce",
+   "pos": "n",
+   "zh": "n. 商業；貿易"
+  },
+  {
+   "id": 669,
+   "word": "commercial",
+   "pos": "a/n",
+   "zh": "a. 商業的；商務的｜n. 廣告"
+  },
+  {
+   "id": 670,
+   "word": "commission",
+   "pos": "n/v",
+   "zh": "n. 佣金；委任｜v. 委任；委託"
+  },
+  {
+   "id": 671,
+   "word": "commit",
+   "pos": "v",
+   "zh": "v. 犯（罪）；做（錯事等）"
+  },
+  {
+   "id": 672,
+   "word": "commitment",
+   "pos": "n",
+   "zh": "n. 託付；交託"
+  },
+  {
+   "id": 673,
+   "word": "committed",
+   "pos": "a",
+   "zh": "a. 忠誠的，堅定的"
+  },
+  {
+   "id": 674,
+   "word": "commodity",
+   "pos": "n",
+   "zh": "n. 商品；日用品"
+  },
+  {
+   "id": 675,
+   "word": "common",
+   "pos": "a",
+   "zh": "a. 普通的；常見的"
+  },
+  {
+   "id": 676,
+   "word": "communication",
+   "pos": "n",
+   "zh": "n. 溝通；交流"
+  },
+  {
+   "id": 677,
+   "word": "commute",
+   "pos": "v",
+   "zh": "v. 通勤；替代；代償"
+  },
+  {
+   "id": 678,
+   "word": "commuter",
+   "pos": "n",
+   "zh": "n. 通勤者"
+  },
+  {
+   "id": 679,
+   "word": "company",
+   "pos": "n",
+   "zh": "n. 陪伴；公司"
+  },
+  {
+   "id": 680,
+   "word": "comparatively",
+   "pos": "ad",
+   "zh": "ad. 對比地；比較地"
+  },
+  {
+   "id": 681,
+   "word": "compare",
+   "pos": "v",
+   "zh": "v. 比較；對照"
+  },
+  {
+   "id": 682,
+   "word": "comparison",
+   "pos": "n",
+   "zh": "n. 比較；對照"
+  },
+  {
+   "id": 683,
+   "word": "compatible",
+   "pos": "a",
+   "zh": "a. 能共處的；可並立的"
+  },
+  {
+   "id": 684,
+   "word": "compel",
+   "pos": "v",
+   "zh": "v. 強迫；強求"
+  },
+  {
+   "id": 685,
+   "word": "compensate",
+   "pos": "v",
+   "zh": "v. 補償；賠償"
+  },
+  {
+   "id": 686,
+   "word": "compensation",
+   "pos": "n",
+   "zh": "n. 補償；賠償"
+  },
+  {
+   "id": 687,
+   "word": "compete",
+   "pos": "v",
+   "zh": "v. 對抗；競爭"
+  },
+  {
+   "id": 688,
+   "word": "competent",
+   "pos": "a",
+   "zh": "a. 有能力的；能勝任的"
+  },
+  {
+   "id": 689,
+   "word": "competition",
+   "pos": "n",
+   "zh": "n. 比賽；競賽"
+  },
+  {
+   "id": 690,
+   "word": "competitive",
+   "pos": "a",
+   "zh": "a. 競爭性的；好競爭的"
+  },
+  {
+   "id": 691,
+   "word": "competitor",
+   "pos": "n",
+   "zh": "n. 競爭者；對手"
+  },
+  {
+   "id": 692,
+   "word": "complain",
+   "pos": "v",
+   "zh": "v. 抱怨"
+  },
+  {
+   "id": 693,
+   "word": "complaint",
+   "pos": "n",
+   "zh": "n. 抱怨"
+  },
+  {
+   "id": 694,
+   "word": "complete",
+   "pos": "v",
+   "zh": "v. 競爭；比賽"
+  },
+  {
+   "id": 695,
+   "word": "completion",
+   "pos": "n",
+   "zh": "n. 完成；結束"
+  },
+  {
+   "id": 696,
+   "word": "complex",
+   "pos": "a/n",
+   "zh": "a. 複雜的；錯綜複雜的｜n. 複合物；綜合體"
+  },
+  {
+   "id": 697,
+   "word": "compliant",
+   "pos": "a",
+   "zh": "a. 順從的；應允的"
+  },
+  {
+   "id": 698,
+   "word": "complicate",
+   "pos": "v",
+   "zh": "v. 使複雜化；使費解"
+  },
+  {
+   "id": 699,
+   "word": "complicated",
+   "pos": "a",
+   "zh": "a. 複雜的；難懂的"
+  },
+  {
+   "id": 700,
+   "word": "compliment",
+   "pos": "n/v",
+   "zh": "n. 稱讚：讚美｜v. 稱讚：讚美"
+  },
+  {
+   "id": 701,
+   "word": "comply",
+   "pos": "v",
+   "zh": "v. 依從；順從"
+  },
+  {
+   "id": 702,
+   "word": "component",
+   "pos": "n/a",
+   "zh": "n. 構成要素；零件｜a. 組成的；構成的"
+  },
+  {
+   "id": 703,
+   "word": "compose",
+   "pos": "v",
+   "zh": "v. 作（詩，曲等）；使安定"
+  },
+  {
+   "id": 704,
+   "word": "composition",
+   "pos": "n",
+   "zh": "n. 寫作；作曲"
+  },
+  {
+   "id": 705,
+   "word": "composure",
+   "pos": "n",
+   "zh": "n. 平靜；鎮靜"
+  },
+  {
+   "id": 706,
+   "word": "comprehend",
+   "pos": "v",
+   "zh": "v. 理解；了解"
+  },
+  {
+   "id": 707,
+   "word": "comprehensive",
+   "pos": "a",
+   "zh": "a. 廣泛的；無所不包的"
+  },
+  {
+   "id": 708,
+   "word": "comprise",
+   "pos": "v",
+   "zh": "v. 包含；包括"
+  },
+  {
+   "id": 709,
+   "word": "compromise",
+   "pos": "v/n",
+   "zh": "v. 妥協；和解｜n. 妥協；和解"
+  },
+  {
+   "id": 710,
+   "word": "compute",
+   "pos": "v",
+   "zh": "v. 計算；估算"
+  },
+  {
+   "id": 711,
+   "word": "conceal",
+   "pos": "v",
+   "zh": "v. 隱藏；隱瞞"
+  },
+  {
+   "id": 712,
+   "word": "conceive",
+   "pos": "v",
+   "zh": "v. 想像；設想"
+  },
+  {
+   "id": 713,
+   "word": "concentrate",
+   "pos": "v",
+   "zh": "v. 集中；聚集；全神貫注"
+  },
+  {
+   "id": 714,
+   "word": "concept",
+   "pos": "n",
+   "zh": "n. 概念；觀念"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

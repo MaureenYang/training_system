@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -188,6 +188,7 @@
    "https://openai.com/index/bbva-collaboration-expansion",
    "https://openai.com/index/be-my-eyes",
    "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+   "https://openai.com/index/benefit-street-partners",
    "https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai",
    "https://openai.com/index/best-practices-for-deploying-language-models",
    "https://openai.com/index/better-exploration-with-parameter-noise",
@@ -1787,7 +1788,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-17"
   ],
   "deepseek-news": [
-   "https://api-docs.deepseek.com/news#2026-10-17"
+   "https://api-docs.deepseek.com/news#2026-10-17",
+   "https://api-docs.deepseek.com/news#2026-10-18"
   ],
   "deepseek-hf": [
    "hf:deepseek-ai:DeepSeek-Math-V2:2025-11-27",
@@ -1812,6 +1814,7 @@
    "hf:deepseek-ai:DeepSeek-V4-Pro:2026-04-22",
    "hf:deepseek-ai:DeepSeek-V4-Pro:2026-08-13",
    "hf:deepseek-ai:DeepSeek-V4.1-Flash:2026-09-10",
+   "hf:deepseek-ai:DeepSeek-V4.1-Flash:2026-10-17",
    "hf:deepseek-ai:Janus-Pro:2025-01-26",
    "hf:deepseek-ai:dflash_gemma4_block7:2026-06-28",
    "hf:deepseek-ai:dflash_qwen3_block7:2026-06-28",
@@ -1929,6 +1932,48 @@
  },
  "items": [
   {
+   "key": "https://api-docs.deepseek.com/news#2026-10-18",
+   "company": "DeepSeek",
+   "source": "deepseek-news",
+   "url": "https://api-docs.deepseek.com/news",
+   "title": "DeepSeek 官方新聞更新",
+   "date": "2026-10-18",
+   "open_weights": false,
+   "fetched": "2026-10-18",
+   "points": [
+    "Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide.\n(1) Use deepseek-flash as the model name. It is now served"
+   ],
+   "pending": true
+  },
+  {
+   "key": "hf:deepseek-ai:DeepSeek-V4.1-Flash:2026-10-17",
+   "company": "DeepSeek",
+   "source": "deepseek-hf",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "title": "deepseek-ai 新權重上架：DeepSeek-V4.1-Flash",
+   "date": "2026-10-17",
+   "open_weights": true,
+   "hf_ids": [
+    "deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   ],
+   "fetched": "2026-10-18",
+   "points": [
+    "版本：deepseek-ai/DeepSeek-V4.1-Flash-1017"
+   ],
+   "pending": true,
+   "hf": {
+    "params_b": 763.2,
+    "license": "mit",
+    "downloads": 0,
+    "pipeline": "image-text-to-text",
+    "gguf": [
+     "Baekpica/DeepSeek-V4.1-Flash-1017-VQ-GGUF",
+     "mrfakename/DeepSeek-V4.1-Flash-1017-GGUF",
+     "Lucebox/DeepSeek-V4.1-Flash-1017-ROCMFP-GGUF"
+    ]
+   }
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-17",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -1967,6 +2012,20 @@
    "fetched": "2026-10-17",
    "points": [
     "base_url=\"https://api.deepseek.com\",\nextra_body={\"thinking\": {\"type\": \"enabled\"}},"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/benefit-street-partners",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/benefit-street-partners",
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-18",
+   "points": [
+    "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups."
    ],
    "pending": true
   },
