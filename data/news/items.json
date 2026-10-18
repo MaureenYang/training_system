@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -1552,6 +1552,7 @@
    "https://www.anthropic.com/news/prompt-engineering-for-business-performance",
    "https://www.anthropic.com/news/prompting-long-context",
    "https://www.anthropic.com/news/protecting-well-being-of-users",
+   "https://www.anthropic.com/news/public-benefit-fund",
    "https://www.anthropic.com/news/pwc-expanded-partnership",
    "https://www.anthropic.com/news/rahul-patil-joins-anthropic",
    "https://www.anthropic.com/news/rare-disease-research-grants",
@@ -1931,6 +1932,18 @@
   ]
  },
  "items": [
+  {
+   "key": "https://www.anthropic.com/news/public-benefit-fund",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "title": "Investing in the public benefit",
+   "date": "2026-10-18",
+   "open_weights": false,
+   "fetched": "2026-10-19",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://api-docs.deepseek.com/news#2026-10-18",
    "company": "DeepSeek",

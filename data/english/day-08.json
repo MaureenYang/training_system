@@ -1,0 +1,616 @@
+{
+ "day": 8,
+ "date": "2026-10-20",
+ "generated": false,
+ "words": [
+  {
+   "id": 715,
+   "word": "concern",
+   "pos": "v/n",
+   "zh": "v. 關於；涉及｜n. 關心的事；關係"
+  },
+  {
+   "id": 716,
+   "word": "concerning",
+   "pos": "prep",
+   "zh": "prep. 關於"
+  },
+  {
+   "id": 717,
+   "word": "conclude",
+   "pos": "v",
+   "zh": "v. 結束；推斷出"
+  },
+  {
+   "id": 718,
+   "word": "conclusion",
+   "pos": "n",
+   "zh": "n. 結論"
+  },
+  {
+   "id": 719,
+   "word": "concrete",
+   "pos": "a/n/v",
+   "zh": "a. 有形的；實在的｜n. 混凝土｜v. 凝結；固結"
+  },
+  {
+   "id": 720,
+   "word": "concur",
+   "pos": "v",
+   "zh": "v. 同意；一致"
+  },
+  {
+   "id": 721,
+   "word": "condition",
+   "pos": "n",
+   "zh": "n. 情況；狀況"
+  },
+  {
+   "id": 722,
+   "word": "conduct",
+   "pos": "v",
+   "zh": "v. 帶領；實施"
+  },
+  {
+   "id": 723,
+   "word": "conference",
+   "pos": "n",
+   "zh": "n. 會議"
+  },
+  {
+   "id": 724,
+   "word": "confident",
+   "pos": "a",
+   "zh": "a. 有自信的；確信的"
+  },
+  {
+   "id": 725,
+   "word": "confidential",
+   "pos": "a",
+   "zh": "a. 祕密的；機密的"
+  },
+  {
+   "id": 726,
+   "word": "confirm",
+   "pos": "v",
+   "zh": "v. 證實；確定"
+  },
+  {
+   "id": 727,
+   "word": "confirmation",
+   "pos": "n",
+   "zh": "n. 確定；確證"
+  },
+  {
+   "id": 728,
+   "word": "confuse",
+   "pos": "v",
+   "zh": "v. 使困惑；混淆"
+  },
+  {
+   "id": 729,
+   "word": "confusion",
+   "pos": "n",
+   "zh": "n. 混亂；騷動"
+  },
+  {
+   "id": 730,
+   "word": "conscious",
+   "pos": "a",
+   "zh": "a. 神志清醒的；有知覺的"
+  },
+  {
+   "id": 731,
+   "word": "consciously",
+   "pos": "ad",
+   "zh": "ad. 有意識地；自覺地"
+  },
+  {
+   "id": 732,
+   "word": "consciousness",
+   "pos": "n",
+   "zh": "n. 意念；意識"
+  },
+  {
+   "id": 733,
+   "word": "consecutive",
+   "pos": "a",
+   "zh": "a. 連續不斷的；連貫的"
+  },
+  {
+   "id": 734,
+   "word": "consequently",
+   "pos": "ad",
+   "zh": "ad. 結果；因此；必然地"
+  },
+  {
+   "id": 735,
+   "word": "conservative",
+   "pos": "a/n",
+   "zh": "a. 保守的；守舊的｜n. 保守者；守舊者"
+  },
+  {
+   "id": 736,
+   "word": "conserve",
+   "pos": "v",
+   "zh": "v. 保存；保護"
+  },
+  {
+   "id": 737,
+   "word": "consider",
+   "pos": "v",
+   "zh": "v. 考慮；細想"
+  },
+  {
+   "id": 738,
+   "word": "consideration",
+   "pos": "n",
+   "zh": "n. 體貼；動機；原因"
+  },
+  {
+   "id": 739,
+   "word": "considering",
+   "pos": "prep/ad",
+   "zh": "prep. 就……而論；考慮到｜ad. 各方面考慮起來"
+  },
+  {
+   "id": 740,
+   "word": "consist",
+   "pos": "v",
+   "zh": "v. 組成；構成"
+  },
+  {
+   "id": 741,
+   "word": "consistency",
+   "pos": "n",
+   "zh": "n. 一致；一貫"
+  },
+  {
+   "id": 742,
+   "word": "consistent",
+   "pos": "a",
+   "zh": "a. 始終如一的；前後一致的"
+  },
+  {
+   "id": 743,
+   "word": "consistently",
+   "pos": "ad",
+   "zh": "ad. 一貫地；固守地"
+  },
+  {
+   "id": 744,
+   "word": "constant",
+   "pos": "a",
+   "zh": "a. 固定的；不變的"
+  },
+  {
+   "id": 745,
+   "word": "constrain",
+   "pos": "v",
+   "zh": "v. 強迫；迫使"
+  },
+  {
+   "id": 746,
+   "word": "constraint",
+   "pos": "n",
+   "zh": "n. 約束；限制"
+  },
+  {
+   "id": 747,
+   "word": "construction",
+   "pos": "n",
+   "zh": "n. 建造；建設"
+  },
+  {
+   "id": 748,
+   "word": "consultancy",
+   "pos": "n",
+   "zh": "n. 諮詢公司；顧問公司"
+  },
+  {
+   "id": 749,
+   "word": "consultant",
+   "pos": "n",
+   "zh": "n. 顧問；諮詢者"
+  },
+  {
+   "id": 750,
+   "word": "consume",
+   "pos": "v",
+   "zh": "v. 消耗；花費"
+  },
+  {
+   "id": 751,
+   "word": "consumer",
+   "pos": "n",
+   "zh": "n. 消費者"
+  },
+  {
+   "id": 752,
+   "word": "consumption",
+   "pos": "n",
+   "zh": "n. 消費"
+  },
+  {
+   "id": 753,
+   "word": "contact",
+   "pos": "n/a",
+   "zh": "n. 接觸；交往；聯繫｜a. 接觸的；接觸傳染的"
+  },
+  {
+   "id": 754,
+   "word": "contain",
+   "pos": "v",
+   "zh": "v. 包含；容納"
+  },
+  {
+   "id": 755,
+   "word": "contemporary",
+   "pos": "a",
+   "zh": "a. 當代的；同時代的"
+  },
+  {
+   "id": 756,
+   "word": "content",
+   "pos": "n/a/v",
+   "zh": "n. 滿足｜a. 滿足的；滿意的｜v. 滿足"
+  },
+  {
+   "id": 757,
+   "word": "contest",
+   "pos": "v/n",
+   "zh": "v. 競爭；角逐｜n. 比賽"
+  },
+  {
+   "id": 758,
+   "word": "context",
+   "pos": "n",
+   "zh": "n. 來龍去脈；背景"
+  },
+  {
+   "id": 759,
+   "word": "continue",
+   "pos": "v",
+   "zh": "v. 繼續；持續"
+  },
+  {
+   "id": 760,
+   "word": "continuity",
+   "pos": "n",
+   "zh": "n. 連續性；持續性"
+  },
+  {
+   "id": 761,
+   "word": "continuous",
+   "pos": "a",
+   "zh": "a. 連續的；不斷的"
+  },
+  {
+   "id": 762,
+   "word": "contract",
+   "pos": "n/v",
+   "zh": "n. 合約｜v. 締結；承包"
+  },
+  {
+   "id": 763,
+   "word": "contractor",
+   "pos": "n",
+   "zh": "n. 立契約者；承包人"
+  },
+  {
+   "id": 764,
+   "word": "contrary",
+   "pos": "a/ad",
+   "zh": "a. 相反的；對立的｜ad. 相反地；反對地"
+  },
+  {
+   "id": 765,
+   "word": "control",
+   "pos": "v/n",
+   "zh": "v. 控制；支配｜n. 支配；控制"
+  },
+  {
+   "id": 766,
+   "word": "controlling",
+   "pos": "a",
+   "zh": "a. 管理的；控制的"
+  },
+  {
+   "id": 767,
+   "word": "convenience",
+   "pos": "n",
+   "zh": "n. 便利；方便"
+  },
+  {
+   "id": 768,
+   "word": "convenient",
+   "pos": "a",
+   "zh": "a. 便利的：方便的"
+  },
+  {
+   "id": 769,
+   "word": "convention",
+   "pos": "n",
+   "zh": "n. 會議；大會；集合"
+  },
+  {
+   "id": 770,
+   "word": "conventional",
+   "pos": "a",
+   "zh": "a. 習慣的；慣例的"
+  },
+  {
+   "id": 771,
+   "word": "conversation",
+   "pos": "n",
+   "zh": "n. 會話；對話"
+  },
+  {
+   "id": 772,
+   "word": "convey",
+   "pos": "v",
+   "zh": "v. 告知；傳達"
+  },
+  {
+   "id": 773,
+   "word": "conviction",
+   "pos": "n",
+   "zh": "n. 定罪；確信"
+  },
+  {
+   "id": 774,
+   "word": "convince",
+   "pos": "v",
+   "zh": "v. 說服"
+  },
+  {
+   "id": 775,
+   "word": "cooperation",
+   "pos": "n",
+   "zh": "n. 合作；協力"
+  },
+  {
+   "id": 776,
+   "word": "coordinate",
+   "pos": "v",
+   "zh": "v. 協調；調節"
+  },
+  {
+   "id": 777,
+   "word": "cope",
+   "pos": "v",
+   "zh": "v. 應付；處理"
+  },
+  {
+   "id": 778,
+   "word": "copy",
+   "pos": "v/n",
+   "zh": "v. 抄寫；複製｜n. 抄寫；副本"
+  },
+  {
+   "id": 779,
+   "word": "cordially",
+   "pos": "ad",
+   "zh": "ad. 熱誠地；誠摯地"
+  },
+  {
+   "id": 780,
+   "word": "corner",
+   "pos": "n",
+   "zh": "n. 角落"
+  },
+  {
+   "id": 781,
+   "word": "corporate",
+   "pos": "a/n",
+   "zh": "a. 全體的；共同的｜n. 企業；集團"
+  },
+  {
+   "id": 782,
+   "word": "correct",
+   "pos": "a/v",
+   "zh": "a. 正確的；對的｜v. 改正；糾正"
+  },
+  {
+   "id": 783,
+   "word": "corrupt",
+   "pos": "a/v",
+   "zh": "a. 腐敗的，貪汙的｜v. 墮落；腐化"
+  },
+  {
+   "id": 784,
+   "word": "corruption",
+   "pos": "n",
+   "zh": "n. 墮落；腐化"
+  },
+  {
+   "id": 785,
+   "word": "cost",
+   "pos": "v/n",
+   "zh": "v. 花費；付出｜n. 費用；成本"
+  },
+  {
+   "id": 786,
+   "word": "council",
+   "pos": "n",
+   "zh": "n. 會議；議事"
+  },
+  {
+   "id": 787,
+   "word": "counsel",
+   "pos": "n/v",
+   "zh": "n. 商議；審議｜v. 勸告；忠告"
+  },
+  {
+   "id": 788,
+   "word": "counter",
+   "pos": "ad/a/v",
+   "zh": "ad. 反方向地，相反地｜a. 相反的｜v. 反對；反擊"
+  },
+  {
+   "id": 789,
+   "word": "couple",
+   "pos": "n",
+   "zh": "n. 情侶；夫妻"
+  },
+  {
+   "id": 790,
+   "word": "coupon",
+   "pos": "n",
+   "zh": "n. 贈券；減價優待券"
+  },
+  {
+   "id": 791,
+   "word": "courier",
+   "pos": "n",
+   "zh": "n. 信差；導遊；情報員"
+  },
+  {
+   "id": 792,
+   "word": "course",
+   "pos": "n",
+   "zh": "n. 路線；方向；課程；系列"
+  },
+  {
+   "id": 793,
+   "word": "court",
+   "pos": "n",
+   "zh": "n. 法庭；法院"
+  },
+  {
+   "id": 794,
+   "word": "courteously",
+   "pos": "ad",
+   "zh": "ad. 有禮貌地；親切地"
+  },
+  {
+   "id": 795,
+   "word": "courtesy",
+   "pos": "n",
+   "zh": "n. 禮貌；殷勤"
+  },
+  {
+   "id": 796,
+   "word": "cover",
+   "pos": "v/n",
+   "zh": "v. 遮蓋；覆蓋｜n. 遮蓋物；封面"
+  },
+  {
+   "id": 797,
+   "word": "coverage",
+   "pos": "n",
+   "zh": "n. 覆蓋；覆蓋範圍"
+  },
+  {
+   "id": 798,
+   "word": "crack",
+   "pos": "n/v",
+   "zh": "n. 裂縫；裂痕｜v. 裂開；爆裂"
+  },
+  {
+   "id": 799,
+   "word": "craft",
+   "pos": "n/v",
+   "zh": "n. 工藝，手藝｜v. 精巧地製作"
+  },
+  {
+   "id": 800,
+   "word": "crafted",
+   "pos": "a",
+   "zh": "a. 製作的；工藝的"
+  },
+  {
+   "id": 801,
+   "word": "crane",
+   "pos": "n/v",
+   "zh": "n. 鶴｜v. 伸著脖子看"
+  },
+  {
+   "id": 802,
+   "word": "crash",
+   "pos": "v/n",
+   "zh": "v. 碰撞；倒下｜n. 墜毀，迫降"
+  },
+  {
+   "id": 803,
+   "word": "create",
+   "pos": "v",
+   "zh": "v. 創造；製作"
+  },
+  {
+   "id": 804,
+   "word": "creation",
+   "pos": "n",
+   "zh": "n. 作品；製作物"
+  },
+  {
+   "id": 805,
+   "word": "creative",
+   "pos": "a",
+   "zh": "a. 有創意的：創新的"
+  },
+  {
+   "id": 806,
+   "word": "creativity",
+   "pos": "n",
+   "zh": "n. 創意；創造力"
+  },
+  {
+   "id": 807,
+   "word": "creature",
+   "pos": "n",
+   "zh": "n. 生物；動物"
+  },
+  {
+   "id": 808,
+   "word": "credential",
+   "pos": "n",
+   "zh": "n. 憑據；證書"
+  },
+  {
+   "id": 809,
+   "word": "credible",
+   "pos": "a",
+   "zh": "a. 可信的；可靠的"
+  },
+  {
+   "id": 810,
+   "word": "credit",
+   "pos": "n/v",
+   "zh": "n. 賒帳；信譽；功勞｜v. 相信；把……歸於"
+  },
+  {
+   "id": 811,
+   "word": "creditor",
+   "pos": "n",
+   "zh": "n. 債權人；貸方"
+  },
+  {
+   "id": 812,
+   "word": "crew",
+   "pos": "n",
+   "zh": "n. 工作人員；船員"
+  },
+  {
+   "id": 813,
+   "word": "crime",
+   "pos": "n",
+   "zh": "n. 犯罪；罪刑"
+  },
+  {
+   "id": 814,
+   "word": "criminal",
+   "pos": "n/a",
+   "zh": "n. 罪犯｜a. 犯罪的；犯法的"
+  },
+  {
+   "id": 815,
+   "word": "crisis",
+   "pos": "n",
+   "zh": "n. 困難；危及"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
