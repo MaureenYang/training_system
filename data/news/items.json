@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -784,6 +784,7 @@
    "https://openai.com/index/lenfest-institute",
    "https://openai.com/index/lifespan",
    "https://openai.com/index/loveholidays",
+   "https://openai.com/index/low-resource-programming-languages",
    "https://openai.com/index/lowes",
    "https://openai.com/index/lowes-chandhu-nair",
    "https://openai.com/index/lseg",
@@ -1932,6 +1933,20 @@
   ]
  },
  "items": [
+  {
+   "key": "https://openai.com/index/low-resource-programming-languages",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/low-resource-programming-languages",
+   "title": "Advancing coding in low‑resource programming languages",
+   "date": "2026-10-19",
+   "open_weights": false,
+   "fetched": "2026-10-20",
+   "points": [
+    "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
+   ],
+   "pending": true
+  },
   {
    "key": "https://www.anthropic.com/news/public-benefit-fund",
    "company": "Anthropic",

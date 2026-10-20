@@ -1,0 +1,616 @@
+{
+ "day": 9,
+ "date": "2026-10-21",
+ "generated": false,
+ "words": [
+  {
+   "id": 816,
+   "word": "criterion",
+   "pos": "n",
+   "zh": "n. 標準；準則"
+  },
+  {
+   "id": 817,
+   "word": "critic",
+   "pos": "n",
+   "zh": "n. 評論家"
+  },
+  {
+   "id": 818,
+   "word": "critical",
+   "pos": "a",
+   "zh": "a. 批判的；評論的"
+  },
+  {
+   "id": 819,
+   "word": "criticize",
+   "pos": "v",
+   "zh": "v. 批判；評論"
+  },
+  {
+   "id": 820,
+   "word": "crop",
+   "pos": "n/v",
+   "zh": "n. 作物：莊稼｜v. 播種"
+  },
+  {
+   "id": 821,
+   "word": "cross",
+   "pos": "v/n",
+   "zh": "v. 橫穿；渡過｜n. 十字形；十字架"
+  },
+  {
+   "id": 822,
+   "word": "crowd",
+   "pos": "n",
+   "zh": "n. 群眾；觀眾"
+  },
+  {
+   "id": 823,
+   "word": "crowded",
+   "pos": "a",
+   "zh": "a. 擁擠的；滿的"
+  },
+  {
+   "id": 824,
+   "word": "crucial",
+   "pos": "a",
+   "zh": "a. 重要的；嚴酷的"
+  },
+  {
+   "id": 825,
+   "word": "cruise",
+   "pos": "v/n",
+   "zh": "v. 巡航；航遊｜n. 巡航；航遊"
+  },
+  {
+   "id": 826,
+   "word": "cuisine",
+   "pos": "n",
+   "zh": "n. 烹飪；烹調法；菜餚"
+  },
+  {
+   "id": 827,
+   "word": "cupboard",
+   "pos": "n",
+   "zh": "n. 食櫥；碗櫃"
+  },
+  {
+   "id": 828,
+   "word": "cure",
+   "pos": "n/v",
+   "zh": "n. 治療；痊癒｜v. 治癒"
+  },
+  {
+   "id": 829,
+   "word": "curious",
+   "pos": "a",
+   "zh": "a. 好奇的"
+  },
+  {
+   "id": 830,
+   "word": "currency",
+   "pos": "n",
+   "zh": "n. 通貨；貨幣"
+  },
+  {
+   "id": 831,
+   "word": "current",
+   "pos": "a/n",
+   "zh": "a. 現時的；當前的｜n. 流動；水流"
+  },
+  {
+   "id": 832,
+   "word": "cushion",
+   "pos": "n",
+   "zh": "n. 墊子；坐墊"
+  },
+  {
+   "id": 833,
+   "word": "custom",
+   "pos": "n/a",
+   "zh": "n. 習俗；慣例｜a. 訂做的；訂製的"
+  },
+  {
+   "id": 834,
+   "word": "customer",
+   "pos": "n",
+   "zh": "n. 顧客；買主"
+  },
+  {
+   "id": 835,
+   "word": "customize",
+   "pos": "v",
+   "zh": "v. 訂做；客製化"
+  },
+  {
+   "id": 836,
+   "word": "customs",
+   "pos": "n",
+   "zh": "n. 關稅；海關"
+  },
+  {
+   "id": 837,
+   "word": "cutback",
+   "pos": "n",
+   "zh": "n. 減少；剪修新芽"
+  },
+  {
+   "id": 838,
+   "word": "cycle",
+   "pos": "n/v",
+   "zh": "n. 週期；循環｜v. 循環；輪轉"
+  },
+  {
+   "id": 839,
+   "word": "daily",
+   "pos": "a",
+   "zh": "a. 每日的；日常的"
+  },
+  {
+   "id": 840,
+   "word": "damage",
+   "pos": "n/v",
+   "zh": "n. 損害；損失｜v. 損害；毀壞"
+  },
+  {
+   "id": 841,
+   "word": "danger",
+   "pos": "n",
+   "zh": "n. 危急；危險"
+  },
+  {
+   "id": 842,
+   "word": "dangerous",
+   "pos": "a",
+   "zh": "a. 危險的"
+  },
+  {
+   "id": 843,
+   "word": "dare",
+   "pos": "aux/v/n",
+   "zh": "aux. 敢；竟敢｜v. 敢；膽敢｜n. 果敢行為；挑戰"
+  },
+  {
+   "id": 844,
+   "word": "daring",
+   "pos": "a",
+   "zh": "a. 大膽的；勇敢的"
+  },
+  {
+   "id": 845,
+   "word": "data",
+   "pos": "n",
+   "zh": "n. 資料；數據"
+  },
+  {
+   "id": 846,
+   "word": "database",
+   "pos": "n",
+   "zh": "n. 資料庫"
+  },
+  {
+   "id": 847,
+   "word": "dawn",
+   "pos": "n/v",
+   "zh": "n. 黎明，拂曉｜v. 破曉；（天）剛亮"
+  },
+  {
+   "id": 848,
+   "word": "day",
+   "pos": "n",
+   "zh": "n. 一天；日；白天"
+  },
+  {
+   "id": 849,
+   "word": "daylight",
+   "pos": "n",
+   "zh": "n. 日光；白晝"
+  },
+  {
+   "id": 850,
+   "word": "date",
+   "pos": "n/v",
+   "zh": "n. 日期；日子｜v. 註有日期"
+  },
+  {
+   "id": 851,
+   "word": "daytime",
+   "pos": "n",
+   "zh": "n. 白天；白晝"
+  },
+  {
+   "id": 852,
+   "word": "dazzle",
+   "pos": "v/n",
+   "zh": "v. 使目眩；使眼花｜n. 耀眼；燦爛"
+  },
+  {
+   "id": 853,
+   "word": "deadline",
+   "pos": "n",
+   "zh": "n. 截止期限；最後限期"
+  },
+  {
+   "id": 854,
+   "word": "deal",
+   "pos": "v/n",
+   "zh": "v. 經營；交易｜n. 交易"
+  },
+  {
+   "id": 855,
+   "word": "dealer",
+   "pos": "n",
+   "zh": "n. 業者；商人"
+  },
+  {
+   "id": 856,
+   "word": "dealing",
+   "pos": "n",
+   "zh": "n. 行為；商業往來"
+  },
+  {
+   "id": 857,
+   "word": "dean",
+   "pos": "n",
+   "zh": "n. 教務長；學院院長"
+  },
+  {
+   "id": 858,
+   "word": "dear",
+   "pos": "a",
+   "zh": "a. 親愛的；摯愛的"
+  },
+  {
+   "id": 859,
+   "word": "debatable",
+   "pos": "a",
+   "zh": "a. 可爭辯的；可爭論的"
+  },
+  {
+   "id": 860,
+   "word": "debate",
+   "pos": "v/n",
+   "zh": "v. 辯論；爭論｜n. 辯論"
+  },
+  {
+   "id": 861,
+   "word": "debit",
+   "pos": "v/n",
+   "zh": "v. 借方｜n. 把……記入借方"
+  },
+  {
+   "id": 862,
+   "word": "debt",
+   "pos": "n",
+   "zh": "n. 債務；借款"
+  },
+  {
+   "id": 863,
+   "word": "debut",
+   "pos": "n",
+   "zh": "n. 首次露面；初次登臺"
+  },
+  {
+   "id": 864,
+   "word": "decade",
+   "pos": "n",
+   "zh": "n. 十；十年"
+  },
+  {
+   "id": 865,
+   "word": "decease",
+   "pos": "v/n",
+   "zh": "v. 亡故｜n. 死亡"
+  },
+  {
+   "id": 866,
+   "word": "deceit",
+   "pos": "n",
+   "zh": "n. 欺騙；欺詐"
+  },
+  {
+   "id": 867,
+   "word": "deceitful",
+   "pos": "a",
+   "zh": "a. 騙人的；欺詐的"
+  },
+  {
+   "id": 868,
+   "word": "deceive",
+   "pos": "v",
+   "zh": "v. 欺騙；蒙蔽"
+  },
+  {
+   "id": 869,
+   "word": "decelerate",
+   "pos": "v",
+   "zh": "v. 減緩；降低速度"
+  },
+  {
+   "id": 870,
+   "word": "deceleration",
+   "pos": "n",
+   "zh": "n. 減速"
+  },
+  {
+   "id": 871,
+   "word": "decent",
+   "pos": "a",
+   "zh": "a. 正派的；合乎禮儀的"
+  },
+  {
+   "id": 872,
+   "word": "decide",
+   "pos": "v",
+   "zh": "v. 決定；決意"
+  },
+  {
+   "id": 873,
+   "word": "decipher",
+   "pos": "v",
+   "zh": "v. 破解（密碼等）；解釋（古代文字等）"
+  },
+  {
+   "id": 874,
+   "word": "decision",
+   "pos": "n",
+   "zh": "n. 決心；判斷"
+  },
+  {
+   "id": 875,
+   "word": "decisive",
+   "pos": "a",
+   "zh": "a. 決定性的；決定的"
+  },
+  {
+   "id": 876,
+   "word": "deck",
+   "pos": "n",
+   "zh": "n. 艙面；甲板"
+  },
+  {
+   "id": 877,
+   "word": "declaration",
+   "pos": "n",
+   "zh": "n. 宣告；宣言"
+  },
+  {
+   "id": 878,
+   "word": "declare",
+   "pos": "v",
+   "zh": "v. 宣告；聲明"
+  },
+  {
+   "id": 879,
+   "word": "decline",
+   "pos": "v/n",
+   "zh": "v. 下降；下跌｜n. 下降；減少"
+  },
+  {
+   "id": 880,
+   "word": "decode",
+   "pos": "v",
+   "zh": "v. 譯解（密碼）"
+  },
+  {
+   "id": 881,
+   "word": "decrease",
+   "pos": "v",
+   "zh": "v. 減；減少"
+  },
+  {
+   "id": 882,
+   "word": "dedicate",
+   "pos": "v",
+   "zh": "v. 奉獻；獻身"
+  },
+  {
+   "id": 883,
+   "word": "dedication",
+   "pos": "n",
+   "zh": "n. 奉獻；供奉"
+  },
+  {
+   "id": 884,
+   "word": "deduce",
+   "pos": "v",
+   "zh": "v. 演繹；推論"
+  },
+  {
+   "id": 885,
+   "word": "deduct",
+   "pos": "v",
+   "zh": "v. 扣除；減除"
+  },
+  {
+   "id": 886,
+   "word": "deduction",
+   "pos": "n",
+   "zh": "n. 扣除；減除"
+  },
+  {
+   "id": 887,
+   "word": "deem",
+   "pos": "v",
+   "zh": "v. 認為；以為"
+  },
+  {
+   "id": 888,
+   "word": "deep",
+   "pos": "a/ad/n",
+   "zh": "a. 深的｜ad. 深深地｜n. 深處"
+  },
+  {
+   "id": 889,
+   "word": "deepen",
+   "pos": "v",
+   "zh": "v. 使變深；使加深；使強烈"
+  },
+  {
+   "id": 890,
+   "word": "default",
+   "pos": "n/v",
+   "zh": "n. 違約；拖欠；預設｜v. 不履行；拖欠"
+  },
+  {
+   "id": 891,
+   "word": "defeat",
+   "pos": "v/n",
+   "zh": "v. 戰勝；擊敗｜n. 戰敗；挫折"
+  },
+  {
+   "id": 892,
+   "word": "defect",
+   "pos": "n/v",
+   "zh": "n. 缺點；缺陷｜v. 逃跑；脫離"
+  },
+  {
+   "id": 893,
+   "word": "defend",
+   "pos": "v",
+   "zh": "v. 防衛；保護"
+  },
+  {
+   "id": 894,
+   "word": "defense",
+   "pos": "n",
+   "zh": "n. 防衛；保護"
+  },
+  {
+   "id": 895,
+   "word": "defensive",
+   "pos": "a",
+   "zh": "a. 防衛的；保衛的"
+  },
+  {
+   "id": 896,
+   "word": "deficiency",
+   "pos": "n",
+   "zh": "n. 不足；缺乏"
+  },
+  {
+   "id": 897,
+   "word": "definite",
+   "pos": "a",
+   "zh": "a. 明確的；確切的"
+  },
+  {
+   "id": 898,
+   "word": "deflate",
+   "pos": "v",
+   "zh": "v. 抽出……中的氣"
+  },
+  {
+   "id": 899,
+   "word": "deflect",
+   "pos": "v",
+   "zh": "v. 使偏斜；使轉向"
+  },
+  {
+   "id": 900,
+   "word": "defy",
+   "pos": "v",
+   "zh": "v. 公然反抗；蔑視"
+  },
+  {
+   "id": 901,
+   "word": "degree",
+   "pos": "n",
+   "zh": "n. 度，度數；程度"
+  },
+  {
+   "id": 902,
+   "word": "delay",
+   "pos": "v/n",
+   "zh": "v. 拖延；耽擱｜n. 延遲；耽擱"
+  },
+  {
+   "id": 903,
+   "word": "delegate",
+   "pos": "v",
+   "zh": "v. 委派……為代表；委派（某人）做"
+  },
+  {
+   "id": 904,
+   "word": "deliberate",
+   "pos": "a/v",
+   "zh": "a. 深思熟慮的；慎重的｜v. 仔細考慮；思考"
+  },
+  {
+   "id": 905,
+   "word": "deliberately",
+   "pos": "ad",
+   "zh": "ad. 慎重地；謹慎地"
+  },
+  {
+   "id": 906,
+   "word": "delicacy",
+   "pos": "n",
+   "zh": "n. 精美；佳餚"
+  },
+  {
+   "id": 907,
+   "word": "delicate",
+   "pos": "a",
+   "zh": "a. 易碎的；嬌貴的；纖弱的"
+  },
+  {
+   "id": 908,
+   "word": "delicious",
+   "pos": "a",
+   "zh": "a. 美味的；香噴噴的"
+  },
+  {
+   "id": 909,
+   "word": "delight",
+   "pos": "n/v",
+   "zh": "n. 欣喜；愉快｜v. 高興；喜愛"
+  },
+  {
+   "id": 910,
+   "word": "deliver",
+   "pos": "v",
+   "zh": "v. 投遞；傳送"
+  },
+  {
+   "id": 911,
+   "word": "delivery",
+   "pos": "n",
+   "zh": "n. 投遞；傳送"
+  },
+  {
+   "id": 912,
+   "word": "delusion",
+   "pos": "n",
+   "zh": "n. 迷惑；欺騙"
+  },
+  {
+   "id": 913,
+   "word": "demand",
+   "pos": "v/n",
+   "zh": "v. 要求，請求｜n. 要求；請求"
+  },
+  {
+   "id": 914,
+   "word": "demise",
+   "pos": "n/v",
+   "zh": "n. 死亡；終止｜v. 轉讓；遺贈"
+  },
+  {
+   "id": 915,
+   "word": "demographics",
+   "pos": "n",
+   "zh": "n. 人口統計資料"
+  },
+  {
+   "id": 916,
+   "word": "demolish",
+   "pos": "v",
+   "zh": "v. 毀壞；破壞"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
