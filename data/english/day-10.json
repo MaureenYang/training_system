@@ -1,0 +1,616 @@
+{
+ "day": 10,
+ "date": "2026-10-22",
+ "generated": false,
+ "words": [
+  {
+   "id": 917,
+   "word": "demonstrate",
+   "pos": "v",
+   "zh": "v. 論證；證明；示威"
+  },
+  {
+   "id": 918,
+   "word": "demonstration",
+   "pos": "n",
+   "zh": "n. 論證；證明"
+  },
+  {
+   "id": 919,
+   "word": "denial",
+   "pos": "n",
+   "zh": "n. 否認；否定"
+  },
+  {
+   "id": 920,
+   "word": "dense",
+   "pos": "a",
+   "zh": "a. 密集的，稠密的"
+  },
+  {
+   "id": 921,
+   "word": "density",
+   "pos": "n",
+   "zh": "n. 密集度；稠密度"
+  },
+  {
+   "id": 922,
+   "word": "deny",
+   "pos": "v",
+   "zh": "v. 否定，否認"
+  },
+  {
+   "id": 923,
+   "word": "depart",
+   "pos": "v",
+   "zh": "v. 起程，出發"
+  },
+  {
+   "id": 924,
+   "word": "department",
+   "pos": "n",
+   "zh": "n. 部；司；局；處；科"
+  },
+  {
+   "id": 925,
+   "word": "departmental",
+   "pos": "a",
+   "zh": "a. 部門的；分部的"
+  },
+  {
+   "id": 926,
+   "word": "departure",
+   "pos": "n",
+   "zh": "n. 離開；出發"
+  },
+  {
+   "id": 927,
+   "word": "depend",
+   "pos": "v",
+   "zh": "v. 相信；信賴"
+  },
+  {
+   "id": 928,
+   "word": "dependency",
+   "pos": "n",
+   "zh": "n. 依靠；信賴"
+  },
+  {
+   "id": 929,
+   "word": "dependent",
+   "pos": "a",
+   "zh": "a. 依靠的；依賴的"
+  },
+  {
+   "id": 930,
+   "word": "depict",
+   "pos": "v",
+   "zh": "v. 描述；描寫"
+  },
+  {
+   "id": 931,
+   "word": "deposit",
+   "pos": "v/n",
+   "zh": "v. 放置；寄存｜n. 存款"
+  },
+  {
+   "id": 932,
+   "word": "depression",
+   "pos": "n",
+   "zh": "n. 沮喪；意氣消沉"
+  },
+  {
+   "id": 933,
+   "word": "describe",
+   "pos": "v",
+   "zh": "v. 描繪；敘述"
+  },
+  {
+   "id": 934,
+   "word": "description",
+   "pos": "n",
+   "zh": "n. 敘述；形容"
+  },
+  {
+   "id": 935,
+   "word": "deserve",
+   "pos": "v",
+   "zh": "v. 應受；該得"
+  },
+  {
+   "id": 936,
+   "word": "design",
+   "pos": "v/n",
+   "zh": "v. 設計構思；繪製｜n. 圖樣；圖紙"
+  },
+  {
+   "id": 937,
+   "word": "despite",
+   "pos": "prep/n",
+   "zh": "prep. 不管；儘管｜n. 惡意；怨恨"
+  },
+  {
+   "id": 938,
+   "word": "destination",
+   "pos": "n",
+   "zh": "n. 目的地；終點"
+  },
+  {
+   "id": 939,
+   "word": "destroy",
+   "pos": "v",
+   "zh": "v. 毀壞；破壞"
+  },
+  {
+   "id": 940,
+   "word": "destruction",
+   "pos": "v",
+   "zh": "v. 毀壞；破壞"
+  },
+  {
+   "id": 941,
+   "word": "detail",
+   "pos": "n/v",
+   "zh": "n. 細節；詳情｜v. 詳述；詳細說明"
+  },
+  {
+   "id": 942,
+   "word": "detailed",
+   "pos": "a",
+   "zh": "a. 詳細的；精細的"
+  },
+  {
+   "id": 943,
+   "word": "detect",
+   "pos": "v",
+   "zh": "v. 探測；察覺"
+  },
+  {
+   "id": 944,
+   "word": "determine",
+   "pos": "v",
+   "zh": "v. 決定；下決心"
+  },
+  {
+   "id": 945,
+   "word": "develop",
+   "pos": "v",
+   "zh": "v. 開發：發展"
+  },
+  {
+   "id": 946,
+   "word": "developer",
+   "pos": "n",
+   "zh": "n. 開發者"
+  },
+  {
+   "id": 947,
+   "word": "development",
+   "pos": "n",
+   "zh": "n. 進化；發展"
+  },
+  {
+   "id": 948,
+   "word": "device",
+   "pos": "n",
+   "zh": "n. 設備；機器"
+  },
+  {
+   "id": 949,
+   "word": "devise",
+   "pos": "v",
+   "zh": "v. 設計；發明"
+  },
+  {
+   "id": 950,
+   "word": "dial",
+   "pos": "v",
+   "zh": "v. 撥打；撥"
+  },
+  {
+   "id": 951,
+   "word": "diary",
+   "pos": "n",
+   "zh": "n. 日記；日誌"
+  },
+  {
+   "id": 952,
+   "word": "dictate",
+   "pos": "v",
+   "zh": "v. 口授；口述"
+  },
+  {
+   "id": 953,
+   "word": "diet",
+   "pos": "n/v",
+   "zh": "n. 飲食；食物｜v. 節食"
+  },
+  {
+   "id": 954,
+   "word": "dietician",
+   "pos": "n",
+   "zh": "n. 營養學家"
+  },
+  {
+   "id": 955,
+   "word": "difference",
+   "pos": "n",
+   "zh": "n. 差別；差異"
+  },
+  {
+   "id": 956,
+   "word": "different",
+   "pos": "a",
+   "zh": "a. 不同的；有差異的"
+  },
+  {
+   "id": 957,
+   "word": "difficult",
+   "pos": "a",
+   "zh": "a. 困難的；艱難的"
+  },
+  {
+   "id": 958,
+   "word": "difficulty",
+   "pos": "n",
+   "zh": "n. 困難；困境"
+  },
+  {
+   "id": 959,
+   "word": "digital",
+   "pos": "a",
+   "zh": "a. 數位的"
+  },
+  {
+   "id": 960,
+   "word": "dignity",
+   "pos": "n",
+   "zh": "n. 尊嚴；自尊"
+  },
+  {
+   "id": 961,
+   "word": "diligent",
+   "pos": "a",
+   "zh": "a. 勤勉的，勤奮的"
+  },
+  {
+   "id": 962,
+   "word": "direct",
+   "pos": "v/a",
+   "zh": "v. 指向；針對｜a. 徑直的；筆直的"
+  },
+  {
+   "id": 963,
+   "word": "directly",
+   "pos": "ad",
+   "zh": "ad. 直接地；筆直地"
+  },
+  {
+   "id": 964,
+   "word": "director",
+   "pos": "n",
+   "zh": "n. 導演；主管；署長"
+  },
+  {
+   "id": 965,
+   "word": "directory",
+   "pos": "n/a",
+   "zh": "n. 工商名錄；號碼簿｜a. 指導的；諮詢的"
+  },
+  {
+   "id": 966,
+   "word": "disagree",
+   "pos": "v",
+   "zh": "v. 不一致；不符"
+  },
+  {
+   "id": 967,
+   "word": "disappear",
+   "pos": "v",
+   "zh": "v. 消失；離開"
+  },
+  {
+   "id": 968,
+   "word": "discard",
+   "pos": "v",
+   "zh": "v. 拋棄；摒棄"
+  },
+  {
+   "id": 969,
+   "word": "discern",
+   "pos": "v",
+   "zh": "v. 分辨；識別"
+  },
+  {
+   "id": 970,
+   "word": "discipline",
+   "pos": "n",
+   "zh": "n. 紀律；風紀"
+  },
+  {
+   "id": 971,
+   "word": "disclaimer",
+   "pos": "v",
+   "zh": "v. 放棄；拒絕"
+  },
+  {
+   "id": 972,
+   "word": "discount",
+   "pos": "n/v",
+   "zh": "n. 折扣｜v. 打折扣"
+  },
+  {
+   "id": 973,
+   "word": "discourage",
+   "pos": "v",
+   "zh": "v. 使洩氣；使沮喪"
+  },
+  {
+   "id": 974,
+   "word": "discouraged",
+   "pos": "a",
+   "zh": "a. 灰心的；沮喪的"
+  },
+  {
+   "id": 975,
+   "word": "discouragement",
+   "pos": "n",
+   "zh": "n. 沮喪；氣餒"
+  },
+  {
+   "id": 976,
+   "word": "discover",
+   "pos": "v",
+   "zh": "v. 發現；探索"
+  },
+  {
+   "id": 977,
+   "word": "discuss",
+   "pos": "v",
+   "zh": "v. 討論；交流"
+  },
+  {
+   "id": 978,
+   "word": "discussion",
+   "pos": "n",
+   "zh": "n. 討論；交流"
+  },
+  {
+   "id": 979,
+   "word": "disease",
+   "pos": "n/v",
+   "zh": "n. 病，疾病｜v. 使生病；使不健全"
+  },
+  {
+   "id": 980,
+   "word": "disembark",
+   "pos": "v",
+   "zh": "v. 登陸；上岸"
+  },
+  {
+   "id": 981,
+   "word": "dismal",
+   "pos": "a/n",
+   "zh": "a. 憂鬱的；沉悶的｜n. 沮喪；抑鬱"
+  },
+  {
+   "id": 982,
+   "word": "dismiss",
+   "pos": "v",
+   "zh": "v. 讓…離開；把…打發走"
+  },
+  {
+   "id": 983,
+   "word": "dispense",
+   "pos": "v/v",
+   "zh": "v. 分配，分發｜v. 免除；省掉"
+  },
+  {
+   "id": 984,
+   "word": "display",
+   "pos": "v/n",
+   "zh": "v. 陳列；展出｜n. 展覽；陳列"
+  },
+  {
+   "id": 985,
+   "word": "disposal",
+   "pos": "n",
+   "zh": "n. 處理；處置"
+  },
+  {
+   "id": 986,
+   "word": "dispose",
+   "pos": "n",
+   "zh": "n. 配置，布置"
+  },
+  {
+   "id": 987,
+   "word": "dispute",
+   "pos": "v/n",
+   "zh": "v. 爭論；爭執｜n. 爭論；爭執"
+  },
+  {
+   "id": 988,
+   "word": "disrupt",
+   "pos": "v/a",
+   "zh": "v. 使分裂；使瓦解｜a. 破裂的；中斷的"
+  },
+  {
+   "id": 989,
+   "word": "dissipate",
+   "pos": "v",
+   "zh": "v. 使消散；消除"
+  },
+  {
+   "id": 990,
+   "word": "distinctive",
+   "pos": "a",
+   "zh": "a. 有特色的；特殊的"
+  },
+  {
+   "id": 991,
+   "word": "distinguish",
+   "pos": "v",
+   "zh": "v. 區別；識別"
+  },
+  {
+   "id": 992,
+   "word": "distract",
+   "pos": "v",
+   "zh": "v. 轉移；分散"
+  },
+  {
+   "id": 993,
+   "word": "distributor",
+   "pos": "n",
+   "zh": "n. 分配者；批發商"
+  },
+  {
+   "id": 994,
+   "word": "disturb",
+   "pos": "v",
+   "zh": "v. 打擾"
+  },
+  {
+   "id": 995,
+   "word": "diverse",
+   "pos": "a",
+   "zh": "a. 不同的；多元的"
+  },
+  {
+   "id": 996,
+   "word": "diversification",
+   "pos": "n",
+   "zh": "n. 多樣化"
+  },
+  {
+   "id": 997,
+   "word": "diversity",
+   "pos": "n",
+   "zh": "n. 差異；不同點"
+  },
+  {
+   "id": 998,
+   "word": "divert",
+   "pos": "v",
+   "zh": "v. 轉向；轉移"
+  },
+  {
+   "id": 999,
+   "word": "divide",
+   "pos": "v/n",
+   "zh": "v. 分；劃分｜n. 分歧；不和"
+  },
+  {
+   "id": 1000,
+   "word": "division",
+   "pos": "n",
+   "zh": "n. 分開；分割"
+  },
+  {
+   "id": 1001,
+   "word": "doctor",
+   "pos": "n",
+   "zh": "n. 醫生"
+  },
+  {
+   "id": 1002,
+   "word": "document",
+   "pos": "n",
+   "zh": "n. 公文；文件"
+  },
+  {
+   "id": 1003,
+   "word": "documentation",
+   "pos": "n",
+   "zh": "n. 文件；憑證"
+  },
+  {
+   "id": 1004,
+   "word": "domestic",
+   "pos": "a",
+   "zh": "a. 家庭的；國內的"
+  },
+  {
+   "id": 1005,
+   "word": "dominate",
+   "pos": "v",
+   "zh": "v. 支配；統治"
+  },
+  {
+   "id": 1006,
+   "word": "donate",
+   "pos": "v",
+   "zh": "v. 捐獻；捐款"
+  },
+  {
+   "id": 1007,
+   "word": "donation",
+   "pos": "n",
+   "zh": "n. 捐獻；捐款"
+  },
+  {
+   "id": 1008,
+   "word": "dot",
+   "pos": "n/v",
+   "zh": "n. 點，小圓點｜v. 打點；加點"
+  },
+  {
+   "id": 1009,
+   "word": "dotted",
+   "pos": "a",
+   "zh": "a. 有點子的；星羅棋布的"
+  },
+  {
+   "id": 1010,
+   "word": "doubt",
+   "pos": "v",
+   "zh": "v. 懷疑；揣測"
+  },
+  {
+   "id": 1011,
+   "word": "download",
+   "pos": "v",
+   "zh": "v. 下載"
+  },
+  {
+   "id": 1012,
+   "word": "downsize",
+   "pos": "v",
+   "zh": "v. 裁減"
+  },
+  {
+   "id": 1013,
+   "word": "downsizing",
+   "pos": "n",
+   "zh": "n. 縮減開支"
+  },
+  {
+   "id": 1014,
+   "word": "downtown",
+   "pos": "n",
+   "zh": "n. 商業區，鬧區"
+  },
+  {
+   "id": 1015,
+   "word": "downward",
+   "pos": "a/ad",
+   "zh": "a. 向下的；下降的｜ad. 向下；日趨沒落地"
+  },
+  {
+   "id": 1016,
+   "word": "draft",
+   "pos": "n",
+   "zh": "n. 草稿；手稿"
+  },
+  {
+   "id": 1017,
+   "word": "drama",
+   "pos": "n",
+   "zh": "n. 戲劇；劇本"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
