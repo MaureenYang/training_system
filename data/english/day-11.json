@@ -1,0 +1,616 @@
+{
+ "day": 11,
+ "date": "2026-10-23",
+ "generated": false,
+ "words": [
+  {
+   "id": 1018,
+   "word": "drastic",
+   "pos": "a",
+   "zh": "a. 激烈的；猛烈的"
+  },
+  {
+   "id": 1019,
+   "word": "drastically",
+   "pos": "ad",
+   "zh": "ad. 大大地；徹底地"
+  },
+  {
+   "id": 1020,
+   "word": "draw",
+   "pos": "v/n",
+   "zh": "v. 繪製；描寫；拉｜n. 平局；抽籤"
+  },
+  {
+   "id": 1021,
+   "word": "drawer",
+   "pos": "n",
+   "zh": "n. 抽屜"
+  },
+  {
+   "id": 1022,
+   "word": "dress code",
+   "pos": "n",
+   "zh": "n. 穿衣法則；著裝標準"
+  },
+  {
+   "id": 1023,
+   "word": "drift",
+   "pos": "v",
+   "zh": "v. 漂流；漂"
+  },
+  {
+   "id": 1024,
+   "word": "drive",
+   "pos": "v",
+   "zh": "v. 駕駛；開車"
+  },
+  {
+   "id": 1025,
+   "word": "drug",
+   "pos": "n",
+   "zh": "n. 藥物；藥"
+  },
+  {
+   "id": 1026,
+   "word": "due",
+   "pos": "a/n",
+   "zh": "a. 應支付的；到期的｜n. 應付款；稅金"
+  },
+  {
+   "id": 1027,
+   "word": "duplicate",
+   "pos": "n/a",
+   "zh": "n. 複製品；副本｜a. 完全一樣的；複製的"
+  },
+  {
+   "id": 1028,
+   "word": "durable",
+   "pos": "a",
+   "zh": "a. 經久的，耐用的；持久的"
+  },
+  {
+   "id": 1029,
+   "word": "duration",
+   "pos": "n",
+   "zh": "n. 持久；持續期間"
+  },
+  {
+   "id": 1030,
+   "word": "during",
+   "pos": "prep",
+   "zh": "prep. 在…的整個期間"
+  },
+  {
+   "id": 1031,
+   "word": "duty",
+   "pos": "n",
+   "zh": "n. 職務；勤務"
+  },
+  {
+   "id": 1032,
+   "word": "dynamic",
+   "pos": "a",
+   "zh": "a. 動力的；充滿活力的"
+  },
+  {
+   "id": 1033,
+   "word": "each",
+   "pos": "pron/a",
+   "zh": "pron. 各個；每個｜a. 各；每"
+  },
+  {
+   "id": 1034,
+   "word": "eager",
+   "pos": "a",
+   "zh": "a. 熱心的；熱切的"
+  },
+  {
+   "id": 1035,
+   "word": "earn",
+   "pos": "v",
+   "zh": "v. 掙得；博得"
+  },
+  {
+   "id": 1036,
+   "word": "earnings",
+   "pos": "n",
+   "zh": "n. 收入；薪資"
+  },
+  {
+   "id": 1037,
+   "word": "ease",
+   "pos": "v/n",
+   "zh": "v. 減輕，緩和｜n. 舒適；悠閒"
+  },
+  {
+   "id": 1038,
+   "word": "east",
+   "pos": "n",
+   "zh": "n. 東方；東"
+  },
+  {
+   "id": 1039,
+   "word": "easy",
+   "pos": "a",
+   "zh": "a. 簡單的；輕易的"
+  },
+  {
+   "id": 1040,
+   "word": "eco-friendly",
+   "pos": "a",
+   "zh": "a. 對環境友善的"
+  },
+  {
+   "id": 1041,
+   "word": "economical",
+   "pos": "a",
+   "zh": "a. 經濟的；節儉的"
+  },
+  {
+   "id": 1042,
+   "word": "economize",
+   "pos": "v",
+   "zh": "v. 節約；節省"
+  },
+  {
+   "id": 1043,
+   "word": "economy",
+   "pos": "n/a",
+   "zh": "n. 節約；經濟｜a. 廉價的；經濟的"
+  },
+  {
+   "id": 1044,
+   "word": "edge",
+   "pos": "n/v",
+   "zh": "n. 稜；邊緣｜v. 使漸進；徐徐地移動"
+  },
+  {
+   "id": 1045,
+   "word": "edit",
+   "pos": "v",
+   "zh": "v. 編輯；校訂"
+  },
+  {
+   "id": 1046,
+   "word": "editor",
+   "pos": "n",
+   "zh": "n. 編輯"
+  },
+  {
+   "id": 1047,
+   "word": "editorial",
+   "pos": "n/a",
+   "zh": "n. 社論｜a. 編輯的"
+  },
+  {
+   "id": 1048,
+   "word": "education",
+   "pos": "n",
+   "zh": "n. 教育"
+  },
+  {
+   "id": 1049,
+   "word": "effect",
+   "pos": "v/n",
+   "zh": "v. 造成；產生｜n. 效果；效力"
+  },
+  {
+   "id": 1050,
+   "word": "effective",
+   "pos": "a",
+   "zh": "a. 有效的；生效的"
+  },
+  {
+   "id": 1051,
+   "word": "efficiencyn",
+   "pos": "n",
+   "zh": "n. 效率；效能；功效"
+  },
+  {
+   "id": 1052,
+   "word": "efficient",
+   "pos": "a",
+   "zh": "a. 效率高的；有能力的"
+  },
+  {
+   "id": 1053,
+   "word": "effort",
+   "pos": "n",
+   "zh": "n. 努力；盡力"
+  },
+  {
+   "id": 1054,
+   "word": "either",
+   "pos": "a/pron",
+   "zh": "a. 任一的｜pron. （兩者之中）任何一個"
+  },
+  {
+   "id": 1055,
+   "word": "eject",
+   "pos": "v",
+   "zh": "v. 逐出；轟出"
+  },
+  {
+   "id": 1056,
+   "word": "elaborate",
+   "pos": "v",
+   "zh": "v. 精心製作；詳盡闡述"
+  },
+  {
+   "id": 1057,
+   "word": "elder",
+   "pos": "a",
+   "zh": "a. 年長的"
+  },
+  {
+   "id": 1058,
+   "word": "elect",
+   "pos": "v",
+   "zh": "v. 選舉；推選"
+  },
+  {
+   "id": 1059,
+   "word": "election",
+   "pos": "n",
+   "zh": "n. 選舉；推選"
+  },
+  {
+   "id": 1060,
+   "word": "electric",
+   "pos": "a",
+   "zh": "a. 電的；導電的"
+  },
+  {
+   "id": 1061,
+   "word": "electrician",
+   "pos": "n",
+   "zh": "n. 電工；電氣技師"
+  },
+  {
+   "id": 1062,
+   "word": "electricity",
+   "pos": "n",
+   "zh": "n. 電力"
+  },
+  {
+   "id": 1063,
+   "word": "electronic",
+   "pos": "a",
+   "zh": "a. 電子的；電子操縱的"
+  },
+  {
+   "id": 1064,
+   "word": "elegance",
+   "pos": "n",
+   "zh": "n. 優雅"
+  },
+  {
+   "id": 1065,
+   "word": "elegant",
+   "pos": "a",
+   "zh": "a. 優雅的"
+  },
+  {
+   "id": 1066,
+   "word": "element",
+   "pos": "n",
+   "zh": "n. 元素；構成"
+  },
+  {
+   "id": 1067,
+   "word": "elemental",
+   "pos": "a",
+   "zh": "a. 基本的；原始的"
+  },
+  {
+   "id": 1068,
+   "word": "elementary",
+   "pos": "a",
+   "zh": "a. 基本的；初級的"
+  },
+  {
+   "id": 1069,
+   "word": "elevate",
+   "pos": "v",
+   "zh": "v. 舉起；抬起"
+  },
+  {
+   "id": 1070,
+   "word": "elevation",
+   "pos": "n",
+   "zh": "n. 提高；提升"
+  },
+  {
+   "id": 1071,
+   "word": "elevator",
+   "pos": "n",
+   "zh": "n. 電梯"
+  },
+  {
+   "id": 1072,
+   "word": "eligible",
+   "pos": "a",
+   "zh": "a. 有資格當選的；法律上合格的"
+  },
+  {
+   "id": 1073,
+   "word": "eliminate",
+   "pos": "v",
+   "zh": "v. 排除；消滅"
+  },
+  {
+   "id": 1074,
+   "word": "elimination",
+   "pos": "n",
+   "zh": "n. 排除；消滅"
+  },
+  {
+   "id": 1075,
+   "word": "elite",
+   "pos": "n",
+   "zh": "n. 精華；菁英"
+  },
+  {
+   "id": 1076,
+   "word": "else",
+   "pos": "ad",
+   "zh": "ad. 其他；另外"
+  },
+  {
+   "id": 1077,
+   "word": "elsewhere",
+   "pos": "ad",
+   "zh": "ad. 在別處；往別處"
+  },
+  {
+   "id": 1078,
+   "word": "embark",
+   "pos": "v",
+   "zh": "v. 從事；著手"
+  },
+  {
+   "id": 1079,
+   "word": "embrace",
+   "pos": "v",
+   "zh": "v. 擁抱；包括"
+  },
+  {
+   "id": 1080,
+   "word": "emerge",
+   "pos": "v",
+   "zh": "v. 浮現；出現"
+  },
+  {
+   "id": 1081,
+   "word": "emergency",
+   "pos": "n",
+   "zh": "n. 緊急情況；突然事件"
+  },
+  {
+   "id": 1082,
+   "word": "emit",
+   "pos": "v",
+   "zh": "v. 散發；放射"
+  },
+  {
+   "id": 1083,
+   "word": "emotion",
+   "pos": "n",
+   "zh": "n. 情感；情緒"
+  },
+  {
+   "id": 1084,
+   "word": "empathy",
+   "pos": "n",
+   "zh": "n. 同感"
+  },
+  {
+   "id": 1085,
+   "word": "emphasis",
+   "pos": "v",
+   "zh": "v. 強調；重視"
+  },
+  {
+   "id": 1086,
+   "word": "emphasize",
+   "pos": "v",
+   "zh": "v. 強調；重視"
+  },
+  {
+   "id": 1087,
+   "word": "employ",
+   "pos": "v",
+   "zh": "v. 僱用；使用"
+  },
+  {
+   "id": 1088,
+   "word": "employee",
+   "pos": "n",
+   "zh": "n. 員工"
+  },
+  {
+   "id": 1089,
+   "word": "employer",
+   "pos": "n",
+   "zh": "n. 雇主"
+  },
+  {
+   "id": 1090,
+   "word": "employment",
+   "pos": "n",
+   "zh": "n. 僱用；受僱"
+  },
+  {
+   "id": 1091,
+   "word": "emulate",
+   "pos": "v",
+   "zh": "v. 同…競爭；盡力趕上"
+  },
+  {
+   "id": 1092,
+   "word": "enable",
+   "pos": "v",
+   "zh": "v. 使能夠；賦予…能力"
+  },
+  {
+   "id": 1093,
+   "word": "enclose",
+   "pos": "v",
+   "zh": "v. 圍住；圈起"
+  },
+  {
+   "id": 1094,
+   "word": "enclosure",
+   "pos": "n",
+   "zh": "n. 圍住；封入"
+  },
+  {
+   "id": 1095,
+   "word": "encounter",
+   "pos": "n/v",
+   "zh": "n. 遭遇；衝突｜v. 遭遇；遇到"
+  },
+  {
+   "id": 1096,
+   "word": "encourage",
+   "pos": "v",
+   "zh": "v. 鼓勵；鼓舞"
+  },
+  {
+   "id": 1097,
+   "word": "encouragement",
+   "pos": "n",
+   "zh": "n. 鼓勵；鼓舞"
+  },
+  {
+   "id": 1098,
+   "word": "endanger",
+   "pos": "v",
+   "zh": "v. 危及；使遭到危險"
+  },
+  {
+   "id": 1099,
+   "word": "endeavor",
+   "pos": "v/n",
+   "zh": "v. 努力；力圖｜n. 努力；盡力"
+  },
+  {
+   "id": 1100,
+   "word": "endorsement",
+   "pos": "n",
+   "zh": "n. 背書；贊同"
+  },
+  {
+   "id": 1101,
+   "word": "endure",
+   "pos": "v",
+   "zh": "v. 忍耐；忍受"
+  },
+  {
+   "id": 1102,
+   "word": "energetic",
+   "pos": "a",
+   "zh": "a. 精力旺盛的；-精神飽滿的"
+  },
+  {
+   "id": 1103,
+   "word": "energy",
+   "pos": "n",
+   "zh": "n. 活力；幹勁"
+  },
+  {
+   "id": 1104,
+   "word": "enforce",
+   "pos": "v",
+   "zh": "v. 實施；執行"
+  },
+  {
+   "id": 1105,
+   "word": "engage",
+   "pos": "v",
+   "zh": "v. 吸引；佔用"
+  },
+  {
+   "id": 1106,
+   "word": "engagement",
+   "pos": "n",
+   "zh": "n. 訂婚；婚約"
+  },
+  {
+   "id": 1107,
+   "word": "engine",
+   "pos": "n",
+   "zh": "n. 引擎"
+  },
+  {
+   "id": 1108,
+   "word": "engineer",
+   "pos": "n",
+   "zh": "n. 工程師"
+  },
+  {
+   "id": 1109,
+   "word": "enhance",
+   "pos": "v",
+   "zh": "v. 提高；升高"
+  },
+  {
+   "id": 1110,
+   "word": "enlarge",
+   "pos": "v",
+   "zh": "v. 擴大；擴展"
+  },
+  {
+   "id": 1111,
+   "word": "enlargement",
+   "pos": "n",
+   "zh": "n. 擴大；擴展"
+  },
+  {
+   "id": 1112,
+   "word": "enlist",
+   "pos": "v",
+   "zh": "v. 從軍；入伍"
+  },
+  {
+   "id": 1113,
+   "word": "enrich",
+   "pos": "v",
+   "zh": "v. 使富裕；使豐富"
+  },
+  {
+   "id": 1114,
+   "word": "enrichment",
+   "pos": "n",
+   "zh": "n. 致富；豐富"
+  },
+  {
+   "id": 1115,
+   "word": "enroll",
+   "pos": "v",
+   "zh": "v. 記入名冊；被登記"
+  },
+  {
+   "id": 1116,
+   "word": "ensure",
+   "pos": "v",
+   "zh": "v. 保證；擔保"
+  },
+  {
+   "id": 1117,
+   "word": "enterprise",
+   "pos": "n",
+   "zh": "n. 企業；公司"
+  },
+  {
+   "id": 1118,
+   "word": "entertain",
+   "pos": "v",
+   "zh": "v. 娛樂；款待"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

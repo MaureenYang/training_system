@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -171,6 +171,7 @@
    "https://openai.com/index/asu",
    "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning",
    "https://openai.com/index/atlassian-partnership",
+   "https://openai.com/index/att-legal",
    "https://openai.com/index/attacking-machine-learning-with-adversarial-examples",
    "https://openai.com/index/atv-big-air-tour",
    "https://openai.com/index/australian-payments-plus",
@@ -206,6 +207,7 @@
    "https://openai.com/index/braintrust",
    "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
    "https://openai.com/index/bringing-chatgpt-to-genaimil",
+   "https://openai.com/index/broad-access-through-consistent-standards",
    "https://openai.com/index/browsecomp",
    "https://openai.com/index/bug-bounty-program",
    "https://openai.com/index/builders-guide-to-gpt-5-6",
@@ -213,6 +215,7 @@
    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
    "https://openai.com/index/building-an-ai-native-finance-function",
    "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+   "https://openai.com/index/building-chatgpt-ad-stack",
    "https://openai.com/index/building-chatgpt-atlas",
    "https://openai.com/index/building-codex-windows-sandbox",
    "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
@@ -230,6 +233,7 @@
    "https://openai.com/index/cerebras-partnership",
    "https://openai.com/index/chain-of-thought-monitoring",
    "https://openai.com/index/chatgpt",
+   "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
    "https://openai.com/index/chatgpt-ads-expands-across-europe",
    "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
    "https://openai.com/index/chatgpt-agent-system-card",
@@ -288,6 +292,7 @@
    "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
    "https://openai.com/index/cooley-gopublic",
    "https://openai.com/index/cooperation-on-safety",
+   "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
    "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
    "https://openai.com/index/court-rejects-elon",
    "https://openai.com/index/creating-with-sora-safely",
@@ -417,6 +422,7 @@
    "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations",
    "https://openai.com/index/emergent-misalignment",
    "https://openai.com/index/emergent-tool-use",
+   "https://openai.com/index/empowering-cyber-defenders",
    "https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program",
    "https://openai.com/index/endava",
    "https://openai.com/index/endava-frontiers",
@@ -941,6 +947,7 @@
    "https://openai.com/index/openai-launches-the-deployment-company",
    "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft",
    "https://openai.com/index/openai-lp",
+   "https://openai.com/index/openai-models-google-cloud",
    "https://openai.com/index/openai-nvidia-systems-partnership",
    "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning",
    "https://openai.com/index/openai-o1-system-card",
@@ -1091,6 +1098,7 @@
    "https://openai.com/index/san-antonio-spurs",
    "https://openai.com/index/scale-the-benefits-of-ai",
    "https://openai.com/index/scaling-ai-for-everyone",
+   "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
    "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
    "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
    "https://openai.com/index/scaling-kubernetes-to-2500-nodes",
@@ -1197,6 +1205,7 @@
    "https://openai.com/index/ten-advances-in-mathematics",
    "https://openai.com/index/ten-tiny-canvases",
    "https://openai.com/index/ten-years",
+   "https://openai.com/index/terminal-x",
    "https://openai.com/index/testing-ads-in-chatgpt",
    "https://openai.com/index/testing-robustness",
    "https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training",
@@ -1309,7 +1318,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-15",
    "https://platform.openai.com/docs/changelog#2026-10-16",
    "https://platform.openai.com/docs/changelog#2026-10-17",
-   "https://platform.openai.com/docs/changelog#2026-10-21"
+   "https://platform.openai.com/docs/changelog#2026-10-21",
+   "https://platform.openai.com/docs/changelog#2026-10-22"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1414,6 +1424,7 @@
    "https://www.anthropic.com/news/child-safety-principles",
    "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
    "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+   "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
    "https://www.anthropic.com/news/claude-2",
    "https://www.anthropic.com/news/claude-2-1",
    "https://www.anthropic.com/news/claude-3-5-sonnet",
@@ -1840,7 +1851,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-15",
    "https://docs.claude.com/en/release-notes/overview#2026-10-16",
    "https://docs.claude.com/en/release-notes/overview#2026-10-17",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-21"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-21",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-22"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -1987,6 +1999,158 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-22",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "Oct 21\nYou can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See service tier errors."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-22",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "Migrating to Managed AgentsMigrating to API version 2026-10-21\nOctober 21, 2026\nWe've released API version 2026-10-21. Migrating to API version 2026-10-21 shows how to upgrade.\nWe've released new vers"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/att-legal",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/att-legal",
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/broad-access-through-consistent-standards",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
+   "title": "Broad access through consistent standards",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/openai-models-google-cloud",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/openai-models-google-cloud",
+   "title": "OpenAI models are coming to Google Cloud",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+   "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/building-chatgpt-ad-stack",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/building-chatgpt-ad-stack",
+   "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/empowering-cyber-defenders",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/empowering-cyber-defenders",
+   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-21",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2011,6 +2175,20 @@
    "fetched": "2026-10-21",
    "points": [
     "October 20, 2026\nInference hooks are out of beta for Claude Enterprise organizations.\nWe've added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/terminal-x",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/terminal-x",
+   "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+   "date": "2026-10-20",
+   "open_weights": false,
+   "fetched": "2026-10-22",
+   "points": [
+    "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
    ],
    "pending": true
   },
