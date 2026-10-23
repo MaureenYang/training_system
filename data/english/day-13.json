@@ -1,0 +1,616 @@
+{
+ "day": 13,
+ "date": "2026-10-25",
+ "generated": false,
+ "words": [
+  {
+   "id": 1220,
+   "word": "extension",
+   "pos": "n",
+   "zh": "n. 伸展；伸長"
+  },
+  {
+   "id": 1221,
+   "word": "extensive",
+   "pos": "a",
+   "zh": "a. 廣大的；廣闊的"
+  },
+  {
+   "id": 1222,
+   "word": "extent",
+   "pos": "n",
+   "zh": "n. 廣度；程度"
+  },
+  {
+   "id": 1223,
+   "word": "extra",
+   "pos": "a",
+   "zh": "a. 額外的"
+  },
+  {
+   "id": 1224,
+   "word": "extract",
+   "pos": "n",
+   "zh": "n. 抽出（物）；採掘"
+  },
+  {
+   "id": 1225,
+   "word": "extraordinary",
+   "pos": "a",
+   "zh": "a. 異常的；特別的"
+  },
+  {
+   "id": 1226,
+   "word": "fabric",
+   "pos": "n",
+   "zh": "n. 布料；織布"
+  },
+  {
+   "id": 1227,
+   "word": "fabricate",
+   "pos": "v",
+   "zh": "v. 製造；偽造"
+  },
+  {
+   "id": 1228,
+   "word": "face",
+   "pos": "n/v",
+   "zh": "n. 臉；面孔｜v. 面向；正對"
+  },
+  {
+   "id": 1229,
+   "word": "facial",
+   "pos": "a",
+   "zh": "a. 臉的；面部的"
+  },
+  {
+   "id": 1230,
+   "word": "facilitate",
+   "pos": "v",
+   "zh": "v. 促進；幫助"
+  },
+  {
+   "id": 1231,
+   "word": "facilitator",
+   "pos": "n",
+   "zh": "n. 促進者；便利措施"
+  },
+  {
+   "id": 1232,
+   "word": "facility",
+   "pos": "n",
+   "zh": "n. 設施；配備"
+  },
+  {
+   "id": 1233,
+   "word": "facto",
+   "pos": "n",
+   "zh": "n. 因素；成因"
+  },
+  {
+   "id": 1234,
+   "word": "factory",
+   "pos": "n",
+   "zh": "n. 工廠"
+  },
+  {
+   "id": 1235,
+   "word": "fail",
+   "pos": "v/n",
+   "zh": "v. 失敗；不及格｜n. 失敗；不及格"
+  },
+  {
+   "id": 1236,
+   "word": "failure",
+   "pos": "n",
+   "zh": "n. 失敗；挫敗"
+  },
+  {
+   "id": 1237,
+   "word": "fair",
+   "pos": "a/ad/n",
+   "zh": "a. 公平的｜ad. 公平地；公正地｜n. 集市"
+  },
+  {
+   "id": 1238,
+   "word": "fairly",
+   "pos": "ad",
+   "zh": "ad. 公平地；公正地"
+  },
+  {
+   "id": 1239,
+   "word": "faith",
+   "pos": "n",
+   "zh": "n. 信念；信任"
+  },
+  {
+   "id": 1240,
+   "word": "faithful",
+   "pos": "a",
+   "zh": "a. 忠實的；忠誠的"
+  },
+  {
+   "id": 1241,
+   "word": "falter",
+   "pos": "v/n",
+   "zh": "v. 蹣跚；踉蹌｜n. 動搖；猶豫"
+  },
+  {
+   "id": 1242,
+   "word": "familiar",
+   "pos": "a",
+   "zh": "a. 眾所周知的；熟悉的"
+  },
+  {
+   "id": 1243,
+   "word": "familiarity",
+   "pos": "n",
+   "zh": "n. 熟悉；通曉"
+  },
+  {
+   "id": 1244,
+   "word": "familiarize",
+   "pos": "v",
+   "zh": "v. 使熟悉；使親近"
+  },
+  {
+   "id": 1245,
+   "word": "fare",
+   "pos": "n/v",
+   "zh": "n. 票價｜v. 過活；遭遇"
+  },
+  {
+   "id": 1246,
+   "word": "farewell",
+   "pos": "n",
+   "zh": "n. 告別；告別辭"
+  },
+  {
+   "id": 1247,
+   "word": "farm",
+   "pos": "n",
+   "zh": "n. 農場"
+  },
+  {
+   "id": 1248,
+   "word": "fascinate",
+   "pos": "v",
+   "zh": "v. 迷住；使神魂顛倒"
+  },
+  {
+   "id": 1249,
+   "word": "fascination",
+   "pos": "n",
+   "zh": "n. 魅力；陶醉"
+  },
+  {
+   "id": 1250,
+   "word": "fashion",
+   "pos": "n",
+   "zh": "n. 時尚"
+  },
+  {
+   "id": 1251,
+   "word": "fashionable",
+   "pos": "a",
+   "zh": "a. 流行的；時尚的"
+  },
+  {
+   "id": 1252,
+   "word": "fast",
+   "pos": "a",
+   "zh": "a. 快速的；迅速的"
+  },
+  {
+   "id": 1253,
+   "word": "fasten",
+   "pos": "v",
+   "zh": "v. 紮牢；繫緊"
+  },
+  {
+   "id": 1254,
+   "word": "fatal",
+   "pos": "a",
+   "zh": "a. 命運的；決定命運的"
+  },
+  {
+   "id": 1255,
+   "word": "fate",
+   "pos": "n/v",
+   "zh": "n. 命運；天命｜v. 命定；注定"
+  },
+  {
+   "id": 1256,
+   "word": "father-in-law",
+   "pos": "n",
+   "zh": "n. 岳父"
+  },
+  {
+   "id": 1257,
+   "word": "fatigue",
+   "pos": "n/v",
+   "zh": "n. 疲勞；勞累｜v. 疲勞"
+  },
+  {
+   "id": 1258,
+   "word": "fault",
+   "pos": "n",
+   "zh": "n. 錯誤；失誤"
+  },
+  {
+   "id": 1259,
+   "word": "faulty",
+   "pos": "a",
+   "zh": "a. 有缺點的；不完美的"
+  },
+  {
+   "id": 1260,
+   "word": "favor",
+   "pos": "n/v",
+   "zh": "n. 幫助；善意的行為｜v. 支持；擁護"
+  },
+  {
+   "id": 1261,
+   "word": "favorable",
+   "pos": "a",
+   "zh": "a. 贊同的；稱讚的"
+  },
+  {
+   "id": 1262,
+   "word": "favorite",
+   "pos": "a",
+   "zh": "a. 喜愛的；喜歡的"
+  },
+  {
+   "id": 1263,
+   "word": "fax",
+   "pos": "n",
+   "zh": "n. 傳真"
+  },
+  {
+   "id": 1264,
+   "word": "fear",
+   "pos": "n/v",
+   "zh": "n. 恐懼；害怕｜v. 害怕；畏懼"
+  },
+  {
+   "id": 1265,
+   "word": "feasibility",
+   "pos": "n",
+   "zh": "n. 可行性；可能性"
+  },
+  {
+   "id": 1266,
+   "word": "feasible",
+   "pos": "a",
+   "zh": "a. 可行的；可實行的"
+  },
+  {
+   "id": 1267,
+   "word": "feast",
+   "pos": "n",
+   "zh": "n. 盛宴；筵席"
+  },
+  {
+   "id": 1268,
+   "word": "feat",
+   "pos": "n",
+   "zh": "n. 功績；業績"
+  },
+  {
+   "id": 1269,
+   "word": "feature",
+   "pos": "n/v",
+   "zh": "n. 特徵；特色｜v. 以……為特色；是……的特色"
+  },
+  {
+   "id": 1270,
+   "word": "federal",
+   "pos": "a",
+   "zh": "a. 國家的；聯邦的"
+  },
+  {
+   "id": 1271,
+   "word": "fee",
+   "pos": "n/v",
+   "zh": "n. 酬金；服務費｜v. 付費"
+  },
+  {
+   "id": 1272,
+   "word": "feed",
+   "pos": "n/v",
+   "zh": "n. 飼料；牧草｜v. 餵；飼養"
+  },
+  {
+   "id": 1273,
+   "word": "feedback",
+   "pos": "n",
+   "zh": "n. 回饋"
+  },
+  {
+   "id": 1274,
+   "word": "fellow",
+   "pos": "a/n",
+   "zh": "a. 同伴的；同事的｜n. 傢伙；人"
+  },
+  {
+   "id": 1275,
+   "word": "fellowship",
+   "pos": "n",
+   "zh": "n. 夥伴關係；交情"
+  },
+  {
+   "id": 1276,
+   "word": "female",
+   "pos": "n/a",
+   "zh": "n. 女性｜a. 女性的"
+  },
+  {
+   "id": 1277,
+   "word": "feminine",
+   "pos": "a",
+   "zh": "a. 女性的；婦女的"
+  },
+  {
+   "id": 1278,
+   "word": "ferry",
+   "pos": "v/n",
+   "zh": "v. 渡過；運送｜n. 擺渡；渡輪"
+  },
+  {
+   "id": 1279,
+   "word": "fertility",
+   "pos": "n",
+   "zh": "n. 肥沃；豐富"
+  },
+  {
+   "id": 1280,
+   "word": "fertilize",
+   "pos": "v",
+   "zh": "v. 使肥沃；施肥"
+  },
+  {
+   "id": 1281,
+   "word": "fertilizer",
+   "pos": "n",
+   "zh": "n. 肥料"
+  },
+  {
+   "id": 1282,
+   "word": "festival",
+   "pos": "n/a",
+   "zh": "n. 節日｜a. 節日的"
+  },
+  {
+   "id": 1283,
+   "word": "fetch",
+   "pos": "v",
+   "zh": "v. 拿來；拿給"
+  },
+  {
+   "id": 1284,
+   "word": "fever",
+   "pos": "n/v",
+   "zh": "n. 發燒，發熱｜v. 發燒；高度興奮"
+  },
+  {
+   "id": 1285,
+   "word": "fiber",
+   "pos": "n",
+   "zh": "n. 纖維；纖維製品"
+  },
+  {
+   "id": 1286,
+   "word": "fiction",
+   "pos": "n",
+   "zh": "n. 小說；虛構"
+  },
+  {
+   "id": 1287,
+   "word": "field",
+   "pos": "n",
+   "zh": "n. 原野；田地"
+  },
+  {
+   "id": 1288,
+   "word": "fierce",
+   "pos": "a",
+   "zh": "a. 兇猛的；殘酷的；好鬥的"
+  },
+  {
+   "id": 1289,
+   "word": "fight",
+   "pos": "n/v",
+   "zh": "n. 戰鬥；打鬥｜v. 戰鬥；打鬥"
+  },
+  {
+   "id": 1290,
+   "word": "figure",
+   "pos": "n/v",
+   "zh": "n. 外形；體形｜v. 計算；認為"
+  },
+  {
+   "id": 1291,
+   "word": "file",
+   "pos": "n/v",
+   "zh": "n. 文件夾｜v. 歸檔提出"
+  },
+  {
+   "id": 1292,
+   "word": "fill",
+   "pos": "v",
+   "zh": "v. 裝滿；填滿"
+  },
+  {
+   "id": 1293,
+   "word": "film",
+   "pos": "n",
+   "zh": "n. 膠捲影片；影片"
+  },
+  {
+   "id": 1294,
+   "word": "filter",
+   "pos": "n/v",
+   "zh": "n. 濾器｜v. 過濾；濾除"
+  },
+  {
+   "id": 1295,
+   "word": "final",
+   "pos": "a/n",
+   "zh": "a. 最後的；最終的｜n. 決賽；期末考"
+  },
+  {
+   "id": 1296,
+   "word": "finalize",
+   "pos": "v",
+   "zh": "v. 完成；結束"
+  },
+  {
+   "id": 1297,
+   "word": "finance",
+   "pos": "n",
+   "zh": "n. 財政；金融"
+  },
+  {
+   "id": 1298,
+   "word": "financial",
+   "pos": "a",
+   "zh": "a. 財政的；金融的"
+  },
+  {
+   "id": 1299,
+   "word": "finish",
+   "pos": "v",
+   "zh": "v. 結束；完結"
+  },
+  {
+   "id": 1300,
+   "word": "finite",
+   "pos": "a",
+   "zh": "a. 有限的"
+  },
+  {
+   "id": 1301,
+   "word": "fire drill",
+   "pos": "n",
+   "zh": "n. 火災避難訓練；消防演習"
+  },
+  {
+   "id": 1302,
+   "word": "firm",
+   "pos": "a",
+   "zh": "a. 穩固的；牢固的"
+  },
+  {
+   "id": 1303,
+   "word": "fiscal",
+   "pos": "a",
+   "zh": "a. 財政的；金融的"
+  },
+  {
+   "id": 1304,
+   "word": "fit",
+   "pos": "v/a",
+   "zh": "v. 合身；適合｜a. 適合的；健康的"
+  },
+  {
+   "id": 1305,
+   "word": "fitnes",
+   "pos": "n",
+   "zh": "n. 健康；適當"
+  },
+  {
+   "id": 1306,
+   "word": "fix",
+   "pos": "v",
+   "zh": "v. 修理；修復"
+  },
+  {
+   "id": 1307,
+   "word": "fixation",
+   "pos": "n",
+   "zh": "n. 固定；注視"
+  },
+  {
+   "id": 1308,
+   "word": "fixture",
+   "pos": "n",
+   "zh": "n. （房屋等的）固定裝置"
+  },
+  {
+   "id": 1309,
+   "word": "flaw",
+   "pos": "n/v",
+   "zh": "n. 裂縫；缺點｜v. 使破裂；使有缺陷"
+  },
+  {
+   "id": 1310,
+   "word": "flawed",
+   "pos": "a",
+   "zh": "a. 有缺點的；錯誤的"
+  },
+  {
+   "id": 1311,
+   "word": "flawless",
+   "pos": "a",
+   "zh": "a. 無瑕的；完美的"
+  },
+  {
+   "id": 1312,
+   "word": "flexibility",
+   "pos": "n",
+   "zh": "n. 靈活性；彈性"
+  },
+  {
+   "id": 1313,
+   "word": "flight",
+   "pos": "n",
+   "zh": "n. 班機；航班"
+  },
+  {
+   "id": 1314,
+   "word": "fluctuate",
+   "pos": "v",
+   "zh": "v. 波動；變動"
+  },
+  {
+   "id": 1315,
+   "word": "fluctuation",
+   "pos": "n",
+   "zh": "n. 波動；變動"
+  },
+  {
+   "id": 1316,
+   "word": "fluency",
+   "pos": "n",
+   "zh": "n. 流暢"
+  },
+  {
+   "id": 1317,
+   "word": "fluent",
+   "pos": "a",
+   "zh": "a. 流暢的；順暢的"
+  },
+  {
+   "id": 1318,
+   "word": "focus",
+   "pos": "n/v",
+   "zh": "n. 焦點；焦距｜v. 聚焦"
+  },
+  {
+   "id": 1319,
+   "word": "fold",
+   "pos": "v",
+   "zh": "v. 折；折疊"
+  },
+  {
+   "id": 1320,
+   "word": "folder",
+   "pos": "n",
+   "zh": "n. 資料夾"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -477,6 +477,7 @@
    "https://openai.com/index/five-new-stargate-sites",
    "https://openai.com/index/forecasting-misuse",
    "https://openai.com/index/formal-math",
+   "https://openai.com/index/forward-deployed-engineering-means",
    "https://openai.com/index/frontier-ai-regulation",
    "https://openai.com/index/frontier-alliance-partners",
    "https://openai.com/index/frontier-model-forum",
@@ -950,6 +951,7 @@
    "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft",
    "https://openai.com/index/openai-lp",
    "https://openai.com/index/openai-models-google-cloud",
+   "https://openai.com/index/openai-nask-ai-safety-security-partnership",
    "https://openai.com/index/openai-nvidia-systems-partnership",
    "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning",
    "https://openai.com/index/openai-o1-system-card",
@@ -1110,6 +1112,7 @@
    "https://openai.com/index/scaling-postgresql",
    "https://openai.com/index/scaling-social-science-research",
    "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "https://openai.com/index/scaling-storage-one-billion-users-part-two",
    "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
    "https://openai.com/index/scania",
    "https://openai.com/index/schoolai",
@@ -1117,6 +1120,7 @@
    "https://openai.com/index/scout24",
    "https://openai.com/index/sea-david-chen",
    "https://openai.com/index/searchgpt-prototype",
+   "https://openai.com/index/securing-our-frontier-model-training-environment",
    "https://openai.com/index/security-on-the-path-to-agi",
    "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
    "https://openai.com/index/sentinelone",
@@ -1655,6 +1659,7 @@
    "https://www.anthropic.com/research/agents-in-biology",
    "https://www.anthropic.com/research/ai-expectations-gap",
    "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+   "https://www.anthropic.com/research/alignment-assessment-ukaisi",
    "https://www.anthropic.com/research/alignment-faking",
    "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
    "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
@@ -1860,7 +1865,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-17",
    "https://docs.claude.com/en/release-notes/overview#2026-10-21",
    "https://docs.claude.com/en/release-notes/overview#2026-10-22",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-23"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-23",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-24"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2007,6 +2013,74 @@
  },
  "items": [
   {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-24",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-24",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [
+    "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude "
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [
+    "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "title": "Securing our frontier model training environment",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [
+    "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [
+    "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "title": "An alignment assessment of the UK AISI cybertesting incident",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-23",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2031,6 +2105,20 @@
    "fetched": "2026-10-23",
    "points": [
     "October 22, 2026\nWe've launched Claude Models on Google Cloud (Anthropic managed), the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/forward-deployed-engineering-means",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "title": "What FDE means at OpenAI",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-24",
+   "points": [
+    "What forward deployed engineering means at OpenAI"
    ],
    "pending": true
   },
