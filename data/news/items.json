@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -261,6 +261,7 @@
    "https://openai.com/index/cisco",
    "https://openai.com/index/clay",
    "https://openai.com/index/clip",
+   "https://openai.com/index/cloudflare-cyber",
    "https://openai.com/index/cloudflare-openai-agent-cloud",
    "https://openai.com/index/cna-walter-fernandez",
    "https://openai.com/index/coderabbit",
@@ -323,6 +324,7 @@
    "https://openai.com/index/daybreak-securing-the-world",
    "https://openai.com/index/debate",
    "https://openai.com/index/decagon",
+   "https://openai.com/index/decisions-api",
    "https://openai.com/index/deep-double-descent",
    "https://openai.com/index/deep-research",
    "https://openai.com/index/deep-research-system-card",
@@ -1244,6 +1246,7 @@
    "https://openai.com/index/two-years-of-openai-academy",
    "https://openai.com/index/typeform",
    "https://openai.com/index/uber",
+   "https://openai.com/index/uber-chatgpt-work-rollout",
    "https://openai.com/index/uber-enables-outstanding-experiences",
    "https://openai.com/index/ucb-exploration-via-q-ensembles",
    "https://openai.com/index/understanding-ai-and-learning-outcomes",
@@ -1319,7 +1322,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-16",
    "https://platform.openai.com/docs/changelog#2026-10-17",
    "https://platform.openai.com/docs/changelog#2026-10-21",
-   "https://platform.openai.com/docs/changelog#2026-10-22"
+   "https://platform.openai.com/docs/changelog#2026-10-22",
+   "https://platform.openai.com/docs/changelog#2026-10-23"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1488,6 +1492,7 @@
    "https://www.anthropic.com/news/disrupting-AI-espionage",
    "https://www.anthropic.com/news/distillation-defenses",
    "https://www.anthropic.com/news/donate-public-first-action",
+   "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
    "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
    "https://www.anthropic.com/news/donation-public-first-action",
    "https://www.anthropic.com/news/dxc-anthropic-alliance",
@@ -1562,6 +1567,7 @@
    "https://www.anthropic.com/news/national-security-expert-richard-fontaine-appointed-to-anthropic-s-long-term-benefit-trust",
    "https://www.anthropic.com/news/new-offices-in-paris-and-munich-expand-european-presence",
    "https://www.anthropic.com/news/offering-expanded-claude-access-across-all-three-branches-of-government",
+   "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
    "https://www.anthropic.com/news/opening-our-tokyo-office",
    "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
    "https://www.anthropic.com/news/our-framework-for-developing-safe-and-trustworthy-agents",
@@ -1743,6 +1749,7 @@
    "https://www.anthropic.com/research/exploring-model-welfare",
    "https://www.anthropic.com/research/features-as-classifiers",
    "https://www.anthropic.com/research/forecasting-rare-behaviors",
+   "https://www.anthropic.com/research/formal-verification",
    "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
    "https://www.anthropic.com/research/glasswing-initial-update",
    "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
@@ -1852,7 +1859,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-16",
    "https://docs.claude.com/en/release-notes/overview#2026-10-17",
    "https://docs.claude.com/en/release-notes/overview#2026-10-21",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-22"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-22",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-23"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -1999,6 +2007,98 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-23",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [
+    "ChatGPT EDU\nEducation plans\nHigher education setup\nOct 22\nThe Decisions API is now generally available with gpt-6-luna. Cache shared input across requests for prompt-cache discounts, include images in"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-23",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [
+    "October 22, 2026\nWe've launched Claude Models on Google Cloud (Anthropic managed), the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/decisions-api",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/decisions-api",
+   "title": "Build more responsive apps with the Decisions API",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [
+    "Fast, focused, low-cost decisions for any application."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [
+    "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "title": "Open call for guest investigators in the life sciences",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/formal-verification",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "date": "2026-10-22",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-22",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2023,6 +2123,20 @@
    "fetched": "2026-10-22",
    "points": [
     "Migrating to Managed AgentsMigrating to API version 2026-10-21\nOctober 21, 2026\nWe've released API version 2026-10-21. Migrating to API version 2026-10-21 shows how to upgrade.\nWe've released new vers"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/cloudflare-cyber",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/cloudflare-cyber",
+   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+   "date": "2026-10-21",
+   "open_weights": false,
+   "fetched": "2026-10-23",
+   "points": [
+    "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality."
    ],
    "pending": true
   },

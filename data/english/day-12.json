@@ -1,0 +1,616 @@
+{
+ "day": 12,
+ "date": "2026-10-24",
+ "generated": false,
+ "words": [
+  {
+   "id": 1119,
+   "word": "entertainer",
+   "pos": "n",
+   "zh": "n. 請客者；表演者"
+  },
+  {
+   "id": 1120,
+   "word": "entertainment",
+   "pos": "n",
+   "zh": "n. 演藝；餘興"
+  },
+  {
+   "id": 1121,
+   "word": "enthusiasm",
+   "pos": "n",
+   "zh": "n. 熱忱"
+  },
+  {
+   "id": 1122,
+   "word": "enthusiastic",
+   "pos": "a",
+   "zh": "a. 熱忱的；熱血的"
+  },
+  {
+   "id": 1123,
+   "word": "entire",
+   "pos": "a/n",
+   "zh": "a. 全部的；整個的｜n. 全部；整體"
+  },
+  {
+   "id": 1124,
+   "word": "entirel",
+   "pos": "ad",
+   "zh": "ad. 全部地；整個地"
+  },
+  {
+   "id": 1125,
+   "word": "entitle",
+   "pos": "v",
+   "zh": "v. 給…權力（或資格）"
+  },
+  {
+   "id": 1126,
+   "word": "entitled",
+   "pos": "a",
+   "zh": "a. 給予權利；使有資格"
+  },
+  {
+   "id": 1127,
+   "word": "entrance",
+   "pos": "n",
+   "zh": "n. 入口；門口"
+  },
+  {
+   "id": 1128,
+   "word": "entrust",
+   "pos": "v",
+   "zh": "v. 信託；委託"
+  },
+  {
+   "id": 1129,
+   "word": "entry",
+   "pos": "n",
+   "zh": "n. 入場；參加"
+  },
+  {
+   "id": 1130,
+   "word": "environment",
+   "pos": "n",
+   "zh": "n. 環境"
+  },
+  {
+   "id": 1131,
+   "word": "environmental",
+   "pos": "n",
+   "zh": "n. 環境的"
+  },
+  {
+   "id": 1132,
+   "word": "envision",
+   "pos": "v",
+   "zh": "v. 想像；展望"
+  },
+  {
+   "id": 1133,
+   "word": "equal",
+   "pos": "v",
+   "zh": "v. 平等的；均等的"
+  },
+  {
+   "id": 1134,
+   "word": "equality",
+   "pos": "n",
+   "zh": "n. 平等；相等"
+  },
+  {
+   "id": 1135,
+   "word": "equip",
+   "pos": "v",
+   "zh": "v. 裝備；配備"
+  },
+  {
+   "id": 1136,
+   "word": "equipment",
+   "pos": "n",
+   "zh": "n. 裝備；配備"
+  },
+  {
+   "id": 1137,
+   "word": "equity",
+   "pos": "n",
+   "zh": "n. 公平；公正"
+  },
+  {
+   "id": 1138,
+   "word": "equivalent",
+   "pos": "a",
+   "zh": "a. 相等的；相同的"
+  },
+  {
+   "id": 1139,
+   "word": "error",
+   "pos": "n",
+   "zh": "n. 錯誤；失誤"
+  },
+  {
+   "id": 1140,
+   "word": "escort",
+   "pos": "v/n",
+   "zh": "v. 護送；陪同｜n. 護衛隊；護航隊"
+  },
+  {
+   "id": 1141,
+   "word": "especially",
+   "pos": "ad",
+   "zh": "ad. 特別；尤其"
+  },
+  {
+   "id": 1142,
+   "word": "essay",
+   "pos": "n",
+   "zh": "n. 論文；散文"
+  },
+  {
+   "id": 1143,
+   "word": "essence",
+   "pos": "n",
+   "zh": "n. 本質；實質"
+  },
+  {
+   "id": 1144,
+   "word": "essential",
+   "pos": "a",
+   "zh": "a. 必要的；不可缺的"
+  },
+  {
+   "id": 1145,
+   "word": "establish",
+   "pos": "v",
+   "zh": "v. 建立；設立"
+  },
+  {
+   "id": 1146,
+   "word": "establishment",
+   "pos": "n",
+   "zh": "n. 建立；設立"
+  },
+  {
+   "id": 1147,
+   "word": "estate",
+   "pos": "n",
+   "zh": "n. 財產；資產"
+  },
+  {
+   "id": 1148,
+   "word": "esteem",
+   "pos": "n/v",
+   "zh": "n. 尊重；尊敬｜v. 尊重；尊敬"
+  },
+  {
+   "id": 1149,
+   "word": "estimate",
+   "pos": "v",
+   "zh": "v. 估算；估量"
+  },
+  {
+   "id": 1150,
+   "word": "eternal",
+   "pos": "a",
+   "zh": "a. 永恆的；永久的"
+  },
+  {
+   "id": 1151,
+   "word": "ethic",
+   "pos": "n",
+   "zh": "n. 倫理；道德"
+  },
+  {
+   "id": 1152,
+   "word": "ethical",
+   "pos": "a",
+   "zh": "a. 倫理的；道德的"
+  },
+  {
+   "id": 1153,
+   "word": "ethics",
+   "pos": "n",
+   "zh": "n. 倫理學；道德學"
+  },
+  {
+   "id": 1154,
+   "word": "evade",
+   "pos": "v",
+   "zh": "v. 躲避；逃避"
+  },
+  {
+   "id": 1155,
+   "word": "evaluate",
+   "pos": "v",
+   "zh": "v. 估價；評價"
+  },
+  {
+   "id": 1156,
+   "word": "evaluation",
+   "pos": "n",
+   "zh": "n. 估價；評價"
+  },
+  {
+   "id": 1157,
+   "word": "evasive",
+   "pos": "a",
+   "zh": "a. 逃避的；託辭的"
+  },
+  {
+   "id": 1158,
+   "word": "even",
+   "pos": "a/ad/v",
+   "zh": "a. 平的；平坦的｜ad. 甚至；連｜v. 使平坦"
+  },
+  {
+   "id": 1159,
+   "word": "event",
+   "pos": "n",
+   "zh": "n. 事件；大事"
+  },
+  {
+   "id": 1160,
+   "word": "eventual",
+   "pos": "a",
+   "zh": "a. 最終的；最後的"
+  },
+  {
+   "id": 1161,
+   "word": "evidence",
+   "pos": "n",
+   "zh": "n. 證據；證詞"
+  },
+  {
+   "id": 1162,
+   "word": "evident",
+   "pos": "a",
+   "zh": "a. 明顯的；明白的"
+  },
+  {
+   "id": 1163,
+   "word": "evoke",
+   "pos": "v",
+   "zh": "v. 喚起；引起"
+  },
+  {
+   "id": 1164,
+   "word": "evolve",
+   "pos": "v",
+   "zh": "v. 逐步形成；發展"
+  },
+  {
+   "id": 1165,
+   "word": "exact",
+   "pos": "a",
+   "zh": "a. 正確的；精準的"
+  },
+  {
+   "id": 1166,
+   "word": "exaggerate",
+   "pos": "v",
+   "zh": "v. 誇大；誇張"
+  },
+  {
+   "id": 1167,
+   "word": "exaggeration",
+   "pos": "n",
+   "zh": "n. 誇大：誇張"
+  },
+  {
+   "id": 1168,
+   "word": "exam",
+   "pos": "n",
+   "zh": "n. 考試；測驗"
+  },
+  {
+   "id": 1169,
+   "word": "examination",
+   "pos": "n",
+   "zh": "n. 考試；測驗"
+  },
+  {
+   "id": 1170,
+   "word": "examine",
+   "pos": "v",
+   "zh": "v. 檢驗；測試"
+  },
+  {
+   "id": 1171,
+   "word": "examiner",
+   "pos": "n",
+   "zh": "n. 主考人；檢查人"
+  },
+  {
+   "id": 1172,
+   "word": "example",
+   "pos": "n",
+   "zh": "n. 範例；示範"
+  },
+  {
+   "id": 1173,
+   "word": "exceed",
+   "pos": "v",
+   "zh": "v. 超過；勝過"
+  },
+  {
+   "id": 1174,
+   "word": "excel",
+   "pos": "v",
+   "zh": "v. 勝過；優於"
+  },
+  {
+   "id": 1175,
+   "word": "excellent",
+   "pos": "a",
+   "zh": "a. 出色的；傑出的"
+  },
+  {
+   "id": 1176,
+   "word": "except",
+   "pos": "prep/conj/v",
+   "zh": "prep. 除……之外｜conj. 除了｜v. 把……除外"
+  },
+  {
+   "id": 1177,
+   "word": "exception",
+   "pos": "n",
+   "zh": "n. 例外；例外的人"
+  },
+  {
+   "id": 1178,
+   "word": "excess",
+   "pos": "n/a",
+   "zh": "n. 超越，超過｜a. 過量的；額外的"
+  },
+  {
+   "id": 1179,
+   "word": "exchange",
+   "pos": "v/n",
+   "zh": "v. 交換；調換｜n. 交換；調換"
+  },
+  {
+   "id": 1180,
+   "word": "excite",
+   "pos": "v",
+   "zh": "v. 刺激；使興奮"
+  },
+  {
+   "id": 1181,
+   "word": "exclude",
+   "pos": "v",
+   "zh": "v. 排除在外；不包括"
+  },
+  {
+   "id": 1182,
+   "word": "exclusion",
+   "pos": "n",
+   "zh": "n. 排斥；排除在外"
+  },
+  {
+   "id": 1183,
+   "word": "exclusive",
+   "pos": "a",
+   "zh": "a. 排外的；除外的"
+  },
+  {
+   "id": 1184,
+   "word": "exclusively",
+   "pos": "ad",
+   "zh": "ad. 專門地；專有地"
+  },
+  {
+   "id": 1185,
+   "word": "execute",
+   "pos": "v",
+   "zh": "v. 實施；處死"
+  },
+  {
+   "id": 1186,
+   "word": "executive",
+   "pos": "a/n",
+   "zh": "a. 執行的；實施的｜n. 執行者；行政官"
+  },
+  {
+   "id": 1187,
+   "word": "exert",
+   "pos": "v",
+   "zh": "v. 運用；行使"
+  },
+  {
+   "id": 1188,
+   "word": "exhibit",
+   "pos": "v/n",
+   "zh": "v. 展示，陳列｜n. 展示品；陳列品"
+  },
+  {
+   "id": 1189,
+   "word": "exhibition",
+   "pos": "n",
+   "zh": "n. 展覽；展示"
+  },
+  {
+   "id": 1190,
+   "word": "exist",
+   "pos": "v",
+   "zh": "v. 存在；生存"
+  },
+  {
+   "id": 1191,
+   "word": "existence",
+   "pos": "n",
+   "zh": "n. 存在；實在"
+  },
+  {
+   "id": 1192,
+   "word": "exit",
+   "pos": "v/v",
+   "zh": "v. 出口；通道｜v. 出去；離去"
+  },
+  {
+   "id": 1193,
+   "word": "expand",
+   "pos": "v",
+   "zh": "v. 展開；張開"
+  },
+  {
+   "id": 1194,
+   "word": "expansion",
+   "pos": "n",
+   "zh": "n. 擴展；擴張"
+  },
+  {
+   "id": 1195,
+   "word": "expect",
+   "pos": "v",
+   "zh": "v. 期待；預期"
+  },
+  {
+   "id": 1196,
+   "word": "expectation",
+   "pos": "n",
+   "zh": "n. 期待；預期"
+  },
+  {
+   "id": 1197,
+   "word": "expedite",
+   "pos": "v",
+   "zh": "v. 迅速執行；促進"
+  },
+  {
+   "id": 1198,
+   "word": "expel",
+   "pos": "v",
+   "zh": "v. 驅逐；趕走"
+  },
+  {
+   "id": 1199,
+   "word": "expenditure",
+   "pos": "n",
+   "zh": "n. 消費；支出"
+  },
+  {
+   "id": 1200,
+   "word": "expense",
+   "pos": "n",
+   "zh": "n. 費用；價錢"
+  },
+  {
+   "id": 1201,
+   "word": "expensive",
+   "pos": "a",
+   "zh": "a. 高價的；昂貴的"
+  },
+  {
+   "id": 1202,
+   "word": "experience",
+   "pos": "n",
+   "zh": "n. 經驗；經歷"
+  },
+  {
+   "id": 1203,
+   "word": "experiment",
+   "pos": "n/v",
+   "zh": "n. 實驗；試驗｜v. 進行實驗；試驗"
+  },
+  {
+   "id": 1204,
+   "word": "expert",
+   "pos": "n/a",
+   "zh": "n. 專家；能手｜a. 熟練的；老練的"
+  },
+  {
+   "id": 1205,
+   "word": "expertise",
+   "pos": "n",
+   "zh": "n. 專門知識；專長"
+  },
+  {
+   "id": 1206,
+   "word": "expiration",
+   "pos": "n",
+   "zh": "n. 終結；期滿"
+  },
+  {
+   "id": 1207,
+   "word": "expire",
+   "pos": "v",
+   "zh": "v. 屆期；終止"
+  },
+  {
+   "id": 1208,
+   "word": "explain",
+   "pos": "v",
+   "zh": "v. 解釋；說明"
+  },
+  {
+   "id": 1209,
+   "word": "explanation",
+   "pos": "n",
+   "zh": "n. 解釋；說明"
+  },
+  {
+   "id": 1210,
+   "word": "explode",
+   "pos": "v",
+   "zh": "v. 爆發；爆炸"
+  },
+  {
+   "id": 1211,
+   "word": "explore",
+   "pos": "v",
+   "zh": "v. 探險；挖掘"
+  },
+  {
+   "id": 1212,
+   "word": "explorer",
+   "pos": "n",
+   "zh": "n. 探險者"
+  },
+  {
+   "id": 1213,
+   "word": "explosion",
+   "pos": "n",
+   "zh": "n. 爆發；爆炸"
+  },
+  {
+   "id": 1214,
+   "word": "export",
+   "pos": "v",
+   "zh": "v. 輸出；出品"
+  },
+  {
+   "id": 1215,
+   "word": "expose",
+   "pos": "v",
+   "zh": "v. 使暴露於；使接觸到"
+  },
+  {
+   "id": 1216,
+   "word": "exposure",
+   "pos": "n",
+   "zh": "n. 暴露；揭露"
+  },
+  {
+   "id": 1217,
+   "word": "express",
+   "pos": "v/a/n",
+   "zh": "v. 表達，陳述｜a. 快遞的｜n. 快遞；快運"
+  },
+  {
+   "id": 1218,
+   "word": "expression",
+   "pos": "n",
+   "zh": "n. 表達；表示"
+  },
+  {
+   "id": 1219,
+   "word": "extend",
+   "pos": "v",
+   "zh": "v. 延長，延伸"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
