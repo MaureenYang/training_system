@@ -1,0 +1,616 @@
+{
+ "day": 14,
+ "date": "2026-10-26",
+ "generated": false,
+ "words": [
+  {
+   "id": 1321,
+   "word": "forecast",
+   "pos": "n/v",
+   "zh": "n. 預報；預測｜v. 預報；預測"
+  },
+  {
+   "id": 1322,
+   "word": "foreign",
+   "pos": "a",
+   "zh": "a. 外國的；陌生的"
+  },
+  {
+   "id": 1323,
+   "word": "foremost",
+   "pos": "a/ad",
+   "zh": "a. 最前的；最先的｜ad. 首先"
+  },
+  {
+   "id": 1324,
+   "word": "foresee",
+   "pos": "v",
+   "zh": "v. 預見；預知"
+  },
+  {
+   "id": 1325,
+   "word": "form",
+   "pos": "n/v",
+   "zh": "n. 形狀；外形｜v. 形成；構成"
+  },
+  {
+   "id": 1326,
+   "word": "formal",
+   "pos": "a",
+   "zh": "a. 正式的；禮節上的"
+  },
+  {
+   "id": 1327,
+   "word": "format",
+   "pos": "n",
+   "zh": "n. 格式"
+  },
+  {
+   "id": 1328,
+   "word": "formatted",
+   "pos": "a",
+   "zh": "a. 格式化了的"
+  },
+  {
+   "id": 1329,
+   "word": "formula",
+   "pos": "n",
+   "zh": "n. 公式"
+  },
+  {
+   "id": 1330,
+   "word": "formulate",
+   "pos": "v",
+   "zh": "v. 使公式化；用公式表示"
+  },
+  {
+   "id": 1331,
+   "word": "fortunate",
+   "pos": "a",
+   "zh": "a. 幸運的；僥倖的"
+  },
+  {
+   "id": 1332,
+   "word": "fortunately",
+   "pos": "ad",
+   "zh": "ad. 幸運地；僥倖地"
+  },
+  {
+   "id": 1333,
+   "word": "fortune",
+   "pos": "n",
+   "zh": "n. 財產；好運"
+  },
+  {
+   "id": 1334,
+   "word": "forum",
+   "pos": "n",
+   "zh": "n. 討論會；論壇"
+  },
+  {
+   "id": 1335,
+   "word": "forward",
+   "pos": "ad/a/v",
+   "zh": "ad. 向前｜a. 前面的｜v. 轉交；發送"
+  },
+  {
+   "id": 1336,
+   "word": "foundation",
+   "pos": "n",
+   "zh": "n. 建立；創辦；基金會"
+  },
+  {
+   "id": 1337,
+   "word": "founder",
+   "pos": "n",
+   "zh": "n. 創辦人"
+  },
+  {
+   "id": 1338,
+   "word": "fraction",
+   "pos": "n",
+   "zh": "n. 片段；碎片"
+  },
+  {
+   "id": 1339,
+   "word": "frame",
+   "pos": "n/v",
+   "zh": "n. 架構；骨架｜v. 建造；塑造"
+  },
+  {
+   "id": 1340,
+   "word": "framework",
+   "pos": "n",
+   "zh": "n. 構造；機構"
+  },
+  {
+   "id": 1341,
+   "word": "franchise",
+   "pos": "n",
+   "zh": "n. 特許經銷權；公民權"
+  },
+  {
+   "id": 1342,
+   "word": "franchisor",
+   "pos": "n",
+   "zh": "n. 特許授予人"
+  },
+  {
+   "id": 1343,
+   "word": "frank",
+   "pos": "a",
+   "zh": "a. 坦白的；直率的"
+  },
+  {
+   "id": 1344,
+   "word": "frankly",
+   "pos": "ad",
+   "zh": "ad. 率直地；坦白地"
+  },
+  {
+   "id": 1345,
+   "word": "fraud",
+   "pos": "n",
+   "zh": "n. 欺騙；詭計"
+  },
+  {
+   "id": 1346,
+   "word": "fraudulent",
+   "pos": "a",
+   "zh": "a. 欺詐的；欺騙的"
+  },
+  {
+   "id": 1347,
+   "word": "free",
+   "pos": "a/ad/v",
+   "zh": "a. 自由的；免費的｜ad. 免費地；無約束地｜v. 使自由；解放"
+  },
+  {
+   "id": 1348,
+   "word": "freedom",
+   "pos": "n",
+   "zh": "n. 自由"
+  },
+  {
+   "id": 1349,
+   "word": "freight",
+   "pos": "n/v",
+   "zh": "n. 貨物｜v. 裝貨於；運輸"
+  },
+  {
+   "id": 1350,
+   "word": "frequency",
+   "pos": "n",
+   "zh": "n. 頻率"
+  },
+  {
+   "id": 1351,
+   "word": "frequent",
+   "pos": "a",
+   "zh": "a. 頻繁的"
+  },
+  {
+   "id": 1352,
+   "word": "frequently",
+   "pos": "ad",
+   "zh": "ad. 頻繁地"
+  },
+  {
+   "id": 1353,
+   "word": "frighten",
+   "pos": "v",
+   "zh": "v. 驚恐；害怕"
+  },
+  {
+   "id": 1354,
+   "word": "fuel",
+   "pos": "n/v",
+   "zh": "n. 燃料｜v. 加燃料；加油"
+  },
+  {
+   "id": 1355,
+   "word": "fueled",
+   "pos": "a",
+   "zh": "a. 加燃料的"
+  },
+  {
+   "id": 1356,
+   "word": "fulfill",
+   "pos": "v",
+   "zh": "v. 執行；履行"
+  },
+  {
+   "id": 1357,
+   "word": "fulfillment",
+   "pos": "n",
+   "zh": "n. 履行；實現"
+  },
+  {
+   "id": 1358,
+   "word": "function",
+   "pos": "n/v",
+   "zh": "n. 功能；作用｜v. 工作；運行"
+  },
+  {
+   "id": 1359,
+   "word": "functioning",
+   "pos": "a",
+   "zh": "a. 運作的"
+  },
+  {
+   "id": 1360,
+   "word": "fund",
+   "pos": "n",
+   "zh": "n. 資金"
+  },
+  {
+   "id": 1361,
+   "word": "fundamental",
+   "pos": "a/n",
+   "zh": "a. 基礎的；根本的｜n. 基本原則"
+  },
+  {
+   "id": 1362,
+   "word": "funding",
+   "pos": "n",
+   "zh": "n. 資金；基金"
+  },
+  {
+   "id": 1363,
+   "word": "fundraiser",
+   "pos": "n",
+   "zh": "n. 資金籌集人"
+  },
+  {
+   "id": 1364,
+   "word": "furniture",
+   "pos": "n",
+   "zh": "n. 傢俱；設備"
+  },
+  {
+   "id": 1365,
+   "word": "further",
+   "pos": "a/ad/v",
+   "zh": "a. 更遠的｜ad. 更遠地｜v. 促進；助長"
+  },
+  {
+   "id": 1366,
+   "word": "gamble",
+   "pos": "n/v",
+   "zh": "n. 賭博；打賭｜v. 賭博；打賭"
+  },
+  {
+   "id": 1367,
+   "word": "gap",
+   "pos": "v/n",
+   "zh": "v. 裂開｜n. 缺口；隔閡"
+  },
+  {
+   "id": 1368,
+   "word": "garbage",
+   "pos": "n",
+   "zh": "n. 垃圾"
+  },
+  {
+   "id": 1369,
+   "word": "garment",
+   "pos": "n",
+   "zh": "n. 服裝；衣著"
+  },
+  {
+   "id": 1370,
+   "word": "gasoline",
+   "pos": "n",
+   "zh": "n. 汽油"
+  },
+  {
+   "id": 1371,
+   "word": "gas",
+   "pos": "n",
+   "zh": "n. 氣體；瓦斯"
+  },
+  {
+   "id": 1372,
+   "word": "gate",
+   "pos": "n",
+   "zh": "n. 大門；柵欄門"
+  },
+  {
+   "id": 1373,
+   "word": "gatekeeper",
+   "pos": "n",
+   "zh": "n. 看門人；守門員"
+  },
+  {
+   "id": 1374,
+   "word": "gather",
+   "pos": "v/n",
+   "zh": "v. 收集；召集｜n. 聚集；收穫量"
+  },
+  {
+   "id": 1375,
+   "word": "gathering",
+   "pos": "n",
+   "zh": "n. 集會；聚集"
+  },
+  {
+   "id": 1376,
+   "word": "gear",
+   "pos": "n/v",
+   "zh": "n. 工具；設備｜v. 使適應；使適合"
+  },
+  {
+   "id": 1377,
+   "word": "gender",
+   "pos": "n",
+   "zh": "n. 性別"
+  },
+  {
+   "id": 1378,
+   "word": "general",
+   "pos": "a",
+   "zh": "a. 普通的；一般的"
+  },
+  {
+   "id": 1379,
+   "word": "generally",
+   "pos": "ad",
+   "zh": "ad. 通常；一般地"
+  },
+  {
+   "id": 1380,
+   "word": "generate",
+   "pos": "v",
+   "zh": "v. 產生；發生"
+  },
+  {
+   "id": 1381,
+   "word": "generation",
+   "pos": "n",
+   "zh": "n. 世代；一代"
+  },
+  {
+   "id": 1382,
+   "word": "generosity",
+   "pos": "n",
+   "zh": "n. 慷慨；大方"
+  },
+  {
+   "id": 1383,
+   "word": "generous",
+   "pos": "a",
+   "zh": "a. 慷慨的"
+  },
+  {
+   "id": 1384,
+   "word": "genius",
+   "pos": "n",
+   "zh": "n. 天才；天資"
+  },
+  {
+   "id": 1385,
+   "word": "gentle",
+   "pos": "a",
+   "zh": "a. 紳士的"
+  },
+  {
+   "id": 1386,
+   "word": "gentleman",
+   "pos": "n",
+   "zh": "n. 紳士"
+  },
+  {
+   "id": 1387,
+   "word": "genuine",
+   "pos": "a",
+   "zh": "a. 真誠的；不造作的"
+  },
+  {
+   "id": 1388,
+   "word": "geographic",
+   "pos": "a",
+   "zh": "a. 地理學的；地理的"
+  },
+  {
+   "id": 1389,
+   "word": "geography",
+   "pos": "n",
+   "zh": "n. 地理；地理學"
+  },
+  {
+   "id": 1390,
+   "word": "germ",
+   "pos": "n",
+   "zh": "n. 微生物；細菌"
+  },
+  {
+   "id": 1391,
+   "word": "gesture",
+   "pos": "n",
+   "zh": "n. 姿勢；手勢"
+  },
+  {
+   "id": 1392,
+   "word": "getaway",
+   "pos": "v",
+   "zh": "v. 逃走；起步"
+  },
+  {
+   "id": 1393,
+   "word": "giant",
+   "pos": "n/a",
+   "zh": "n. 巨人｜a. 巨人般的；巨大的"
+  },
+  {
+   "id": 1394,
+   "word": "gift",
+   "pos": "n",
+   "zh": "n. 禮物；天賦"
+  },
+  {
+   "id": 1395,
+   "word": "gifted",
+   "pos": "a",
+   "zh": "a. 有天資的；有天賦的"
+  },
+  {
+   "id": 1396,
+   "word": "gift-wrap",
+   "pos": "v",
+   "zh": "v. 用包裝紙包裝"
+  },
+  {
+   "id": 1397,
+   "word": "glamor",
+   "pos": "n",
+   "zh": "n. 魅力；魔力"
+  },
+  {
+   "id": 1398,
+   "word": "glance",
+   "pos": "v",
+   "zh": "v. 掃視；瞥見"
+  },
+  {
+   "id": 1399,
+   "word": "glitch",
+   "pos": "n",
+   "zh": "n. 小故障；失靈"
+  },
+  {
+   "id": 1400,
+   "word": "global",
+   "pos": "a",
+   "zh": "a. 球狀的；全世界的"
+  },
+  {
+   "id": 1401,
+   "word": "globe",
+   "pos": "n",
+   "zh": "n. 球狀物；地球"
+  },
+  {
+   "id": 1402,
+   "word": "gloom",
+   "pos": "n/v",
+   "zh": "n. 黑暗；陰暗｜v. 使暗；使陰沉"
+  },
+  {
+   "id": 1403,
+   "word": "glorify",
+   "pos": "v",
+   "zh": "v. 讚美；美化"
+  },
+  {
+   "id": 1404,
+   "word": "glory",
+   "pos": "n",
+   "zh": "n. 光榮；榮譽"
+  },
+  {
+   "id": 1405,
+   "word": "glossary",
+   "pos": "n",
+   "zh": "n. 詞彙表；術語"
+  },
+  {
+   "id": 1406,
+   "word": "glove",
+   "pos": "n",
+   "zh": "n. 手套"
+  },
+  {
+   "id": 1407,
+   "word": "glow",
+   "pos": "v",
+   "zh": "v. 發光；發熱"
+  },
+  {
+   "id": 1408,
+   "word": "goodwill",
+   "pos": "n",
+   "zh": "n. 善意；好心"
+  },
+  {
+   "id": 1409,
+   "word": "gorgeous",
+   "pos": "a",
+   "zh": "a. 燦爛的；華麗的"
+  },
+  {
+   "id": 1410,
+   "word": "gossip",
+   "pos": "n/v",
+   "zh": "n. 閒話；聊天｜v. 閒聊"
+  },
+  {
+   "id": 1411,
+   "word": "govern",
+   "pos": "v",
+   "zh": "v. 統治；管理"
+  },
+  {
+   "id": 1412,
+   "word": "government",
+   "pos": "n",
+   "zh": "n. 政府"
+  },
+  {
+   "id": 1413,
+   "word": "grab",
+   "pos": "v",
+   "zh": "v. 抓取；拾取"
+  },
+  {
+   "id": 1414,
+   "word": "grace",
+   "pos": "n",
+   "zh": "n. 優雅"
+  },
+  {
+   "id": 1415,
+   "word": "graceful",
+   "pos": "a",
+   "zh": "a. 優雅的"
+  },
+  {
+   "id": 1416,
+   "word": "grade",
+   "pos": "n",
+   "zh": "n. 成績；等級"
+  },
+  {
+   "id": 1417,
+   "word": "gradual",
+   "pos": "a",
+   "zh": "a. 逐漸的；逐步的"
+  },
+  {
+   "id": 1418,
+   "word": "gradually",
+   "pos": "ad",
+   "zh": "ad. 逐漸地"
+  },
+  {
+   "id": 1419,
+   "word": "graduate",
+   "pos": "v",
+   "zh": "v. 准予畢業；授與學位"
+  },
+  {
+   "id": 1420,
+   "word": "grand",
+   "pos": "a",
+   "zh": "a. 雄偉的；堂皇的"
+  },
+  {
+   "id": 1421,
+   "word": "grant",
+   "pos": "v",
+   "zh": "v. 同意；允許"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
