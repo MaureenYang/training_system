@@ -1,0 +1,616 @@
+{
+ "day": 15,
+ "date": "2026-10-27",
+ "generated": false,
+ "words": [
+  {
+   "id": 1422,
+   "word": "graph",
+   "pos": "n",
+   "zh": "n. 圖表；圖解"
+  },
+  {
+   "id": 1423,
+   "word": "grasp",
+   "pos": "v/n",
+   "zh": "v. 抓牢；握緊｜n. 抓；握"
+  },
+  {
+   "id": 1424,
+   "word": "grateful",
+   "pos": "a",
+   "zh": "a. 感激的；感謝的"
+  },
+  {
+   "id": 1425,
+   "word": "gratitude",
+   "pos": "n",
+   "zh": "n. 感恩；感謝"
+  },
+  {
+   "id": 1426,
+   "word": "gratuity",
+   "pos": "n",
+   "zh": "n. 賞錢；小費"
+  },
+  {
+   "id": 1427,
+   "word": "gravity",
+   "pos": "n",
+   "zh": "n. 重力；引力"
+  },
+  {
+   "id": 1428,
+   "word": "greed",
+   "pos": "n",
+   "zh": "n. 貪心"
+  },
+  {
+   "id": 1429,
+   "word": "greenhouse",
+   "pos": "n",
+   "zh": "n. 溫室；暖房"
+  },
+  {
+   "id": 1430,
+   "word": "grin",
+   "pos": "v",
+   "zh": "v. 露齒而笑；齜牙咧嘴"
+  },
+  {
+   "id": 1431,
+   "word": "grip",
+   "pos": "n",
+   "zh": "n. 緊握；夾住"
+  },
+  {
+   "id": 1432,
+   "word": "grocer",
+   "pos": "n",
+   "zh": "n. 食品雜貨商"
+  },
+  {
+   "id": 1433,
+   "word": "grocery",
+   "pos": "n",
+   "zh": "n. 食品雜貨店"
+  },
+  {
+   "id": 1434,
+   "word": "groom",
+   "pos": "n/v",
+   "zh": "n. 新郎｜v. 打扮；穿戴"
+  },
+  {
+   "id": 1435,
+   "word": "gross",
+   "pos": "a/n",
+   "zh": "a. 總的；顯著的｜n. 總額；總量"
+  },
+  {
+   "id": 1436,
+   "word": "ground",
+   "pos": "n",
+   "zh": "n. 地面；土地"
+  },
+  {
+   "id": 1437,
+   "word": "groundbreaking",
+   "pos": "a",
+   "zh": "a. 開創性的"
+  },
+  {
+   "id": 1438,
+   "word": "grow",
+   "pos": "v",
+   "zh": "v. 成長；生長"
+  },
+  {
+   "id": 1439,
+   "word": "growth",
+   "pos": "n",
+   "zh": "n. 成長；發育"
+  },
+  {
+   "id": 1440,
+   "word": "guarantee",
+   "pos": "n/v",
+   "zh": "n. 保證；保固｜v. 保證；保固"
+  },
+  {
+   "id": 1441,
+   "word": "guard",
+   "pos": "n/v",
+   "zh": "n. 哨兵；衛兵｜v. 防範；警惕"
+  },
+  {
+   "id": 1442,
+   "word": "guardian",
+   "pos": "n",
+   "zh": "n. 守護者；管理員"
+  },
+  {
+   "id": 1443,
+   "word": "guess",
+   "pos": "v",
+   "zh": "v. 猜測；臆測"
+  },
+  {
+   "id": 1444,
+   "word": "guest",
+   "pos": "n",
+   "zh": "n. 賓客；客人"
+  },
+  {
+   "id": 1445,
+   "word": "guidance",
+   "pos": "n",
+   "zh": "n. 引領；帶領"
+  },
+  {
+   "id": 1446,
+   "word": "guide",
+   "pos": "n/v",
+   "zh": "n. 引領；帶領｜v. 響導；指導"
+  },
+  {
+   "id": 1447,
+   "word": "guidebook",
+   "pos": "n",
+   "zh": "n. 旅行指南"
+  },
+  {
+   "id": 1448,
+   "word": "guideline",
+   "pos": "n",
+   "zh": "n. 指導方針"
+  },
+  {
+   "id": 1449,
+   "word": "guilt",
+   "pos": "n",
+   "zh": "n. 罪惡；過失"
+  },
+  {
+   "id": 1450,
+   "word": "guilty",
+   "pos": "n",
+   "zh": "n. 有罪的；罪惡的"
+  },
+  {
+   "id": 1451,
+   "word": "gym",
+   "pos": "n",
+   "zh": "n. 體育館：體操"
+  },
+  {
+   "id": 1452,
+   "word": "gymnasium",
+   "pos": "n",
+   "zh": "n. 體育館；體操"
+  },
+  {
+   "id": 1453,
+   "word": "habit",
+   "pos": "n",
+   "zh": "n. 嗜好；興趣"
+  },
+  {
+   "id": 1454,
+   "word": "habitat",
+   "pos": "n",
+   "zh": "n. 棲息地；產地"
+  },
+  {
+   "id": 1455,
+   "word": "habitual",
+   "pos": "a",
+   "zh": "a. 習慣的"
+  },
+  {
+   "id": 1456,
+   "word": "hack",
+   "pos": "v",
+   "zh": "v. 劈；砍"
+  },
+  {
+   "id": 1457,
+   "word": "haircut",
+   "pos": "n",
+   "zh": "n. 髮型；理髮"
+  },
+  {
+   "id": 1458,
+   "word": "hairdresser",
+   "pos": "n",
+   "zh": "n. 美髮師"
+  },
+  {
+   "id": 1459,
+   "word": "half",
+   "pos": "n/a/ad",
+   "zh": "n. 一半｜a. 一半的｜ad. 一半地"
+  },
+  {
+   "id": 1460,
+   "word": "halfway",
+   "pos": "a/ad",
+   "zh": "a. 中途的｜ad. 中途地"
+  },
+  {
+   "id": 1461,
+   "word": "hall",
+   "pos": "n",
+   "zh": "n. 會堂；大廳"
+  },
+  {
+   "id": 1462,
+   "word": "hallmark",
+   "pos": "n",
+   "zh": "n. 品質證明；戳記"
+  },
+  {
+   "id": 1463,
+   "word": "hallway",
+   "pos": "n",
+   "zh": "n. 玄關；門廳"
+  },
+  {
+   "id": 1464,
+   "word": "halt",
+   "pos": "n/v",
+   "zh": "n. 暫停；停止｜v. 停止；終止"
+  },
+  {
+   "id": 1465,
+   "word": "handbag",
+   "pos": "n",
+   "zh": "n. 手提包"
+  },
+  {
+   "id": 1466,
+   "word": "handbook",
+   "pos": "n",
+   "zh": "n. 手冊；旅行指南"
+  },
+  {
+   "id": 1467,
+   "word": "handful",
+   "pos": "n",
+   "zh": "n. 一把；一握"
+  },
+  {
+   "id": 1468,
+   "word": "handicap",
+   "pos": "n",
+   "zh": "n. 障礙，殘障"
+  },
+  {
+   "id": 1469,
+   "word": "handle",
+   "pos": "v",
+   "zh": "v. 操作；操縱"
+  },
+  {
+   "id": 1470,
+   "word": "handling",
+   "pos": "n",
+   "zh": "n. 操作；管理"
+  },
+  {
+   "id": 1471,
+   "word": "handout",
+   "pos": "n",
+   "zh": "n. 施捨物；傳單；印刷品"
+  },
+  {
+   "id": 1472,
+   "word": "handshake",
+   "pos": "n",
+   "zh": "n. 握手"
+  },
+  {
+   "id": 1473,
+   "word": "harbor",
+   "pos": "n/v",
+   "zh": "n. 港灣；海港｜v. 庇護；藏匿"
+  },
+  {
+   "id": 1474,
+   "word": "hardly",
+   "pos": "ad",
+   "zh": "ad. 幾乎不；簡直不"
+  },
+  {
+   "id": 1475,
+   "word": "hardware",
+   "pos": "n",
+   "zh": "n. 器件；器具"
+  },
+  {
+   "id": 1476,
+   "word": "harm",
+   "pos": "n/v",
+   "zh": "n. 傷害；危害｜v. 傷害；危害"
+  },
+  {
+   "id": 1477,
+   "word": "harmful",
+   "pos": "a",
+   "zh": "a. 有害的；不良的"
+  },
+  {
+   "id": 1478,
+   "word": "harmony",
+   "pos": "n",
+   "zh": "n. 和睦；融洽"
+  },
+  {
+   "id": 1479,
+   "word": "harvest",
+   "pos": "n/v",
+   "zh": "n. 收成；產量｜v. 收成；產量"
+  },
+  {
+   "id": 1480,
+   "word": "hasty",
+   "pos": "a",
+   "zh": "a. 匆忙的；急忙的"
+  },
+  {
+   "id": 1481,
+   "word": "hazard",
+   "pos": "n/v",
+   "zh": "n. 危險；危害物｜v. 冒險作出；嘗試"
+  },
+  {
+   "id": 1482,
+   "word": "hazardous",
+   "pos": "a",
+   "zh": "a. 有危險的；冒險的"
+  },
+  {
+   "id": 1483,
+   "word": "headline",
+   "pos": "n",
+   "zh": "n. 標題；大標題"
+  },
+  {
+   "id": 1484,
+   "word": "headquarter",
+   "pos": "n",
+   "zh": "n. 總部"
+  },
+  {
+   "id": 1485,
+   "word": "heal",
+   "pos": "v",
+   "zh": "v. 癒合；痊癒"
+  },
+  {
+   "id": 1486,
+   "word": "health",
+   "pos": "v",
+   "zh": "v. 健康"
+  },
+  {
+   "id": 1487,
+   "word": "healthy",
+   "pos": "a",
+   "zh": "a. 健康的；健全的"
+  },
+  {
+   "id": 1488,
+   "word": "hear",
+   "pos": "v",
+   "zh": "v. 聽見；聽"
+  },
+  {
+   "id": 1489,
+   "word": "heat",
+   "pos": "n/v",
+   "zh": "n. 熱度；熱烈｜v. 變熱；發熱"
+  },
+  {
+   "id": 1490,
+   "word": "heater",
+   "pos": "n",
+   "zh": "n. 加熱器；暖氣機"
+  },
+  {
+   "id": 1491,
+   "word": "heel",
+   "pos": "n",
+   "zh": "n. 腳後跟"
+  },
+  {
+   "id": 1492,
+   "word": "height",
+   "pos": "n",
+   "zh": "n. 高度；海拔"
+  },
+  {
+   "id": 1493,
+   "word": "helmet",
+   "pos": "n",
+   "zh": "n. 帽盔；安全帽"
+  },
+  {
+   "id": 1494,
+   "word": "help",
+   "pos": "n/v",
+   "zh": "n. 幫助｜v. 補救；治療"
+  },
+  {
+   "id": 1495,
+   "word": "helpful",
+   "pos": "a",
+   "zh": "a. 有幫助的；有益的"
+  },
+  {
+   "id": 1496,
+   "word": "hemisphere",
+   "pos": "n",
+   "zh": "n. 半球；半球體"
+  },
+  {
+   "id": 1497,
+   "word": "hence",
+   "pos": "ad",
+   "zh": "ad. 因此；由此"
+  },
+  {
+   "id": 1498,
+   "word": "herd",
+   "pos": "n/v",
+   "zh": "n. 畜群；牧群｜v. 放牧"
+  },
+  {
+   "id": 1499,
+   "word": "heritage",
+   "pos": "n",
+   "zh": "n. 遺產；命運"
+  },
+  {
+   "id": 1500,
+   "word": "hesitate",
+   "pos": "v",
+   "zh": "v. 躊躇；猶豫"
+  },
+  {
+   "id": 1501,
+   "word": "hesitation",
+   "pos": "n",
+   "zh": "n. 躊躇；猶豫"
+  },
+  {
+   "id": 1502,
+   "word": "hidden",
+   "pos": "a",
+   "zh": "a. 隱藏的；隱祕的"
+  },
+  {
+   "id": 1503,
+   "word": "hide",
+   "pos": "v",
+   "zh": "v. 隱藏"
+  },
+  {
+   "id": 1504,
+   "word": "high",
+   "pos": "a/ad",
+   "zh": "a. 高的；高級的｜ad. 高聲地，在高處"
+  },
+  {
+   "id": 1505,
+   "word": "highway",
+   "pos": "n",
+   "zh": "n. 公路；幹道"
+  },
+  {
+   "id": 1506,
+   "word": "hike",
+   "pos": "v",
+   "zh": "v. 健行；遠足"
+  },
+  {
+   "id": 1507,
+   "word": "hilarious",
+   "pos": "a",
+   "zh": "a. 可笑的；荒謬的"
+  },
+  {
+   "id": 1508,
+   "word": "hinder",
+   "pos": "v",
+   "zh": "v. 妨礙；阻礙"
+  },
+  {
+   "id": 1509,
+   "word": "hint",
+   "pos": "n/v",
+   "zh": "n. 暗示｜v. 暗示；示意"
+  },
+  {
+   "id": 1510,
+   "word": "hire",
+   "pos": "v/n",
+   "zh": "v. 僱用｜n. 租用；僱用"
+  },
+  {
+   "id": 1511,
+   "word": "hobby",
+   "pos": "n",
+   "zh": "n. 興趣；癖好"
+  },
+  {
+   "id": 1512,
+   "word": "hold",
+   "pos": "v/n",
+   "zh": "v. 握著；抓住｜n. 掌握；支配"
+  },
+  {
+   "id": 1513,
+   "word": "hole",
+   "pos": "n/v",
+   "zh": "n. 洞；破洞｜v. 鑿洞於；穿孔於"
+  },
+  {
+   "id": 1514,
+   "word": "holiday",
+   "pos": "n",
+   "zh": "n. 節日；假日"
+  },
+  {
+   "id": 1515,
+   "word": "home",
+   "pos": "n/ad/a",
+   "zh": "n. 家庭；家庭生活｜ad. 在家；回家｜a. 家庭的"
+  },
+  {
+   "id": 1516,
+   "word": "homesick",
+   "pos": "n",
+   "zh": "n. 思家的"
+  },
+  {
+   "id": 1517,
+   "word": "hometown",
+   "pos": "n",
+   "zh": "n. 故鄉；家鄉"
+  },
+  {
+   "id": 1518,
+   "word": "honest",
+   "pos": "a",
+   "zh": "a. 誠實的；正直的"
+  },
+  {
+   "id": 1519,
+   "word": "honesty",
+   "pos": "n",
+   "zh": "n. 誠實；正直"
+  },
+  {
+   "id": 1520,
+   "word": "honor",
+   "pos": "n",
+   "zh": "n. 榮譽；名譽"
+  },
+  {
+   "id": 1521,
+   "word": "honorary",
+   "pos": "a",
+   "zh": "a. 榮譽的;名譽的"
+  },
+  {
+   "id": 1522,
+   "word": "hopeful",
+   "pos": "a",
+   "zh": "a. 有希望的；有前途的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
