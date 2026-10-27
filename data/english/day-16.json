@@ -1,0 +1,616 @@
+{
+ "day": 16,
+ "date": "2026-10-28",
+ "generated": false,
+ "words": [
+  {
+   "id": 1523,
+   "word": "hopeless",
+   "pos": "a",
+   "zh": "a. 無望的；沒有辦法的"
+  },
+  {
+   "id": 1524,
+   "word": "horizon",
+   "pos": "n",
+   "zh": "n. 地平線；眼界；視野"
+  },
+  {
+   "id": 1525,
+   "word": "horizontal",
+   "pos": "a",
+   "zh": "a. 水平的；橫的"
+  },
+  {
+   "id": 1526,
+   "word": "horrible",
+   "pos": "a",
+   "zh": "a. 可怕的；令人毛骨悚然的"
+  },
+  {
+   "id": 1527,
+   "word": "horrify",
+   "pos": "v",
+   "zh": "v. 使恐懼；使驚懼"
+  },
+  {
+   "id": 1528,
+   "word": "hospital",
+   "pos": "n",
+   "zh": "n. 醫院"
+  },
+  {
+   "id": 1529,
+   "word": "hospitality",
+   "pos": "n",
+   "zh": "n. 好客；殷勤招待"
+  },
+  {
+   "id": 1530,
+   "word": "host",
+   "pos": "n",
+   "zh": "n. 主人；主辦"
+  },
+  {
+   "id": 1531,
+   "word": "hostile",
+   "pos": "a",
+   "zh": "a. 敵人的；敵方的"
+  },
+  {
+   "id": 1532,
+   "word": "hotel",
+   "pos": "n",
+   "zh": "n. 旅館；飯店"
+  },
+  {
+   "id": 1533,
+   "word": "hour",
+   "pos": "n",
+   "zh": "n. 小時；時刻"
+  },
+  {
+   "id": 1534,
+   "word": "hourly",
+   "pos": "a/ad",
+   "zh": "a. 每小時的｜ad. 每小時地；頻繁地"
+  },
+  {
+   "id": 1535,
+   "word": "house",
+   "pos": "n",
+   "zh": "n. 房子；住宅"
+  },
+  {
+   "id": 1536,
+   "word": "household",
+   "pos": "n/a",
+   "zh": "n. 家庭，戶｜a. 家的；家庭的"
+  },
+  {
+   "id": 1537,
+   "word": "housekeeper",
+   "pos": "n",
+   "zh": "n. 管家；佣人"
+  },
+  {
+   "id": 1538,
+   "word": "housing",
+   "pos": "n",
+   "zh": "n. 房屋，住宅"
+  },
+  {
+   "id": 1539,
+   "word": "hub",
+   "pos": "n",
+   "zh": "n. 集線器"
+  },
+  {
+   "id": 1540,
+   "word": "huge",
+   "pos": "a",
+   "zh": "a. 龐大的；巨大的"
+  },
+  {
+   "id": 1541,
+   "word": "humane",
+   "pos": "a",
+   "zh": "a. 人道的；仁慈的"
+  },
+  {
+   "id": 1542,
+   "word": "humankind",
+   "pos": "n",
+   "zh": "n. 人類"
+  },
+  {
+   "id": 1543,
+   "word": "human resource",
+   "pos": "n",
+   "zh": "n. 人力資源"
+  },
+  {
+   "id": 1544,
+   "word": "humble",
+   "pos": "a/v",
+   "zh": "a. 謙遜的；謙恭的｜v. 使謙卑"
+  },
+  {
+   "id": 1545,
+   "word": "humid",
+   "pos": "a",
+   "zh": "a. 潮濕的"
+  },
+  {
+   "id": 1546,
+   "word": "humidity",
+   "pos": "n",
+   "zh": "n. 濕氣；濕度"
+  },
+  {
+   "id": 1547,
+   "word": "humor",
+   "pos": "n",
+   "zh": "n. 幽默感；幽默"
+  },
+  {
+   "id": 1548,
+   "word": "hurry",
+   "pos": "v/n",
+   "zh": "v. 使趕緊；催促｜n. 急忙；倉促"
+  },
+  {
+   "id": 1549,
+   "word": "hurt",
+   "pos": "n/a/v",
+   "zh": "n. 受傷；疼痛｜a. 受傷的｜v. 損害；危害"
+  },
+  {
+   "id": 1550,
+   "word": "hush",
+   "pos": "n/v",
+   "zh": "n. 靜寂，沉默｜v. 使沉默，使安靜"
+  },
+  {
+   "id": 1551,
+   "word": "ice",
+   "pos": "n/v",
+   "zh": "n. 冰｜v. 結冰"
+  },
+  {
+   "id": 1552,
+   "word": "ice-cold",
+   "pos": "a",
+   "zh": "a. 冰冷的；毫無感情的"
+  },
+  {
+   "id": 1553,
+   "word": "icon",
+   "pos": "n",
+   "zh": "n. 畫像；偶像"
+  },
+  {
+   "id": 1554,
+   "word": "icy",
+   "pos": "a",
+   "zh": "a. 多冰的；冷冰冰的"
+  },
+  {
+   "id": 1555,
+   "word": "idea",
+   "pos": "n",
+   "zh": "n. 打算；計畫"
+  },
+  {
+   "id": 1556,
+   "word": "ideal",
+   "pos": "a",
+   "zh": "a. 理想的；完美的"
+  },
+  {
+   "id": 1557,
+   "word": "idealize",
+   "pos": "v",
+   "zh": "v. 形成理想；理想化"
+  },
+  {
+   "id": 1558,
+   "word": "identical",
+   "pos": "a",
+   "zh": "a. 相同的；完全相似的"
+  },
+  {
+   "id": 1559,
+   "word": "identification",
+   "pos": "v",
+   "zh": "v. 認出；識別"
+  },
+  {
+   "id": 1560,
+   "word": "identify",
+   "pos": "v",
+   "zh": "v. 認出；識別"
+  },
+  {
+   "id": 1561,
+   "word": "idle",
+   "pos": "v",
+   "zh": "v. 閒置的；空閒的"
+  },
+  {
+   "id": 1562,
+   "word": "idol",
+   "pos": "n",
+   "zh": "n. 偶像"
+  },
+  {
+   "id": 1563,
+   "word": "idolize",
+   "pos": "v",
+   "zh": "v. 崇拜偶像"
+  },
+  {
+   "id": 1564,
+   "word": "ignite",
+   "pos": "v",
+   "zh": "v. 點燃；使燃燒"
+  },
+  {
+   "id": 1565,
+   "word": "ignition",
+   "pos": "n",
+   "zh": "n. 著火；燃燒"
+  },
+  {
+   "id": 1566,
+   "word": "ignorance",
+   "pos": "n",
+   "zh": "n. 無知；不學無術"
+  },
+  {
+   "id": 1567,
+   "word": "ignorant",
+   "pos": "a",
+   "zh": "a. 無知的；不學無術的"
+  },
+  {
+   "id": 1568,
+   "word": "ignore",
+   "pos": "v",
+   "zh": "v. 不理會；忽視"
+  },
+  {
+   "id": 1569,
+   "word": "ill",
+   "pos": "a/n",
+   "zh": "a. 生病的；壞的｜n. 不幸；禍害"
+  },
+  {
+   "id": 1570,
+   "word": "ill-advised",
+   "pos": "a",
+   "zh": "a. 欠考慮的；輕率的"
+  },
+  {
+   "id": 1571,
+   "word": "illegal",
+   "pos": "a",
+   "zh": "a. 違法的"
+  },
+  {
+   "id": 1572,
+   "word": "illicit",
+   "pos": "a",
+   "zh": "a. 不法的，違禁的"
+  },
+  {
+   "id": 1573,
+   "word": "illiteracy",
+   "pos": "n",
+   "zh": "n. 不識字；文盲"
+  },
+  {
+   "id": 1574,
+   "word": "illness",
+   "pos": "n",
+   "zh": "n. 患病；身體不適"
+  },
+  {
+   "id": 1575,
+   "word": "illogical",
+   "pos": "a",
+   "zh": "a. 不合邏輯的"
+  },
+  {
+   "id": 1576,
+   "word": "illuminate",
+   "pos": "v",
+   "zh": "v. 照亮；照射"
+  },
+  {
+   "id": 1577,
+   "word": "illusion",
+   "pos": "n",
+   "zh": "n. 錯覺；幻覺"
+  },
+  {
+   "id": 1578,
+   "word": "illustrate",
+   "pos": "v",
+   "zh": "v. 說明；闡明"
+  },
+  {
+   "id": 1579,
+   "word": "illustration",
+   "pos": "n",
+   "zh": "n. 描繪；插畫"
+  },
+  {
+   "id": 1580,
+   "word": "image",
+   "pos": "n",
+   "zh": "n. 圖像；圖案"
+  },
+  {
+   "id": 1581,
+   "word": "imaginary",
+   "pos": "a",
+   "zh": "a. 想像的；幻想的"
+  },
+  {
+   "id": 1582,
+   "word": "imagination",
+   "pos": "n",
+   "zh": "n. 想像力"
+  },
+  {
+   "id": 1583,
+   "word": "imagine",
+   "pos": "v",
+   "zh": "v. 想像"
+  },
+  {
+   "id": 1584,
+   "word": "imitate",
+   "pos": "v",
+   "zh": "v. 模仿"
+  },
+  {
+   "id": 1585,
+   "word": "immature",
+   "pos": "a",
+   "zh": "a. 不成熟的"
+  },
+  {
+   "id": 1586,
+   "word": "immediate",
+   "pos": "a",
+   "zh": "a. 立刻的；立即的"
+  },
+  {
+   "id": 1587,
+   "word": "immediately",
+   "pos": "ad",
+   "zh": "ad. 馬上；直接地"
+  },
+  {
+   "id": 1588,
+   "word": "immense",
+   "pos": "a",
+   "zh": "a. 巨大的；廣大的"
+  },
+  {
+   "id": 1589,
+   "word": "immigrant",
+   "pos": "n/a",
+   "zh": "n. 移民；僑民｜a. 移民的"
+  },
+  {
+   "id": 1590,
+   "word": "immobile",
+   "pos": "a",
+   "zh": "a. 不能動的；固定的"
+  },
+  {
+   "id": 1591,
+   "word": "immune",
+   "pos": "a",
+   "zh": "a. 免疫的"
+  },
+  {
+   "id": 1592,
+   "word": "impact",
+   "pos": "v",
+   "zh": "v. 產生影響"
+  },
+  {
+   "id": 1593,
+   "word": "impair",
+   "pos": "v",
+   "zh": "v. 損害；損傷"
+  },
+  {
+   "id": 1594,
+   "word": "impartial",
+   "pos": "a",
+   "zh": "a. 公正的；無偏見的"
+  },
+  {
+   "id": 1595,
+   "word": "impatient",
+   "pos": "a",
+   "zh": "a. 不耐煩的，沒耐心的"
+  },
+  {
+   "id": 1596,
+   "word": "impeccable",
+   "pos": "a",
+   "zh": "a. 無懈可擊的；無缺點的"
+  },
+  {
+   "id": 1597,
+   "word": "impede",
+   "pos": "v",
+   "zh": "v. 妨礙；阻礙"
+  },
+  {
+   "id": 1598,
+   "word": "imperative",
+   "pos": "a",
+   "zh": "a. 必要的；緊急的"
+  },
+  {
+   "id": 1599,
+   "word": "implement",
+   "pos": "n/v",
+   "zh": "n. 工具；器具｜v. 履行；實施"
+  },
+  {
+   "id": 1600,
+   "word": "implementation",
+   "pos": "n",
+   "zh": "n. 履行；完成"
+  },
+  {
+   "id": 1601,
+   "word": "implication",
+   "pos": "n",
+   "zh": "n. 牽連；涉及"
+  },
+  {
+   "id": 1602,
+   "word": "imply",
+   "pos": "v",
+   "zh": "v. 暗指；暗示"
+  },
+  {
+   "id": 1603,
+   "word": "impolite",
+   "pos": "a",
+   "zh": "a. 失禮的"
+  },
+  {
+   "id": 1604,
+   "word": "import",
+   "pos": "n",
+   "zh": "n. 進口；輸入"
+  },
+  {
+   "id": 1605,
+   "word": "importance",
+   "pos": "n",
+   "zh": "n. 重要性"
+  },
+  {
+   "id": 1606,
+   "word": "important",
+   "pos": "a",
+   "zh": "a. 重要的"
+  },
+  {
+   "id": 1607,
+   "word": "impose",
+   "pos": "v",
+   "zh": "v. 強加於"
+  },
+  {
+   "id": 1608,
+   "word": "impossible",
+   "pos": "a",
+   "zh": "a. 不可能的"
+  },
+  {
+   "id": 1609,
+   "word": "impractical",
+   "pos": "a",
+   "zh": "a. 不實際的"
+  },
+  {
+   "id": 1610,
+   "word": "impress",
+   "pos": "v",
+   "zh": "v. 使感動；使銘記"
+  },
+  {
+   "id": 1611,
+   "word": "impression",
+   "pos": "n",
+   "zh": "n. 印象"
+  },
+  {
+   "id": 1612,
+   "word": "impressive",
+   "pos": "a",
+   "zh": "a. 印象深刻的"
+  },
+  {
+   "id": 1613,
+   "word": "improper",
+   "pos": "a",
+   "zh": "a. 不合適的"
+  },
+  {
+   "id": 1614,
+   "word": "improve",
+   "pos": "v",
+   "zh": "v. 增強；改善"
+  },
+  {
+   "id": 1615,
+   "word": "improvement",
+   "pos": "n",
+   "zh": "n. 增強；改善"
+  },
+  {
+   "id": 1616,
+   "word": "impulse",
+   "pos": "n",
+   "zh": "n. 衝動；刺激"
+  },
+  {
+   "id": 1617,
+   "word": "inability",
+   "pos": "n",
+   "zh": "n. 無能；無力"
+  },
+  {
+   "id": 1618,
+   "word": "inaccurate",
+   "pos": "a",
+   "zh": "a. 不正確的"
+  },
+  {
+   "id": 1619,
+   "word": "inactive",
+   "pos": "a",
+   "zh": "a. 不活躍的"
+  },
+  {
+   "id": 1620,
+   "word": "inadequate",
+   "pos": "n",
+   "zh": "n. 不適切的"
+  },
+  {
+   "id": 1621,
+   "word": "inbound",
+   "pos": "a",
+   "zh": "a. 回內地的；歸本國的"
+  },
+  {
+   "id": 1622,
+   "word": "Inc.",
+   "pos": "n",
+   "zh": "n. 法人組織；公司(=incorporation)"
+  },
+  {
+   "id": 1623,
+   "word": "incentive",
+   "pos": "n/a",
+   "zh": "n. 鼓勵；動機｜a. 刺激的；鼓勵的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

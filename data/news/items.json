@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -220,6 +220,7 @@
    "https://openai.com/index/building-codex-windows-sandbox",
    "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
    "https://openai.com/index/building-openai-with-openai",
+   "https://openai.com/index/building-scientific-understanding-with-academic-communities",
    "https://openai.com/index/building-self-improving-tax-agents-with-codex",
    "https://openai.com/index/building-standards-next-phase-ai",
    "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
@@ -240,6 +241,7 @@
    "https://openai.com/index/chatgpt-can-now-see-hear-and-speak",
    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
    "https://openai.com/index/chatgpt-enterprise-spend-controls",
+   "https://openai.com/index/chatgpt-expanding-world-of-work",
    "https://openai.com/index/chatgpt-for-academic-researchers",
    "https://openai.com/index/chatgpt-for-excel",
    "https://openai.com/index/chatgpt-for-teachers",
@@ -464,6 +466,7 @@
    "https://openai.com/index/extracting-concepts-from-gpt-4",
    "https://openai.com/index/factory",
    "https://openai.com/index/fanatics-betting-gaming-andrea-ellis",
+   "https://openai.com/index/fanatics-streamline-fan-experience",
    "https://openai.com/index/faster-physics-in-python",
    "https://openai.com/index/faulty-reward-functions",
    "https://openai.com/index/ffjord",
@@ -556,6 +559,7 @@
    "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex",
    "https://openai.com/index/gpt-5-system-card-sensitive-conversations",
    "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+   "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
    "https://openai.com/index/gpt-6-astra",
    "https://openai.com/index/gpt-6-astra-next-generation-work",
    "https://openai.com/index/gpt-6-for-everyone",
@@ -565,6 +569,7 @@
    "https://openai.com/index/grab",
    "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
    "https://openai.com/index/gradient-labs",
+   "https://openai.com/index/greptile-code-review-codex-astra",
    "https://openai.com/index/group-chats-in-chatgpt",
    "https://openai.com/index/grupo-folha-grupo-uol-partnership",
    "https://openai.com/index/gym-retro",
@@ -685,6 +690,7 @@
    "https://openai.com/index/introducing-gpt-5-5",
    "https://openai.com/index/introducing-gpt-5-for-developers",
    "https://openai.com/index/introducing-gpt-6-1-sol",
+   "https://openai.com/index/introducing-gpt-6-1-terra",
    "https://openai.com/index/introducing-gpt-6-sol-and-luna",
    "https://openai.com/index/introducing-gpt-live",
    "https://openai.com/index/introducing-gpt-live-1-in-the-api",
@@ -923,6 +929,7 @@
    "https://openai.com/index/openai-certificate-courses",
    "https://openai.com/index/openai-codex",
    "https://openai.com/index/openai-contract-data-agent",
+   "https://openai.com/index/openai-cut-incident-investigation",
    "https://openai.com/index/openai-cybersecurity-grant-program",
    "https://openai.com/index/openai-deutschland",
    "https://openai.com/index/openai-elon-musk",
@@ -1327,7 +1334,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-17",
    "https://platform.openai.com/docs/changelog#2026-10-21",
    "https://platform.openai.com/docs/changelog#2026-10-22",
-   "https://platform.openai.com/docs/changelog#2026-10-23"
+   "https://platform.openai.com/docs/changelog#2026-10-23",
+   "https://platform.openai.com/docs/changelog#2026-10-27"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1600,6 +1608,7 @@
    "https://www.anthropic.com/news/releasing-claude-instant-1-2",
    "https://www.anthropic.com/news/responsible-scaling-policy-v3",
    "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
+   "https://www.anthropic.com/news/s1-sec",
    "https://www.anthropic.com/news/safeguards",
    "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
    "https://www.anthropic.com/news/salesforce-partnership",
@@ -2012,6 +2021,130 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-27",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "Oct 26\ngpt-6.1-terra\nReleased GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.\nSee the GPT-6 guide for prompting and migration guidance."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/greptile-code-review-codex-astra",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "title": "Working with academic communities to build scientific understanding",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "title": "ChatGPT’s expanding world of work",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/openai-cut-incident-investigation",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "title": "Introducing GPT-6.1 Terra",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [
+    "Bringing fast and capable computer use to everyone"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/s1-sec",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "date": "2026-10-26",
+   "open_weights": false,
+   "fetched": "2026-10-27",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-10-24",
    "company": "Anthropic",
