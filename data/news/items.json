@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -154,6 +154,7 @@
    "https://openai.com/index/amazon-partnership",
    "https://openai.com/index/amp-beyond-coding",
    "https://openai.com/index/an-alien-mind",
+   "https://openai.com/index/anima",
    "https://openai.com/index/announcing-devday-2025",
    "https://openai.com/index/announcing-openai-devday",
    "https://openai.com/index/announcing-the-stargate-project",
@@ -256,6 +257,7 @@
    "https://openai.com/index/chatgpt-study-mode",
    "https://openai.com/index/chatgpt-whatsapp-transition",
    "https://openai.com/index/chatham-financial",
+   "https://openai.com/index/check-point-daybreak",
    "https://openai.com/index/child-safety-adopting-sbd-principles",
    "https://openai.com/index/chime-vineet-mehra",
    "https://openai.com/index/choco",
@@ -571,6 +573,7 @@
    "https://openai.com/index/gradient-labs",
    "https://openai.com/index/greptile-code-review-codex-astra",
    "https://openai.com/index/group-chats-in-chatgpt",
+   "https://openai.com/index/grupo-boticario",
    "https://openai.com/index/grupo-folha-grupo-uol-partnership",
    "https://openai.com/index/gym-retro",
    "https://openai.com/index/hackathon-follow-up",
@@ -798,6 +801,7 @@
    "https://openai.com/index/lenfest-ai-collaborative-expansion",
    "https://openai.com/index/lenfest-institute",
    "https://openai.com/index/lifespan",
+   "https://openai.com/index/localiza-generative-ai",
    "https://openai.com/index/loveholidays",
    "https://openai.com/index/low-resource-programming-languages",
    "https://openai.com/index/lowes",
@@ -996,6 +1000,7 @@
    "https://openai.com/index/operator-system-card",
    "https://openai.com/index/optimizing-chatgpt",
    "https://openai.com/index/oracle",
+   "https://openai.com/index/oracle-apps-in-chatgpt",
    "https://openai.com/index/organizational-update",
    "https://openai.com/index/oscar",
    "https://openai.com/index/our-agreement-with-the-department-of-war",
@@ -1520,6 +1525,7 @@
    "https://www.anthropic.com/news/expanding-access-to-claude-for-government",
    "https://www.anthropic.com/news/expanding-global-operations-to-india",
    "https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services",
+   "https://www.anthropic.com/news/expanding-partnership-gsa",
    "https://www.anthropic.com/news/expanding-project-glasswing",
    "https://www.anthropic.com/news/expanding-support-for-scientists",
    "https://www.anthropic.com/news/fable-mythos-access",
@@ -1666,6 +1672,7 @@
    "https://www.anthropic.com/research/advanced-tool-use",
    "https://www.anthropic.com/research/agentic-misalignment",
    "https://www.anthropic.com/research/agents-in-biology",
+   "https://www.anthropic.com/research/agents-judgment-calls",
    "https://www.anthropic.com/research/ai-expectations-gap",
    "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
    "https://www.anthropic.com/research/alignment-assessment-ukaisi",
@@ -1732,10 +1739,12 @@
    "https://www.anthropic.com/research/diff-tool",
    "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
    "https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations",
+   "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
    "https://www.anthropic.com/research/disempowerment-patterns",
    "https://www.anthropic.com/research/distillation-defenses",
    "https://www.anthropic.com/research/distributed-representations-composition-superposition",
    "https://www.anthropic.com/research/donating-open-source-petri",
+   "https://www.anthropic.com/research/early-progress-drug-development",
    "https://www.anthropic.com/research/ecdsa-curve-origins",
    "https://www.anthropic.com/research/economic-index-geography",
    "https://www.anthropic.com/research/economic-index-june-2026-report",
@@ -1875,7 +1884,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-21",
    "https://docs.claude.com/en/release-notes/overview#2026-10-22",
    "https://docs.claude.com/en/release-notes/overview#2026-10-23",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-24"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-24",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-28"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2022,6 +2032,96 @@
  },
  "items": [
   {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-28",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-28",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "We’ve launched Claude Models on Google Cloud (Anthropic managed), the Claude API operated by Anthropic and reached through your Google Cloud project. Google Cloud IAM controls access. Google Cloud Mar"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/check-point-daybreak",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/check-point-daybreak",
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/agents-judgment-calls",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "title": "How AI agents shape experts’ judgment calls",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/early-progress-drug-development",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "title": "Early progress on accelerating drug development with Claude",
+   "date": "2026-10-27",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-10-27",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2156,6 +2256,20 @@
    "fetched": "2026-10-24",
    "points": [
     "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude "
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/anima",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/anima",
+   "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+   "date": "2026-10-23",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients."
    ],
    "pending": true
   },
@@ -2794,6 +2908,34 @@
    "fetched": "2026-10-17",
    "points": [
     "base_url=\"https://api.deepseek.com\",\nextra_body={\"thinking\": {\"type\": \"enabled\"}},"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/grupo-boticario",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/grupo-boticario",
+   "title": "How Grupo Boticário uses AI to strengthen human connections",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/localiza-generative-ai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/localiza-generative-ai",
+   "title": "How Localiza reorganized work around generative AI",
+   "date": "2026-10-16",
+   "open_weights": false,
+   "fetched": "2026-10-28",
+   "points": [
+    "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences."
    ],
    "pending": true
   },

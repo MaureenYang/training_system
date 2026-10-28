@@ -1,0 +1,616 @@
+{
+ "day": 17,
+ "date": "2026-10-29",
+ "generated": false,
+ "words": [
+  {
+   "id": 1624,
+   "word": "inch",
+   "pos": "n/v",
+   "zh": "n. 英吋；少許｜v. 緩慢地移動"
+  },
+  {
+   "id": 1625,
+   "word": "incident",
+   "pos": "n",
+   "zh": "n. 事件；事變"
+  },
+  {
+   "id": 1626,
+   "word": "incidental",
+   "pos": "n",
+   "zh": "n. 附帶的；伴隨的"
+  },
+  {
+   "id": 1627,
+   "word": "incinerate",
+   "pos": "v",
+   "zh": "v. 焚化；灰化"
+  },
+  {
+   "id": 1628,
+   "word": "incinerator",
+   "pos": "n",
+   "zh": "n. 焚化爐"
+  },
+  {
+   "id": 1629,
+   "word": "inclination",
+   "pos": "n",
+   "zh": "n. 傾向；意向"
+  },
+  {
+   "id": 1630,
+   "word": "incline",
+   "pos": "v",
+   "zh": "v. 傾斜；屈身"
+  },
+  {
+   "id": 1631,
+   "word": "include",
+   "pos": "v",
+   "zh": "v. 包括；包含"
+  },
+  {
+   "id": 1632,
+   "word": "including",
+   "pos": "prep",
+   "zh": "prep. 包括；包含"
+  },
+  {
+   "id": 1633,
+   "word": "inclusive",
+   "pos": "a",
+   "zh": "a. 包含的，包括的"
+  },
+  {
+   "id": 1634,
+   "word": "incoherent",
+   "pos": "a",
+   "zh": "a. 無條理的；不一貫的"
+  },
+  {
+   "id": 1635,
+   "word": "income",
+   "pos": "n",
+   "zh": "n. 收入；收益"
+  },
+  {
+   "id": 1636,
+   "word": "incoming",
+   "pos": "a/n",
+   "zh": "a. 進來的｜n. 進來；收入"
+  },
+  {
+   "id": 1637,
+   "word": "incompetent",
+   "pos": "a",
+   "zh": "a. 無能力的；不能勝任的"
+  },
+  {
+   "id": 1638,
+   "word": "incomplete",
+   "pos": "a",
+   "zh": "a. 不完全的；不完整的"
+  },
+  {
+   "id": 1639,
+   "word": "inconsistent",
+   "pos": "a",
+   "zh": "a. 不一致的；不協調的"
+  },
+  {
+   "id": 1640,
+   "word": "inconvenience",
+   "pos": "n",
+   "zh": "n. 不方便"
+  },
+  {
+   "id": 1641,
+   "word": "inconvenient",
+   "pos": "a",
+   "zh": "a. 不方便的"
+  },
+  {
+   "id": 1642,
+   "word": "incorporate",
+   "pos": "v",
+   "zh": "v. 合併；混合；組成公司"
+  },
+  {
+   "id": 1643,
+   "word": "incorporation",
+   "pos": "n",
+   "zh": "n. 公司；團結"
+  },
+  {
+   "id": 1644,
+   "word": "incorrect",
+   "pos": "a",
+   "zh": "a. 不正確的"
+  },
+  {
+   "id": 1645,
+   "word": "increase",
+   "pos": "v/n",
+   "zh": "v. 增加；增多｜n. 增加"
+  },
+  {
+   "id": 1646,
+   "word": "incredibility",
+   "pos": "n",
+   "zh": "n. 不可信"
+  },
+  {
+   "id": 1647,
+   "word": "incredible",
+   "pos": "a",
+   "zh": "a. 難以置信的；驚人的"
+  },
+  {
+   "id": 1648,
+   "word": "incur",
+   "pos": "v",
+   "zh": "v. 招致；惹起"
+  },
+  {
+   "id": 1649,
+   "word": "indebt",
+   "pos": "v",
+   "zh": "v. 使負債"
+  },
+  {
+   "id": 1650,
+   "word": "indecisive",
+   "pos": "a",
+   "zh": "a. 優柔寡斷的"
+  },
+  {
+   "id": 1651,
+   "word": "indeed",
+   "pos": "ad",
+   "zh": "ad. 真正地；確實"
+  },
+  {
+   "id": 1652,
+   "word": "indefinite",
+   "pos": "a",
+   "zh": "a. 不確定的；未定的"
+  },
+  {
+   "id": 1653,
+   "word": "independent",
+   "pos": "a",
+   "zh": "a. 獨立的；自主的"
+  },
+  {
+   "id": 1654,
+   "word": "in-depth",
+   "pos": "a",
+   "zh": "a. 深入的；徹底的"
+  },
+  {
+   "id": 1655,
+   "word": "index",
+   "pos": "n/v",
+   "zh": "n. 索引｜v. 表明；指示"
+  },
+  {
+   "id": 1656,
+   "word": "indicate",
+   "pos": "v",
+   "zh": "v. 指示；指出"
+  },
+  {
+   "id": 1657,
+   "word": "indication",
+   "pos": "n",
+   "zh": "n. 徵兆；跡象"
+  },
+  {
+   "id": 1658,
+   "word": "indicator",
+   "pos": "n",
+   "zh": "n. 指示者；指示物"
+  },
+  {
+   "id": 1659,
+   "word": "indifference",
+   "pos": "n",
+   "zh": "n. 漠不關心；冷淡"
+  },
+  {
+   "id": 1660,
+   "word": "indifferent",
+   "pos": "a",
+   "zh": "a. 冷淡的"
+  },
+  {
+   "id": 1661,
+   "word": "indispensable",
+   "pos": "a",
+   "zh": "a. 必需的"
+  },
+  {
+   "id": 1662,
+   "word": "individual",
+   "pos": "a",
+   "zh": "a. 個體的；個人的"
+  },
+  {
+   "id": 1663,
+   "word": "indoor",
+   "pos": "a",
+   "zh": "a. 室內的"
+  },
+  {
+   "id": 1664,
+   "word": "indoors",
+   "pos": "ad",
+   "zh": "ad. 在室內；在屋裡"
+  },
+  {
+   "id": 1665,
+   "word": "industrial",
+   "pos": "a",
+   "zh": "a. 工業的"
+  },
+  {
+   "id": 1666,
+   "word": "industrialize",
+   "pos": "v",
+   "zh": "v. 工業化"
+  },
+  {
+   "id": 1667,
+   "word": "industry",
+   "pos": "n",
+   "zh": "n. 工業；企業"
+  },
+  {
+   "id": 1668,
+   "word": "inevitable",
+   "pos": "a",
+   "zh": "a. 無法避免的"
+  },
+  {
+   "id": 1669,
+   "word": "inevitably",
+   "pos": "ad",
+   "zh": "ad. 無法避免地"
+  },
+  {
+   "id": 1670,
+   "word": "infamous",
+   "pos": "a",
+   "zh": "a. 聲名狼藉的"
+  },
+  {
+   "id": 1671,
+   "word": "infancy",
+   "pos": "n",
+   "zh": "n. 嬰兒期；幼年"
+  },
+  {
+   "id": 1672,
+   "word": "infant",
+   "pos": "n/a",
+   "zh": "n. 嬰兒｜a. 嬰兒的；初期的"
+  },
+  {
+   "id": 1673,
+   "word": "infect",
+   "pos": "v",
+   "zh": "v. 使受影響；感染"
+  },
+  {
+   "id": 1674,
+   "word": "infection",
+   "pos": "n",
+   "zh": "n. 傳染；侵染"
+  },
+  {
+   "id": 1675,
+   "word": "infer",
+   "pos": "v",
+   "zh": "v. 推論；推斷"
+  },
+  {
+   "id": 1676,
+   "word": "inference",
+   "pos": "n",
+   "zh": "n. 推論；推斷"
+  },
+  {
+   "id": 1677,
+   "word": "inferior",
+   "pos": "a",
+   "zh": "a. 低等的；下級的"
+  },
+  {
+   "id": 1678,
+   "word": "infinite",
+   "pos": "a",
+   "zh": "a. 無限的"
+  },
+  {
+   "id": 1679,
+   "word": "infinity",
+   "pos": "n",
+   "zh": "n. 無限"
+  },
+  {
+   "id": 1680,
+   "word": "inflation",
+   "pos": "n",
+   "zh": "n. 通貨膨脹"
+  },
+  {
+   "id": 1681,
+   "word": "inflict",
+   "pos": "v",
+   "zh": "v. 給予（打擊）；使遭受"
+  },
+  {
+   "id": 1682,
+   "word": "influence",
+   "pos": "n",
+   "zh": "n. 影響；作用"
+  },
+  {
+   "id": 1683,
+   "word": "influx",
+   "pos": "n",
+   "zh": "n. 湧進；匯集"
+  },
+  {
+   "id": 1684,
+   "word": "info",
+   "pos": "n",
+   "zh": "n. 通知；報告"
+  },
+  {
+   "id": 1685,
+   "word": "inform",
+   "pos": "v",
+   "zh": "v. 通知；告知"
+  },
+  {
+   "id": 1686,
+   "word": "informal",
+   "pos": "a",
+   "zh": "a. 不正式的"
+  },
+  {
+   "id": 1687,
+   "word": "information",
+   "pos": "n",
+   "zh": "n. 資訊"
+  },
+  {
+   "id": 1688,
+   "word": "informative",
+   "pos": "a",
+   "zh": "a. 見聞廣博的"
+  },
+  {
+   "id": 1689,
+   "word": "infrastructure",
+   "pos": "n",
+   "zh": "n. 公共建設"
+  },
+  {
+   "id": 1690,
+   "word": "ingredient",
+   "pos": "n",
+   "zh": "n. 組成；原料"
+  },
+  {
+   "id": 1691,
+   "word": "inhabit",
+   "pos": "v",
+   "zh": "v. 居住於；棲息於"
+  },
+  {
+   "id": 1692,
+   "word": "inhabitant",
+   "pos": "n",
+   "zh": "n. 居民；居住者"
+  },
+  {
+   "id": 1693,
+   "word": "inherent",
+   "pos": "a",
+   "zh": "a. 內在的；固有的"
+  },
+  {
+   "id": 1694,
+   "word": "initial",
+   "pos": "a",
+   "zh": "a. 開始的；最初的"
+  },
+  {
+   "id": 1695,
+   "word": "initially",
+   "pos": "ad",
+   "zh": "ad. 開始的；最初的"
+  },
+  {
+   "id": 1696,
+   "word": "initiate",
+   "pos": "a",
+   "zh": "a. 新加入的"
+  },
+  {
+   "id": 1697,
+   "word": "initiation",
+   "pos": "n",
+   "zh": "n. 開始；創始"
+  },
+  {
+   "id": 1698,
+   "word": "initiative",
+   "pos": "a",
+   "zh": "a. 創始的"
+  },
+  {
+   "id": 1699,
+   "word": "inject",
+   "pos": "v",
+   "zh": "v. 注射"
+  },
+  {
+   "id": 1700,
+   "word": "injection",
+   "pos": "n",
+   "zh": "n. 注射"
+  },
+  {
+   "id": 1701,
+   "word": "injure",
+   "pos": "v",
+   "zh": "v. 傷害；損害"
+  },
+  {
+   "id": 1702,
+   "word": "injured",
+   "pos": "a",
+   "zh": "a. 受傷的"
+  },
+  {
+   "id": 1703,
+   "word": "injury",
+   "pos": "n",
+   "zh": "n. 受傷"
+  },
+  {
+   "id": 1704,
+   "word": "inner",
+   "pos": "a",
+   "zh": "a. 內部的；核心的"
+  },
+  {
+   "id": 1705,
+   "word": "innocent",
+   "pos": "a",
+   "zh": "a. 無辜的；單純的"
+  },
+  {
+   "id": 1706,
+   "word": "innovate",
+   "pos": "v",
+   "zh": "v. 創立；革新"
+  },
+  {
+   "id": 1707,
+   "word": "innovation",
+   "pos": "n",
+   "zh": "n. 創新"
+  },
+  {
+   "id": 1708,
+   "word": "innovator",
+   "pos": "n",
+   "zh": "n. 創新者"
+  },
+  {
+   "id": 1709,
+   "word": "inquire",
+   "pos": "v",
+   "zh": "v. 詢問；打聽"
+  },
+  {
+   "id": 1710,
+   "word": "inquiry",
+   "pos": "n",
+   "zh": "n. 詢問；打聽"
+  },
+  {
+   "id": 1711,
+   "word": "insane",
+   "pos": "a",
+   "zh": "a. 精神錯亂的；瘋狂的"
+  },
+  {
+   "id": 1712,
+   "word": "insanity",
+   "pos": "n",
+   "zh": "n. 瘋狂"
+  },
+  {
+   "id": 1713,
+   "word": "insecure",
+   "pos": "a",
+   "zh": "a. 不安全的；有危險的"
+  },
+  {
+   "id": 1714,
+   "word": "insecurity",
+   "pos": "n",
+   "zh": "n. 不安全；危險"
+  },
+  {
+   "id": 1715,
+   "word": "insert",
+   "pos": "v",
+   "zh": "v. 插入；嵌入"
+  },
+  {
+   "id": 1716,
+   "word": "inside",
+   "pos": "n/a/prep",
+   "zh": "n. 內部；裡面｜a. 在裡面｜prep. 在……的裡面"
+  },
+  {
+   "id": 1717,
+   "word": "insider",
+   "pos": "n",
+   "zh": "n. 內部的人；會員"
+  },
+  {
+   "id": 1718,
+   "word": "insight",
+   "pos": "n",
+   "zh": "n. 見解；看法"
+  },
+  {
+   "id": 1719,
+   "word": "insignificant",
+   "pos": "a",
+   "zh": "a. 不重要的"
+  },
+  {
+   "id": 1720,
+   "word": "insist",
+   "pos": "v",
+   "zh": "v. 堅持"
+  },
+  {
+   "id": 1721,
+   "word": "inspect",
+   "pos": "v",
+   "zh": "v. 檢查；審查"
+  },
+  {
+   "id": 1722,
+   "word": "inspection",
+   "pos": "n",
+   "zh": "n. 檢查；審查"
+  },
+  {
+   "id": 1723,
+   "word": "inspector",
+   "pos": "n",
+   "zh": "n. 檢查員；視察員"
+  },
+  {
+   "id": 1724,
+   "word": "inspiration",
+   "pos": "n",
+   "zh": "n. 靈感；鼓舞"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
