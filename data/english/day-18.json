@@ -1,0 +1,616 @@
+{
+ "day": 18,
+ "date": "2026-10-30",
+ "generated": false,
+ "words": [
+  {
+   "id": 1725,
+   "word": "inspire",
+   "pos": "v",
+   "zh": "v. 鼓舞；激勵"
+  },
+  {
+   "id": 1726,
+   "word": "inspiring",
+   "pos": "a",
+   "zh": "a. 激勵人心的"
+  },
+  {
+   "id": 1727,
+   "word": "install",
+   "pos": "v",
+   "zh": "v. 安裝；設置"
+  },
+  {
+   "id": 1728,
+   "word": "installment",
+   "pos": "n",
+   "zh": "n. 安裝；設置"
+  },
+  {
+   "id": 1729,
+   "word": "instance",
+   "pos": "n/v",
+   "zh": "n. 例子；實例｜v. 引證"
+  },
+  {
+   "id": 1730,
+   "word": "instant",
+   "pos": "a",
+   "zh": "a. 立即的；即刻的"
+  },
+  {
+   "id": 1731,
+   "word": "instantaneously",
+   "pos": "ad",
+   "zh": "ad. 即刻；突如其來地"
+  },
+  {
+   "id": 1732,
+   "word": "instead",
+   "pos": "ad",
+   "zh": "ad. 反而，卻"
+  },
+  {
+   "id": 1733,
+   "word": "institute",
+   "pos": "n/v",
+   "zh": "n. 協會；學院｜v. 創立；設立"
+  },
+  {
+   "id": 1734,
+   "word": "institution",
+   "pos": "n",
+   "zh": "n. 制度；機構"
+  },
+  {
+   "id": 1735,
+   "word": "instruct",
+   "pos": "n",
+   "zh": "n. 命令；指示"
+  },
+  {
+   "id": 1736,
+   "word": "instruction",
+   "pos": "n",
+   "zh": "n. 命令；指示"
+  },
+  {
+   "id": 1737,
+   "word": "instructor",
+   "pos": "n",
+   "zh": "n. 教練；指導者"
+  },
+  {
+   "id": 1738,
+   "word": "instrument",
+   "pos": "n",
+   "zh": "n. 樂器；儀器；器具"
+  },
+  {
+   "id": 1739,
+   "word": "instrumental",
+   "pos": "a",
+   "zh": "a. 用樂器演奏的；有幫助的"
+  },
+  {
+   "id": 1740,
+   "word": "insult",
+   "pos": "v",
+   "zh": "v. 侮辱；羞辱"
+  },
+  {
+   "id": 1741,
+   "word": "insurance",
+   "pos": "n",
+   "zh": "n. 保險；保險契約"
+  },
+  {
+   "id": 1742,
+   "word": "insure",
+   "pos": "v",
+   "zh": "v. 保證；確保"
+  },
+  {
+   "id": 1743,
+   "word": "integrity",
+   "pos": "n",
+   "zh": "n. 正直"
+  },
+  {
+   "id": 1744,
+   "word": "intelligence",
+   "pos": "n",
+   "zh": "n. 聰明才智"
+  },
+  {
+   "id": 1745,
+   "word": "intend",
+   "pos": "v",
+   "zh": "v. 想要；打算"
+  },
+  {
+   "id": 1746,
+   "word": "intense",
+   "pos": "a",
+   "zh": "a. 強烈的；劇烈的"
+  },
+  {
+   "id": 1747,
+   "word": "intensify",
+   "pos": "v",
+   "zh": "v. 加強；增強"
+  },
+  {
+   "id": 1748,
+   "word": "intensive",
+   "pos": "a",
+   "zh": "a. 加強的；密集的"
+  },
+  {
+   "id": 1749,
+   "word": "intent",
+   "pos": "v",
+   "zh": "v. 意圖；目的"
+  },
+  {
+   "id": 1750,
+   "word": "intention",
+   "pos": "n",
+   "zh": "n. 意圖；目的"
+  },
+  {
+   "id": 1751,
+   "word": "interchangeable",
+   "pos": "a",
+   "zh": "a. 可交換的"
+  },
+  {
+   "id": 1752,
+   "word": "interest",
+   "pos": "n",
+   "zh": "n. 興趣；喜好；利息"
+  },
+  {
+   "id": 1753,
+   "word": "interfere",
+   "pos": "v",
+   "zh": "v. 妨礙；衝突"
+  },
+  {
+   "id": 1754,
+   "word": "interior",
+   "pos": "a",
+   "zh": "a. 內部的；內側的"
+  },
+  {
+   "id": 1755,
+   "word": "intermittent",
+   "pos": "a",
+   "zh": "a. 間歇的；週期性的"
+  },
+  {
+   "id": 1756,
+   "word": "internal",
+   "pos": "a",
+   "zh": "a. 內部的"
+  },
+  {
+   "id": 1757,
+   "word": "international",
+   "pos": "a",
+   "zh": "a. 國際的"
+  },
+  {
+   "id": 1758,
+   "word": "internationalize",
+   "pos": "v",
+   "zh": "v. 使國際化"
+  },
+  {
+   "id": 1759,
+   "word": "interpret",
+   "pos": "v",
+   "zh": "v. 解釋；說明"
+  },
+  {
+   "id": 1760,
+   "word": "interpreter",
+   "pos": "n",
+   "zh": "n. 口譯者"
+  },
+  {
+   "id": 1761,
+   "word": "interrupt",
+   "pos": "v",
+   "zh": "v. 打擾；干擾"
+  },
+  {
+   "id": 1762,
+   "word": "interruption",
+   "pos": "n",
+   "zh": "n. 打擾；干擾"
+  },
+  {
+   "id": 1763,
+   "word": "interview",
+   "pos": "n",
+   "zh": "n. 訪談；面試"
+  },
+  {
+   "id": 1764,
+   "word": "interviewee",
+   "pos": "n",
+   "zh": "n. 被面試的人"
+  },
+  {
+   "id": 1765,
+   "word": "interviewer",
+   "pos": "n",
+   "zh": "n. 採訪者"
+  },
+  {
+   "id": 1766,
+   "word": "intricate",
+   "pos": "a",
+   "zh": "a. 錯綜複雜的；複雜精細的"
+  },
+  {
+   "id": 1767,
+   "word": "introduce",
+   "pos": "v",
+   "zh": "v. 介紹；引見"
+  },
+  {
+   "id": 1768,
+   "word": "introduction",
+   "pos": "n",
+   "zh": "n. 介紹；引見"
+  },
+  {
+   "id": 1769,
+   "word": "introductory",
+   "pos": "a",
+   "zh": "a. 介紹的"
+  },
+  {
+   "id": 1770,
+   "word": "invent",
+   "pos": "v",
+   "zh": "v. 發明；創造"
+  },
+  {
+   "id": 1771,
+   "word": "invention",
+   "pos": "n",
+   "zh": "n. 發明；創造"
+  },
+  {
+   "id": 1772,
+   "word": "inventive",
+   "pos": "a",
+   "zh": "a. 發明的；創造的"
+  },
+  {
+   "id": 1773,
+   "word": "inventor",
+   "pos": "n",
+   "zh": "n. 發明家；創作者"
+  },
+  {
+   "id": 1774,
+   "word": "inventory",
+   "pos": "n",
+   "zh": "n. 存貨清單；目錄"
+  },
+  {
+   "id": 1775,
+   "word": "invest",
+   "pos": "v",
+   "zh": "v. 投資"
+  },
+  {
+   "id": 1776,
+   "word": "investment",
+   "pos": "n",
+   "zh": "n. 投資"
+  },
+  {
+   "id": 1777,
+   "word": "investor",
+   "pos": "n",
+   "zh": "n. 投資者"
+  },
+  {
+   "id": 1778,
+   "word": "invisible",
+   "pos": "a",
+   "zh": "a. 看不見的；無形的"
+  },
+  {
+   "id": 1779,
+   "word": "invitation",
+   "pos": "n",
+   "zh": "n. 邀請；邀請函"
+  },
+  {
+   "id": 1780,
+   "word": "invite",
+   "pos": "v",
+   "zh": "v. 邀請"
+  },
+  {
+   "id": 1781,
+   "word": "invoice",
+   "pos": "n",
+   "zh": "n. 發票；發貨單"
+  },
+  {
+   "id": 1782,
+   "word": "involve",
+   "pos": "v",
+   "zh": "v. 涉入；參與"
+  },
+  {
+   "id": 1783,
+   "word": "involvement",
+   "pos": "n",
+   "zh": "n. 參與"
+  },
+  {
+   "id": 1784,
+   "word": "irrelevant",
+   "pos": "a",
+   "zh": "a. 不相干的"
+  },
+  {
+   "id": 1785,
+   "word": "issue",
+   "pos": "v/n",
+   "zh": "v. 發行；配給｜n. 問題；爭論"
+  },
+  {
+   "id": 1786,
+   "word": "item",
+   "pos": "n",
+   "zh": "n. 項目；條款"
+  },
+  {
+   "id": 1787,
+   "word": "itemize",
+   "pos": "v",
+   "zh": "v. 分條列述；詳細列舉"
+  },
+  {
+   "id": 1788,
+   "word": "itinerary",
+   "pos": "n/a",
+   "zh": "n. 旅程；路線｜a. 旅行的；旅程的"
+  },
+  {
+   "id": 1789,
+   "word": "janitor",
+   "pos": "n",
+   "zh": "n. 看門人的工友"
+  },
+  {
+   "id": 1790,
+   "word": "job",
+   "pos": "n",
+   "zh": "n. 工作；職業"
+  },
+  {
+   "id": 1791,
+   "word": "jobless",
+   "pos": "a",
+   "zh": "a. 失業的"
+  },
+  {
+   "id": 1792,
+   "word": "jog",
+   "pos": "n/v",
+   "zh": "n. 慢跑；緩行｜v. 慢跑；輕搖"
+  },
+  {
+   "id": 1793,
+   "word": "join",
+   "pos": "v",
+   "zh": "v. 參與；參加"
+  },
+  {
+   "id": 1794,
+   "word": "joint",
+   "pos": "n",
+   "zh": "n. 關節；接合點"
+  },
+  {
+   "id": 1795,
+   "word": "journal",
+   "pos": "n",
+   "zh": "n. 日報；雜誌"
+  },
+  {
+   "id": 1796,
+   "word": "journalist",
+   "pos": "n",
+   "zh": "n. 新聞工作者"
+  },
+  {
+   "id": 1797,
+   "word": "journey",
+   "pos": "n",
+   "zh": "n. 旅行"
+  },
+  {
+   "id": 1798,
+   "word": "judge",
+   "pos": "v/n",
+   "zh": "v. 審判；判決｜n. 法官；評判"
+  },
+  {
+   "id": 1799,
+   "word": "judgmental",
+   "pos": "a",
+   "zh": "a. 判定的"
+  },
+  {
+   "id": 1800,
+   "word": "junction",
+   "pos": "n",
+   "zh": "n. 連接；接合；交叉點"
+  },
+  {
+   "id": 1801,
+   "word": "justice",
+   "pos": "n",
+   "zh": "n. 正義；公平"
+  },
+  {
+   "id": 1802,
+   "word": "justify",
+   "pos": "v",
+   "zh": "v. 證明無罪；開釋"
+  },
+  {
+   "id": 1803,
+   "word": "keen",
+   "pos": "a",
+   "zh": "a. 熱心的；敏銳的"
+  },
+  {
+   "id": 1804,
+   "word": "keenly",
+   "pos": "ad",
+   "zh": "ad. 敏銳地；銳利地"
+  },
+  {
+   "id": 1805,
+   "word": "keep",
+   "pos": "v",
+   "zh": "v. 持有；保有"
+  },
+  {
+   "id": 1806,
+   "word": "keeper",
+   "pos": "n",
+   "zh": "n. 飼養者；保管人"
+  },
+  {
+   "id": 1807,
+   "word": "key",
+   "pos": "n",
+   "zh": "n. 鑰匙；關鍵"
+  },
+  {
+   "id": 1808,
+   "word": "keyboard",
+   "pos": "n",
+   "zh": "n. 鍵盤"
+  },
+  {
+   "id": 1809,
+   "word": "kick",
+   "pos": "v",
+   "zh": "v. 踢；剔除"
+  },
+  {
+   "id": 1810,
+   "word": "kickoff",
+   "pos": "n",
+   "zh": "n. 開球；開始"
+  },
+  {
+   "id": 1811,
+   "word": "kid",
+   "pos": "n",
+   "zh": "n. 小孩；兒童"
+  },
+  {
+   "id": 1812,
+   "word": "kidna",
+   "pos": "v",
+   "zh": "v. 綁架"
+  },
+  {
+   "id": 1813,
+   "word": "kidnapper",
+   "pos": "n",
+   "zh": "n. 綁票者"
+  },
+  {
+   "id": 1814,
+   "word": "kidney",
+   "pos": "n",
+   "zh": "n. 腎臟"
+  },
+  {
+   "id": 1815,
+   "word": "kilogram",
+   "pos": "n",
+   "zh": "n. 公斤"
+  },
+  {
+   "id": 1816,
+   "word": "kilometer",
+   "pos": "n",
+   "zh": "n. 公里"
+  },
+  {
+   "id": 1817,
+   "word": "kin",
+   "pos": "a/n",
+   "zh": "a. 同類的；類似的｜n. 家族；親戚"
+  },
+  {
+   "id": 1818,
+   "word": "kind",
+   "pos": "a/n",
+   "zh": "a. 親切的；和藹的｜n. 種類"
+  },
+  {
+   "id": 1819,
+   "word": "kindly",
+   "pos": "a/ad",
+   "zh": "a. 親切的；和藹的｜ad. 親切地；勞駕，請"
+  },
+  {
+   "id": 1820,
+   "word": "kindness",
+   "pos": "n",
+   "zh": "n. 親切；寬大"
+  },
+  {
+   "id": 1821,
+   "word": "kit",
+   "pos": "n",
+   "zh": "n. 成套工具"
+  },
+  {
+   "id": 1822,
+   "word": "know",
+   "pos": "v",
+   "zh": "v. 知道；了解"
+  },
+  {
+   "id": 1823,
+   "word": "knowingly",
+   "pos": "ad",
+   "zh": "ad. 熟悉地"
+  },
+  {
+   "id": 1824,
+   "word": "knowledge",
+   "pos": "n",
+   "zh": "n. 知識"
+  },
+  {
+   "id": 1825,
+   "word": "knowledgeable",
+   "pos": "a",
+   "zh": "a. 博學的；有見識的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

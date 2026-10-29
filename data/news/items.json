@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -797,6 +797,7 @@
    "https://openai.com/index/learning-to-summarize-with-human-feedback",
    "https://openai.com/index/learning-with-opponent-learning-awareness",
    "https://openai.com/index/legalon-halves-codex-costs",
+   "https://openai.com/index/legora",
    "https://openai.com/index/legora-financial-statement-review-with-astra",
    "https://openai.com/index/lenfest-ai-collaborative-expansion",
    "https://openai.com/index/lenfest-institute",
@@ -986,6 +987,7 @@
    "https://openai.com/index/openai-scholars-2020",
    "https://openai.com/index/openai-scholars-2020-final-projects",
    "https://openai.com/index/openai-scholars-2021-final-projects",
+   "https://openai.com/index/openai-servicenow-partnership-expansion",
    "https://openai.com/index/openai-submits-confidential-s-1",
    "https://openai.com/index/openai-summer-fellows-2018",
    "https://openai.com/index/openai-support-model",
@@ -1233,6 +1235,7 @@
    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
    "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
    "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+   "https://openai.com/index/the-future-of-the-firm",
    "https://openai.com/index/the-instruction-hierarchy",
    "https://openai.com/index/the-international-2018-results",
    "https://openai.com/index/the-met-museum",
@@ -1340,7 +1343,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-21",
    "https://platform.openai.com/docs/changelog#2026-10-22",
    "https://platform.openai.com/docs/changelog#2026-10-23",
-   "https://platform.openai.com/docs/changelog#2026-10-27"
+   "https://platform.openai.com/docs/changelog#2026-10-27",
+   "https://platform.openai.com/docs/changelog#2026-10-29"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1384,6 +1388,7 @@
    "https://www.anthropic.com/news/activating-asl3-protections",
    "https://www.anthropic.com/news/advancing-claude-for-education",
    "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+   "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
    "https://www.anthropic.com/news/ai-for-science-program",
    "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
    "https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist",
@@ -1885,7 +1890,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-22",
    "https://docs.claude.com/en/release-notes/overview#2026-10-23",
    "https://docs.claude.com/en/release-notes/overview#2026-10-24",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-28"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-28",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-29"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2031,6 +2037,88 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-29",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [
+    "API credits for ChatGPT subscribers\nOct 28\nEligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit. Activate the benefit from Cha"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-29",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [
+    "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120, the code execution tool version that adds REPL state persistence and is the minimum version fo"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "date": "2026-10-28",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [
+    "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/the-future-of-the-firm",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/the-future-of-the-firm",
+   "title": "The future of the firm",
+   "date": "2026-10-28",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [
+    "How AI might enter the org chart—beneath, beside, and between us."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/legora",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/legora",
+   "title": "Legora is building the agentic operating system for legal work",
+   "date": "2026-10-28",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [
+    "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "title": "AI for Science expands to foundations and institutions",
+   "date": "2026-10-28",
+   "open_weights": false,
+   "fetched": "2026-10-29",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-10-28",
    "company": "Anthropic",
