@@ -1,0 +1,616 @@
+{
+ "day": 19,
+ "date": "2026-10-31",
+ "generated": false,
+ "words": [
+  {
+   "id": 1826,
+   "word": "lab",
+   "pos": "n",
+   "zh": "n. 實驗室"
+  },
+  {
+   "id": 1827,
+   "word": "label",
+   "pos": "n/v",
+   "zh": "n. 貼紙；標籤｜v. 貼標籤於"
+  },
+  {
+   "id": 1828,
+   "word": "labor",
+   "pos": "n/v",
+   "zh": "n. 勞工；勞動｜v. 勞動；艱苦地幹活"
+  },
+  {
+   "id": 1829,
+   "word": "laboratory",
+   "pos": "n",
+   "zh": "n. 實驗室"
+  },
+  {
+   "id": 1830,
+   "word": "lack",
+   "pos": "v/n",
+   "zh": "v. 缺少；缺乏｜n. 欠缺；不足"
+  },
+  {
+   "id": 1831,
+   "word": "lacking",
+   "pos": "a",
+   "zh": "a. 缺乏的"
+  },
+  {
+   "id": 1832,
+   "word": "lag",
+   "pos": "v/n",
+   "zh": "v. 落後；延遲｜n. 落後；延遲"
+  },
+  {
+   "id": 1833,
+   "word": "laid-back",
+   "pos": "a",
+   "zh": "a. 懶散的；閒散的"
+  },
+  {
+   "id": 1834,
+   "word": "lamentl",
+   "pos": "n/v",
+   "zh": "n. 哀悼；悲痛｜v. 哀悼，悲痛"
+  },
+  {
+   "id": 1835,
+   "word": "lamp",
+   "pos": "n/v",
+   "zh": "n. 燈；油燈｜v. 照；照亮"
+  },
+  {
+   "id": 1836,
+   "word": "land",
+   "pos": "n/v",
+   "zh": "n. 陸地；田地；地產｜v. 登陸；降落"
+  },
+  {
+   "id": 1837,
+   "word": "landing",
+   "pos": "n",
+   "zh": "n. 降落，著落"
+  },
+  {
+   "id": 1838,
+   "word": "landlady",
+   "pos": "n",
+   "zh": "n. 女房東；女地主"
+  },
+  {
+   "id": 1839,
+   "word": "landlord",
+   "pos": "n",
+   "zh": "n. 地主；房東"
+  },
+  {
+   "id": 1840,
+   "word": "landmark",
+   "pos": "n",
+   "zh": "n. 地標；里程碑"
+  },
+  {
+   "id": 1841,
+   "word": "landscape",
+   "pos": "n",
+   "zh": "n. 風景；景色"
+  },
+  {
+   "id": 1842,
+   "word": "landscaper",
+   "pos": "n",
+   "zh": "n. 庭園設計家"
+  },
+  {
+   "id": 1843,
+   "word": "languish",
+   "pos": "v",
+   "zh": "v. 變得無生氣；衰弱"
+  },
+  {
+   "id": 1844,
+   "word": "lapse",
+   "pos": "v/v",
+   "zh": "v. 時間流逝；跌落｜v. 流逝；背離"
+  },
+  {
+   "id": 1845,
+   "word": "large",
+   "pos": "a",
+   "zh": "a. 大的；巨大的"
+  },
+  {
+   "id": 1846,
+   "word": "large-scale",
+   "pos": "a",
+   "zh": "a. 大規模的"
+  },
+  {
+   "id": 1847,
+   "word": "lash",
+   "pos": "n/v",
+   "zh": "n. 鞭打；抽打｜v. 鞭打；抽打"
+  },
+  {
+   "id": 1848,
+   "word": "last",
+   "pos": "v",
+   "zh": "v. 持續；維持"
+  },
+  {
+   "id": 1849,
+   "word": "lasting",
+   "pos": "a",
+   "zh": "a. 持久的；持續的"
+  },
+  {
+   "id": 1850,
+   "word": "last-minute",
+   "pos": "a",
+   "zh": "a. 最後的"
+  },
+  {
+   "id": 1851,
+   "word": "late",
+   "pos": "a/ad",
+   "zh": "a. 遲的；已故的；晚期的｜ad. 遲到；來不及"
+  },
+  {
+   "id": 1852,
+   "word": "lately",
+   "pos": "a",
+   "zh": "a. 近來；最近"
+  },
+  {
+   "id": 1853,
+   "word": "later",
+   "pos": "a/ad",
+   "zh": "a. 較晚的；更晚的｜ad. 後來；以後"
+  },
+  {
+   "id": 1854,
+   "word": "latter",
+   "pos": "a",
+   "zh": "a. 後者的；後面的"
+  },
+  {
+   "id": 1855,
+   "word": "launch",
+   "pos": "v/n",
+   "zh": "v. 發射；發動｜n. 發射；發行"
+  },
+  {
+   "id": 1856,
+   "word": "laundry",
+   "pos": "n",
+   "zh": "n. 洗衣店；送洗的衣服"
+  },
+  {
+   "id": 1857,
+   "word": "lavatory",
+   "pos": "n",
+   "zh": "n. 盥洗室；洗手間"
+  },
+  {
+   "id": 1858,
+   "word": "law",
+   "pos": "n",
+   "zh": "n. 法律；規則"
+  },
+  {
+   "id": 1859,
+   "word": "lawful",
+   "pos": "a",
+   "zh": "a. 合法的；法定的"
+  },
+  {
+   "id": 1860,
+   "word": "lawsuit",
+   "pos": "n",
+   "zh": "n. 訴訟"
+  },
+  {
+   "id": 1861,
+   "word": "lawyer",
+   "pos": "n",
+   "zh": "n. 律師"
+  },
+  {
+   "id": 1862,
+   "word": "lay",
+   "pos": "v",
+   "zh": "v. 放；擱；下蛋"
+  },
+  {
+   "id": 1863,
+   "word": "layer",
+   "pos": "n",
+   "zh": "n. 層；階層"
+  },
+  {
+   "id": 1864,
+   "word": "layoff",
+   "pos": "n",
+   "zh": "n. 解雇"
+  },
+  {
+   "id": 1865,
+   "word": "layout",
+   "pos": "n",
+   "zh": "n. 安排；設計陳列"
+  },
+  {
+   "id": 1866,
+   "word": "lead",
+   "pos": "v",
+   "zh": "v. 領導；帶領"
+  },
+  {
+   "id": 1867,
+   "word": "leader",
+   "pos": "n",
+   "zh": "n. 領導"
+  },
+  {
+   "id": 1868,
+   "word": "leading",
+   "pos": "a",
+   "zh": "a. 領路的；帶領的"
+  },
+  {
+   "id": 1869,
+   "word": "leaflet",
+   "pos": "n",
+   "zh": "n. 傳單；單張印刷品"
+  },
+  {
+   "id": 1870,
+   "word": "league",
+   "pos": "n/v",
+   "zh": "n. 同盟；聯盟｜v. 同盟；聯盟"
+  },
+  {
+   "id": 1871,
+   "word": "leak",
+   "pos": "n/v",
+   "zh": "n. 漏洞；裂縫｜v. 洩漏"
+  },
+  {
+   "id": 1872,
+   "word": "leakage",
+   "pos": "n",
+   "zh": "n. 漏；洩漏"
+  },
+  {
+   "id": 1873,
+   "word": "lean",
+   "pos": "v",
+   "zh": "v. 傾身；屈身"
+  },
+  {
+   "id": 1874,
+   "word": "leap",
+   "pos": "v/n",
+   "zh": "v. 跳過；越過｜n. 跳；跳躍"
+  },
+  {
+   "id": 1875,
+   "word": "learn",
+   "pos": "v",
+   "zh": "v. 學習；學會"
+  },
+  {
+   "id": 1876,
+   "word": "lease",
+   "pos": "n/v",
+   "zh": "n. 租約；租契｜v. 出租"
+  },
+  {
+   "id": 1877,
+   "word": "least",
+   "pos": "a",
+   "zh": "a. 最小的；最少的"
+  },
+  {
+   "id": 1878,
+   "word": "leathe",
+   "pos": "n/a",
+   "zh": "n. 皮革｜a. 皮的；皮革製的"
+  },
+  {
+   "id": 1879,
+   "word": "leave",
+   "pos": "v",
+   "zh": "v. 離開；脫離"
+  },
+  {
+   "id": 1880,
+   "word": "lecture",
+   "pos": "n",
+   "zh": "n. 授課；演講"
+  },
+  {
+   "id": 1881,
+   "word": "legal",
+   "pos": "a",
+   "zh": "a. 合法的；正當的"
+  },
+  {
+   "id": 1882,
+   "word": "legalize",
+   "pos": "v",
+   "zh": "v. 使合法化"
+  },
+  {
+   "id": 1883,
+   "word": "legitimate",
+   "pos": "a",
+   "zh": "a. 合法的；正統的"
+  },
+  {
+   "id": 1884,
+   "word": "leisure",
+   "pos": "n/a",
+   "zh": "n. 閒暇；空暇時間｜a. 空閒的"
+  },
+  {
+   "id": 1885,
+   "word": "lend",
+   "pos": "v",
+   "zh": "v. 借；提供"
+  },
+  {
+   "id": 1886,
+   "word": "lesson",
+   "pos": "n",
+   "zh": "n. 課程；學習"
+  },
+  {
+   "id": 1887,
+   "word": "letter",
+   "pos": "n",
+   "zh": "n. 信；書信"
+  },
+  {
+   "id": 1888,
+   "word": "letterhead",
+   "pos": "n",
+   "zh": "n. 印在信紙的信頭"
+  },
+  {
+   "id": 1889,
+   "word": "level",
+   "pos": "n/a/v",
+   "zh": "n. 水平面；程度｜a. 同水平的；同程度的｜v. 使平等"
+  },
+  {
+   "id": 1890,
+   "word": "leverage",
+   "pos": "n",
+   "zh": "n. 手段；力量；影響力"
+  },
+  {
+   "id": 1891,
+   "word": "liability",
+   "pos": "n",
+   "zh": "n. 傾向責任"
+  },
+  {
+   "id": 1892,
+   "word": "liable",
+   "pos": "a",
+   "zh": "a. 易……的；可能的"
+  },
+  {
+   "id": 1893,
+   "word": "liberal",
+   "pos": "a",
+   "zh": "a. 開明的；不守舊的"
+  },
+  {
+   "id": 1894,
+   "word": "library",
+   "pos": "n",
+   "zh": "n. 圖書館"
+  },
+  {
+   "id": 1895,
+   "word": "license",
+   "pos": "n/v",
+   "zh": "n. 證照；許可｜v. 發許可證給"
+  },
+  {
+   "id": 1896,
+   "word": "lifestyle",
+   "pos": "n",
+   "zh": "n. 生活方式"
+  },
+  {
+   "id": 1897,
+   "word": "likelihood",
+   "pos": "n",
+   "zh": "n. 可能；可能性"
+  },
+  {
+   "id": 1898,
+   "word": "likely",
+   "pos": "a/ad",
+   "zh": "a. 適當的；可能的｜ad. 很可能"
+  },
+  {
+   "id": 1899,
+   "word": "limit",
+   "pos": "v/v",
+   "zh": "v. 界線；界限｜v. 限制；限定"
+  },
+  {
+   "id": 1900,
+   "word": "limited",
+   "pos": "a",
+   "zh": "a. 有限的；不多的"
+  },
+  {
+   "id": 1901,
+   "word": "link",
+   "pos": "n/v",
+   "zh": "n. 連結；聯繫｜v. 連接；結合"
+  },
+  {
+   "id": 1902,
+   "word": "list",
+   "pos": "n",
+   "zh": "n. 表；名冊"
+  },
+  {
+   "id": 1903,
+   "word": "litter",
+   "pos": "n/v",
+   "zh": "n. 廢棄物；雜亂｜v. 弄得亂七八糟；使充滿"
+  },
+  {
+   "id": 1904,
+   "word": "load",
+   "pos": "n/v",
+   "zh": "n. 負擔；重任｜v. 裝；裝載"
+  },
+  {
+   "id": 1905,
+   "word": "loan",
+   "pos": "n/v",
+   "zh": "n. 貸款｜v. 借出；貸與"
+  },
+  {
+   "id": 1906,
+   "word": "local",
+   "pos": "a/n",
+   "zh": "a. 當地的；本地的｜n. 本地人"
+  },
+  {
+   "id": 1907,
+   "word": "locate",
+   "pos": "v",
+   "zh": "v. 設置在；座落於"
+  },
+  {
+   "id": 1908,
+   "word": "located",
+   "pos": "a",
+   "zh": "a. 坐落的；位於的"
+  },
+  {
+   "id": 1909,
+   "word": "location",
+   "pos": "n",
+   "zh": "n. 地點；定位"
+  },
+  {
+   "id": 1910,
+   "word": "lock",
+   "pos": "n/v",
+   "zh": "n. 鎖｜v. 鎖上"
+  },
+  {
+   "id": 1911,
+   "word": "locksmith",
+   "pos": "n",
+   "zh": "n. 鎖匠"
+  },
+  {
+   "id": 1912,
+   "word": "logistics",
+   "pos": "n",
+   "zh": "n. 物流；運籌"
+  },
+  {
+   "id": 1913,
+   "word": "logo",
+   "pos": "n",
+   "zh": "n. 標識"
+  },
+  {
+   "id": 1914,
+   "word": "loom",
+   "pos": "n",
+   "zh": "n. 織布機"
+  },
+  {
+   "id": 1915,
+   "word": "lose",
+   "pos": "v",
+   "zh": "v. 丟失；輸去；賠錢"
+  },
+  {
+   "id": 1916,
+   "word": "loss",
+   "pos": "n",
+   "zh": "n. 喪失；遺失"
+  },
+  {
+   "id": 1917,
+   "word": "lounge",
+   "pos": "n/v",
+   "zh": "n. 閒蕩；躺椅｜v. 閒蕩；閒逛"
+  },
+  {
+   "id": 1918,
+   "word": "loyal",
+   "pos": "a",
+   "zh": "a. 忠誠的；忠心的"
+  },
+  {
+   "id": 1919,
+   "word": "loyalty",
+   "pos": "n",
+   "zh": "n. 忠誠；忠心"
+  },
+  {
+   "id": 1920,
+   "word": "lucrative",
+   "pos": "a",
+   "zh": "a. 賺錢的；有利可圖的"
+  },
+  {
+   "id": 1921,
+   "word": "luggage",
+   "pos": "n",
+   "zh": "n. 行李"
+  },
+  {
+   "id": 1922,
+   "word": "lumber",
+   "pos": "n/v",
+   "zh": "n. 木材；木料｜v. 採伐"
+  },
+  {
+   "id": 1923,
+   "word": "mad",
+   "pos": "a",
+   "zh": "a. 發瘋的；發狂的"
+  },
+  {
+   "id": 1924,
+   "word": "madness",
+   "pos": "n",
+   "zh": "n. 瘋狂；神經錯亂"
+  },
+  {
+   "id": 1925,
+   "word": "magazine",
+   "pos": "n",
+   "zh": "n. 雜誌"
+  },
+  {
+   "id": 1926,
+   "word": "magnificent",
+   "pos": "a",
+   "zh": "a. 壯麗的；宏偉的"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

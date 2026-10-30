@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -618,6 +618,7 @@
    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
    "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
    "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+   "https://openai.com/index/how-we-detect-frontier-model-misalignment",
    "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
    "https://openai.com/index/how-we-will-do-better-for-australia",
    "https://openai.com/index/hp-frontier-partnership",
@@ -1101,6 +1102,7 @@
    "https://openai.com/index/robots-that-learn",
    "https://openai.com/index/robust-adversarial-inputs",
    "https://openai.com/index/rogo",
+   "https://openai.com/index/ropes-gray-ai-diligence",
    "https://openai.com/index/rox",
    "https://openai.com/index/running-codex-safely",
    "https://openai.com/index/safety-alignment-long-horizon-models",
@@ -1283,6 +1285,7 @@
    "https://openai.com/index/update-on-mental-health-related-work",
    "https://openai.com/index/update-on-safety-and-security-practices",
    "https://openai.com/index/update-on-the-openai-foundation",
+   "https://openai.com/index/updated-model-spec",
    "https://openai.com/index/updating-model-spec-with-teen-protections",
    "https://openai.com/index/updating-our-preparedness-framework",
    "https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model",
@@ -1891,7 +1894,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-23",
    "https://docs.claude.com/en/release-notes/overview#2026-10-24",
    "https://docs.claude.com/en/release-notes/overview#2026-10-28",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-29"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-29",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-30"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2037,6 +2041,62 @@
   ]
  },
  "items": [
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-30",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-30",
+   "open_weights": false,
+   "fetched": "2026-10-30",
+   "points": [
+    "October 29, 2026\nWe’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header. Its /v1/organizations/analytics/usage and /v1/organizations/analytics/cos"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/updated-model-spec",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/updated-model-spec",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-30",
+   "points": [
+    "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "title": "How we detect frontier model misalignment",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-30",
+   "points": [
+    "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/ropes-gray-ai-diligence",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/ropes-gray-ai-diligence",
+   "title": "How Ropes & Gray is developing AI for transactional diligence",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-30",
+   "points": [
+    "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
+   ],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-10-29",
    "company": "OpenAI",
