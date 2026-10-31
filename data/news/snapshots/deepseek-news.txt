@@ -1,5 +1,6 @@
 Skip to main content
-Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide.
+Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide
+Open Markdown
 Your First API Call
 The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API.
 PARAMVALUE
@@ -16,6 +17,7 @@ See the Agent Integrations Guide for details.
 Invoke The Chat API​
 Once you have obtained an API key, you can access the DeepSeek model using the following example scripts in the OpenAI API format. This is a non-stream example, you can set the stream parameter to true to get stream response.
 For examples using the Anthropic API format, please refer to Anthropic API.
+Before running these examples, set the DEEPSEEK_API_KEY environment variable in your terminal to your API key.
 curl
 python
 nodejs

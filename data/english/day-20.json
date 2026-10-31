@@ -1,0 +1,616 @@
+{
+ "day": 20,
+ "date": "2026-11-01",
+ "generated": false,
+ "words": [
+  {
+   "id": 1927,
+   "word": "mail",
+   "pos": "n/v",
+   "zh": "n. 信件：郵件｜v. 郵寄"
+  },
+  {
+   "id": 1928,
+   "word": "mailing",
+   "pos": "n",
+   "zh": "n. 郵寄；郵件"
+  },
+  {
+   "id": 1929,
+   "word": "main",
+   "pos": "a/n",
+   "zh": "a. 主要的；最重要的｜n. 主要部分；要點"
+  },
+  {
+   "id": 1930,
+   "word": "mainframe",
+   "pos": "n",
+   "zh": "n. 主機；中央處理器"
+  },
+  {
+   "id": 1931,
+   "word": "maintain",
+   "pos": "v",
+   "zh": "v. 維持；保持"
+  },
+  {
+   "id": 1932,
+   "word": "maintenance",
+   "pos": "n",
+   "zh": "n. 維持；保持"
+  },
+  {
+   "id": 1933,
+   "word": "major",
+   "pos": "a",
+   "zh": "a. 主要的；一流的"
+  },
+  {
+   "id": 1934,
+   "word": "majority",
+   "pos": "n",
+   "zh": "n. 多數派；大多數"
+  },
+  {
+   "id": 1935,
+   "word": "mall",
+   "pos": "n",
+   "zh": "n. 購物中心"
+  },
+  {
+   "id": 1936,
+   "word": "manage",
+   "pos": "v",
+   "zh": "v. 管理；經營"
+  },
+  {
+   "id": 1937,
+   "word": "management",
+   "pos": "n",
+   "zh": "n. 管理；經營"
+  },
+  {
+   "id": 1938,
+   "word": "manager",
+   "pos": "n",
+   "zh": "n. 經理；主任"
+  },
+  {
+   "id": 1939,
+   "word": "managerial",
+   "pos": "a",
+   "zh": "a. 管理人的；經理的"
+  },
+  {
+   "id": 1940,
+   "word": "mandate",
+   "pos": "n",
+   "zh": "n. 命令；指令"
+  },
+  {
+   "id": 1941,
+   "word": "manner",
+   "pos": "n",
+   "zh": "n. 方式；態度；禮貌"
+  },
+  {
+   "id": 1942,
+   "word": "manual",
+   "pos": "a/n",
+   "zh": "a. 手的；手工的｜n. 手冊；便覽"
+  },
+  {
+   "id": 1943,
+   "word": "manually",
+   "pos": "ad",
+   "zh": "ad. 手工地"
+  },
+  {
+   "id": 1944,
+   "word": "manufacture",
+   "pos": "v/n",
+   "zh": "v. 製造，加工｜n. 製造業；製品"
+  },
+  {
+   "id": 1945,
+   "word": "manufacturer",
+   "pos": "n",
+   "zh": "n. 製造業者；廠商"
+  },
+  {
+   "id": 1946,
+   "word": "margin",
+   "pos": "n",
+   "zh": "n. 邊；邊沿"
+  },
+  {
+   "id": 1947,
+   "word": "mark",
+   "pos": "n/v",
+   "zh": "n. 痕跡；汙點；記號｜v. 記下；標明"
+  },
+  {
+   "id": 1948,
+   "word": "market",
+   "pos": "n",
+   "zh": "n. 市場；銷路"
+  },
+  {
+   "id": 1949,
+   "word": "match",
+   "pos": "n/v",
+   "zh": "n. 比賽；競賽｜v. 相配；相適合"
+  },
+  {
+   "id": 1950,
+   "word": "maternal",
+   "pos": "a",
+   "zh": "a. 母親的；母性的"
+  },
+  {
+   "id": 1951,
+   "word": "matter",
+   "pos": "n/v",
+   "zh": "n. 事情；問題；事件｜v. 有關係；要緊"
+  },
+  {
+   "id": 1952,
+   "word": "maximum",
+   "pos": "n/a",
+   "zh": "n. 最大量；最大數｜a. 最大的；最多的"
+  },
+  {
+   "id": 1953,
+   "word": "mayor",
+   "pos": "n",
+   "zh": "n. 市長"
+  },
+  {
+   "id": 1954,
+   "word": "mean",
+   "pos": "a/v",
+   "zh": "a. 吝嗇的；小氣的｜v. 表示…的意思"
+  },
+  {
+   "id": 1955,
+   "word": "meaning",
+   "pos": "n/a",
+   "zh": "n. 意思；含義｜a. 意味深長的"
+  },
+  {
+   "id": 1956,
+   "word": "measurable",
+   "pos": "a",
+   "zh": "a. 可測量的"
+  },
+  {
+   "id": 1957,
+   "word": "measure",
+   "pos": "v/n",
+   "zh": "v. 測量；計量｜n. 措施；手段"
+  },
+  {
+   "id": 1958,
+   "word": "measurement",
+   "pos": "n",
+   "zh": "n. 測量；測定"
+  },
+  {
+   "id": 1959,
+   "word": "medicine",
+   "pos": "n",
+   "zh": "n. 藥；良藥"
+  },
+  {
+   "id": 1960,
+   "word": "mediocre",
+   "pos": "a",
+   "zh": "a. 中等的；平凡的"
+  },
+  {
+   "id": 1961,
+   "word": "medium",
+   "pos": "n",
+   "zh": "n. 媒介物；手段"
+  },
+  {
+   "id": 1962,
+   "word": "member",
+   "pos": "n",
+   "zh": "n. 會員"
+  },
+  {
+   "id": 1963,
+   "word": "membership",
+   "pos": "n",
+   "zh": "n. 會員身分；全體會員"
+  },
+  {
+   "id": 1964,
+   "word": "memo",
+   "pos": "n/v",
+   "zh": "n. 備忘錄(=memorandum)｜v. 記入備忘錄"
+  },
+  {
+   "id": 1965,
+   "word": "mend",
+   "pos": "v/n",
+   "zh": "v. 修補；改善｜n. 好轉；痊癒"
+  },
+  {
+   "id": 1966,
+   "word": "mental",
+   "pos": "a",
+   "zh": "a. 精神的；心理的"
+  },
+  {
+   "id": 1967,
+   "word": "mention",
+   "pos": "v/n",
+   "zh": "v. 提到；說起｜n. 提到；說起"
+  },
+  {
+   "id": 1968,
+   "word": "mentor",
+   "pos": "n",
+   "zh": "n. 導師"
+  },
+  {
+   "id": 1969,
+   "word": "menu",
+   "pos": "n",
+   "zh": "n. 菜單；功能選單"
+  },
+  {
+   "id": 1970,
+   "word": "merchandise",
+   "pos": "n/v",
+   "zh": "n. 商品；貨物｜v. 買賣；經營"
+  },
+  {
+   "id": 1971,
+   "word": "merge",
+   "pos": "v",
+   "zh": "v. 合併；融合"
+  },
+  {
+   "id": 1972,
+   "word": "merger",
+   "pos": "n",
+   "zh": "n. （公司等的）合併"
+  },
+  {
+   "id": 1973,
+   "word": "message",
+   "pos": "n/v",
+   "zh": "n. 信息；消息｜v. 通知；聯繫"
+  },
+  {
+   "id": 1974,
+   "word": "messenger",
+   "pos": "n",
+   "zh": "n. 送信人；使者"
+  },
+  {
+   "id": 1975,
+   "word": "method",
+   "pos": "n",
+   "zh": "n. 方法；手段"
+  },
+  {
+   "id": 1976,
+   "word": "meticulous",
+   "pos": "a",
+   "zh": "a. 過分精細的；小心翼翼的"
+  },
+  {
+   "id": 1977,
+   "word": "metropolitan",
+   "pos": "a",
+   "zh": "a. 大都市的"
+  },
+  {
+   "id": 1978,
+   "word": "midday",
+   "pos": "n",
+   "zh": "n. 正午；中午"
+  },
+  {
+   "id": 1979,
+   "word": "midmorning",
+   "pos": "n",
+   "zh": "n. 上午之中段時間"
+  },
+  {
+   "id": 1980,
+   "word": "mid-range",
+   "pos": "a",
+   "zh": "a. 中等的；平均的"
+  },
+  {
+   "id": 1981,
+   "word": "mild",
+   "pos": "a",
+   "zh": "a. 溫和的；溫柔的"
+  },
+  {
+   "id": 1982,
+   "word": "mildly",
+   "pos": "ad",
+   "zh": "ad. 溫和地；溫柔地"
+  },
+  {
+   "id": 1983,
+   "word": "millennium",
+   "pos": "n",
+   "zh": "n. 千年期"
+  },
+  {
+   "id": 1984,
+   "word": "minimum",
+   "pos": "n/a",
+   "zh": "n. 最小量；最小數｜a. 最小的；最少的"
+  },
+  {
+   "id": 1985,
+   "word": "minority",
+   "pos": "n",
+   "zh": "n. 少數；少數派"
+  },
+  {
+   "id": 1986,
+   "word": "minute",
+   "pos": "n/v",
+   "zh": "n. 分鐘；一會兒｜v. 記錄下來"
+  },
+  {
+   "id": 1987,
+   "word": "minutely",
+   "pos": "a/ad",
+   "zh": "a. 每分鐘的；持續的｜ad. 仔細地；持續地"
+  },
+  {
+   "id": 1988,
+   "word": "miserable",
+   "pos": "a",
+   "zh": "a. 痛苦的；不幸的"
+  },
+  {
+   "id": 1989,
+   "word": "miserably",
+   "pos": "ad",
+   "zh": "ad. 痛苦地；艱苦地"
+  },
+  {
+   "id": 1990,
+   "word": "mission",
+   "pos": "n/v",
+   "zh": "n. 使命；任務；傳教團｜v. 派遣；傳教"
+  },
+  {
+   "id": 1991,
+   "word": "mistake",
+   "pos": "v/n",
+   "zh": "v. 弄錯；誤解｜n. 錯誤；過失"
+  },
+  {
+   "id": 1992,
+   "word": "mistaken",
+   "pos": "a",
+   "zh": "a. 弄錯的；誤解的"
+  },
+  {
+   "id": 1993,
+   "word": "mistreat",
+   "pos": "v",
+   "zh": "v. 虐待"
+  },
+  {
+   "id": 1994,
+   "word": "mistreatment",
+   "pos": "n",
+   "zh": "n. 虐待"
+  },
+  {
+   "id": 1995,
+   "word": "misunderstand",
+   "pos": "v",
+   "zh": "v. 誤會；曲解"
+  },
+  {
+   "id": 1996,
+   "word": "misunderstanding",
+   "pos": "n",
+   "zh": "n. 誤會；曲解"
+  },
+  {
+   "id": 1997,
+   "word": "mitigate",
+   "pos": "v",
+   "zh": "v. 使緩和；減輕"
+  },
+  {
+   "id": 1998,
+   "word": "mobilize",
+   "pos": "v",
+   "zh": "v. 動員；調動"
+  },
+  {
+   "id": 1999,
+   "word": "moderately",
+   "pos": "ad",
+   "zh": "ad. 適度地；有節制地"
+  },
+  {
+   "id": 2000,
+   "word": "modest",
+   "pos": "a",
+   "zh": "a. 謙虛的；審慎的"
+  },
+  {
+   "id": 2001,
+   "word": "modification",
+   "pos": "n",
+   "zh": "n. 修改；改變"
+  },
+  {
+   "id": 2002,
+   "word": "momentum",
+   "pos": "n",
+   "zh": "n. 氣勢；衝力"
+  },
+  {
+   "id": 2003,
+   "word": "monetize",
+   "pos": "v",
+   "zh": "v. 定為貨幣"
+  },
+  {
+   "id": 2004,
+   "word": "money",
+   "pos": "n",
+   "zh": "n. 錢；貨幣"
+  },
+  {
+   "id": 2005,
+   "word": "monitor",
+   "pos": "n/v",
+   "zh": "n. 顯示器；螢幕｜v. 監控；監聽"
+  },
+  {
+   "id": 2006,
+   "word": "mood",
+   "pos": "n",
+   "zh": "n. 心境；情緒；氣氛"
+  },
+  {
+   "id": 2007,
+   "word": "moral",
+   "pos": "a/n",
+   "zh": "a. 道德的｜n. 道德；品行"
+  },
+  {
+   "id": 2008,
+   "word": "mortgag",
+   "pos": "n/v",
+   "zh": "n. 抵押｜v. 抵押"
+  },
+  {
+   "id": 2009,
+   "word": "motivate",
+   "pos": "v",
+   "zh": "v. 刺激；激發"
+  },
+  {
+   "id": 2010,
+   "word": "motivation",
+   "pos": "n",
+   "zh": "n. 刺激；推動"
+  },
+  {
+   "id": 2011,
+   "word": "motive",
+   "pos": "n/a/v",
+   "zh": "n. 動機；主旨｜a. 起動的；推動的｜v. 激起"
+  },
+  {
+   "id": 2012,
+   "word": "move",
+   "pos": "v",
+   "zh": "v. 移動；推動"
+  },
+  {
+   "id": 2013,
+   "word": "movement",
+   "pos": "n",
+   "zh": "n. 運動；活動；行動"
+  },
+  {
+   "id": 2014,
+   "word": "mul",
+   "pos": "v/n",
+   "zh": "v. 深思熟慮｜n. 亂糟糟；混亂"
+  },
+  {
+   "id": 2015,
+   "word": "myriad",
+   "pos": "n/a",
+   "zh": "n. 無數；大量｜a. 無數的；大量的"
+  },
+  {
+   "id": 2016,
+   "word": "nag",
+   "pos": "v/n",
+   "zh": "v. 嘮叨；責罵不休｜n. 好嘮叨的人"
+  },
+  {
+   "id": 2017,
+   "word": "nail",
+   "pos": "n/v",
+   "zh": "n. 釘子；指甲｜v. 釘牢；使固定"
+  },
+  {
+   "id": 2018,
+   "word": "naive",
+   "pos": "a",
+   "zh": "a. 天真的；幼稚的"
+  },
+  {
+   "id": 2019,
+   "word": "name",
+   "pos": "n/v",
+   "zh": "n. 名字；姓名｜v. 提名；任命"
+  },
+  {
+   "id": 2020,
+   "word": "namely",
+   "pos": "ad",
+   "zh": "ad. 即；那就是"
+  },
+  {
+   "id": 2021,
+   "word": "narrate",
+   "pos": "v",
+   "zh": "v. 敘述；作旁白"
+  },
+  {
+   "id": 2022,
+   "word": "narration",
+   "pos": "n",
+   "zh": "n. 敘述；講述"
+  },
+  {
+   "id": 2023,
+   "word": "narrator",
+   "pos": "n",
+   "zh": "n. 敘述者；講述者"
+  },
+  {
+   "id": 2024,
+   "word": "narrow",
+   "pos": "a/v",
+   "zh": "a. 狹的；狹窄的｜v. 變窄；收縮"
+  },
+  {
+   "id": 2025,
+   "word": "narrowly",
+   "pos": "ad",
+   "zh": "ad. 狹窄地；勉強地"
+  },
+  {
+   "id": 2026,
+   "word": "nation",
+   "pos": "n",
+   "zh": "n. 國民；國家"
+  },
+  {
+   "id": 2027,
+   "word": "national",
+   "pos": "a/n",
+   "zh": "a. 全國性的；國家的｜n. 國民；國人"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

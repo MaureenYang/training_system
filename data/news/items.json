@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -284,6 +284,7 @@
    "https://openai.com/index/color-health",
    "https://openai.com/index/combating-online-child-sexual-exploitation-abuse",
    "https://openai.com/index/commonwealth-bank-of-australia",
+   "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
    "https://openai.com/index/competitive-self-play",
    "https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
    "https://openai.com/index/computer-using-agent",
@@ -302,6 +303,7 @@
    "https://openai.com/index/court-rejects-elon",
    "https://openai.com/index/creating-with-sora-safely",
    "https://openai.com/index/cred-swamy-seetharaman",
+   "https://openai.com/index/credit-saison",
    "https://openai.com/index/critiques",
    "https://openai.com/index/custom-instructions-for-chatgpt",
    "https://openai.com/index/customizing-gpt-3",
@@ -467,6 +469,7 @@
    "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu",
    "https://openai.com/index/extracting-concepts-from-gpt-4",
    "https://openai.com/index/factory",
+   "https://openai.com/index/fair-use-benefits-everyone",
    "https://openai.com/index/fanatics-betting-gaming-andrea-ellis",
    "https://openai.com/index/fanatics-streamline-fan-experience",
    "https://openai.com/index/faster-physics-in-python",
@@ -593,6 +596,7 @@
    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
    "https://openai.com/index/helping-people-when-they-need-it-most",
    "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "https://openai.com/index/helping-websites-express-ai-training-preferences",
    "https://openai.com/index/hex-gpt-6-astra",
    "https://openai.com/index/hibob",
    "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
@@ -1347,7 +1351,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-22",
    "https://platform.openai.com/docs/changelog#2026-10-23",
    "https://platform.openai.com/docs/changelog#2026-10-27",
-   "https://platform.openai.com/docs/changelog#2026-10-29"
+   "https://platform.openai.com/docs/changelog#2026-10-29",
+   "https://platform.openai.com/docs/changelog#2026-10-31"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1895,11 +1900,13 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-24",
    "https://docs.claude.com/en/release-notes/overview#2026-10-28",
    "https://docs.claude.com/en/release-notes/overview#2026-10-29",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-30"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-30",
+   "https://docs.claude.com/en/release-notes/overview#2026-10-31"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
-   "https://api-docs.deepseek.com/news#2026-10-18"
+   "https://api-docs.deepseek.com/news#2026-10-18",
+   "https://api-docs.deepseek.com/news#2026-10-31"
   ],
   "deepseek-hf": [
    "hf:deepseek-ai:DeepSeek-Math-V2:2025-11-27",
@@ -2042,6 +2049,90 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-10-31",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-10-31",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "Self-host configuration\ngpt-6-rosalind\nReleased GPT-6 Rosalind, bringing specialized biological reasoning with scientific tool use to complex life sciences research. Access is available to organizatio"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-10-31",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-10-31",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "October 30, 2026\nWe’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to claude-opus-4-8 with speed: \"fast\" will return an error. To continue usin"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://api-docs.deepseek.com/news#2026-10-31",
+   "company": "DeepSeek",
+   "source": "deepseek-news",
+   "url": "https://api-docs.deepseek.com/news",
+   "title": "DeepSeek 官方新聞更新",
+   "date": "2026-10-31",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide\nOpen Markdown\nBefore running these examples, set the DEEPSE"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "title": "Making it easier for websites to express AI training preferences",
+   "date": "2026-10-30",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "title": "Community safety report and new protections for teens",
+   "date": "2026-10-30",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/fair-use-benefits-everyone",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/fair-use-benefits-everyone",
+   "title": "Fair use benefits everyone",
+   "date": "2026-10-30",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+   ],
+   "pending": true
+  },
+  {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-10-30",
    "company": "Anthropic",
    "source": "claude-release-notes",
@@ -2052,6 +2143,20 @@
    "fetched": "2026-10-30",
    "points": [
     "October 29, 2026\nWe’ve launched the Usage and Cost Analytics API in beta with the analytics-usage-cost-2026-08-24 beta header. Its /v1/organizations/analytics/usage and /v1/organizations/analytics/cos"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/credit-saison",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/credit-saison",
+   "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+   "date": "2026-10-29",
+   "open_weights": false,
+   "fetched": "2026-10-31",
+   "points": [
+    "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
    ],
    "pending": true
   },
