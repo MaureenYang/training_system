@@ -1,0 +1,616 @@
+{
+ "day": 21,
+ "date": "2026-11-02",
+ "generated": false,
+ "words": [
+  {
+   "id": 2028,
+   "word": "nationality",
+   "pos": "n",
+   "zh": "n. 國籍"
+  },
+  {
+   "id": 2029,
+   "word": "nationwide",
+   "pos": "a/ad",
+   "zh": "a. 全國性的｜ad. 在全國"
+  },
+  {
+   "id": 2030,
+   "word": "native",
+   "pos": "a/n",
+   "zh": "a. 天生的；本國的｜n. 本地人"
+  },
+  {
+   "id": 2031,
+   "word": "natural",
+   "pos": "a",
+   "zh": "a. 自然的；不做作"
+  },
+  {
+   "id": 2032,
+   "word": "naturally",
+   "pos": "ad",
+   "zh": "ad. 自然地；天然地"
+  },
+  {
+   "id": 2033,
+   "word": "nearby",
+   "pos": "a/ad",
+   "zh": "a. 附近的｜ad. 附近的"
+  },
+  {
+   "id": 2034,
+   "word": "necessarily",
+   "pos": "ad",
+   "zh": "ad. 必定；必然地"
+  },
+  {
+   "id": 2035,
+   "word": "necessary",
+   "pos": "a",
+   "zh": "a. 必要的，必需的"
+  },
+  {
+   "id": 2036,
+   "word": "necessity",
+   "pos": "n",
+   "zh": "n. 需要；必要性"
+  },
+  {
+   "id": 2037,
+   "word": "need",
+   "pos": "n/v",
+   "zh": "n. 需要；必要｜v. 需要"
+  },
+  {
+   "id": 2038,
+   "word": "neglect",
+   "pos": "n/v",
+   "zh": "n. 忽視；忽略｜v. 忽視；忽略"
+  },
+  {
+   "id": 2039,
+   "word": "neglectful",
+   "pos": "a",
+   "zh": "a. 疏忽的；不注意的"
+  },
+  {
+   "id": 2040,
+   "word": "negligence",
+   "pos": "n",
+   "zh": "n. 疏忽；粗心"
+  },
+  {
+   "id": 2041,
+   "word": "negotiable",
+   "pos": "a",
+   "zh": "a. 可協商的"
+  },
+  {
+   "id": 2042,
+   "word": "negotiate",
+   "pos": "v",
+   "zh": "v. 協商；交涉"
+  },
+  {
+   "id": 2043,
+   "word": "negotiator",
+   "pos": "n",
+   "zh": "n. 磋商者；交涉者"
+  },
+  {
+   "id": 2044,
+   "word": "nevertheless",
+   "pos": "ad",
+   "zh": "ad. 仍然；不過"
+  },
+  {
+   "id": 2045,
+   "word": "news",
+   "pos": "n",
+   "zh": "n. 新聞；消息"
+  },
+  {
+   "id": 2046,
+   "word": "newsletter",
+   "pos": "n",
+   "zh": "n. 報紙"
+  },
+  {
+   "id": 2047,
+   "word": "nexus",
+   "pos": "n",
+   "zh": "n. 連結；連鎖"
+  },
+  {
+   "id": 2048,
+   "word": "nominate",
+   "pos": "v",
+   "zh": "v. 提名；任命"
+  },
+  {
+   "id": 2049,
+   "word": "nomination",
+   "pos": "n",
+   "zh": "n. 提名；任命"
+  },
+  {
+   "id": 2050,
+   "word": "nominee",
+   "pos": "n",
+   "zh": "n. 被提名人"
+  },
+  {
+   "id": 2051,
+   "word": "note",
+   "pos": "n/v",
+   "zh": "n. 筆記；記錄｜v. 注意；記下"
+  },
+  {
+   "id": 2052,
+   "word": "notebook",
+   "pos": "n",
+   "zh": "n. 筆記本"
+  },
+  {
+   "id": 2053,
+   "word": "notice",
+   "pos": "v",
+   "zh": "v. 注意；留意"
+  },
+  {
+   "id": 2054,
+   "word": "novel",
+   "pos": "n",
+   "zh": "n. 小說"
+  },
+  {
+   "id": 2055,
+   "word": "novelty",
+   "pos": "n",
+   "zh": "n. 新穎；新奇"
+  },
+  {
+   "id": 2056,
+   "word": "null",
+   "pos": "a",
+   "zh": "a. 無效的；無價值的"
+  },
+  {
+   "id": 2057,
+   "word": "nurse",
+   "pos": "n",
+   "zh": "n. 護士"
+  },
+  {
+   "id": 2058,
+   "word": "nursing",
+   "pos": "n",
+   "zh": "n. 看護；護理"
+  },
+  {
+   "id": 2059,
+   "word": "nurture",
+   "pos": "n/v",
+   "zh": "n. 養育；教養｜v. 養育；培育"
+  },
+  {
+   "id": 2060,
+   "word": "nutrient",
+   "pos": "a/n",
+   "zh": "a. 營養的；滋養的｜n. 營養物"
+  },
+  {
+   "id": 2061,
+   "word": "nutrition",
+   "pos": "n",
+   "zh": "n. 營養；滋養"
+  },
+  {
+   "id": 2062,
+   "word": "object",
+   "pos": "n/v",
+   "zh": "n. 對象；目標｜v. 反對"
+  },
+  {
+   "id": 2063,
+   "word": "objection",
+   "pos": "n",
+   "zh": "n. 反對；異議"
+  },
+  {
+   "id": 2064,
+   "word": "objective",
+   "pos": "a",
+   "zh": "a. 客觀的；如實的"
+  },
+  {
+   "id": 2065,
+   "word": "obligation",
+   "pos": "n",
+   "zh": "n. 義務；責任"
+  },
+  {
+   "id": 2066,
+   "word": "obligatory",
+   "pos": "n",
+   "zh": "n. 義不容辭的；有義務的"
+  },
+  {
+   "id": 2067,
+   "word": "observe",
+   "pos": "v",
+   "zh": "v. 觀察；注意"
+  },
+  {
+   "id": 2068,
+   "word": "obsolete",
+   "pos": "a",
+   "zh": "a. 廢棄的；淘汰的"
+  },
+  {
+   "id": 2069,
+   "word": "obtain",
+   "pos": "v",
+   "zh": "v. 得到；獲得"
+  },
+  {
+   "id": 2070,
+   "word": "obvious",
+   "pos": "a",
+   "zh": "a. 明顯的"
+  },
+  {
+   "id": 2071,
+   "word": "obviously",
+   "pos": "ad",
+   "zh": "ad. 明顯地"
+  },
+  {
+   "id": 2072,
+   "word": "occasion",
+   "pos": "n",
+   "zh": "n. 場合；狀況"
+  },
+  {
+   "id": 2073,
+   "word": "occupancy",
+   "pos": "n",
+   "zh": "n. 佔有；入住"
+  },
+  {
+   "id": 2074,
+   "word": "occupation",
+   "pos": "n",
+   "zh": "n. 工作，職業"
+  },
+  {
+   "id": 2075,
+   "word": "occupied",
+   "pos": "a",
+   "zh": "a. 佔用的；在使用的"
+  },
+  {
+   "id": 2076,
+   "word": "occur",
+   "pos": "v",
+   "zh": "v. 發生；出現"
+  },
+  {
+   "id": 2077,
+   "word": "occurrence",
+   "pos": "n",
+   "zh": "n. 發生；出現"
+  },
+  {
+   "id": 2078,
+   "word": "offence",
+   "pos": "n",
+   "zh": "n. 罪過；犯法(=offense)"
+  },
+  {
+   "id": 2079,
+   "word": "offender",
+   "pos": "n",
+   "zh": "n. 違法者；犯規的人"
+  },
+  {
+   "id": 2080,
+   "word": "offense",
+   "pos": "n",
+   "zh": "n. 罪過；犯法"
+  },
+  {
+   "id": 2081,
+   "word": "offensive",
+   "pos": "a",
+   "zh": "a. 冒犯的；唐突的"
+  },
+  {
+   "id": 2082,
+   "word": "offer",
+   "pos": "v",
+   "zh": "v. 提供"
+  },
+  {
+   "id": 2083,
+   "word": "office",
+   "pos": "n",
+   "zh": "n. 辦公室；職務"
+  },
+  {
+   "id": 2084,
+   "word": "official",
+   "pos": "a",
+   "zh": "a. 官方的；公務上的"
+  },
+  {
+   "id": 2085,
+   "word": "offset",
+   "pos": "v/n",
+   "zh": "v. 補償；抵銷｜n. 補償；抵銷"
+  },
+  {
+   "id": 2086,
+   "word": "omission",
+   "pos": "n",
+   "zh": "n. 遺漏；省略"
+  },
+  {
+   "id": 2087,
+   "word": "omit",
+   "pos": "v",
+   "zh": "v. 遺漏；省略"
+  },
+  {
+   "id": 2088,
+   "word": "operate",
+   "pos": "v",
+   "zh": "v. 營業；運轉"
+  },
+  {
+   "id": 2089,
+   "word": "operation",
+   "pos": "a",
+   "zh": "a. 營業；運轉"
+  },
+  {
+   "id": 2090,
+   "word": "operational",
+   "pos": "a",
+   "zh": "a. 操作上的；經營上的"
+  },
+  {
+   "id": 2091,
+   "word": "operator",
+   "pos": "n",
+   "zh": "n. 操作者"
+  },
+  {
+   "id": 2092,
+   "word": "opinion",
+   "pos": "n",
+   "zh": "n. 意見；評論"
+  },
+  {
+   "id": 2093,
+   "word": "opportune",
+   "pos": "a",
+   "zh": "a. 恰好的；適宜的"
+  },
+  {
+   "id": 2094,
+   "word": "opportunity",
+   "pos": "n",
+   "zh": "n. 機會"
+  },
+  {
+   "id": 2095,
+   "word": "opposite",
+   "pos": "a/ad/prep",
+   "zh": "a. 相反的；對立的｜ad. 在對面｜prep. 在……對面"
+  },
+  {
+   "id": 2096,
+   "word": "option",
+   "pos": "n",
+   "zh": "n. 選項；選擇"
+  },
+  {
+   "id": 2097,
+   "word": "order",
+   "pos": "n/v",
+   "zh": "n. 順序；狀況；命令｜v. 命令；指揮"
+  },
+  {
+   "id": 2098,
+   "word": "ordinarily",
+   "pos": "a",
+   "zh": "a. 通常地；慣常地"
+  },
+  {
+   "id": 2099,
+   "word": "ordinary",
+   "pos": "a",
+   "zh": "a. 平凡的；通常的"
+  },
+  {
+   "id": 2100,
+   "word": "organize",
+   "pos": "v",
+   "zh": "v. 組織；安排"
+  },
+  {
+   "id": 2101,
+   "word": "origin",
+   "pos": "n",
+   "zh": "n. 起源；由來"
+  },
+  {
+   "id": 2102,
+   "word": "original",
+   "pos": "a",
+   "zh": "a. 本來的；最初的"
+  },
+  {
+   "id": 2103,
+   "word": "originality",
+   "pos": "n",
+   "zh": "n. 創造力；獨創性"
+  },
+  {
+   "id": 2104,
+   "word": "originally",
+   "pos": "ad",
+   "zh": "ad. 本來的；最初的"
+  },
+  {
+   "id": 2105,
+   "word": "originate",
+   "pos": "v",
+   "zh": "v. 發源；來自"
+  },
+  {
+   "id": 2106,
+   "word": "outbound",
+   "pos": "a",
+   "zh": "a. 向外去的；駛向外國的"
+  },
+  {
+   "id": 2107,
+   "word": "outdo",
+   "pos": "v",
+   "zh": "v. 勝過；超越"
+  },
+  {
+   "id": 2108,
+   "word": "outdoor",
+   "pos": "a",
+   "zh": "a. 戶外的，露天的"
+  },
+  {
+   "id": 2109,
+   "word": "outer",
+   "pos": "a",
+   "zh": "a. 外面的；外表的"
+  },
+  {
+   "id": 2110,
+   "word": "outgoing",
+   "pos": "a",
+   "zh": "a. 友好的;外向的"
+  },
+  {
+   "id": 2111,
+   "word": "outgun",
+   "pos": "v",
+   "zh": "v. 火力壓過；武器多於"
+  },
+  {
+   "id": 2112,
+   "word": "outlaw",
+   "pos": "n/v",
+   "zh": "n. 歹徒；罪犯｜v. 法律上失效"
+  },
+  {
+   "id": 2113,
+   "word": "outlet",
+   "pos": "n",
+   "zh": "n. 銷路；商店"
+  },
+  {
+   "id": 2114,
+   "word": "outline",
+   "pos": "n/v",
+   "zh": "n. 外形；輪廓｜v. 概述；略述"
+  },
+  {
+   "id": 2115,
+   "word": "outlook",
+   "pos": "n",
+   "zh": "n. 觀點；看法"
+  },
+  {
+   "id": 2116,
+   "word": "outmaneuver",
+   "pos": "v",
+   "zh": "v. 以計謀勝過"
+  },
+  {
+   "id": 2117,
+   "word": "out-of-date",
+   "pos": "a",
+   "zh": "a. 不流行的"
+  },
+  {
+   "id": 2118,
+   "word": "output",
+   "pos": "v/n",
+   "zh": "v. 出產；生產｜n. 出產；生產"
+  },
+  {
+   "id": 2119,
+   "word": "outrage",
+   "pos": "n/v",
+   "zh": "n. 惡行；暴行｜v. 傷害；違反"
+  },
+  {
+   "id": 2120,
+   "word": "outrageous",
+   "pos": "a",
+   "zh": "a. 可憎的；可恥的"
+  },
+  {
+   "id": 2121,
+   "word": "outrun",
+   "pos": "v",
+   "zh": "v. 超過；超出"
+  },
+  {
+   "id": 2122,
+   "word": "outskirt",
+   "pos": "n",
+   "zh": "n. 市郊；郊區"
+  },
+  {
+   "id": 2123,
+   "word": "outsmart",
+   "pos": "v",
+   "zh": "v. 用計謀打敗"
+  },
+  {
+   "id": 2124,
+   "word": "outstanding",
+   "pos": "a",
+   "zh": "a. 顯著的；傑出的"
+  },
+  {
+   "id": 2125,
+   "word": "outward",
+   "pos": "a/ad",
+   "zh": "a. 向外的；往外去的｜ad. 向外的；往外去的"
+  },
+  {
+   "id": 2126,
+   "word": "outweigh",
+   "pos": "v",
+   "zh": "v. 比……重；超過"
+  },
+  {
+   "id": 2127,
+   "word": "overall",
+   "pos": "a/n",
+   "zh": "a. 總的，全部的｜n. 工作褲"
+  },
+  {
+   "id": 2128,
+   "word": "overcome",
+   "pos": "v",
+   "zh": "v. 戰勝；克服"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
