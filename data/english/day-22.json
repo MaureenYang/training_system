@@ -1,0 +1,616 @@
+{
+ "day": 22,
+ "date": "2026-11-03",
+ "generated": false,
+ "words": [
+  {
+   "id": 2129,
+   "word": "overhead",
+   "pos": "a/ad",
+   "zh": "a. 在頭頂上的；在上頭的｜ad. 在上頭；高高地"
+  },
+  {
+   "id": 2130,
+   "word": "overlap",
+   "pos": "v",
+   "zh": "v. 部分重疊"
+  },
+  {
+   "id": 2131,
+   "word": "overlook",
+   "pos": "v",
+   "zh": "v. 看漏；忽略"
+  },
+  {
+   "id": 2132,
+   "word": "overseas",
+   "pos": "a",
+   "zh": "a. 在海外；在國外"
+  },
+  {
+   "id": 2133,
+   "word": "oversee",
+   "pos": "v",
+   "zh": "v. 監視；監督"
+  },
+  {
+   "id": 2134,
+   "word": "overtime",
+   "pos": "n/a/ad",
+   "zh": "n. 加班｜a. 超過時間的｜ad. 超過地"
+  },
+  {
+   "id": 2135,
+   "word": "overview",
+   "pos": "n",
+   "zh": "n. 概觀；概要"
+  },
+  {
+   "id": 2136,
+   "word": "overwhelm",
+   "pos": "v",
+   "zh": "v. 戰勝；征服"
+  },
+  {
+   "id": 2137,
+   "word": "ow",
+   "pos": "v",
+   "zh": "v. 欠；歸功於"
+  },
+  {
+   "id": 2138,
+   "word": "own",
+   "pos": "a/v",
+   "zh": "a. 自己的｜v. 有；擁有"
+  },
+  {
+   "id": 2139,
+   "word": "owner",
+   "pos": "n",
+   "zh": "n. 物主；所有人"
+  },
+  {
+   "id": 2140,
+   "word": "package",
+   "pos": "n",
+   "zh": "n. 包裹；包"
+  },
+  {
+   "id": 2141,
+   "word": "panel",
+   "pos": "a",
+   "zh": "a. 控制板；陪審員名單"
+  },
+  {
+   "id": 2142,
+   "word": "paragraph",
+   "pos": "n",
+   "zh": "n. （文章的）段；節"
+  },
+  {
+   "id": 2143,
+   "word": "part",
+   "pos": "n/v/a/ad",
+   "zh": "n. 部分；本分｜v. 分開；使分離｜a. 部分｜ad. 部分地"
+  },
+  {
+   "id": 2144,
+   "word": "partial",
+   "pos": "a",
+   "zh": "a. 部分的；局部的"
+  },
+  {
+   "id": 2145,
+   "word": "participant",
+   "pos": "n",
+   "zh": "n. 參與者"
+  },
+  {
+   "id": 2146,
+   "word": "participate",
+   "pos": "v",
+   "zh": "v. 參加；參與"
+  },
+  {
+   "id": 2147,
+   "word": "particular",
+   "pos": "a",
+   "zh": "a. 特有的，獨特的"
+  },
+  {
+   "id": 2148,
+   "word": "particularly",
+   "pos": "ad",
+   "zh": "ad. 特別；尤其"
+  },
+  {
+   "id": 2149,
+   "word": "partner",
+   "pos": "n",
+   "zh": "n. 夥伴；同伴"
+  },
+  {
+   "id": 2150,
+   "word": "partnership",
+   "pos": "n",
+   "zh": "n. 合夥關係"
+  },
+  {
+   "id": 2151,
+   "word": "part-time",
+   "pos": "a",
+   "zh": "a. 兼職的"
+  },
+  {
+   "id": 2152,
+   "word": "party",
+   "pos": "n",
+   "zh": "n. 聚會；派對；黨派"
+  },
+  {
+   "id": 2153,
+   "word": "pass",
+   "pos": "v/n",
+   "zh": "v. 穿過；通過｜n. 通行證；護照；入場證"
+  },
+  {
+   "id": 2154,
+   "word": "passage",
+   "pos": "n",
+   "zh": "n. 通行；走廊"
+  },
+  {
+   "id": 2155,
+   "word": "passenger",
+   "pos": "n",
+   "zh": "n. 乘客"
+  },
+  {
+   "id": 2156,
+   "word": "passport",
+   "pos": "n",
+   "zh": "n. 護照"
+  },
+  {
+   "id": 2157,
+   "word": "patch",
+   "pos": "n/v",
+   "zh": "n. 補釘；補片｜v. 補綴；修補"
+  },
+  {
+   "id": 2158,
+   "word": "path",
+   "pos": "n",
+   "zh": "n. 小徑"
+  },
+  {
+   "id": 2159,
+   "word": "patience",
+   "pos": "n",
+   "zh": "n. 耐心"
+  },
+  {
+   "id": 2160,
+   "word": "patient",
+   "pos": "a",
+   "zh": "a. 有耐心的"
+  },
+  {
+   "id": 2161,
+   "word": "pattern",
+   "pos": "n",
+   "zh": "n. 花樣；圖案"
+  },
+  {
+   "id": 2162,
+   "word": "pay",
+   "pos": "v/n",
+   "zh": "v. 付；支付｜n. 薪俸；報酬"
+  },
+  {
+   "id": 2163,
+   "word": "payable",
+   "pos": "a",
+   "zh": "a. 應支付的；到期的"
+  },
+  {
+   "id": 2164,
+   "word": "payment",
+   "pos": "n",
+   "zh": "n. 支付；付款"
+  },
+  {
+   "id": 2165,
+   "word": "payroll",
+   "pos": "n",
+   "zh": "n. 薪金總額；發薪名單"
+  },
+  {
+   "id": 2166,
+   "word": "peace",
+   "pos": "n",
+   "zh": "n. 和平；平靜"
+  },
+  {
+   "id": 2167,
+   "word": "peaceful",
+   "pos": "a",
+   "zh": "a. 和平的；安詳的"
+  },
+  {
+   "id": 2168,
+   "word": "peculiar",
+   "pos": "a",
+   "zh": "a. 奇怪的；乖癖的"
+  },
+  {
+   "id": 2169,
+   "word": "penalize",
+   "pos": "v",
+   "zh": "v. 處罰；處刑"
+  },
+  {
+   "id": 2170,
+   "word": "penalty",
+   "pos": "n",
+   "zh": "n. 處罰；刑罰"
+  },
+  {
+   "id": 2171,
+   "word": "perceive",
+   "pos": "v",
+   "zh": "v. 察覺；感知"
+  },
+  {
+   "id": 2172,
+   "word": "percent",
+   "pos": "n",
+   "zh": "n. 百分比；百分率"
+  },
+  {
+   "id": 2173,
+   "word": "percentage",
+   "pos": "n",
+   "zh": "n. 百分率；百分比"
+  },
+  {
+   "id": 2174,
+   "word": "perception",
+   "pos": "n",
+   "zh": "n. 感知；感受"
+  },
+  {
+   "id": 2175,
+   "word": "perfect",
+   "pos": "a",
+   "zh": "a. 完美的；理想的"
+  },
+  {
+   "id": 2176,
+   "word": "perform",
+   "pos": "n/v",
+   "zh": "n. 表演；實施｜v. 使完美；做完"
+  },
+  {
+   "id": 2177,
+   "word": "performance",
+   "pos": "n",
+   "zh": "n. 表演；成效"
+  },
+  {
+   "id": 2178,
+   "word": "perhaps",
+   "pos": "ad",
+   "zh": "ad. 也許；大概"
+  },
+  {
+   "id": 2179,
+   "word": "period",
+   "pos": "n",
+   "zh": "n. 時期；期間；生理期"
+  },
+  {
+   "id": 2180,
+   "word": "periodical",
+   "pos": "a",
+   "zh": "a. 週期的；定期的"
+  },
+  {
+   "id": 2181,
+   "word": "permanent",
+   "pos": "a",
+   "zh": "a. 永恆的；永遠的"
+  },
+  {
+   "id": 2182,
+   "word": "permit",
+   "pos": "v",
+   "zh": "v. 允許；許可"
+  },
+  {
+   "id": 2183,
+   "word": "persistence",
+   "pos": "n",
+   "zh": "n. 持續的；持久的"
+  },
+  {
+   "id": 2184,
+   "word": "persistent",
+   "pos": "a",
+   "zh": "a. 持續的；持久的"
+  },
+  {
+   "id": 2185,
+   "word": "personnel",
+   "pos": "n",
+   "zh": "n. 人員；員工"
+  },
+  {
+   "id": 2186,
+   "word": "perspective",
+   "pos": "a/n",
+   "zh": "a. 透視的｜n. 看法；觀點"
+  },
+  {
+   "id": 2187,
+   "word": "persuade",
+   "pos": "v",
+   "zh": "v. 說服；勸服"
+  },
+  {
+   "id": 2188,
+   "word": "persuasion",
+   "pos": "n",
+   "zh": "n. 說服；勸服"
+  },
+  {
+   "id": 2189,
+   "word": "pertain",
+   "pos": "v",
+   "zh": "v. 從屬；附屬"
+  },
+  {
+   "id": 2190,
+   "word": "pertinent",
+   "pos": "a",
+   "zh": "a. 恰當的；貼切的"
+  },
+  {
+   "id": 2191,
+   "word": "petrol",
+   "pos": "n",
+   "zh": "n. 汽油"
+  },
+  {
+   "id": 2192,
+   "word": "Ph.D.",
+   "pos": "n",
+   "zh": "n. 博士學位(=Doctor of Philosophy)"
+  },
+  {
+   "id": 2193,
+   "word": "pharmacy",
+   "pos": "n",
+   "zh": "n. 藥房"
+  },
+  {
+   "id": 2194,
+   "word": "photo",
+   "pos": "n",
+   "zh": "n. 照片"
+  },
+  {
+   "id": 2195,
+   "word": "photograph",
+   "pos": "n",
+   "zh": "n. 攝影照"
+  },
+  {
+   "id": 2196,
+   "word": "photographer",
+   "pos": "n",
+   "zh": "n. 攝影師"
+  },
+  {
+   "id": 2197,
+   "word": "pile",
+   "pos": "n/v",
+   "zh": "n. 堆；一堆｜v. 堆積；疊"
+  },
+  {
+   "id": 2198,
+   "word": "pin",
+   "pos": "n/v",
+   "zh": "n. 大頭針；別針｜v. 別住；釘住"
+  },
+  {
+   "id": 2199,
+   "word": "pioneer",
+   "pos": "n",
+   "zh": "n. 拓荒者；開拓者"
+  },
+  {
+   "id": 2200,
+   "word": "pipeline",
+   "pos": "n",
+   "zh": "n. 渠道；路線"
+  },
+  {
+   "id": 2201,
+   "word": "pitch",
+   "pos": "v/n",
+   "zh": "v. 投；擲；定在｜n. 音高；程度"
+  },
+  {
+   "id": 2202,
+   "word": "place",
+   "pos": "n/v",
+   "zh": "n. 地點；地區；身分｜v. 放置；安置"
+  },
+  {
+   "id": 2203,
+   "word": "placement",
+   "pos": "n",
+   "zh": "n. 布置"
+  },
+  {
+   "id": 2204,
+   "word": "placid",
+   "pos": "a",
+   "zh": "a. 平靜的；寧靜的"
+  },
+  {
+   "id": 2205,
+   "word": "plain",
+   "pos": "a/n",
+   "zh": "a. 簡樸的；坦白的｜n. 平原；曠野"
+  },
+  {
+   "id": 2206,
+   "word": "plan",
+   "pos": "n/v",
+   "zh": "n. 計畫；方案｜v. 計畫；打算"
+  },
+  {
+   "id": 2207,
+   "word": "plane",
+   "pos": "n",
+   "zh": "n. 飛機"
+  },
+  {
+   "id": 2208,
+   "word": "planet",
+   "pos": "n",
+   "zh": "n. 行星"
+  },
+  {
+   "id": 2209,
+   "word": "plant",
+   "pos": "n",
+   "zh": "n. 植物"
+  },
+  {
+   "id": 2210,
+   "word": "please",
+   "pos": "v",
+   "zh": "v. 請；討人喜歡；討好"
+  },
+  {
+   "id": 2211,
+   "word": "pleased",
+   "pos": "a",
+   "zh": "a. 喜歡的；滿意的"
+  },
+  {
+   "id": 2212,
+   "word": "pleasure",
+   "pos": "n",
+   "zh": "n. 愉悅；滿足"
+  },
+  {
+   "id": 2213,
+   "word": "plug",
+   "pos": "n/v",
+   "zh": "n. 塞子，栓｜v. 塞住；接通電源"
+  },
+  {
+   "id": 2214,
+   "word": "plumber",
+   "pos": "n",
+   "zh": "n. 水管工"
+  },
+  {
+   "id": 2215,
+   "word": "pocket",
+   "pos": "n/a",
+   "zh": "n. 口袋；財力｜a. 袖珍的；小型的"
+  },
+  {
+   "id": 2216,
+   "word": "policy",
+   "pos": "n",
+   "zh": "n. 政策；方針"
+  },
+  {
+   "id": 2217,
+   "word": "polite",
+   "pos": "a",
+   "zh": "a. 有禮貌的；客氣的"
+  },
+  {
+   "id": 2218,
+   "word": "poll",
+   "pos": "n/v",
+   "zh": "n. 投票；選舉｜v. 投票"
+  },
+  {
+   "id": 2219,
+   "word": "pollute",
+   "pos": "v",
+   "zh": "v. 汙染"
+  },
+  {
+   "id": 2220,
+   "word": "pollution",
+   "pos": "n",
+   "zh": "n. 汙染"
+  },
+  {
+   "id": 2221,
+   "word": "ponder",
+   "pos": "v",
+   "zh": "v. 仔細考慮；衡量"
+  },
+  {
+   "id": 2222,
+   "word": "population",
+   "pos": "n",
+   "zh": "n. 人口"
+  },
+  {
+   "id": 2223,
+   "word": "portable",
+   "pos": "a",
+   "zh": "a. 手提式的；輕便的"
+  },
+  {
+   "id": 2224,
+   "word": "portfolio",
+   "pos": "n",
+   "zh": "n. 文件夾；個人作品"
+  },
+  {
+   "id": 2225,
+   "word": "pose",
+   "pos": "n/v",
+   "zh": "n. 姿勢｜v. 擺姿勢；裝腔作勢"
+  },
+  {
+   "id": 2226,
+   "word": "position",
+   "pos": "n",
+   "zh": "n. 位置；姿態"
+  },
+  {
+   "id": 2227,
+   "word": "possess",
+   "pos": "v",
+   "zh": "v. 擁有；佔有"
+  },
+  {
+   "id": 2228,
+   "word": "possession",
+   "pos": "n",
+   "zh": "n. 擁有；所有物；財產"
+  },
+  {
+   "id": 2229,
+   "word": "possibility",
+   "pos": "n",
+   "zh": "n. 可能性"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
