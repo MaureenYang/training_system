@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -321,6 +321,7 @@
    "https://openai.com/index/dall-e-introducing-outpainting",
    "https://openai.com/index/dall-e-now-available-in-beta",
    "https://openai.com/index/dall-e-now-available-without-waitlist",
+   "https://openai.com/index/dan-driscoll-joins-openai",
    "https://openai.com/index/data-partnerships",
    "https://openai.com/index/databricks",
    "https://openai.com/index/datadog",
@@ -575,6 +576,7 @@
    "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
    "https://openai.com/index/gradient-labs",
    "https://openai.com/index/greptile-code-review-codex-astra",
+   "https://openai.com/index/grid-protectors-program",
    "https://openai.com/index/group-chats-in-chatgpt",
    "https://openai.com/index/grupo-boticario",
    "https://openai.com/index/grupo-folha-grupo-uol-partnership",
@@ -807,6 +809,7 @@
    "https://openai.com/index/lenfest-ai-collaborative-expansion",
    "https://openai.com/index/lenfest-institute",
    "https://openai.com/index/lifespan",
+   "https://openai.com/index/lifeval",
    "https://openai.com/index/localiza-generative-ai",
    "https://openai.com/index/loveholidays",
    "https://openai.com/index/low-resource-programming-languages",
@@ -1075,6 +1078,7 @@
    "https://openai.com/index/put-data-to-work",
    "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
    "https://openai.com/index/pvh-future-of-fashion",
+   "https://openai.com/index/qodo-codex-plugin",
    "https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
    "https://openai.com/index/radisson",
    "https://openai.com/index/rakuten",
@@ -1125,6 +1129,7 @@
    "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
    "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
    "https://openai.com/index/scaling-coordinated-vulnerability-disclosure",
+   "https://openai.com/index/scaling-git-at-openai",
    "https://openai.com/index/scaling-kubernetes-to-2500-nodes",
    "https://openai.com/index/scaling-kubernetes-to-7500-nodes",
    "https://openai.com/index/scaling-laws-for-neural-language-models",
@@ -1901,7 +1906,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-28",
    "https://docs.claude.com/en/release-notes/overview#2026-10-29",
    "https://docs.claude.com/en/release-notes/overview#2026-10-30",
-   "https://docs.claude.com/en/release-notes/overview#2026-10-31"
+   "https://docs.claude.com/en/release-notes/overview#2026-10-31",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-03"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2048,6 +2054,90 @@
   ]
  },
  "items": [
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-03",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-03",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "November 2, 2026\nLong conversations and agent loops on the Messages API can now send smaller requests and get a lower time to first token with message threads, in beta with the message-threads-2026-08"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/scaling-git-at-openai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/scaling-git-at-openai",
+   "title": "Scaling Git at OpenAI",
+   "date": "2026-11-02",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/grid-protectors-program",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/grid-protectors-program",
+   "title": "Introducing the Grid Protectors Program",
+   "date": "2026-11-02",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/lifeval",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/lifeval",
+   "title": "LifeVal",
+   "date": "2026-11-02",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/qodo-codex-plugin",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/qodo-codex-plugin",
+   "title": "Qodo builds context into AI code review with Codex",
+   "date": "2026-11-02",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/dan-driscoll-joins-openai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/dan-driscoll-joins-openai",
+   "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+   "date": "2026-11-02",
+   "open_weights": false,
+   "fetched": "2026-11-03",
+   "points": [
+    "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies."
+   ],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-10-31",
    "company": "OpenAI",

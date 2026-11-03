@@ -1,0 +1,616 @@
+{
+ "day": 23,
+ "date": "2026-11-04",
+ "generated": false,
+ "words": [
+  {
+   "id": 2230,
+   "word": "possible",
+   "pos": "a",
+   "zh": "a. 可能的"
+  },
+  {
+   "id": 2231,
+   "word": "post",
+   "pos": "n",
+   "zh": "n. 崗位；哨所"
+  },
+  {
+   "id": 2232,
+   "word": "postage",
+   "pos": "n",
+   "zh": "n. 郵資；郵費"
+  },
+  {
+   "id": 2233,
+   "word": "posting",
+   "pos": "n",
+   "zh": "n. 任命；委任職位"
+  },
+  {
+   "id": 2234,
+   "word": "postmaster",
+   "pos": "n",
+   "zh": "n. 郵政局長"
+  },
+  {
+   "id": 2235,
+   "word": "postpone",
+   "pos": "v",
+   "zh": "v. 延遲"
+  },
+  {
+   "id": 2236,
+   "word": "posture",
+   "pos": "n",
+   "zh": "n. 姿勢；姿態"
+  },
+  {
+   "id": 2237,
+   "word": "potency",
+   "pos": "n",
+   "zh": "n. 權力；效力"
+  },
+  {
+   "id": 2238,
+   "word": "potential",
+   "pos": "a",
+   "zh": "a. 有潛力的；可能的"
+  },
+  {
+   "id": 2239,
+   "word": "power",
+   "pos": "n",
+   "zh": "n. 力量；權力"
+  },
+  {
+   "id": 2240,
+   "word": "powerful",
+   "pos": "a",
+   "zh": "a. 強大的；權力大的"
+  },
+  {
+   "id": 2241,
+   "word": "PR",
+   "pos": "n",
+   "zh": "n. 公共關係(= publicrelations)"
+  },
+  {
+   "id": 2242,
+   "word": "practical",
+   "pos": "a",
+   "zh": "a. 有用的；實際的"
+  },
+  {
+   "id": 2243,
+   "word": "practice",
+   "pos": "v",
+   "zh": "v. 練習"
+  },
+  {
+   "id": 2244,
+   "word": "precise",
+   "pos": "a",
+   "zh": "a. 精準的"
+  },
+  {
+   "id": 2245,
+   "word": "precisely",
+   "pos": "ad",
+   "zh": "ad. 精準地"
+  },
+  {
+   "id": 2246,
+   "word": "precondition",
+   "pos": "n/v",
+   "zh": "n. 先決條件｜v. 使…預先適應"
+  },
+  {
+   "id": 2247,
+   "word": "predict",
+   "pos": "v",
+   "zh": "v. 預言；預知"
+  },
+  {
+   "id": 2248,
+   "word": "predictable",
+   "pos": "a",
+   "zh": "a. 可預言的"
+  },
+  {
+   "id": 2249,
+   "word": "prediction",
+   "pos": "n",
+   "zh": "n. 預言；預報"
+  },
+  {
+   "id": 2250,
+   "word": "predisposition",
+   "pos": "n",
+   "zh": "n. 傾向；素質"
+  },
+  {
+   "id": 2251,
+   "word": "predominate",
+   "pos": "v",
+   "zh": "v. 主宰；支配"
+  },
+  {
+   "id": 2252,
+   "word": "preface",
+   "pos": "n/v",
+   "zh": "n. 序言；引語｜v. 作為……的開端"
+  },
+  {
+   "id": 2253,
+   "word": "prefer",
+   "pos": "v",
+   "zh": "v. 偏好"
+  },
+  {
+   "id": 2254,
+   "word": "preference",
+   "pos": "n",
+   "zh": "n. 偏好；喜愛"
+  },
+  {
+   "id": 2255,
+   "word": "prejudice",
+   "pos": "n/v",
+   "zh": "n. 偏見；歧視｜v. 損害；偏見"
+  },
+  {
+   "id": 2256,
+   "word": "premises",
+   "pos": "n",
+   "zh": "n. 生產場所；經營場址"
+  },
+  {
+   "id": 2257,
+   "word": "premium",
+   "pos": "a/n",
+   "zh": "a. 高價的；優質的｜n. 獎品；獎金"
+  },
+  {
+   "id": 2258,
+   "word": "prepaid",
+   "pos": "a",
+   "zh": "a. 預先付的"
+  },
+  {
+   "id": 2259,
+   "word": "prepare",
+   "pos": "v",
+   "zh": "v. 準備"
+  },
+  {
+   "id": 2260,
+   "word": "prescription",
+   "pos": "n",
+   "zh": "n. 命令；指示；處方"
+  },
+  {
+   "id": 2261,
+   "word": "present",
+   "pos": "a/n",
+   "zh": "a. 現在的；當前的；出席的｜n. 現在；目前"
+  },
+  {
+   "id": 2262,
+   "word": "preserve",
+   "pos": "v",
+   "zh": "v. 保存；保藏"
+  },
+  {
+   "id": 2263,
+   "word": "president",
+   "pos": "n",
+   "zh": "n. 總統；會長；主席"
+  },
+  {
+   "id": 2264,
+   "word": "press",
+   "pos": "v/n",
+   "zh": "v. 按；壓；迫使｜n. 報刊；新聞界"
+  },
+  {
+   "id": 2265,
+   "word": "pressure",
+   "pos": "n",
+   "zh": "n. 壓力"
+  },
+  {
+   "id": 2266,
+   "word": "presume",
+   "pos": "v",
+   "zh": "v. 設想；相假設"
+  },
+  {
+   "id": 2267,
+   "word": "pretend",
+   "pos": "v",
+   "zh": "v. 假裝；佯裝"
+  },
+  {
+   "id": 2268,
+   "word": "pretense",
+   "pos": "n",
+   "zh": "n. 假裝；矯飾"
+  },
+  {
+   "id": 2269,
+   "word": "pretentious",
+   "pos": "a",
+   "zh": "a. 矯飾的；做作的"
+  },
+  {
+   "id": 2270,
+   "word": "prevail",
+   "pos": "v",
+   "zh": "v. 勝過；戰勝"
+  },
+  {
+   "id": 2271,
+   "word": "prevalent",
+   "pos": "a",
+   "zh": "a. 流行的；盛行的"
+  },
+  {
+   "id": 2272,
+   "word": "prevent",
+   "pos": "v",
+   "zh": "v. 防止；預防"
+  },
+  {
+   "id": 2273,
+   "word": "preventive",
+   "pos": "a",
+   "zh": "a. 預防的；防止的"
+  },
+  {
+   "id": 2274,
+   "word": "previous",
+   "pos": "a",
+   "zh": "a. 以前的"
+  },
+  {
+   "id": 2275,
+   "word": "previously",
+   "pos": "ad",
+   "zh": "ad. 事先；以前"
+  },
+  {
+   "id": 2276,
+   "word": "price",
+   "pos": "n",
+   "zh": "n. 費用；價錢"
+  },
+  {
+   "id": 2277,
+   "word": "priceless",
+   "pos": "a",
+   "zh": "a. 貴重的；無價的"
+  },
+  {
+   "id": 2278,
+   "word": "primarily",
+   "pos": "ad",
+   "zh": "ad. 首先；起初；主要地"
+  },
+  {
+   "id": 2279,
+   "word": "prime",
+   "pos": "a",
+   "zh": "a. 最初的；原始的"
+  },
+  {
+   "id": 2280,
+   "word": "principal",
+   "pos": "a",
+   "zh": "a. 主要的；首要的"
+  },
+  {
+   "id": 2281,
+   "word": "principle",
+   "pos": "n",
+   "zh": "n. 原則；原理"
+  },
+  {
+   "id": 2282,
+   "word": "prior",
+   "pos": "a",
+   "zh": "a. 在前的；居先的"
+  },
+  {
+   "id": 2283,
+   "word": "prioritize",
+   "pos": "v",
+   "zh": "v. 按優先順序處理"
+  },
+  {
+   "id": 2284,
+   "word": "priority",
+   "pos": "n",
+   "zh": "n. 優先；重點"
+  },
+  {
+   "id": 2285,
+   "word": "privacy",
+   "pos": "n",
+   "zh": "n. 隱私"
+  },
+  {
+   "id": 2286,
+   "word": "private",
+   "pos": "a",
+   "zh": "a. 隱私的"
+  },
+  {
+   "id": 2287,
+   "word": "privatize",
+   "pos": "v",
+   "zh": "v. 使私有（民營）化"
+  },
+  {
+   "id": 2288,
+   "word": "privilege",
+   "pos": "n",
+   "zh": "n. 特權；優特"
+  },
+  {
+   "id": 2289,
+   "word": "prize",
+   "pos": "n",
+   "zh": "n. 獎品；獎賞"
+  },
+  {
+   "id": 2290,
+   "word": "probably",
+   "pos": "ad",
+   "zh": "ad. 大概；或許"
+  },
+  {
+   "id": 2291,
+   "word": "procedure",
+   "pos": "n",
+   "zh": "n. 程序；手續"
+  },
+  {
+   "id": 2292,
+   "word": "proceed",
+   "pos": "v",
+   "zh": "v. 開始；著手；出發"
+  },
+  {
+   "id": 2293,
+   "word": "process",
+   "pos": "n/v",
+   "zh": "n. 過程；進程｜v. 處理；辦理"
+  },
+  {
+   "id": 2294,
+   "word": "procure",
+   "pos": "n",
+   "zh": "n. 引起；導致"
+  },
+  {
+   "id": 2295,
+   "word": "procurement",
+   "pos": "n",
+   "zh": "n. 取得；採購"
+  },
+  {
+   "id": 2296,
+   "word": "product",
+   "pos": "n",
+   "zh": "n. 產品；成品"
+  },
+  {
+   "id": 2297,
+   "word": "production",
+   "pos": "n",
+   "zh": "n. 生產；製作"
+  },
+  {
+   "id": 2298,
+   "word": "productivity",
+   "pos": "n",
+   "zh": "n. 生產力；生產率"
+  },
+  {
+   "id": 2299,
+   "word": "profession",
+   "pos": "n",
+   "zh": "n. 職業；同業"
+  },
+  {
+   "id": 2300,
+   "word": "professional",
+   "pos": "a",
+   "zh": "a. 專業的"
+  },
+  {
+   "id": 2301,
+   "word": "proficiency",
+   "pos": "n",
+   "zh": "n. 精通；熟練"
+  },
+  {
+   "id": 2302,
+   "word": "profit",
+   "pos": "v/n",
+   "zh": "v. 得益；獲益｜n. 利潤；盈利"
+  },
+  {
+   "id": 2303,
+   "word": "profitable",
+   "pos": "a",
+   "zh": "a. 有利的；贏利的"
+  },
+  {
+   "id": 2304,
+   "word": "profound",
+   "pos": "a",
+   "zh": "a. 深刻的；深切的"
+  },
+  {
+   "id": 2305,
+   "word": "program",
+   "pos": "n",
+   "zh": "n. 計畫；方案；節目"
+  },
+  {
+   "id": 2306,
+   "word": "programmer",
+   "pos": "n",
+   "zh": "n. 程式設計師"
+  },
+  {
+   "id": 2307,
+   "word": "progress",
+   "pos": "v/n",
+   "zh": "v. 前進；進行｜n. 前進；進行"
+  },
+  {
+   "id": 2308,
+   "word": "progression",
+   "pos": "n",
+   "zh": "n. 前進"
+  },
+  {
+   "id": 2309,
+   "word": "prohibit",
+   "pos": "v",
+   "zh": "v. 禁止；妨礙"
+  },
+  {
+   "id": 2310,
+   "word": "project",
+   "pos": "v",
+   "zh": "v. 計畫；投射"
+  },
+  {
+   "id": 2311,
+   "word": "projection",
+   "pos": "n",
+   "zh": "n. 投擲；發射；投影"
+  },
+  {
+   "id": 2312,
+   "word": "prolific",
+   "pos": "a",
+   "zh": "a. 多產的；豐富的"
+  },
+  {
+   "id": 2313,
+   "word": "prolong",
+   "pos": "v",
+   "zh": "v. 延長；拖延"
+  },
+  {
+   "id": 2314,
+   "word": "promise",
+   "pos": "v/n",
+   "zh": "v. 承諾；允諾｜n. 承諾；允諾"
+  },
+  {
+   "id": 2315,
+   "word": "promote",
+   "pos": "v",
+   "zh": "v. 晉升；促進"
+  },
+  {
+   "id": 2316,
+   "word": "promotional",
+   "pos": "a",
+   "zh": "a. 增進的；獎勵的"
+  },
+  {
+   "id": 2317,
+   "word": "proof",
+   "pos": "n/a",
+   "zh": "n. 證據；物證｜a. 能抵擋的"
+  },
+  {
+   "id": 2318,
+   "word": "proper",
+   "pos": "a",
+   "zh": "a. 適合的；適當的"
+  },
+  {
+   "id": 2319,
+   "word": "property",
+   "pos": "n",
+   "zh": "n. 資產；所有物"
+  },
+  {
+   "id": 2320,
+   "word": "proposal",
+   "pos": "n",
+   "zh": "n. 計畫；提案；求婚"
+  },
+  {
+   "id": 2321,
+   "word": "propose",
+   "pos": "v",
+   "zh": "v. 計畫；建議；求婚"
+  },
+  {
+   "id": 2322,
+   "word": "prospect",
+   "pos": "n/v",
+   "zh": "n. 指望；預期｜v. 勘探"
+  },
+  {
+   "id": 2323,
+   "word": "protect",
+   "pos": "v",
+   "zh": "v. 保護；防護"
+  },
+  {
+   "id": 2324,
+   "word": "protection",
+   "pos": "n",
+   "zh": "n. 保護；防護"
+  },
+  {
+   "id": 2325,
+   "word": "proud",
+   "pos": "a",
+   "zh": "a. 驕傲的；有自尊心的"
+  },
+  {
+   "id": 2326,
+   "word": "prove",
+   "pos": "v",
+   "zh": "v. 證明；證實"
+  },
+  {
+   "id": 2327,
+   "word": "provide",
+   "pos": "v",
+   "zh": "v. 提供"
+  },
+  {
+   "id": 2328,
+   "word": "proximity",
+   "pos": "n",
+   "zh": "n. 接近；鄰近"
+  },
+  {
+   "id": 2329,
+   "word": "public",
+   "pos": "a",
+   "zh": "a. 公眾的"
+  },
+  {
+   "id": 2330,
+   "word": "publication",
+   "pos": "n",
+   "zh": "n. 出版物；公布"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
