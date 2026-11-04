@@ -1,0 +1,616 @@
+{
+ "day": 24,
+ "date": "2026-11-05",
+ "generated": false,
+ "words": [
+  {
+   "id": 2331,
+   "word": "publicize",
+   "pos": "v",
+   "zh": "v. 宣傳；公布"
+  },
+  {
+   "id": 2332,
+   "word": "publish",
+   "pos": "v",
+   "zh": "v. 出版；發行"
+  },
+  {
+   "id": 2333,
+   "word": "publisher",
+   "pos": "n",
+   "zh": "n. 出版社"
+  },
+  {
+   "id": 2334,
+   "word": "punish",
+   "pos": "v",
+   "zh": "v. 處罰"
+  },
+  {
+   "id": 2335,
+   "word": "punishment",
+   "pos": "n",
+   "zh": "n. 處罰"
+  },
+  {
+   "id": 2336,
+   "word": "purchase",
+   "pos": "v",
+   "zh": "v. 購買；獲得"
+  },
+  {
+   "id": 2337,
+   "word": "pure",
+   "pos": "a",
+   "zh": "a. 純潔的；完全的"
+  },
+  {
+   "id": 2338,
+   "word": "purely",
+   "pos": "a",
+   "zh": "a. 純粹地"
+  },
+  {
+   "id": 2339,
+   "word": "purify",
+   "pos": "v",
+   "zh": "v. 使純淨；淨化"
+  },
+  {
+   "id": 2340,
+   "word": "purpose",
+   "pos": "n",
+   "zh": "n. 目的；意圖"
+  },
+  {
+   "id": 2341,
+   "word": "pursue",
+   "pos": "v",
+   "zh": "v. 追求；求愛；追趕"
+  },
+  {
+   "id": 2342,
+   "word": "pursuit",
+   "pos": "n",
+   "zh": "n. 追求；尋求"
+  },
+  {
+   "id": 2343,
+   "word": "qualification",
+   "pos": "n",
+   "zh": "n. 資格；能力"
+  },
+  {
+   "id": 2344,
+   "word": "qualify",
+   "pos": "v",
+   "zh": "v. 使具有資格；使合格"
+  },
+  {
+   "id": 2345,
+   "word": "quality",
+   "pos": "n/a",
+   "zh": "n. 品質；特性｜a. 優良的"
+  },
+  {
+   "id": 2346,
+   "word": "quantity",
+   "pos": "n",
+   "zh": "n. 數量；分量"
+  },
+  {
+   "id": 2347,
+   "word": "quarrel",
+   "pos": "n/v",
+   "zh": "n. 爭吵；不和｜v. 爭吵；不和"
+  },
+  {
+   "id": 2348,
+   "word": "quarter",
+   "pos": "n",
+   "zh": "n. 四分之一；季度"
+  },
+  {
+   "id": 2349,
+   "word": "quarterly",
+   "pos": "a/ad",
+   "zh": "a. 季度的｜ad. 一季一次地"
+  },
+  {
+   "id": 2350,
+   "word": "question",
+   "pos": "n/v",
+   "zh": "n. 問題；詢問｜v. 訊問；審問"
+  },
+  {
+   "id": 2351,
+   "word": "questionable",
+   "pos": "a",
+   "zh": "a. 可疑的；成問題的"
+  },
+  {
+   "id": 2352,
+   "word": "queue",
+   "pos": "n/v",
+   "zh": "n. 行列；長隊｜v. 排隊"
+  },
+  {
+   "id": 2353,
+   "word": "quick",
+   "pos": "a",
+   "zh": "a. 快速的；迅速的"
+  },
+  {
+   "id": 2354,
+   "word": "quickly",
+   "pos": "ad",
+   "zh": "ad. 快速地"
+  },
+  {
+   "id": 2355,
+   "word": "quiet",
+   "pos": "a/n/v",
+   "zh": "a. 寧靜的；安定的｜n. 安靜；靜謐｜v. 平靜下來"
+  },
+  {
+   "id": 2356,
+   "word": "quit",
+   "pos": "v",
+   "zh": "v. 解除；退出"
+  },
+  {
+   "id": 2357,
+   "word": "quite",
+   "pos": "ad",
+   "zh": "ad. 完全；徹底"
+  },
+  {
+   "id": 2358,
+   "word": "quotation",
+   "pos": "n",
+   "zh": "n. 引用；引證"
+  },
+  {
+   "id": 2359,
+   "word": "quote",
+   "pos": "v/n",
+   "zh": "v. 引用；引述｜n. 引號；引語"
+  },
+  {
+   "id": 2360,
+   "word": "race",
+   "pos": "n/v",
+   "zh": "n. 賽跑；比｜v. 比速度；參加競賽"
+  },
+  {
+   "id": 2361,
+   "word": "racial",
+   "pos": "a",
+   "zh": "a. 人種的；種族的"
+  },
+  {
+   "id": 2362,
+   "word": "radical",
+   "pos": "a/n",
+   "zh": "a. 根本的；基本的｜n. 根部；基礎"
+  },
+  {
+   "id": 2363,
+   "word": "radio",
+   "pos": "n",
+   "zh": "n. 無線電；收音機"
+  },
+  {
+   "id": 2364,
+   "word": "radioactive",
+   "pos": "a",
+   "zh": "a. 放射性的"
+  },
+  {
+   "id": 2365,
+   "word": "radius",
+   "pos": "n",
+   "zh": "n. 半徑；半徑距離"
+  },
+  {
+   "id": 2366,
+   "word": "railroad",
+   "pos": "n",
+   "zh": "n. 鐵路"
+  },
+  {
+   "id": 2367,
+   "word": "raise",
+   "pos": "v/n",
+   "zh": "v. 舉起；抬起｜n. 加薪；提高"
+  },
+  {
+   "id": 2368,
+   "word": "random",
+   "pos": "a",
+   "zh": "a. 胡亂的；隨便的"
+  },
+  {
+   "id": 2369,
+   "word": "randomly",
+   "pos": "ad",
+   "zh": "ad. 任意地；隨便地"
+  },
+  {
+   "id": 2370,
+   "word": "range",
+   "pos": "n",
+   "zh": "n. 排，行；一系列"
+  },
+  {
+   "id": 2371,
+   "word": "rank",
+   "pos": "n",
+   "zh": "n. 等級；地位"
+  },
+  {
+   "id": 2372,
+   "word": "rapid",
+   "pos": "a",
+   "zh": "a. 快的；迅速的"
+  },
+  {
+   "id": 2373,
+   "word": "rapidly",
+   "pos": "ad",
+   "zh": "ad. 很快地；立即"
+  },
+  {
+   "id": 2374,
+   "word": "rare",
+   "pos": "a",
+   "zh": "a. 稀有的；罕見的"
+  },
+  {
+   "id": 2375,
+   "word": "rarely",
+   "pos": "ad",
+   "zh": "ad. 很少；難得"
+  },
+  {
+   "id": 2376,
+   "word": "rate",
+   "pos": "v",
+   "zh": "v. 比例；率"
+  },
+  {
+   "id": 2377,
+   "word": "rather",
+   "pos": "ad",
+   "zh": "ad. 相當；頗"
+  },
+  {
+   "id": 2378,
+   "word": "rational",
+   "pos": "a",
+   "zh": "a. 理性的；有理性的"
+  },
+  {
+   "id": 2379,
+   "word": "reac",
+   "pos": "v/n",
+   "zh": "v. 抵達；達到｜n. 可及之範圍"
+  },
+  {
+   "id": 2380,
+   "word": "read",
+   "pos": "v/n",
+   "zh": "v. 閱讀；攻讀｜n. 讀物"
+  },
+  {
+   "id": 2381,
+   "word": "reader",
+   "pos": "n",
+   "zh": "n. 讀者"
+  },
+  {
+   "id": 2382,
+   "word": "readership",
+   "pos": "n",
+   "zh": "n. 讀者們"
+  },
+  {
+   "id": 2383,
+   "word": "readiness",
+   "pos": "n",
+   "zh": "n. 準備就緒"
+  },
+  {
+   "id": 2384,
+   "word": "ready",
+   "pos": "a",
+   "zh": "a. 準備好的；願意的"
+  },
+  {
+   "id": 2385,
+   "word": "realization",
+   "pos": "n",
+   "zh": "n. 領悟；認識"
+  },
+  {
+   "id": 2386,
+   "word": "realize",
+   "pos": "v",
+   "zh": "v. 領悟；實現"
+  },
+  {
+   "id": 2387,
+   "word": "reason",
+   "pos": "n",
+   "zh": "n. 理由"
+  },
+  {
+   "id": 2388,
+   "word": "reasonable",
+   "pos": "a",
+   "zh": "a. 合理的；正當的"
+  },
+  {
+   "id": 2389,
+   "word": "rebel",
+   "pos": "n/a",
+   "zh": "n. 反抗者｜a. 反叛的"
+  },
+  {
+   "id": 2390,
+   "word": "rebellion",
+   "pos": "n",
+   "zh": "n. 反叛；造反；叛亂"
+  },
+  {
+   "id": 2391,
+   "word": "rebound",
+   "pos": "v",
+   "zh": "v. 彈回；跳回"
+  },
+  {
+   "id": 2392,
+   "word": "rebuild",
+   "pos": "v",
+   "zh": "v. 重建；改建"
+  },
+  {
+   "id": 2393,
+   "word": "recall",
+   "pos": "v",
+   "zh": "v. 回想；回憶"
+  },
+  {
+   "id": 2394,
+   "word": "receipt",
+   "pos": "n",
+   "zh": "n. 收據"
+  },
+  {
+   "id": 2395,
+   "word": "receive",
+   "pos": "v",
+   "zh": "v. 收到；接到"
+  },
+  {
+   "id": 2396,
+   "word": "recent",
+   "pos": "a",
+   "zh": "a. 新近的；最近的"
+  },
+  {
+   "id": 2397,
+   "word": "recently",
+   "pos": "ad",
+   "zh": "ad. 最近"
+  },
+  {
+   "id": 2398,
+   "word": "reception",
+   "pos": "n",
+   "zh": "n. 接待；歡迎"
+  },
+  {
+   "id": 2399,
+   "word": "receptionist",
+   "pos": "n",
+   "zh": "n. 接待員"
+  },
+  {
+   "id": 2400,
+   "word": "recharge",
+   "pos": "v",
+   "zh": "v. 再充電於；再裝填彈藥於"
+  },
+  {
+   "id": 2401,
+   "word": "recipient",
+   "pos": "n/a",
+   "zh": "n. 接受者；受領者｜a. 接受的；受領的"
+  },
+  {
+   "id": 2402,
+   "word": "reclaim",
+   "pos": "v",
+   "zh": "v. 使改過；使悔改"
+  },
+  {
+   "id": 2403,
+   "word": "recognition",
+   "pos": "n",
+   "zh": "n. 認出；識別"
+  },
+  {
+   "id": 2404,
+   "word": "recognizable",
+   "pos": "a",
+   "zh": "a. 可辨認的"
+  },
+  {
+   "id": 2405,
+   "word": "recognize",
+   "pos": "v",
+   "zh": "v. 認出；識別"
+  },
+  {
+   "id": 2406,
+   "word": "recommend",
+   "pos": "v",
+   "zh": "v. 推薦"
+  },
+  {
+   "id": 2407,
+   "word": "recommendation",
+   "pos": "n",
+   "zh": "n. 推薦"
+  },
+  {
+   "id": 2408,
+   "word": "reconsider",
+   "pos": "v",
+   "zh": "v. 重新考慮"
+  },
+  {
+   "id": 2409,
+   "word": "record",
+   "pos": "v",
+   "zh": "v. 記載；記錄"
+  },
+  {
+   "id": 2410,
+   "word": "recover",
+   "pos": "v",
+   "zh": "v. 復原；恢復"
+  },
+  {
+   "id": 2411,
+   "word": "recovery",
+   "pos": "n",
+   "zh": "n. 復原恢復"
+  },
+  {
+   "id": 2412,
+   "word": "recruit",
+   "pos": "v",
+   "zh": "v. 徵募；僱用"
+  },
+  {
+   "id": 2413,
+   "word": "recruitment",
+   "pos": "n",
+   "zh": "n. 徵募；僱用"
+  },
+  {
+   "id": 2414,
+   "word": "rectangle",
+   "pos": "n",
+   "zh": "n. 矩形；長方形"
+  },
+  {
+   "id": 2415,
+   "word": "rectify",
+   "pos": "v",
+   "zh": "v. 矯正；改正"
+  },
+  {
+   "id": 2416,
+   "word": "reduce",
+   "pos": "v",
+   "zh": "v. 減少；縮小"
+  },
+  {
+   "id": 2417,
+   "word": "refer",
+   "pos": "v",
+   "zh": "v. 提到;談論"
+  },
+  {
+   "id": 2418,
+   "word": "reference",
+   "pos": "n",
+   "zh": "n. 提及；參考文獻"
+  },
+  {
+   "id": 2419,
+   "word": "reflect",
+   "pos": "v",
+   "zh": "v. 反射；照出"
+  },
+  {
+   "id": 2420,
+   "word": "reflection",
+   "pos": "n",
+   "zh": "n. 倒影；反省"
+  },
+  {
+   "id": 2421,
+   "word": "refund",
+   "pos": "n",
+   "zh": "n. 退還；償還"
+  },
+  {
+   "id": 2422,
+   "word": "refurbish",
+   "pos": "v",
+   "zh": "v. 再磨光；刷新"
+  },
+  {
+   "id": 2423,
+   "word": "refusal",
+   "pos": "n",
+   "zh": "n. 拒絕"
+  },
+  {
+   "id": 2424,
+   "word": "refuse",
+   "pos": "v",
+   "zh": "v. 拒絕"
+  },
+  {
+   "id": 2425,
+   "word": "regard",
+   "pos": "n/v",
+   "zh": "n. 注重；問候｜v. 把…認為"
+  },
+  {
+   "id": 2426,
+   "word": "regarding",
+   "pos": "prep",
+   "zh": "prep. 關於；就……而論"
+  },
+  {
+   "id": 2427,
+   "word": "regardless",
+   "pos": "ad/a",
+   "zh": "ad. 不顧一切地｜a. 不注意的；不留心的"
+  },
+  {
+   "id": 2428,
+   "word": "region",
+   "pos": "n",
+   "zh": "n. 地區；地帶"
+  },
+  {
+   "id": 2429,
+   "word": "registering",
+   "pos": "a",
+   "zh": "a. 登記的；註冊的"
+  },
+  {
+   "id": 2430,
+   "word": "regular",
+   "pos": "a",
+   "zh": "a. 規則的；有規律的"
+  },
+  {
+   "id": 2431,
+   "word": "regularly",
+   "pos": "ad",
+   "zh": "ad. 定期地；有規律地"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

@@ -4,6 +4,7 @@ Search the API docs
 Search docs
 Suggested
 Primary navigation
+Theme Light Dark System
 Search docs
 Suggested
 DocsOverview
@@ -160,7 +161,6 @@ Computer use
 Integration recipes
 Driver reference
 Apply Patch
-Local shell
 Code interpreter
 Media
 Image generation
@@ -197,6 +197,7 @@ Text to speech
 Audio in Chat Completions
 Go live
 Production best practices
+API keys and service accounts
 Deployment checklist
 Performance and quality
 Fast mode
