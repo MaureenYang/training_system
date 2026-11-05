@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -107,6 +107,7 @@
    "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models",
    "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world",
    "https://openai.com/index/a-scorecard-for-the-ai-age",
+   "https://openai.com/index/a-thousand-fewer-paths-to-root",
    "https://openai.com/index/aarp-partnership-older-adults-online-safety",
    "https://openai.com/index/academy-courses-applying-ai-at-work",
    "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
@@ -331,6 +332,7 @@
    "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
    "https://openai.com/index/daybreak-for-frontline-defenders",
    "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+   "https://openai.com/index/daybreak-red-aws-govcloud",
    "https://openai.com/index/daybreak-securing-the-world",
    "https://openai.com/index/debate",
    "https://openai.com/index/decagon",
@@ -352,6 +354,7 @@
    "https://openai.com/index/deutsche-telekom-collaboration",
    "https://openai.com/index/devday-2026-recap",
    "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
+   "https://openai.com/index/devrev-enterprise-self-service",
    "https://openai.com/index/diagnose-rare-childhood-diseases",
    "https://openai.com/index/digital-green",
    "https://openai.com/index/discovering-the-minutiae-of-backend-systems",
@@ -713,6 +716,7 @@
    "https://openai.com/index/introducing-gpt-realtime",
    "https://openai.com/index/introducing-gpt-rosalind",
    "https://openai.com/index/introducing-gpts",
+   "https://openai.com/index/introducing-images-2-6",
    "https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program",
    "https://openai.com/index/introducing-indqa",
    "https://openai.com/index/introducing-intelligence-age",
@@ -1010,6 +1014,7 @@
    "https://openai.com/index/openai-to-acquire-neptune",
    "https://openai.com/index/openai-to-acquire-ona",
    "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "https://openai.com/index/openai-to-acquire-pierre",
    "https://openai.com/index/openai-to-acquire-promptfoo",
    "https://openai.com/index/openai-welcomes-cfo-cpo",
    "https://openai.com/index/operator-system-card",
@@ -1364,7 +1369,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-23",
    "https://platform.openai.com/docs/changelog#2026-10-27",
    "https://platform.openai.com/docs/changelog#2026-10-29",
-   "https://platform.openai.com/docs/changelog#2026-10-31"
+   "https://platform.openai.com/docs/changelog#2026-10-31",
+   "https://platform.openai.com/docs/changelog#2026-11-05"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1819,6 +1825,7 @@
    "https://www.anthropic.com/research/introducing-anthropic-science",
    "https://www.anthropic.com/research/introspection",
    "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
    "https://www.anthropic.com/research/labor-market-impacts",
    "https://www.anthropic.com/research/language-models-mostly-know-what-they-know",
    "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
@@ -1916,7 +1923,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-10-30",
    "https://docs.claude.com/en/release-notes/overview#2026-10-31",
    "https://docs.claude.com/en/release-notes/overview#2026-11-03",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-04"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-04",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-05"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2063,6 +2071,116 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-05",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-05",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "Working with agents\nSafety and security in dots\nNovember, 2026\ngpt-image-2.6-sunburst\ngpt-image-2.6-flare\nReleased GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-05",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-05",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "Python SDK 1.12.0 and TypeScript SDK 0.132.0 add classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or deskto"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/openai-to-acquire-pierre",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "title": "A thousand fewer paths to root",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-images-2-6",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-images-2-6",
+   "title": "Introducing Images 2.6",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/devrev-enterprise-self-service",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/devrev-enterprise-self-service",
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [
+    "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+   "title": "Investigating vault particles with Claude",
+   "date": "2026-11-04",
+   "open_weights": false,
+   "fetched": "2026-11-05",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-11-04",
    "company": "Anthropic",

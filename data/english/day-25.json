@@ -1,0 +1,616 @@
+{
+ "day": 25,
+ "date": "2026-11-06",
+ "generated": false,
+ "words": [
+  {
+   "id": 2432,
+   "word": "regulate",
+   "pos": "v",
+   "zh": "v. 管理；控制；校準"
+  },
+  {
+   "id": 2433,
+   "word": "regulation",
+   "pos": "n/a",
+   "zh": "n. 規章；規則｜a. 標準的；正規的"
+  },
+  {
+   "id": 2434,
+   "word": "rehearsal",
+   "pos": "n",
+   "zh": "n. 排練；試演"
+  },
+  {
+   "id": 2435,
+   "word": "rehearse",
+   "pos": "v",
+   "zh": "v. 排練；排演"
+  },
+  {
+   "id": 2436,
+   "word": "reimburse",
+   "pos": "v",
+   "zh": "v. 償還；歸還"
+  },
+  {
+   "id": 2437,
+   "word": "reimbursement",
+   "pos": "n",
+   "zh": "n. 償還；退款"
+  },
+  {
+   "id": 2438,
+   "word": "reinforce",
+   "pos": "v",
+   "zh": "v. 增援；加強"
+  },
+  {
+   "id": 2439,
+   "word": "reinforcement",
+   "pos": "n",
+   "zh": "n. 增援；加強"
+  },
+  {
+   "id": 2440,
+   "word": "reiterate",
+   "pos": "v",
+   "zh": "v. 重做；重申"
+  },
+  {
+   "id": 2441,
+   "word": "reject",
+   "pos": "v",
+   "zh": "v. 拒絕"
+  },
+  {
+   "id": 2442,
+   "word": "rejection",
+   "pos": "n",
+   "zh": "n. 拒絕；反對"
+  },
+  {
+   "id": 2443,
+   "word": "relate",
+   "pos": "v",
+   "zh": "v. 使有聯繫；有關；涉及"
+  },
+  {
+   "id": 2444,
+   "word": "relation",
+   "pos": "n",
+   "zh": "n. 關係；關聯"
+  },
+  {
+   "id": 2445,
+   "word": "relationship",
+   "pos": "n",
+   "zh": "n. 人際關係；戀愛關係"
+  },
+  {
+   "id": 2446,
+   "word": "release",
+   "pos": "v/n",
+   "zh": "v. 釋放；發行｜n. 釋放；解放"
+  },
+  {
+   "id": 2447,
+   "word": "relevant",
+   "pos": "a",
+   "zh": "a. 有關的；切題的"
+  },
+  {
+   "id": 2448,
+   "word": "reliable",
+   "pos": "a",
+   "zh": "a. 可信賴的；可靠的"
+  },
+  {
+   "id": 2449,
+   "word": "relief",
+   "pos": "n",
+   "zh": "n. 緩和；減輕"
+  },
+  {
+   "id": 2450,
+   "word": "relocate",
+   "pos": "v",
+   "zh": "v. 重新安置"
+  },
+  {
+   "id": 2451,
+   "word": "rely",
+   "pos": "v",
+   "zh": "v. 倚靠；依靠"
+  },
+  {
+   "id": 2452,
+   "word": "remain",
+   "pos": "v",
+   "zh": "v. 剩下；餘留"
+  },
+  {
+   "id": 2453,
+   "word": "remake",
+   "pos": "v",
+   "zh": "v. 再製；改造"
+  },
+  {
+   "id": 2454,
+   "word": "remark",
+   "pos": "v/n",
+   "zh": "v. 談到；評論｜n. 言辭；談論"
+  },
+  {
+   "id": 2455,
+   "word": "remarkable",
+   "pos": "a",
+   "zh": "a. 非凡的；卓越的"
+  },
+  {
+   "id": 2456,
+   "word": "remember",
+   "pos": "v",
+   "zh": "v. 記得；記住"
+  },
+  {
+   "id": 2457,
+   "word": "remind",
+   "pos": "v",
+   "zh": "v. 提醒"
+  },
+  {
+   "id": 2458,
+   "word": "remote",
+   "pos": "a",
+   "zh": "a. 遙遠的；偏僻的"
+  },
+  {
+   "id": 2459,
+   "word": "remotely",
+   "pos": "a",
+   "zh": "a. 遙遠地；間接地"
+  },
+  {
+   "id": 2460,
+   "word": "removal",
+   "pos": "n",
+   "zh": "n. 移動；調動；免職"
+  },
+  {
+   "id": 2461,
+   "word": "remove",
+   "pos": "v",
+   "zh": "v. 移動；調動"
+  },
+  {
+   "id": 2462,
+   "word": "render",
+   "pos": "v",
+   "zh": "v. 使得；提出"
+  },
+  {
+   "id": 2463,
+   "word": "renew",
+   "pos": "v",
+   "zh": "v. 使更新；使復原"
+  },
+  {
+   "id": 2464,
+   "word": "renewal",
+   "pos": "n",
+   "zh": "n. 更新；復原"
+  },
+  {
+   "id": 2465,
+   "word": "renovation",
+   "pos": "n",
+   "zh": "n. 更新；修理"
+  },
+  {
+   "id": 2466,
+   "word": "renowned",
+   "pos": "a",
+   "zh": "a. 有名的；有聲譽的"
+  },
+  {
+   "id": 2467,
+   "word": "rent",
+   "pos": "n/v",
+   "zh": "n. 租金；租費｜v. 出租"
+  },
+  {
+   "id": 2468,
+   "word": "rental",
+   "pos": "a/n",
+   "zh": "a. 租賃的｜n. 租金；出租"
+  },
+  {
+   "id": 2469,
+   "word": "repair",
+   "pos": "v/n",
+   "zh": "v. 修理；修補｜n. 修理；修補"
+  },
+  {
+   "id": 2470,
+   "word": "repeat",
+   "pos": "v/n",
+   "zh": "v. 重複；重做｜n. 重複；複寫"
+  },
+  {
+   "id": 2471,
+   "word": "repetition",
+   "pos": "n",
+   "zh": "n. 反覆背誦"
+  },
+  {
+   "id": 2472,
+   "word": "repetitive",
+   "pos": "a",
+   "zh": "a. 重複的"
+  },
+  {
+   "id": 2473,
+   "word": "replace",
+   "pos": "v",
+   "zh": "v. 放置；替代"
+  },
+  {
+   "id": 2474,
+   "word": "replacement",
+   "pos": "n",
+   "zh": "n. 取代；更換"
+  },
+  {
+   "id": 2475,
+   "word": "replay",
+   "pos": "v/n",
+   "zh": "v. 重演；重播｜n. 重演；重播"
+  },
+  {
+   "id": 2476,
+   "word": "reply",
+   "pos": "v",
+   "zh": "v. 回答；答覆"
+  },
+  {
+   "id": 2477,
+   "word": "report",
+   "pos": "v/n",
+   "zh": "v. 報導；記述；告發｜n. 報告；報導"
+  },
+  {
+   "id": 2478,
+   "word": "represent",
+   "pos": "v",
+   "zh": "v. 描繪；代表"
+  },
+  {
+   "id": 2479,
+   "word": "representative",
+   "pos": "a/n",
+   "zh": "a. 代表性的｜n. 典型；代表物；代表"
+  },
+  {
+   "id": 2480,
+   "word": "reputation",
+   "pos": "n",
+   "zh": "n. 名譽；名聲"
+  },
+  {
+   "id": 2481,
+   "word": "request",
+   "pos": "v/n",
+   "zh": "v. 要求；請求｜n. 要求；請求"
+  },
+  {
+   "id": 2482,
+   "word": "require",
+   "pos": "v",
+   "zh": "v. 需要；要求"
+  },
+  {
+   "id": 2483,
+   "word": "requirement",
+   "pos": "n",
+   "zh": "n. 需要；必需品"
+  },
+  {
+   "id": 2484,
+   "word": "reschedule",
+   "pos": "v",
+   "zh": "v. 改期；重新編排"
+  },
+  {
+   "id": 2485,
+   "word": "research",
+   "pos": "v/n",
+   "zh": "v. 研究；調查｜n. 研究"
+  },
+  {
+   "id": 2486,
+   "word": "resemblance",
+   "pos": "n",
+   "zh": "n. 相似；相貌相似"
+  },
+  {
+   "id": 2487,
+   "word": "resemble",
+   "pos": "v",
+   "zh": "v. 像；類似"
+  },
+  {
+   "id": 2488,
+   "word": "reservation",
+   "pos": "n",
+   "zh": "n. 預定；保留"
+  },
+  {
+   "id": 2489,
+   "word": "reserve",
+   "pos": "v",
+   "zh": "v. 儲備；保存"
+  },
+  {
+   "id": 2490,
+   "word": "residence",
+   "pos": "n",
+   "zh": "n. 住所；住宅"
+  },
+  {
+   "id": 2491,
+   "word": "resident",
+   "pos": "n/a",
+   "zh": "n. 居民｜a. 居住的；定居的"
+  },
+  {
+   "id": 2492,
+   "word": "residential",
+   "pos": "a",
+   "zh": "a. 居住的；住宅的"
+  },
+  {
+   "id": 2493,
+   "word": "residual",
+   "pos": "a",
+   "zh": "a. 殘留的；剩餘的"
+  },
+  {
+   "id": 2494,
+   "word": "residue",
+   "pos": "n",
+   "zh": "n. 殘餘；剩餘"
+  },
+  {
+   "id": 2495,
+   "word": "resign",
+   "pos": "v",
+   "zh": "v. 放棄；辭去"
+  },
+  {
+   "id": 2496,
+   "word": "resignation",
+   "pos": "n",
+   "zh": "n. 辭職；放棄"
+  },
+  {
+   "id": 2497,
+   "word": "resist",
+   "pos": "v",
+   "zh": "v. 抵抗；反抗"
+  },
+  {
+   "id": 2498,
+   "word": "resistance",
+   "pos": "n",
+   "zh": "n. 抵抗；反抗"
+  },
+  {
+   "id": 2499,
+   "word": "resolute",
+   "pos": "a",
+   "zh": "a. 堅決的；堅定的"
+  },
+  {
+   "id": 2500,
+   "word": "resolve",
+   "pos": "v/n",
+   "zh": "v. 解決；決心｜n. 決心；決意"
+  },
+  {
+   "id": 2501,
+   "word": "resource",
+   "pos": "n",
+   "zh": "n. 資源；物力"
+  },
+  {
+   "id": 2502,
+   "word": "respect",
+   "pos": "n",
+   "zh": "n. 敬重，尊敬"
+  },
+  {
+   "id": 2503,
+   "word": "respond",
+   "pos": "n",
+   "zh": "n. 回答；答覆"
+  },
+  {
+   "id": 2504,
+   "word": "response",
+   "pos": "n",
+   "zh": "n. 回答；答覆"
+  },
+  {
+   "id": 2505,
+   "word": "responsible",
+   "pos": "a",
+   "zh": "a. 需負責任的；承擔責任的"
+  },
+  {
+   "id": 2506,
+   "word": "responsive",
+   "pos": "a",
+   "zh": "a. 回答的；應答的"
+  },
+  {
+   "id": 2507,
+   "word": "restriction",
+   "pos": "n",
+   "zh": "n. 限制；約束"
+  },
+  {
+   "id": 2508,
+   "word": "resume",
+   "pos": "v/n",
+   "zh": "v. 恢復；重返｜n. 梗概；履歷"
+  },
+  {
+   "id": 2509,
+   "word": "retail",
+   "pos": "n/v/a",
+   "zh": "n. 零售｜v. 零售｜a. 零售的"
+  },
+  {
+   "id": 2510,
+   "word": "retailer",
+   "pos": "n",
+   "zh": "n. 零售商；零售店"
+  },
+  {
+   "id": 2511,
+   "word": "retai",
+   "pos": "v",
+   "zh": "v. 保留；保持"
+  },
+  {
+   "id": 2512,
+   "word": "retainable",
+   "pos": "a",
+   "zh": "a. 能保持的；可保留的"
+  },
+  {
+   "id": 2513,
+   "word": "retainer",
+   "pos": "n",
+   "zh": "n. 保留者；家臣"
+  },
+  {
+   "id": 2514,
+   "word": "retire",
+   "pos": "v",
+   "zh": "v. 使退卻；使退休"
+  },
+  {
+   "id": 2515,
+   "word": "retirement",
+   "pos": "n",
+   "zh": "n. 退休；退職"
+  },
+  {
+   "id": 2516,
+   "word": "retrieve",
+   "pos": "v",
+   "zh": "v. 重新得到；收回"
+  },
+  {
+   "id": 2517,
+   "word": "return",
+   "pos": "v",
+   "zh": "v. 返回；歸"
+  },
+  {
+   "id": 2518,
+   "word": "reveal",
+   "pos": "v/n",
+   "zh": "v. 展現，顯露出｜n. 揭示；揭露"
+  },
+  {
+   "id": 2519,
+   "word": "revenue",
+   "pos": "n",
+   "zh": "n. 收入；稅收"
+  },
+  {
+   "id": 2520,
+   "word": "reverse",
+   "pos": "a/v/n",
+   "zh": "a. 相反的；反向的｜v. 顛倒；翻轉｜n. 相反"
+  },
+  {
+   "id": 2521,
+   "word": "review",
+   "pos": "v",
+   "zh": "v. 批評，評論；檢閱"
+  },
+  {
+   "id": 2522,
+   "word": "revise",
+   "pos": "v",
+   "zh": "v. 修訂；校訂"
+  },
+  {
+   "id": 2523,
+   "word": "revision",
+   "pos": "n",
+   "zh": "n. 修訂；校訂"
+  },
+  {
+   "id": 2524,
+   "word": "revive",
+   "pos": "v",
+   "zh": "v. 甦醒；復甦"
+  },
+  {
+   "id": 2525,
+   "word": "revolve",
+   "pos": "v",
+   "zh": "v. 旋轉；自轉"
+  },
+  {
+   "id": 2526,
+   "word": "reward",
+   "pos": "n/v",
+   "zh": "n. 報答；報償｜v. 報答；報償"
+  },
+  {
+   "id": 2527,
+   "word": "rigorous",
+   "pos": "a",
+   "zh": "a. 嚴格的；嚴厲的"
+  },
+  {
+   "id": 2528,
+   "word": "rise",
+   "pos": "v/n",
+   "zh": "v. 上升；升起｜n. 上升；興盛"
+  },
+  {
+   "id": 2529,
+   "word": "rival",
+   "pos": "n/v/a",
+   "zh": "n. 競爭者；對手｜v. 競爭｜a. 競爭的"
+  },
+  {
+   "id": 2530,
+   "word": "rivalry",
+   "pos": "n",
+   "zh": "n. 競爭；對抗"
+  },
+  {
+   "id": 2531,
+   "word": "robust",
+   "pos": "v",
+   "zh": "v. 強健的；茁壯的"
+  },
+  {
+   "id": 2532,
+   "word": "route",
+   "pos": "n",
+   "zh": "n. 路線；路程"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
