@@ -1,0 +1,616 @@
+{
+ "day": 26,
+ "date": "2026-11-07",
+ "generated": false,
+ "words": [
+  {
+   "id": 2533,
+   "word": "routine",
+   "pos": "n/a",
+   "zh": "n. 例行公事｜a. 例行的"
+  },
+  {
+   "id": 2534,
+   "word": "royal",
+   "pos": "a",
+   "zh": "a. 皇家的；盛大的"
+  },
+  {
+   "id": 2535,
+   "word": "royalty",
+   "pos": "n",
+   "zh": "n. 皇族；王位；王權"
+  },
+  {
+   "id": 2536,
+   "word": "rule",
+   "pos": "n/v",
+   "zh": "n. 規則；規定｜v. 統治；管轄"
+  },
+  {
+   "id": 2537,
+   "word": "run",
+   "pos": "v/n",
+   "zh": "v. 跑；競選｜n. 跑；路程；暢銷"
+  },
+  {
+   "id": 2538,
+   "word": "rush",
+   "pos": "v/n",
+   "zh": "v. 衝，奔；催促｜n. 匆忙；緊急"
+  },
+  {
+   "id": 2539,
+   "word": "sacrifice",
+   "pos": "n/v",
+   "zh": "n. 牲禮，祭品｜v. 犧牲；獻出"
+  },
+  {
+   "id": 2540,
+   "word": "sadden",
+   "pos": "v",
+   "zh": "v. 使悲傷；使難過"
+  },
+  {
+   "id": 2541,
+   "word": "sadly",
+   "pos": "ad",
+   "zh": "ad. 悲哀地；傷心地"
+  },
+  {
+   "id": 2542,
+   "word": "sadness",
+   "pos": "n",
+   "zh": "n. 悲哀；悲傷"
+  },
+  {
+   "id": 2543,
+   "word": "safe",
+   "pos": "n",
+   "zh": "n. 平安的；無損的"
+  },
+  {
+   "id": 2544,
+   "word": "safeguard",
+   "pos": "v/n",
+   "zh": "v. 保護；防衛｜n. 保護；防衛"
+  },
+  {
+   "id": 2545,
+   "word": "safety",
+   "pos": "n",
+   "zh": "n. 安全；平安"
+  },
+  {
+   "id": 2546,
+   "word": "salary",
+   "pos": "n",
+   "zh": "n. 薪資；薪水"
+  },
+  {
+   "id": 2547,
+   "word": "sale",
+   "pos": "n",
+   "zh": "n. 賣；出售；拍賣"
+  },
+  {
+   "id": 2548,
+   "word": "salvage",
+   "pos": "n/v",
+   "zh": "n. 搶救；挽救｜v. 救助；營救"
+  },
+  {
+   "id": 2549,
+   "word": "sample",
+   "pos": "n/v/a",
+   "zh": "n. 樣品，樣本｜v. 品嚐；體驗｜a. 樣品的"
+  },
+  {
+   "id": 2550,
+   "word": "sanitary",
+   "pos": "n/a",
+   "zh": "n. 公共廁所｜a. 衛生的；清潔的"
+  },
+  {
+   "id": 2551,
+   "word": "satisfaction",
+   "pos": "n",
+   "zh": "n. 滿意；滿足"
+  },
+  {
+   "id": 2552,
+   "word": "satisfy",
+   "pos": "v",
+   "zh": "v. 使滿意；使高興"
+  },
+  {
+   "id": 2553,
+   "word": "savvy",
+   "pos": "v",
+   "zh": "v. 懂；知曉"
+  },
+  {
+   "id": 2554,
+   "word": "scale",
+   "pos": "n/v",
+   "zh": "n. 大小；規模｜v. 攀登；增加"
+  },
+  {
+   "id": 2555,
+   "word": "scan",
+   "pos": "v/n",
+   "zh": "v. 細看；審視｜n. 掃描；細看"
+  },
+  {
+   "id": 2556,
+   "word": "scanner",
+   "pos": "n",
+   "zh": "n. 掃描機"
+  },
+  {
+   "id": 2557,
+   "word": "scene",
+   "pos": "n",
+   "zh": "n. 布景；景色；背景"
+  },
+  {
+   "id": 2558,
+   "word": "scenery",
+   "pos": "n",
+   "zh": "n. 景色；風景"
+  },
+  {
+   "id": 2559,
+   "word": "schedule",
+   "pos": "n/v",
+   "zh": "n. 時間表｜v. 安排；預定"
+  },
+  {
+   "id": 2560,
+   "word": "scope",
+   "pos": "n",
+   "zh": "n. 顯微鏡；望遠鏡"
+  },
+  {
+   "id": 2561,
+   "word": "scratch",
+   "pos": "v/n/a",
+   "zh": "v. 抓；搔劃出｜n. 刮痕；抓痕｜a. 湊合的"
+  },
+  {
+   "id": 2562,
+   "word": "screen",
+   "pos": "n",
+   "zh": "n. 螢幕；掩蔽物"
+  },
+  {
+   "id": 2563,
+   "word": "scrutinize",
+   "pos": "v",
+   "zh": "v. 詳細檢查；細看"
+  },
+  {
+   "id": 2564,
+   "word": "seam",
+   "pos": "n/v",
+   "zh": "n. 縫；縫合處｜v. 縫合；接合"
+  },
+  {
+   "id": 2565,
+   "word": "seamlessly",
+   "pos": "ad",
+   "zh": "ad. 無縫地"
+  },
+  {
+   "id": 2566,
+   "word": "search",
+   "pos": "v/n",
+   "zh": "v. 搜查；探究｜n. 搜查；搜尋"
+  },
+  {
+   "id": 2567,
+   "word": "season",
+   "pos": "n",
+   "zh": "n. 季節"
+  },
+  {
+   "id": 2568,
+   "word": "secret",
+   "pos": "n",
+   "zh": "n. 秘密"
+  },
+  {
+   "id": 2569,
+   "word": "section",
+   "pos": "n",
+   "zh": "n. 部分；區域"
+  },
+  {
+   "id": 2570,
+   "word": "secure",
+   "pos": "a/v",
+   "zh": "a. 安全的，無危險的｜v. 使安全；掩護"
+  },
+  {
+   "id": 2571,
+   "word": "security",
+   "pos": "n",
+   "zh": "n. 安全感；防備；保安"
+  },
+  {
+   "id": 2572,
+   "word": "seek",
+   "pos": "v",
+   "zh": "v. 尋找；探索"
+  },
+  {
+   "id": 2573,
+   "word": "segment",
+   "pos": "n/v",
+   "zh": "n. 部分；部門｜v. 分割；切割"
+  },
+  {
+   "id": 2574,
+   "word": "seldom",
+   "pos": "ad/a",
+   "zh": "ad. 不常；很少｜a. 很少的；難得的"
+  },
+  {
+   "id": 2575,
+   "word": "select",
+   "pos": "v/a",
+   "zh": "v. 選擇；挑選｜a. 上等的；優等的"
+  },
+  {
+   "id": 2576,
+   "word": "selection",
+   "pos": "n",
+   "zh": "n. 選擇；選拔"
+  },
+  {
+   "id": 2577,
+   "word": "selective",
+   "pos": "a",
+   "zh": "a. 有選擇性的"
+  },
+  {
+   "id": 2578,
+   "word": "self",
+   "pos": "n",
+   "zh": "n. 自身；自己"
+  },
+  {
+   "id": 2579,
+   "word": "self-employed",
+   "pos": "a",
+   "zh": "a. 自由業的；自僱的"
+  },
+  {
+   "id": 2580,
+   "word": "semester",
+   "pos": "n",
+   "zh": "n. 半學年；一學期"
+  },
+  {
+   "id": 2581,
+   "word": "seminar",
+   "pos": "n",
+   "zh": "n. 專題討論會"
+  },
+  {
+   "id": 2582,
+   "word": "senior",
+   "pos": "a/n",
+   "zh": "a. 年長的；前輩的｜n. 前輩；上司；學長"
+  },
+  {
+   "id": 2583,
+   "word": "sense",
+   "pos": "n/v",
+   "zh": "n. 感官；官能；見識｜v. 了解；領會"
+  },
+  {
+   "id": 2584,
+   "word": "sensible",
+   "pos": "a",
+   "zh": "a. 明智的；合情理的"
+  },
+  {
+   "id": 2585,
+   "word": "sensitive",
+   "pos": "a",
+   "zh": "a. 敏感的；靈敏的"
+  },
+  {
+   "id": 2586,
+   "word": "separate",
+   "pos": "v",
+   "zh": "v. 分隔；分割"
+  },
+  {
+   "id": 2587,
+   "word": "separation",
+   "pos": "n",
+   "zh": "n. 分開；分居"
+  },
+  {
+   "id": 2588,
+   "word": "sequence",
+   "pos": "n",
+   "zh": "n. 連續；接續"
+  },
+  {
+   "id": 2589,
+   "word": "series",
+   "pos": "n",
+   "zh": "n. 連續；系列"
+  },
+  {
+   "id": 2590,
+   "word": "serious",
+   "pos": "a",
+   "zh": "a. 嚴重的；危急的"
+  },
+  {
+   "id": 2591,
+   "word": "serve",
+   "pos": "v",
+   "zh": "v. 服務"
+  },
+  {
+   "id": 2592,
+   "word": "service",
+   "pos": "n/v",
+   "zh": "n. 服務；效勞｜v. 服務；效勞"
+  },
+  {
+   "id": 2593,
+   "word": "session",
+   "pos": "n",
+   "zh": "n. 會議；集會"
+  },
+  {
+   "id": 2594,
+   "word": "set",
+   "pos": "v/a/n",
+   "zh": "v. 放；置；開始｜a. 固定的；不變的｜n. 一套；一部"
+  },
+  {
+   "id": 2595,
+   "word": "setback",
+   "pos": "n",
+   "zh": "n. 挫折；失敗"
+  },
+  {
+   "id": 2596,
+   "word": "setup",
+   "pos": "n",
+   "zh": "n. 組織；機構"
+  },
+  {
+   "id": 2597,
+   "word": "several",
+   "pos": "a",
+   "zh": "a. 幾個的；數個的"
+  },
+  {
+   "id": 2598,
+   "word": "severe",
+   "pos": "a",
+   "zh": "a. 嚴重的；劇烈的"
+  },
+  {
+   "id": 2599,
+   "word": "severely",
+   "pos": "ad",
+   "zh": "ad. 嚴重地；劇烈地"
+  },
+  {
+   "id": 2600,
+   "word": "shape",
+   "pos": "n/v",
+   "zh": "n. 形狀；樣子｜v. 使成形；塑造"
+  },
+  {
+   "id": 2601,
+   "word": "share",
+   "pos": "v",
+   "zh": "v. 分享"
+  },
+  {
+   "id": 2602,
+   "word": "shareholder",
+   "pos": "n",
+   "zh": "n. 股東"
+  },
+  {
+   "id": 2603,
+   "word": "sharp",
+   "pos": "a/ad",
+   "zh": "a. 尖銳的；苛刻的｜ad. 幾點整"
+  },
+  {
+   "id": 2604,
+   "word": "shelf",
+   "pos": "n",
+   "zh": "n. 架子"
+  },
+  {
+   "id": 2605,
+   "word": "ship",
+   "pos": "n/v",
+   "zh": "n. 船；艦｜v. 運送；裝運"
+  },
+  {
+   "id": 2606,
+   "word": "shipment",
+   "pos": "n",
+   "zh": "n. 運輸；運送"
+  },
+  {
+   "id": 2607,
+   "word": "shipping",
+   "pos": "n",
+   "zh": "n. 運輸；運輸業"
+  },
+  {
+   "id": 2608,
+   "word": "shortage",
+   "pos": "n",
+   "zh": "n. 缺少；不足"
+  },
+  {
+   "id": 2609,
+   "word": "should",
+   "pos": "aux",
+   "zh": "aux. 可能；該"
+  },
+  {
+   "id": 2610,
+   "word": "shredder",
+   "pos": "n",
+   "zh": "n. 碎紙機"
+  },
+  {
+   "id": 2611,
+   "word": "sight",
+   "pos": "n/v",
+   "zh": "n. 視覺；景象；觀光地｜v. 看見；發現"
+  },
+  {
+   "id": 2612,
+   "word": "sign",
+   "pos": "n/v",
+   "zh": "n. 徵象；前兆｜v. 簽名於；簽署"
+  },
+  {
+   "id": 2613,
+   "word": "significance",
+   "pos": "n",
+   "zh": "n. 重要性；重要"
+  },
+  {
+   "id": 2614,
+   "word": "significant",
+   "pos": "a",
+   "zh": "a. 有意義的；重要的"
+  },
+  {
+   "id": 2615,
+   "word": "signify",
+   "pos": "v",
+   "zh": "v. 表示；預示"
+  },
+  {
+   "id": 2616,
+   "word": "similar",
+   "pos": "a",
+   "zh": "a. 相像的；相仿"
+  },
+  {
+   "id": 2617,
+   "word": "simulate",
+   "pos": "v",
+   "zh": "v. 假裝；冒充"
+  },
+  {
+   "id": 2618,
+   "word": "simulation",
+   "pos": "n",
+   "zh": "n. 偽裝；模仿"
+  },
+  {
+   "id": 2619,
+   "word": "sincere",
+   "pos": "a",
+   "zh": "a. 衷心的；真誠的"
+  },
+  {
+   "id": 2620,
+   "word": "sincerely",
+   "pos": "ad",
+   "zh": "ad. 真誠地；誠懇地"
+  },
+  {
+   "id": 2621,
+   "word": "sinful",
+   "pos": "a",
+   "zh": "a. 罪孽深重的；有罪的"
+  },
+  {
+   "id": 2622,
+   "word": "sink",
+   "pos": "v/n",
+   "zh": "v. 下沉；下陷｜n. 水槽"
+  },
+  {
+   "id": 2623,
+   "word": "site",
+   "pos": "n",
+   "zh": "n. 地點；場所"
+  },
+  {
+   "id": 2624,
+   "word": "situation",
+   "pos": "n",
+   "zh": "n. 狀況；處境"
+  },
+  {
+   "id": 2625,
+   "word": "size",
+   "pos": "n",
+   "zh": "n. 尺寸"
+  },
+  {
+   "id": 2626,
+   "word": "skill",
+   "pos": "n",
+   "zh": "n. 技巧；技術"
+  },
+  {
+   "id": 2627,
+   "word": "skillful",
+   "pos": "a",
+   "zh": "a. 有技巧的"
+  },
+  {
+   "id": 2628,
+   "word": "skim",
+   "pos": "v/n",
+   "zh": "v. 撇去；瀏覽；略讀｜n. 脫脂牛奶"
+  },
+  {
+   "id": 2629,
+   "word": "slash",
+   "pos": "v/n",
+   "zh": "v. 減低；砍傷；抨擊｜n. 砍傷；砍痕"
+  },
+  {
+   "id": 2630,
+   "word": "slice",
+   "pos": "n/v",
+   "zh": "n. 薄片；切片｜v. 切下；割去"
+  },
+  {
+   "id": 2631,
+   "word": "slip",
+   "pos": "v/n",
+   "zh": "v. 滑動；滑跤｜n. 失足；疏忽；錯誤"
+  },
+  {
+   "id": 2632,
+   "word": "slippery",
+   "pos": "a",
+   "zh": "a. 滑的；油滑的"
+  },
+  {
+   "id": 2633,
+   "word": "slogan",
+   "pos": "n",
+   "zh": "n. 口號；標語"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
