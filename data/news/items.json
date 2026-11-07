@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -180,6 +180,7 @@
    "https://openai.com/index/attacking-machine-learning-with-adversarial-examples",
    "https://openai.com/index/atv-big-air-tour",
    "https://openai.com/index/australian-payments-plus",
+   "https://openai.com/index/australian-universities-ai-native-graduates",
    "https://openai.com/index/australian-youth-safety-blueprint",
    "https://openai.com/index/autoscout24",
    "https://openai.com/index/avatarin",
@@ -841,6 +842,7 @@
    "https://openai.com/index/mattels-iconic-brands",
    "https://openai.com/index/mavenagi",
    "https://openai.com/index/measuring-goodharts-law",
+   "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
    "https://openai.com/index/memory-and-new-controls-for-chatgpt",
    "https://openai.com/index/mercado-libre",
    "https://openai.com/index/mercari",
@@ -1050,6 +1052,7 @@
    "https://openai.com/index/parloa",
    "https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry",
    "https://openai.com/index/partnering-with-codeai",
+   "https://openai.com/index/partnering-with-hacktron",
    "https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news",
    "https://openai.com/index/patch-the-planet",
    "https://openai.com/index/path-to-astra",
@@ -1377,7 +1380,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-29",
    "https://platform.openai.com/docs/changelog#2026-10-31",
    "https://platform.openai.com/docs/changelog#2026-11-05",
-   "https://platform.openai.com/docs/changelog#2026-11-06"
+   "https://platform.openai.com/docs/changelog#2026-11-06",
+   "https://platform.openai.com/docs/changelog#2026-11-07"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1759,6 +1763,7 @@
    "https://www.anthropic.com/research/code-execution-with-mcp",
    "https://www.anthropic.com/research/coding-agents-social-sciences",
    "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+   "https://www.anthropic.com/research/components-of-agent-memory",
    "https://www.anthropic.com/research/confidential-inference-trusted-vms",
    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
    "https://www.anthropic.com/research/constitutional-classifiers",
@@ -1863,6 +1868,7 @@
    "https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models",
    "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
    "https://www.anthropic.com/research/probes-catch-sleeper-agents",
+   "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
    "https://www.anthropic.com/research/project-fetch-phase-two",
    "https://www.anthropic.com/research/project-fetch-robot-dog",
    "https://www.anthropic.com/research/project-pilot",
@@ -1893,6 +1899,7 @@
    "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
    "https://www.anthropic.com/research/superposition-memorization-and-double-descent",
    "https://www.anthropic.com/research/swe-bench-sonnet",
+   "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
    "https://www.anthropic.com/research/teaching-claude-why",
    "https://www.anthropic.com/research/team/alignment",
    "https://www.anthropic.com/research/team/economics",
@@ -1933,7 +1940,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-03",
    "https://docs.claude.com/en/release-notes/overview#2026-11-04",
    "https://docs.claude.com/en/release-notes/overview#2026-11-05",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-06"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-06",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-07"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2081,6 +2089,98 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-07",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-07",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [
+    "Cloud providers\nNov 2\nOutbound SIP calling is now available to all organizations through the Live API. Connect GPT-Live to a phone number through your SIP provider. See the SIP guide.\nv1/agents/sessio"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-07",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-07",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [
+    "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in t"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/partnering-with-hacktron",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/partnering-with-hacktron",
+   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "date": "2026-11-06",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [
+    "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+   "title": "Measuring how AI agents handle everyday wet-lab science",
+   "date": "2026-11-06",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [
+    "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/components-of-agent-memory",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "title": "The components of agent memory",
+   "date": "2026-11-06",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+   "title": "Project EVE: Claude plays MMORPGs",
+   "date": "2026-11-06",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+   "title": "Teaching AI to build scientific models",
+   "date": "2026-11-06",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-11-06",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2105,6 +2205,20 @@
    "fetched": "2026-11-06",
    "points": [
     "November 5, 2026\nYou can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "title": "Australian universities are creating AI-native graduates",
+   "date": "2026-11-05",
+   "open_weights": false,
+   "fetched": "2026-11-07",
+   "points": [
+    "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
    ],
    "pending": true
   },

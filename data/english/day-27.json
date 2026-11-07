@@ -1,0 +1,616 @@
+{
+ "day": 27,
+ "date": "2026-11-08",
+ "generated": false,
+ "words": [
+  {
+   "id": 2634,
+   "word": "slope",
+   "pos": "n/v",
+   "zh": "n. 傾斜；坡度｜v. 傾斜"
+  },
+  {
+   "id": 2635,
+   "word": "sloppy",
+   "pos": "a",
+   "zh": "a. 稀薄的；邋遢的"
+  },
+  {
+   "id": 2636,
+   "word": "slot",
+   "pos": "n",
+   "zh": "n. 投幣口；自動販賣機"
+  },
+  {
+   "id": 2637,
+   "word": "slump",
+   "pos": "v/n",
+   "zh": "v. 倒下；陷落｜n. 下降；不景氣"
+  },
+  {
+   "id": 2638,
+   "word": "smoothl",
+   "pos": "ad",
+   "zh": "ad. 平滑地；流暢地"
+  },
+  {
+   "id": 2639,
+   "word": "soar",
+   "pos": "v/n",
+   "zh": "v. 往上飛舞，升｜n. 高飛；高聳"
+  },
+  {
+   "id": 2640,
+   "word": "society",
+   "pos": "n",
+   "zh": "n. 社會；交際"
+  },
+  {
+   "id": 2641,
+   "word": "software",
+   "pos": "n",
+   "zh": "n. 軟體"
+  },
+  {
+   "id": 2642,
+   "word": "solace",
+   "pos": "n/v",
+   "zh": "n. 安慰；慰藉｜v. 安慰"
+  },
+  {
+   "id": 2643,
+   "word": "sola",
+   "pos": "a",
+   "zh": "a. 太陽的；日光的"
+  },
+  {
+   "id": 2644,
+   "word": "solely",
+   "pos": "ad",
+   "zh": "ad. 單獨地；唯一地"
+  },
+  {
+   "id": 2645,
+   "word": "solicit",
+   "pos": "v",
+   "zh": "v. 請求；懇求"
+  },
+  {
+   "id": 2646,
+   "word": "solve",
+   "pos": "v",
+   "zh": "v. 解決；解答"
+  },
+  {
+   "id": 2647,
+   "word": "sophisticated",
+   "pos": "a",
+   "zh": "a. 世故的；精緻的"
+  },
+  {
+   "id": 2648,
+   "word": "sort",
+   "pos": "v/n",
+   "zh": "v. 挑選；區分｜n. 種類；品種"
+  },
+  {
+   "id": 2649,
+   "word": "sound",
+   "pos": "n/v",
+   "zh": "n. 聲音；響聲｜v. 聽起來"
+  },
+  {
+   "id": 2650,
+   "word": "source",
+   "pos": "n/v",
+   "zh": "n. 根源；來源｜v. 隔開"
+  },
+  {
+   "id": 2651,
+   "word": "space",
+   "pos": "n",
+   "zh": "n. 空間；宇宙"
+  },
+  {
+   "id": 2652,
+   "word": "span",
+   "pos": "n/v",
+   "zh": "n. 礅距；跨度｜v. 橫跨；跨越"
+  },
+  {
+   "id": 2653,
+   "word": "special",
+   "pos": "a",
+   "zh": "a. 特別的"
+  },
+  {
+   "id": 2654,
+   "word": "specialize",
+   "pos": "v",
+   "zh": "v. 專精於"
+  },
+  {
+   "id": 2655,
+   "word": "specialty",
+   "pos": "n",
+   "zh": "n. 專業；專長"
+  },
+  {
+   "id": 2656,
+   "word": "specification",
+   "pos": "n",
+   "zh": "n. 載明；詳述"
+  },
+  {
+   "id": 2657,
+   "word": "specify",
+   "pos": "v",
+   "zh": "v. 具體指定；詳細指明"
+  },
+  {
+   "id": 2658,
+   "word": "speech",
+   "pos": "n",
+   "zh": "n. 演說；言論"
+  },
+  {
+   "id": 2659,
+   "word": "speed",
+   "pos": "n/v",
+   "zh": "n. 快速；迅速｜v. 促進；加快"
+  },
+  {
+   "id": 2660,
+   "word": "spend",
+   "pos": "v",
+   "zh": "v. 花費；浪費"
+  },
+  {
+   "id": 2661,
+   "word": "splendid",
+   "pos": "a",
+   "zh": "a. 壯麗的；輝煌的"
+  },
+  {
+   "id": 2662,
+   "word": "sponsor",
+   "pos": "n",
+   "zh": "n. 贊助商"
+  },
+  {
+   "id": 2663,
+   "word": "sponsorship",
+   "pos": "n",
+   "zh": "n. 資助；支持"
+  },
+  {
+   "id": 2664,
+   "word": "spot",
+   "pos": "n/a/v",
+   "zh": "n. 斑點；場所｜a. 立即｜v. 玷汙；汙辱"
+  },
+  {
+   "id": 2665,
+   "word": "spray",
+   "pos": "n/v",
+   "zh": "n. 噴霧；浪花｜v. 噴灑"
+  },
+  {
+   "id": 2666,
+   "word": "spread",
+   "pos": "v/n",
+   "zh": "v. 伸展；傳播｜n. 蔓延；流行"
+  },
+  {
+   "id": 2667,
+   "word": "spring",
+   "pos": "n/v",
+   "zh": "n. 春天；活力｜v. 跳躍；提出"
+  },
+  {
+   "id": 2668,
+   "word": "sprinkle",
+   "pos": "v/n",
+   "zh": "v. 灑；噴；淋｜n. 稀疏小雨；少量"
+  },
+  {
+   "id": 2669,
+   "word": "spy",
+   "pos": "n/v",
+   "zh": "n. 間諜；密探｜v. 監視；偵察"
+  },
+  {
+   "id": 2670,
+   "word": "square",
+   "pos": "n/a",
+   "zh": "n. 正方形；廣場｜a. 正直的公正的"
+  },
+  {
+   "id": 2671,
+   "word": "stability",
+   "pos": "n",
+   "zh": "n. 穩定；穩定性"
+  },
+  {
+   "id": 2672,
+   "word": "stable",
+   "pos": "n",
+   "zh": "n. 馬；馬棚；畜舍"
+  },
+  {
+   "id": 2673,
+   "word": "stack",
+   "pos": "n/v",
+   "zh": "n. 一堆，一疊；乾草堆｜v. 堆放"
+  },
+  {
+   "id": 2674,
+   "word": "staff",
+   "pos": "n",
+   "zh": "n. 職員；工作人員"
+  },
+  {
+   "id": 2675,
+   "word": "stage",
+   "pos": "n/v",
+   "zh": "n. 舞臺；階段｜v. 籌劃；舉行"
+  },
+  {
+   "id": 2676,
+   "word": "stake",
+   "pos": "n/v",
+   "zh": "n. 危險；股本｜v. 資助；押下"
+  },
+  {
+   "id": 2677,
+   "word": "stance",
+   "pos": "n",
+   "zh": "n. 立場；態度"
+  },
+  {
+   "id": 2678,
+   "word": "stand",
+   "pos": "v/n",
+   "zh": "v. 站立；站著｜n. 立場；態度"
+  },
+  {
+   "id": 2679,
+   "word": "standard",
+   "pos": "n/a",
+   "zh": "n. 標準；水準｜a. 標準的；一流的"
+  },
+  {
+   "id": 2680,
+   "word": "standpoint",
+   "pos": "n",
+   "zh": "n. 立場；觀點"
+  },
+  {
+   "id": 2681,
+   "word": "staple",
+   "pos": "n/a",
+   "zh": "n. 主要產品｜a. 主要的"
+  },
+  {
+   "id": 2682,
+   "word": "state",
+   "pos": "n/v",
+   "zh": "n. 狀況，形態；國家；州｜v. 陳述；聲明"
+  },
+  {
+   "id": 2683,
+   "word": "statement",
+   "pos": "n",
+   "zh": "n. 陳述；說明"
+  },
+  {
+   "id": 2684,
+   "word": "station",
+   "pos": "n",
+   "zh": "n. 車站；駐地；身分"
+  },
+  {
+   "id": 2685,
+   "word": "stationary",
+   "pos": "a",
+   "zh": "a. 固定的；停滯的"
+  },
+  {
+   "id": 2686,
+   "word": "stationery",
+   "pos": "n",
+   "zh": "n. 文具；信"
+  },
+  {
+   "id": 2687,
+   "word": "statistics",
+   "pos": "n",
+   "zh": "n. 統計；統計資料"
+  },
+  {
+   "id": 2688,
+   "word": "status",
+   "pos": "n",
+   "zh": "n. 地位；身分"
+  },
+  {
+   "id": 2689,
+   "word": "steadfast",
+   "pos": "a",
+   "zh": "a. 堅定的；不動搖的"
+  },
+  {
+   "id": 2690,
+   "word": "steady",
+   "pos": "a/v",
+   "zh": "a. 穩固的；平穩的｜v. 使穩固；使穩定"
+  },
+  {
+   "id": 2691,
+   "word": "steam",
+   "pos": "n/v",
+   "zh": "n. 蒸汽；水蒸汽｜v. 蒸發；冒熱氣"
+  },
+  {
+   "id": 2692,
+   "word": "stem",
+   "pos": "v/n",
+   "zh": "v. 起源於；攔住；阻擋｜n. 莖，樹幹"
+  },
+  {
+   "id": 2693,
+   "word": "stick",
+   "pos": "n/v",
+   "zh": "n. 枝條；棒狀物｜v. 黏貼；堅持；固守"
+  },
+  {
+   "id": 2694,
+   "word": "stock",
+   "pos": "n/v/a",
+   "zh": "n. 進貨；庫存品；股票｜v. 庫存；貯存｜a. 庫存的"
+  },
+  {
+   "id": 2695,
+   "word": "storage",
+   "pos": "n",
+   "zh": "n. 貯藏；保管"
+  },
+  {
+   "id": 2696,
+   "word": "store",
+   "pos": "n/v",
+   "zh": "n. 店舖；貯存｜v. 貯存"
+  },
+  {
+   "id": 2697,
+   "word": "storm",
+   "pos": "n",
+   "zh": "n. 暴風雨；爆發；激動"
+  },
+  {
+   "id": 2698,
+   "word": "stormy",
+   "pos": "a/v",
+   "zh": "a. 暴風雨的；暴躁的｜v. 橫衝直撞；猛衝；起風暴"
+  },
+  {
+   "id": 2699,
+   "word": "storyline",
+   "pos": "n",
+   "zh": "n. 故事；情節"
+  },
+  {
+   "id": 2700,
+   "word": "stout",
+   "pos": "a",
+   "zh": "a. 頑強的；牢固的；粗壯的"
+  },
+  {
+   "id": 2701,
+   "word": "straight",
+   "pos": "a/ad",
+   "zh": "a. 筆直的；正直的｜ad. 立刻；馬上"
+  },
+  {
+   "id": 2702,
+   "word": "straightforward",
+   "pos": "a/ad",
+   "zh": "a. 徑直的；簡單的｜ad. 坦率地；直截了當地"
+  },
+  {
+   "id": 2703,
+   "word": "strategy",
+   "pos": "n",
+   "zh": "n. 策略；計謀"
+  },
+  {
+   "id": 2704,
+   "word": "stream",
+   "pos": "n/v",
+   "zh": "n. 小河；溪流｜v. 流；流動"
+  },
+  {
+   "id": 2705,
+   "word": "streamline",
+   "pos": "a",
+   "zh": "a. 流線型的"
+  },
+  {
+   "id": 2706,
+   "word": "strength",
+   "pos": "n",
+   "zh": "n. 力氣；實力強度"
+  },
+  {
+   "id": 2707,
+   "word": "strengthen",
+   "pos": "v",
+   "zh": "v. 增強；鞏固"
+  },
+  {
+   "id": 2708,
+   "word": "stress",
+   "pos": "n/v",
+   "zh": "n. 壓力；緊張；著重｜v. 強調；著重"
+  },
+  {
+   "id": 2709,
+   "word": "stretch",
+   "pos": "n/v",
+   "zh": "n. 伸直；展開，曲解｜v. 伸縮；延續；吹牛"
+  },
+  {
+   "id": 2710,
+   "word": "strike",
+   "pos": "v/n",
+   "zh": "v. 打擊；攻擊｜n. 罷工；打擊"
+  },
+  {
+   "id": 2711,
+   "word": "strive",
+   "pos": "v",
+   "zh": "v. 力爭；苦幹"
+  },
+  {
+   "id": 2712,
+   "word": "structure",
+   "pos": "n/v",
+   "zh": "n. 結構｜v. 構造"
+  },
+  {
+   "id": 2713,
+   "word": "study",
+   "pos": "n/v",
+   "zh": "n. 學習；研究｜v. 學習；研究"
+  },
+  {
+   "id": 2714,
+   "word": "style",
+   "pos": "n",
+   "zh": "n. 風格；作風"
+  },
+  {
+   "id": 2715,
+   "word": "subject",
+   "pos": "n/v",
+   "zh": "n. 主題；題目｜v. 易受…；易患…"
+  },
+  {
+   "id": 2716,
+   "word": "subjectively",
+   "pos": "ad",
+   "zh": "ad. 主觀地"
+  },
+  {
+   "id": 2717,
+   "word": "submit",
+   "pos": "v",
+   "zh": "v. 屈從；忍受；提交；呈遞；主張"
+  },
+  {
+   "id": 2718,
+   "word": "subordinate",
+   "pos": "a/n",
+   "zh": "a. 次要的；隸屬的｜n. 部下；部屬"
+  },
+  {
+   "id": 2719,
+   "word": "subscribe",
+   "pos": "v",
+   "zh": "v. 訂閱；同意"
+  },
+  {
+   "id": 2720,
+   "word": "subscription",
+   "pos": "n",
+   "zh": "n. 訂閱；同意"
+  },
+  {
+   "id": 2721,
+   "word": "subside",
+   "pos": "v",
+   "zh": "v. 消退；平息；減弱"
+  },
+  {
+   "id": 2722,
+   "word": "subsidiary",
+   "pos": "a",
+   "zh": "a. 輔助的；附帶的"
+  },
+  {
+   "id": 2723,
+   "word": "subsidize",
+   "pos": "v",
+   "zh": "v. 補助；資助"
+  },
+  {
+   "id": 2724,
+   "word": "subsidy",
+   "pos": "n",
+   "zh": "n. 津貼；補貼"
+  },
+  {
+   "id": 2725,
+   "word": "substantial",
+   "pos": "a",
+   "zh": "a. 真實的；堅固的"
+  },
+  {
+   "id": 2726,
+   "word": "substantiate",
+   "pos": "v",
+   "zh": "v. 證實；證明"
+  },
+  {
+   "id": 2727,
+   "word": "substitute",
+   "pos": "n/v/a",
+   "zh": "n. 代替人；代替物｜v. 代替｜a. 代替的"
+  },
+  {
+   "id": 2728,
+   "word": "subtract",
+   "pos": "v",
+   "zh": "v. 減去；去掉"
+  },
+  {
+   "id": 2729,
+   "word": "subway",
+   "pos": "n",
+   "zh": "n. 地下鐵"
+  },
+  {
+   "id": 2730,
+   "word": "succeed",
+   "pos": "v",
+   "zh": "v. 成功；繼任"
+  },
+  {
+   "id": 2731,
+   "word": "success",
+   "pos": "n",
+   "zh": "n. 成功；成就"
+  },
+  {
+   "id": 2732,
+   "word": "sufficient",
+   "pos": "a",
+   "zh": "a. 足夠的；充分的"
+  },
+  {
+   "id": 2733,
+   "word": "suggest",
+   "pos": "v",
+   "zh": "v. 建議"
+  },
+  {
+   "id": 2734,
+   "word": "suggestion",
+   "pos": "n",
+   "zh": "n. 建議"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}

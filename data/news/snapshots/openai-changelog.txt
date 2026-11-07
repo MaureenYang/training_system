@@ -30,6 +30,9 @@ Counting tokens
 SDKs and CLI
 OpenAI SDK
 OpenAI CLI
+Cloud providers
+Amazon Bedrock
+Google Cloud
 Resources
 Changelog
 Deprecations
@@ -53,8 +56,6 @@ Optimization cycle
 Supervised fine-tuning
 Vision fine-tuning
 Direct preference optimization
-Reinforcement fine-tuning
-RFT use cases
 Best practices
 Assistants API
 Migration guide
@@ -252,7 +253,6 @@ GitHub Actions
 SPIFFE
 Idira
 IP egress ranges
-Amazon Bedrock
 Operations
 Rate limits
 Spend limits
@@ -701,7 +701,23 @@ v1/images/generations
 v1/images/edits
 Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.
 See the image generation guide.
+Nov 2
+Feature
+gpt-live-1
+v1/live/sessions
+Outbound SIP calling is now available to all organizations through the Live API. Connect GPT-Live to a phone number through your SIP provider. See the SIP guide.
 October, 2026
+Oct 30
+Update
+v1/agents
+v1/agents/sessions
+You can now update the tools in an existing session in the Agents API public beta. Updates replace the full tool list. Function tools and MCP servers change on the next model call; built-in tools change by the next turn.
+Context compaction now runs in the background by default. Set compaction.async to false for blocking compaction. Background compaction may increase token usage.
+Added opt-in experimental time awareness. Set experimental.time_awareness to true to give the model periodic current-time reminders. It is disabled by default. See the agent configuration reference for compaction and experimental settings.
+Oct 30
+Feature
+v1/agents/sessions
+Added automatic review for eligible Agents API projects. Set the session's review field to "auto_review" to have a model approve or deny supported tool and permission requests based on conversation intent and risk. See the automatic review guide for supported requests, limitations, and additional token billing.
 Oct 30
 Feature
 gpt-6-rosalind
@@ -716,6 +732,10 @@ v1/responses
 v1/chat/completions
 Released GPT-6.1 Terra, a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.
 See the GPT-6 guide for prompting and migration guidance.
+Oct 23
+Feature
+v1/agents/automations
+Added scheduled automations to the Agents API public beta. Schedule one-time or recurring tasks in new or existing sessions. Enable the automations tool to let an agent schedule its own follow-ups in the current session.
 Oct 22
 Update
 gpt-6-luna
@@ -771,6 +791,10 @@ Simplified API usage tiers from five to three: Build, Launch, and Grow. Organiza
 Oct 5
 Feature
 Added an in-product flow for HIPAA compliance support in API Organization settings > General. Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization. See the Help Center for eligibility, covered services, and configuration requirements.
+Oct 2
+Feature
+v1/agents/sessions
+Added item history for individual root-agent turns in the Agents API public beta. Retrieve a turn's messages and tool calls without listing the entire session's history.
 September, 2026
 Sep 29
 Feature
