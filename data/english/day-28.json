@@ -1,0 +1,616 @@
+{
+ "day": 28,
+ "date": "2026-11-09",
+ "generated": false,
+ "words": [
+  {
+   "id": 2735,
+   "word": "suit",
+   "pos": "n/v",
+   "zh": "n. 西裝；套；副｜v. 相稱；彼此協調"
+  },
+  {
+   "id": 2736,
+   "word": "suitable",
+   "pos": "a",
+   "zh": "a. 適當的；合適的"
+  },
+  {
+   "id": 2737,
+   "word": "suitcase",
+   "pos": "n",
+   "zh": "n. 小型旅行箱；手提箱"
+  },
+  {
+   "id": 2738,
+   "word": "suite",
+   "pos": "n",
+   "zh": "n. 套房；隨從"
+  },
+  {
+   "id": 2739,
+   "word": "sum",
+   "pos": "n/v",
+   "zh": "n. 總數；總和｜v. 總結"
+  },
+  {
+   "id": 2740,
+   "word": "summarize",
+   "pos": "v",
+   "zh": "v. 作總結；作概括"
+  },
+  {
+   "id": 2741,
+   "word": "superb",
+   "pos": "a",
+   "zh": "a. 堂皇的；宏偉的"
+  },
+  {
+   "id": 2742,
+   "word": "superior",
+   "pos": "a",
+   "zh": "a. 較高的；上級的；高傲的"
+  },
+  {
+   "id": 2743,
+   "word": "supervise",
+   "pos": "v",
+   "zh": "v. 監督；管理"
+  },
+  {
+   "id": 2744,
+   "word": "supervisor",
+   "pos": "n",
+   "zh": "n. 管理人；指導者"
+  },
+  {
+   "id": 2745,
+   "word": "supervisory",
+   "pos": "a",
+   "zh": "a. 管理（員）的"
+  },
+  {
+   "id": 2746,
+   "word": "supplement",
+   "pos": "n",
+   "zh": "n. 增補，補充；副刊"
+  },
+  {
+   "id": 2747,
+   "word": "supplementary",
+   "pos": "a",
+   "zh": "a. 增補的；補充的"
+  },
+  {
+   "id": 2748,
+   "word": "supplier",
+   "pos": "n",
+   "zh": "n. 供應者"
+  },
+  {
+   "id": 2749,
+   "word": "supply",
+   "pos": "n/v",
+   "zh": "n. 供給；供應｜v. 供給；供應"
+  },
+  {
+   "id": 2750,
+   "word": "support",
+   "pos": "v/n",
+   "zh": "v. 支持；擁護｜n. 支持；擁護"
+  },
+  {
+   "id": 2751,
+   "word": "supportive",
+   "pos": "a",
+   "zh": "a. 支援的；贊助的"
+  },
+  {
+   "id": 2752,
+   "word": "suppose",
+   "pos": "v",
+   "zh": "v. 猜想；以為"
+  },
+  {
+   "id": 2753,
+   "word": "surely",
+   "pos": "ad",
+   "zh": "ad. 確實；無疑"
+  },
+  {
+   "id": 2754,
+   "word": "surface",
+   "pos": "n/a/v",
+   "zh": "n. 面；表面｜a. 表面的；外觀的｜v. 顯露；呈現"
+  },
+  {
+   "id": 2755,
+   "word": "surmise",
+   "pos": "v/n",
+   "zh": "v. 推測；猜測｜n. 推測；猜測"
+  },
+  {
+   "id": 2756,
+   "word": "surplus",
+   "pos": "n/a",
+   "zh": "n. 剩餘物；順差｜a. 過剩的；剩餘的"
+  },
+  {
+   "id": 2757,
+   "word": "surprise",
+   "pos": "v/n",
+   "zh": "v. 驚喜；驚訝｜n. 驚喜；意外"
+  },
+  {
+   "id": 2758,
+   "word": "survey",
+   "pos": "n/v",
+   "zh": "n. 問卷｜v. 調查；做問卷"
+  },
+  {
+   "id": 2759,
+   "word": "survive",
+   "pos": "v",
+   "zh": "v. 生存；生還"
+  },
+  {
+   "id": 2760,
+   "word": "susceptible",
+   "pos": "a",
+   "zh": "a. 易被感動的；敏感的"
+  },
+  {
+   "id": 2761,
+   "word": "suspect",
+   "pos": "v",
+   "zh": "v. 懷疑；不信任"
+  },
+  {
+   "id": 2762,
+   "word": "suspend",
+   "pos": "v",
+   "zh": "v. 懸掛；使飄浮"
+  },
+  {
+   "id": 2763,
+   "word": "sustain",
+   "pos": "v",
+   "zh": "v. 支撐；承受"
+  },
+  {
+   "id": 2764,
+   "word": "sweater",
+   "pos": "n",
+   "zh": "n. 毛線衣"
+  },
+  {
+   "id": 2765,
+   "word": "swift",
+   "pos": "a",
+   "zh": "a. 快速的；快捷的"
+  },
+  {
+   "id": 2766,
+   "word": "switch",
+   "pos": "n/v",
+   "zh": "n. 開關；轉換｜v. 改變；轉移"
+  },
+  {
+   "id": 2767,
+   "word": "sympathetic",
+   "pos": "a",
+   "zh": "a. 同情的"
+  },
+  {
+   "id": 2768,
+   "word": "sympathize",
+   "pos": "v",
+   "zh": "v. 同情；憐憫"
+  },
+  {
+   "id": 2769,
+   "word": "sympathy",
+   "pos": "n",
+   "zh": "n. 同情；同情心"
+  },
+  {
+   "id": 2770,
+   "word": "symposium",
+   "pos": "n",
+   "zh": "n. 討論會；座談會"
+  },
+  {
+   "id": 2771,
+   "word": "synthesis",
+   "pos": "n",
+   "zh": "n. 綜合體；綜合"
+  },
+  {
+   "id": 2772,
+   "word": "system",
+   "pos": "n",
+   "zh": "n. 制度；體制"
+  },
+  {
+   "id": 2773,
+   "word": "systematically",
+   "pos": "ad",
+   "zh": "ad. 有系統地；有組織地"
+  },
+  {
+   "id": 2774,
+   "word": "tackle",
+   "pos": "v",
+   "zh": "v. 著手；交涉"
+  },
+  {
+   "id": 2775,
+   "word": "tactful",
+   "pos": "a",
+   "zh": "a. 機智的；圓滑的"
+  },
+  {
+   "id": 2776,
+   "word": "tactic",
+   "pos": "n",
+   "zh": "n. 戰術；策略"
+  },
+  {
+   "id": 2777,
+   "word": "tag",
+   "pos": "n/v",
+   "zh": "n. 牌子；標籤｜v. 添加；附加"
+  },
+  {
+   "id": 2778,
+   "word": "tailor",
+   "pos": "n",
+   "zh": "n. 裁縫師"
+  },
+  {
+   "id": 2779,
+   "word": "take",
+   "pos": "v",
+   "zh": "v. 拿；取；獲得"
+  },
+  {
+   "id": 2780,
+   "word": "takeout",
+   "pos": "n",
+   "zh": "n. 外賣；外賣的"
+  },
+  {
+   "id": 2781,
+   "word": "takeover",
+   "pos": "n",
+   "zh": "n. 接管"
+  },
+  {
+   "id": 2782,
+   "word": "talk",
+   "pos": "v/n",
+   "zh": "v. 講話；談話｜n. 講話；談話"
+  },
+  {
+   "id": 2783,
+   "word": "talkative",
+   "pos": "a",
+   "zh": "a. 多嘴的；健談的"
+  },
+  {
+   "id": 2784,
+   "word": "tangible",
+   "pos": "a",
+   "zh": "a. 明確的；確鑿的"
+  },
+  {
+   "id": 2785,
+   "word": "tank",
+   "pos": "n",
+   "zh": "n. 貯水池；坦克"
+  },
+  {
+   "id": 2786,
+   "word": "tap",
+   "pos": "n/v",
+   "zh": "n. 閥門；塞子｜v. 接通；裝上"
+  },
+  {
+   "id": 2787,
+   "word": "tape",
+   "pos": "n/v",
+   "zh": "n. 膠布；錄音帶｜v. 錄音"
+  },
+  {
+   "id": 2788,
+   "word": "target",
+   "pos": "n/v",
+   "zh": "n. 靶子；目標｜v. 對準"
+  },
+  {
+   "id": 2789,
+   "word": "task",
+   "pos": "n",
+   "zh": "n. 任務；工作"
+  },
+  {
+   "id": 2790,
+   "word": "taste",
+   "pos": "n/v",
+   "zh": "n. 味覺；味道｜v. 吃起來；嚐起來"
+  },
+  {
+   "id": 2791,
+   "word": "tax",
+   "pos": "n/v",
+   "zh": "n. 稅金｜v. 課稅"
+  },
+  {
+   "id": 2792,
+   "word": "tear",
+   "pos": "v/n",
+   "zh": "v. 撕開；撕裂｜n. 眼淚；淚珠"
+  },
+  {
+   "id": 2793,
+   "word": "tease",
+   "pos": "v/n",
+   "zh": "v. 戲弄；逗弄｜n. 戲弄；逗弄"
+  },
+  {
+   "id": 2794,
+   "word": "technicality",
+   "pos": "n",
+   "zh": "n. 專門性；學術性"
+  },
+  {
+   "id": 2795,
+   "word": "technician",
+   "pos": "n",
+   "zh": "n. 技術人員；技師"
+  },
+  {
+   "id": 2796,
+   "word": "technique",
+   "pos": "n",
+   "zh": "n. 技巧；技術；技法"
+  },
+  {
+   "id": 2797,
+   "word": "technological",
+   "pos": "a",
+   "zh": "a. 技術（學）的"
+  },
+  {
+   "id": 2798,
+   "word": "technology",
+   "pos": "n",
+   "zh": "n. 技術；科技"
+  },
+  {
+   "id": 2799,
+   "word": "temper",
+   "pos": "n/v",
+   "zh": "n. 情緒；性情；脾氣｜v. 調和；緩和"
+  },
+  {
+   "id": 2800,
+   "word": "temporary",
+   "pos": "a",
+   "zh": "a. 臨時的；暫時的"
+  },
+  {
+   "id": 2801,
+   "word": "tenant",
+   "pos": "n",
+   "zh": "n. 房客；承租人"
+  },
+  {
+   "id": 2802,
+   "word": "tender",
+   "pos": "a",
+   "zh": "a. 嫩的；柔軟的"
+  },
+  {
+   "id": 2803,
+   "word": "tense",
+   "pos": "a/v",
+   "zh": "a. 緊張的；拉緊的｜v. 使繃緊；使緊張"
+  },
+  {
+   "id": 2804,
+   "word": "tension",
+   "pos": "n/v",
+   "zh": "n. 拉緊；繃緊｜v. 拉緊；繃緊"
+  },
+  {
+   "id": 2805,
+   "word": "tentative",
+   "pos": "a",
+   "zh": "a. 試驗性的；嘗試的"
+  },
+  {
+   "id": 2806,
+   "word": "tenure",
+   "pos": "n",
+   "zh": "n. 佔有；佔有權"
+  },
+  {
+   "id": 2807,
+   "word": "term",
+   "pos": "n",
+   "zh": "n. 期；期限；任期"
+  },
+  {
+   "id": 2808,
+   "word": "terminal",
+   "pos": "a/n",
+   "zh": "a. 末端的；終點的｜n. 終點；末站；航廈"
+  },
+  {
+   "id": 2809,
+   "word": "terminology",
+   "pos": "n",
+   "zh": "n. 術語，專門用語"
+  },
+  {
+   "id": 2810,
+   "word": "terrible",
+   "pos": "a",
+   "zh": "a. 可怕的；嚇人的"
+  },
+  {
+   "id": 2811,
+   "word": "territory",
+   "pos": "n",
+   "zh": "n. 領土；版圖；領地"
+  },
+  {
+   "id": 2812,
+   "word": "testify",
+   "pos": "v",
+   "zh": "v. 作證；證實"
+  },
+  {
+   "id": 2813,
+   "word": "testimonial",
+   "pos": "n",
+   "zh": "n. 證明書；推薦書"
+  },
+  {
+   "id": 2814,
+   "word": "thorough",
+   "pos": "a",
+   "zh": "a. 徹底的；完全的"
+  },
+  {
+   "id": 2815,
+   "word": "thoroughness",
+   "pos": "n",
+   "zh": "n. 徹底；完全"
+  },
+  {
+   "id": 2816,
+   "word": "though",
+   "pos": "conj/ad",
+   "zh": "conj. 雖然；儘管｜ad. 然而；還是"
+  },
+  {
+   "id": 2817,
+   "word": "thought",
+   "pos": "n",
+   "zh": "n. 思維；思考"
+  },
+  {
+   "id": 2818,
+   "word": "thread",
+   "pos": "n/v",
+   "zh": "n. 線狀物；頭緒｜v. 通過；穿過"
+  },
+  {
+   "id": 2819,
+   "word": "threat",
+   "pos": "n",
+   "zh": "n. 威脅；恐嚇"
+  },
+  {
+   "id": 2820,
+   "word": "thrive",
+   "pos": "v",
+   "zh": "v. 興旺；繁榮"
+  },
+  {
+   "id": 2821,
+   "word": "throughout",
+   "pos": "prep/ad",
+   "zh": "prep. 遍及；遍布｜ad. 處處；始終"
+  },
+  {
+   "id": 2822,
+   "word": "thus",
+   "pos": "ad",
+   "zh": "ad. 如此；這樣"
+  },
+  {
+   "id": 2823,
+   "word": "ticket",
+   "pos": "n",
+   "zh": "n. 票；券"
+  },
+  {
+   "id": 2824,
+   "word": "tie",
+   "pos": "v",
+   "zh": "v. 束縛；約束；平手"
+  },
+  {
+   "id": 2825,
+   "word": "tight",
+   "pos": "a/ad",
+   "zh": "a. 牢固的；緊身的｜ad. 緊緊地"
+  },
+  {
+   "id": 2826,
+   "word": "time",
+   "pos": "n/v",
+   "zh": "n. 時間；時光｜v. 測定；記錄"
+  },
+  {
+   "id": 2827,
+   "word": "timeliness",
+   "pos": "n",
+   "zh": "n. 及時；適時"
+  },
+  {
+   "id": 2828,
+   "word": "titl",
+   "pos": "n/v",
+   "zh": "n. 標題；題目｜v. 加標題於"
+  },
+  {
+   "id": 2829,
+   "word": "token",
+   "pos": "n/a",
+   "zh": "n. 標記；標誌；象徵｜a. 象徵性的"
+  },
+  {
+   "id": 2830,
+   "word": "toll",
+   "pos": "n",
+   "zh": "n. 使用費；通行費"
+  },
+  {
+   "id": 2831,
+   "word": "tool",
+   "pos": "n",
+   "zh": "n. 工具；器具"
+  },
+  {
+   "id": 2832,
+   "word": "top",
+   "pos": "n/a/v",
+   "zh": "n. 頂部；山頂；最高程度｜a. 最高的；最優良的｜v. 加蓋；勝過"
+  },
+  {
+   "id": 2833,
+   "word": "topic",
+   "pos": "n",
+   "zh": "n. 主題；要旨"
+  },
+  {
+   "id": 2834,
+   "word": "total",
+   "pos": "a/n/v",
+   "zh": "a. 總計的；總括的｜n. 總數｜v. 合計為"
+  },
+  {
+   "id": 2835,
+   "word": "tour",
+   "pos": "n/v",
+   "zh": "n. 旅遊；遊覽｜v. 旅遊；遊覽"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
