@@ -1,0 +1,616 @@
+{
+ "day": 29,
+ "date": "2026-11-10",
+ "generated": false,
+ "words": [
+  {
+   "id": 2836,
+   "word": "tow",
+   "pos": "v/n",
+   "zh": "v. 拖；拉；牽引｜n. 拖；拉；牽引"
+  },
+  {
+   "id": 2837,
+   "word": "town",
+   "pos": "n",
+   "zh": "n. 鎮；市鎮"
+  },
+  {
+   "id": 2838,
+   "word": "track",
+   "pos": "n/v",
+   "zh": "n. 行蹤；軌道｜v. 跟蹤；追蹤"
+  },
+  {
+   "id": 2839,
+   "word": "trade",
+   "pos": "n/v",
+   "zh": "n. 貿易；交易｜v. 交換"
+  },
+  {
+   "id": 2840,
+   "word": "tradition",
+   "pos": "n",
+   "zh": "n. 傳統習俗"
+  },
+  {
+   "id": 2841,
+   "word": "traditional",
+   "pos": "a",
+   "zh": "a. 傳統的"
+  },
+  {
+   "id": 2842,
+   "word": "traffic",
+   "pos": "n",
+   "zh": "n. 交通"
+  },
+  {
+   "id": 2843,
+   "word": "trail",
+   "pos": "v/n",
+   "zh": "v. 拖；曳；跟蹤｜n. 小道；痕跡"
+  },
+  {
+   "id": 2844,
+   "word": "transact",
+   "pos": "v",
+   "zh": "v. 處置；執行"
+  },
+  {
+   "id": 2845,
+   "word": "transaction",
+   "pos": "n",
+   "zh": "n. 交易；執行"
+  },
+  {
+   "id": 2846,
+   "word": "transfer",
+   "pos": "v",
+   "zh": "v. 轉換；調動"
+  },
+  {
+   "id": 2847,
+   "word": "trash",
+   "pos": "n",
+   "zh": "n. 廢物；垃圾"
+  },
+  {
+   "id": 2848,
+   "word": "travel",
+   "pos": "v",
+   "zh": "v. 旅遊；移動"
+  },
+  {
+   "id": 2849,
+   "word": "traveler",
+   "pos": "n",
+   "zh": "n. 旅行者；旅客"
+  },
+  {
+   "id": 2850,
+   "word": "treasure",
+   "pos": "n/v",
+   "zh": "n. 金銀財寶；財富｜v. 珍愛；珍視"
+  },
+  {
+   "id": 2851,
+   "word": "treat",
+   "pos": "v/n",
+   "zh": "v. 對待；處理｜n. 請客"
+  },
+  {
+   "id": 2852,
+   "word": "treatment",
+   "pos": "n",
+   "zh": "n. 對待；治療"
+  },
+  {
+   "id": 2853,
+   "word": "treaty",
+   "pos": "n",
+   "zh": "n. 條約；協定"
+  },
+  {
+   "id": 2854,
+   "word": "tremendous",
+   "pos": "a",
+   "zh": "a. 巨大的；極大的"
+  },
+  {
+   "id": 2855,
+   "word": "trial",
+   "pos": "n/a",
+   "zh": "n. 試驗；審問｜a. 試驗的；審訊的"
+  },
+  {
+   "id": 2856,
+   "word": "triangle",
+   "pos": "n",
+   "zh": "n. 三角形"
+  },
+  {
+   "id": 2857,
+   "word": "tribal",
+   "pos": "a",
+   "zh": "a. 部落的；種族的"
+  },
+  {
+   "id": 2858,
+   "word": "tribe",
+   "pos": "n",
+   "zh": "n. 部落；種族"
+  },
+  {
+   "id": 2859,
+   "word": "trivial",
+   "pos": "a",
+   "zh": "a. 瑣細的；不重要的"
+  },
+  {
+   "id": 2860,
+   "word": "truly",
+   "pos": "ad",
+   "zh": "ad. 真誠地；忠實地"
+  },
+  {
+   "id": 2861,
+   "word": "trust",
+   "pos": "n/v",
+   "zh": "n. 信任；信賴｜v. 信任；信賴"
+  },
+  {
+   "id": 2862,
+   "word": "trustee",
+   "pos": "n",
+   "zh": "n. 受託管理人"
+  },
+  {
+   "id": 2863,
+   "word": "turnover",
+   "pos": "n",
+   "zh": "n. 翻倒；翻轉"
+  },
+  {
+   "id": 2864,
+   "word": "twice",
+   "pos": "ad",
+   "zh": "ad. 兩次；兩回；兩倍"
+  },
+  {
+   "id": 2865,
+   "word": "two-sided",
+   "pos": "a",
+   "zh": "a. 兩邊的；兩面的"
+  },
+  {
+   "id": 2866,
+   "word": "type",
+   "pos": "n/v",
+   "zh": "n. 類型；型式｜v. 作為…的典型；打字"
+  },
+  {
+   "id": 2867,
+   "word": "typical",
+   "pos": "a",
+   "zh": "a. 典型的；有代表性的"
+  },
+  {
+   "id": 2868,
+   "word": "typo",
+   "pos": "n",
+   "zh": "n. 筆誤"
+  },
+  {
+   "id": 2869,
+   "word": "ultimate",
+   "pos": "a/n",
+   "zh": "a. 最後的；最終的｜n. 終極；結局"
+  },
+  {
+   "id": 2870,
+   "word": "ultimately",
+   "pos": "ad",
+   "zh": "ad. 終極地"
+  },
+  {
+   "id": 2871,
+   "word": "ultra",
+   "pos": "a",
+   "zh": "a. 偏激的；過分的"
+  },
+  {
+   "id": 2872,
+   "word": "unable",
+   "pos": "a",
+   "zh": "a. 不能的；不會的"
+  },
+  {
+   "id": 2873,
+   "word": "unacceptable",
+   "pos": "a",
+   "zh": "a. 無法接受的"
+  },
+  {
+   "id": 2874,
+   "word": "unaccountable",
+   "pos": "a",
+   "zh": "a. 無法解釋的；無責任的"
+  },
+  {
+   "id": 2875,
+   "word": "unaccustomed",
+   "pos": "a",
+   "zh": "a. 不習慣的；不熟悉的"
+  },
+  {
+   "id": 2876,
+   "word": "unauthorized",
+   "pos": "a",
+   "zh": "a. 未被授權的"
+  },
+  {
+   "id": 2877,
+   "word": "unaware",
+   "pos": "a/ad",
+   "zh": "a. 未察覺到的｜ad. 意外地；突然地"
+  },
+  {
+   "id": 2878,
+   "word": "unbalance",
+   "pos": "v",
+   "zh": "v. 使失去平衡"
+  },
+  {
+   "id": 2879,
+   "word": "unbeatable",
+   "pos": "a",
+   "zh": "a. 打不垮的"
+  },
+  {
+   "id": 2880,
+   "word": "unbiased",
+   "pos": "a",
+   "zh": "a. 無偏見的"
+  },
+  {
+   "id": 2881,
+   "word": "uncertain",
+   "pos": "a",
+   "zh": "a. 不確定的"
+  },
+  {
+   "id": 2882,
+   "word": "uncertainty",
+   "pos": "n",
+   "zh": "n. 不確定性"
+  },
+  {
+   "id": 2883,
+   "word": "unconventional",
+   "pos": "a",
+   "zh": "a. 非傳統的"
+  },
+  {
+   "id": 2884,
+   "word": "underestimate",
+   "pos": "v",
+   "zh": "v. 低估"
+  },
+  {
+   "id": 2885,
+   "word": "underground",
+   "pos": "a",
+   "zh": "a. 地下的；不公開的"
+  },
+  {
+   "id": 2886,
+   "word": "underline",
+   "pos": "v",
+   "zh": "v. 強調；使突出"
+  },
+  {
+   "id": 2887,
+   "word": "understand",
+   "pos": "v",
+   "zh": "v. 了解；理解"
+  },
+  {
+   "id": 2888,
+   "word": "understatement",
+   "pos": "n",
+   "zh": "n. 不充分的陳述；保守的陳述"
+  },
+  {
+   "id": 2889,
+   "word": "underway",
+   "pos": "a",
+   "zh": "a. 在進行中的"
+  },
+  {
+   "id": 2890,
+   "word": "unfair",
+   "pos": "a",
+   "zh": "a. 不公平的"
+  },
+  {
+   "id": 2891,
+   "word": "unforeseen",
+   "pos": "ad",
+   "zh": "ad. 預料之外的"
+  },
+  {
+   "id": 2892,
+   "word": "unfortunately",
+   "pos": "ad",
+   "zh": "ad. 不幸地"
+  },
+  {
+   "id": 2893,
+   "word": "unidentified",
+   "pos": "a",
+   "zh": "a. 未辨別出的；身分不明的"
+  },
+  {
+   "id": 2894,
+   "word": "uniform",
+   "pos": "n/a",
+   "zh": "n. 制服｜a. 相同的；一致的"
+  },
+  {
+   "id": 2895,
+   "word": "unify",
+   "pos": "v",
+   "zh": "v. 統一；聯合"
+  },
+  {
+   "id": 2896,
+   "word": "unimaginable",
+   "pos": "a",
+   "zh": "a. 難以想像的；想不到的"
+  },
+  {
+   "id": 2897,
+   "word": "union",
+   "pos": "n",
+   "zh": "n. 結合；合併"
+  },
+  {
+   "id": 2898,
+   "word": "unique",
+   "pos": "a",
+   "zh": "a. 獨特的"
+  },
+  {
+   "id": 2899,
+   "word": "uniquely",
+   "pos": "ad",
+   "zh": "ad. 獨特地"
+  },
+  {
+   "id": 2900,
+   "word": "uniqueness",
+   "pos": "n",
+   "zh": "n. 獨特"
+  },
+  {
+   "id": 2901,
+   "word": "unit",
+   "pos": "n",
+   "zh": "n. 單位；單元"
+  },
+  {
+   "id": 2902,
+   "word": "unite",
+   "pos": "v",
+   "zh": "v. 使聯合；統一"
+  },
+  {
+   "id": 2903,
+   "word": "university",
+   "pos": "n",
+   "zh": "n. 大學"
+  },
+  {
+   "id": 2904,
+   "word": "unless",
+   "pos": "prep/conj",
+   "zh": "prep. 除……外｜conj. 如果不；除非"
+  },
+  {
+   "id": 2905,
+   "word": "unlimited",
+   "pos": "a",
+   "zh": "a. 無限制的；無約束的"
+  },
+  {
+   "id": 2906,
+   "word": "unlock",
+   "pos": "v",
+   "zh": "v. 開啟；揭開"
+  },
+  {
+   "id": 2907,
+   "word": "unnecessary",
+   "pos": "a",
+   "zh": "a. 不必要的"
+  },
+  {
+   "id": 2908,
+   "word": "unsanitary",
+   "pos": "a",
+   "zh": "a. 不衛生的；有礙健康的"
+  },
+  {
+   "id": 2909,
+   "word": "unsatisfactory",
+   "pos": "a",
+   "zh": "a. 不滿意的"
+  },
+  {
+   "id": 2910,
+   "word": "upcoming",
+   "pos": "a",
+   "zh": "a. 即將來臨的"
+  },
+  {
+   "id": 2911,
+   "word": "update",
+   "pos": "v",
+   "zh": "v. 使現代化；更新"
+  },
+  {
+   "id": 2912,
+   "word": "upgrade",
+   "pos": "v/n",
+   "zh": "v. 提高；提升｜n. 升級；上坡"
+  },
+  {
+   "id": 2913,
+   "word": "upon",
+   "pos": "prep",
+   "zh": "prep. 在…之上；在…上面"
+  },
+  {
+   "id": 2914,
+   "word": "upwards",
+   "pos": "ad",
+   "zh": "ad. 向上地；朝上"
+  },
+  {
+   "id": 2915,
+   "word": "urban",
+   "pos": "a",
+   "zh": "a. 城市的"
+  },
+  {
+   "id": 2916,
+   "word": "urbanize",
+   "pos": "v",
+   "zh": "v. 使都市化"
+  },
+  {
+   "id": 2917,
+   "word": "urgent",
+   "pos": "a",
+   "zh": "a. 急促的；急的"
+  },
+  {
+   "id": 2918,
+   "word": "use",
+   "pos": "v",
+   "zh": "v. 使用"
+  },
+  {
+   "id": 2919,
+   "word": "useful",
+   "pos": "a",
+   "zh": "a. 有用的；有價值的"
+  },
+  {
+   "id": 2920,
+   "word": "useless",
+   "pos": "a",
+   "zh": "a. 無用的；無價值的"
+  },
+  {
+   "id": 2921,
+   "word": "usual",
+   "pos": "a",
+   "zh": "a. 通常的；平常的"
+  },
+  {
+   "id": 2922,
+   "word": "usually",
+   "pos": "ad",
+   "zh": "ad. 通常地；慣常地"
+  },
+  {
+   "id": 2923,
+   "word": "utilization",
+   "pos": "n",
+   "zh": "n. 利用"
+  },
+  {
+   "id": 2924,
+   "word": "utilize",
+   "pos": "v",
+   "zh": "v. 利用"
+  },
+  {
+   "id": 2925,
+   "word": "vacancy",
+   "pos": "n",
+   "zh": "n. 空白；空缺"
+  },
+  {
+   "id": 2926,
+   "word": "vacant",
+   "pos": "a",
+   "zh": "a. 空的；空著的"
+  },
+  {
+   "id": 2927,
+   "word": "vacation",
+   "pos": "n",
+   "zh": "n. 假期；休假"
+  },
+  {
+   "id": 2928,
+   "word": "vaccinate",
+   "pos": "v",
+   "zh": "v. 注射疫苗"
+  },
+  {
+   "id": 2929,
+   "word": "vaccination",
+   "pos": "n",
+   "zh": "n. 疫苗接種"
+  },
+  {
+   "id": 2930,
+   "word": "vain",
+   "pos": "a",
+   "zh": "a. 愛虛榮的；自負的"
+  },
+  {
+   "id": 2931,
+   "word": "valid",
+   "pos": "a",
+   "zh": "a. 有根據的；確鑿的"
+  },
+  {
+   "id": 2932,
+   "word": "validat",
+   "pos": "v",
+   "zh": "v. 使有效；使生效"
+  },
+  {
+   "id": 2933,
+   "word": "valuable",
+   "pos": "a",
+   "zh": "a. 有價值的"
+  },
+  {
+   "id": 2934,
+   "word": "value",
+   "pos": "n",
+   "zh": "n. 價值"
+  },
+  {
+   "id": 2935,
+   "word": "van",
+   "pos": "n",
+   "zh": "n. 廂型車；小貨車"
+  },
+  {
+   "id": 2936,
+   "word": "vandalize",
+   "pos": "v",
+   "zh": "v. 任意破壞"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
