@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -246,6 +246,7 @@
    "https://openai.com/index/chatgpt-agent-system-card",
    "https://openai.com/index/chatgpt-can-now-see-hear-and-speak",
    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
    "https://openai.com/index/chatgpt-enterprise-spend-controls",
    "https://openai.com/index/chatgpt-expanding-world-of-work",
    "https://openai.com/index/chatgpt-for-academic-researchers",
@@ -275,6 +276,7 @@
    "https://openai.com/index/cloudflare-openai-agent-cloud",
    "https://openai.com/index/cna-walter-fernandez",
    "https://openai.com/index/coderabbit",
+   "https://openai.com/index/coderabbit-codex-daybreak",
    "https://openai.com/index/codex-apps",
    "https://openai.com/index/codex-collaborator-creative-team",
    "https://openai.com/index/codex-flexible-pricing-for-teams",
@@ -302,6 +304,7 @@
    "https://openai.com/index/content-partnership-with-financial-times",
    "https://openai.com/index/continuing-microsoft-partnership",
    "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+   "https://openai.com/index/control-room",
    "https://openai.com/index/cooley-gopublic",
    "https://openai.com/index/cooperation-on-safety",
    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -790,6 +793,7 @@
    "https://openai.com/index/k-12-educators-practical-skills",
    "https://openai.com/index/khan-academy",
    "https://openai.com/index/klarna",
+   "https://openai.com/index/kuken",
    "https://openai.com/index/language-model-safety-and-misuse",
    "https://openai.com/index/language-models-are-few-shot-learners",
    "https://openai.com/index/language-models-can-explain-neurons-in-language-models",
@@ -1381,7 +1385,8 @@
    "https://platform.openai.com/docs/changelog#2026-10-31",
    "https://platform.openai.com/docs/changelog#2026-11-05",
    "https://platform.openai.com/docs/changelog#2026-11-06",
-   "https://platform.openai.com/docs/changelog#2026-11-07"
+   "https://platform.openai.com/docs/changelog#2026-11-07",
+   "https://platform.openai.com/docs/changelog#2026-11-10"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1752,6 +1757,7 @@
    "https://www.anthropic.com/research/claude-code-expertise",
    "https://www.anthropic.com/research/claude-code-sandboxing",
    "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+   "https://www.anthropic.com/research/claude-electronics-design",
    "https://www.anthropic.com/research/claude-personal-guidance",
    "https://www.anthropic.com/research/claude-plays-robotics",
    "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
@@ -1941,7 +1947,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-04",
    "https://docs.claude.com/en/release-notes/overview#2026-11-05",
    "https://docs.claude.com/en/release-notes/overview#2026-11-06",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-07"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-07",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-10"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2088,6 +2095,102 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-10",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "Keep the prefix unchanged\nBuild a retro handheld game with Codex and ModRetro Chromatic"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-10",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "November 9, 2026\nWe’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 (claude-mythos-5-2) offers the same capabilities onl"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/control-room",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/control-room",
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/coderabbit-codex-daybreak",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/coderabbit-codex-daybreak",
+   "title": "CodeRabbit scales agentic software development and ships 20x more",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/kuken",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/kuken",
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [
+    "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/claude-electronics-design",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/claude-electronics-design",
+   "title": "Claude can design electronic prototypes from start to finish",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-10",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-07",
    "company": "OpenAI",

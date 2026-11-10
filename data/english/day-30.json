@@ -1,0 +1,616 @@
+{
+ "day": 30,
+ "date": "2026-11-11",
+ "generated": false,
+ "words": [
+  {
+   "id": 2937,
+   "word": "variable",
+   "pos": "a",
+   "zh": "a. 易變的；多變的"
+  },
+  {
+   "id": 2938,
+   "word": "variation",
+   "pos": "n",
+   "zh": "n. 變動；差異"
+  },
+  {
+   "id": 2939,
+   "word": "variety",
+   "pos": "n",
+   "zh": "n. 多樣化；變化"
+  },
+  {
+   "id": 2940,
+   "word": "various",
+   "pos": "a",
+   "zh": "a. 不同的；各種各樣的"
+  },
+  {
+   "id": 2941,
+   "word": "vary",
+   "pos": "v",
+   "zh": "v. 使不同；變更"
+  },
+  {
+   "id": 2942,
+   "word": "vas",
+   "pos": "a",
+   "zh": "a. 廣闊的；浩瀚的"
+  },
+  {
+   "id": 2943,
+   "word": "vegetable",
+   "pos": "n",
+   "zh": "n. 蔬菜"
+  },
+  {
+   "id": 2944,
+   "word": "vegetarian",
+   "pos": "n",
+   "zh": "n. 素食主義者"
+  },
+  {
+   "id": 2945,
+   "word": "vehicle",
+   "pos": "a",
+   "zh": "a. 運載工具；手段"
+  },
+  {
+   "id": 2946,
+   "word": "veil",
+   "pos": "n/v",
+   "zh": "n. 面紗；面罩｜v. 掩飾；遮蓋"
+  },
+  {
+   "id": 2947,
+   "word": "vend",
+   "pos": "v",
+   "zh": "v. 出售；販賣"
+  },
+  {
+   "id": 2948,
+   "word": "vendor",
+   "pos": "n",
+   "zh": "n. 小販；攤販"
+  },
+  {
+   "id": 2949,
+   "word": "venture",
+   "pos": "n/v",
+   "zh": "n. 冒險事業；投機活動｜v. 冒險"
+  },
+  {
+   "id": 2950,
+   "word": "verify",
+   "pos": "v",
+   "zh": "v. 證明；證實"
+  },
+  {
+   "id": 2951,
+   "word": "versatile",
+   "pos": "a",
+   "zh": "a. 多才多藝的；多功能的"
+  },
+  {
+   "id": 2952,
+   "word": "version",
+   "pos": "n",
+   "zh": "n. 版本；說法"
+  },
+  {
+   "id": 2953,
+   "word": "vessel",
+   "pos": "n",
+   "zh": "n. 船；艦；血管"
+  },
+  {
+   "id": 2954,
+   "word": "via",
+   "pos": "prep",
+   "zh": "prep. 透過；憑藉"
+  },
+  {
+   "id": 2955,
+   "word": "viable",
+   "pos": "a",
+   "zh": "a. 有望成功的；切實可行的"
+  },
+  {
+   "id": 2956,
+   "word": "vice",
+   "pos": "v",
+   "zh": "v. 緊緊夾住(=vise)"
+  },
+  {
+   "id": 2957,
+   "word": "vice versa",
+   "pos": "ad",
+   "zh": "ad. 反之亦然"
+  },
+  {
+   "id": 2958,
+   "word": "victim",
+   "pos": "n",
+   "zh": "n. 受害者；犧牲者"
+  },
+  {
+   "id": 2959,
+   "word": "viewpoint",
+   "pos": "n",
+   "zh": "n. 觀點；視角"
+  },
+  {
+   "id": 2960,
+   "word": "violation",
+   "pos": "n",
+   "zh": "n. 違反；違背"
+  },
+  {
+   "id": 2961,
+   "word": "virtual",
+   "pos": "a",
+   "zh": "a. 虛擬的"
+  },
+  {
+   "id": 2962,
+   "word": "visibility",
+   "pos": "n",
+   "zh": "n. 能見度；明顯性"
+  },
+  {
+   "id": 2963,
+   "word": "visible",
+   "pos": "a",
+   "zh": "a. 可看見的；清晰的"
+  },
+  {
+   "id": 2964,
+   "word": "visit",
+   "pos": "v",
+   "zh": "v. 參觀；訪視"
+  },
+  {
+   "id": 2965,
+   "word": "visitor",
+   "pos": "n",
+   "zh": "n. 參觀者；訪視者"
+  },
+  {
+   "id": 2966,
+   "word": "visual",
+   "pos": "a",
+   "zh": "a. 可被看見的；視覺的"
+  },
+  {
+   "id": 2967,
+   "word": "vital",
+   "pos": "a",
+   "zh": "a. 生命的；充滿活力的"
+  },
+  {
+   "id": 2968,
+   "word": "vivid",
+   "pos": "a",
+   "zh": "a. 生動的；活潑的"
+  },
+  {
+   "id": 2969,
+   "word": "vocabulary",
+   "pos": "n",
+   "zh": "n. 單字；字彙"
+  },
+  {
+   "id": 2970,
+   "word": "voice",
+   "pos": "n",
+   "zh": "n. 聲音"
+  },
+  {
+   "id": 2971,
+   "word": "volatile",
+   "pos": "a",
+   "zh": "a. 易揮發的；易變的"
+  },
+  {
+   "id": 2972,
+   "word": "volunteer",
+   "pos": "n/v",
+   "zh": "n. 志願者，義工｜v. 自願"
+  },
+  {
+   "id": 2973,
+   "word": "voucher",
+   "pos": "n",
+   "zh": "n. 票券；證人"
+  },
+  {
+   "id": 2974,
+   "word": "voyage",
+   "pos": "n/v",
+   "zh": "n. 航海；航行｜v. 航海；航行"
+  },
+  {
+   "id": 2975,
+   "word": "wage",
+   "pos": "v",
+   "zh": "v. 進行；從事"
+  },
+  {
+   "id": 2976,
+   "word": "wagon",
+   "pos": "n",
+   "zh": "n. 運貨馬車"
+  },
+  {
+   "id": 2977,
+   "word": "waist",
+   "pos": "n",
+   "zh": "n. 腰；腰部"
+  },
+  {
+   "id": 2978,
+   "word": "wait",
+   "pos": "v/n",
+   "zh": "v. 等；等待｜n. 等待"
+  },
+  {
+   "id": 2979,
+   "word": "waiter",
+   "pos": "n",
+   "zh": "n. 服務生"
+  },
+  {
+   "id": 2980,
+   "word": "waitress",
+   "pos": "n",
+   "zh": "n. 女服務生"
+  },
+  {
+   "id": 2981,
+   "word": "waive",
+   "pos": "v",
+   "zh": "v. 放棄；撤回"
+  },
+  {
+   "id": 2982,
+   "word": "wallet",
+   "pos": "n",
+   "zh": "n. 皮夾"
+  },
+  {
+   "id": 2983,
+   "word": "wallpaper",
+   "pos": "n",
+   "zh": "n. 壁紙"
+  },
+  {
+   "id": 2984,
+   "word": "warehouse",
+   "pos": "n",
+   "zh": "n. 倉庫庫房"
+  },
+  {
+   "id": 2985,
+   "word": "warm",
+   "pos": "a/v",
+   "zh": "a. 溫暖的；暖和的｜v. 變暖和"
+  },
+  {
+   "id": 2986,
+   "word": "warn",
+   "pos": "v",
+   "zh": "v. 警告；告誡"
+  },
+  {
+   "id": 2987,
+   "word": "warning",
+   "pos": "n",
+   "zh": "n. 警告；告誡"
+  },
+  {
+   "id": 2988,
+   "word": "warranty",
+   "pos": "n",
+   "zh": "n. 保證；擔保"
+  },
+  {
+   "id": 2989,
+   "word": "waste",
+   "pos": "v/n",
+   "zh": "v. 浪費；濫用｜n. 浪費；荒原"
+  },
+  {
+   "id": 2990,
+   "word": "watch",
+   "pos": "n/v",
+   "zh": "n. 看守，監視；手錶｜v. 觀看；注視"
+  },
+  {
+   "id": 2991,
+   "word": "wave",
+   "pos": "n/v",
+   "zh": "n. 海浪；浪潮｜v. 揮手；飄揚"
+  },
+  {
+   "id": 2992,
+   "word": "waver",
+   "pos": "v",
+   "zh": "v. 搖擺；搖晃動搖"
+  },
+  {
+   "id": 2993,
+   "word": "weak",
+   "pos": "a",
+   "zh": "a. 弱的；虛弱的"
+  },
+  {
+   "id": 2994,
+   "word": "weakness",
+   "pos": "n",
+   "zh": "n. 虛弱；弱點"
+  },
+  {
+   "id": 2995,
+   "word": "wealth",
+   "pos": "n",
+   "zh": "n. 財產；資源"
+  },
+  {
+   "id": 2996,
+   "word": "weight",
+   "pos": "n",
+   "zh": "n. 重量；體重"
+  },
+  {
+   "id": 2997,
+   "word": "whereas",
+   "pos": "conj",
+   "zh": "conj. 然而；反之"
+  },
+  {
+   "id": 2998,
+   "word": "whether",
+   "pos": "conj",
+   "zh": "conj. 是否；不管是……（或是）"
+  },
+  {
+   "id": 2999,
+   "word": "whole",
+   "pos": "a",
+   "zh": "a. 整體的；全部的"
+  },
+  {
+   "id": 3000,
+   "word": "widespread",
+   "pos": "a",
+   "zh": "a. 普遍的；廣泛的"
+  },
+  {
+   "id": 3001,
+   "word": "width",
+   "pos": "n",
+   "zh": "n. 寬度；闊度"
+  },
+  {
+   "id": 3002,
+   "word": "will",
+   "pos": "aux/n",
+   "zh": "aux. 將；將要｜n. 意志；心願；目的"
+  },
+  {
+   "id": 3003,
+   "word": "willingness",
+   "pos": "n",
+   "zh": "n. 自願；樂意"
+  },
+  {
+   "id": 3004,
+   "word": "wire",
+   "pos": "n/v",
+   "zh": "n. 電纜；電線｜v. 發電報；裝電線"
+  },
+  {
+   "id": 3005,
+   "word": "withdraw",
+   "pos": "v",
+   "zh": "v. 抽回；拉開；移開"
+  },
+  {
+   "id": 3006,
+   "word": "withdrawal",
+   "pos": "n",
+   "zh": "n. 收回；撤回提款"
+  },
+  {
+   "id": 3007,
+   "word": "within",
+   "pos": "prep/ad",
+   "zh": "prep. 在……範圍內；不超過｜ad. 在裡面；在內部"
+  },
+  {
+   "id": 3008,
+   "word": "withstand",
+   "pos": "v",
+   "zh": "v. 抵擋；反抗"
+  },
+  {
+   "id": 3009,
+   "word": "witness",
+   "pos": "n",
+   "zh": "n. 目擊者；見證人"
+  },
+  {
+   "id": 3010,
+   "word": "woeful",
+   "pos": "a",
+   "zh": "a. 悲哀的，悲傷的"
+  },
+  {
+   "id": 3011,
+   "word": "wonder",
+   "pos": "v/n",
+   "zh": "v. 納悶；想知道｜n. 驚奇；驚異"
+  },
+  {
+   "id": 3012,
+   "word": "woo",
+   "pos": "v",
+   "zh": "v. 向……求愛；招致；引起"
+  },
+  {
+   "id": 3013,
+   "word": "work",
+   "pos": "v/n",
+   "zh": "v. 工作；勞動｜n. 成果；產品"
+  },
+  {
+   "id": 3014,
+   "word": "workaholic",
+   "pos": "n",
+   "zh": "n. 工作狂；專心工作的人"
+  },
+  {
+   "id": 3015,
+   "word": "workshop",
+   "pos": "n",
+   "zh": "n. 工作坊"
+  },
+  {
+   "id": 3016,
+   "word": "world",
+   "pos": "n",
+   "zh": "n. 世界；地球"
+  },
+  {
+   "id": 3017,
+   "word": "worldwide",
+   "pos": "a",
+   "zh": "a. 世界範圍的；遍及全球的"
+  },
+  {
+   "id": 3018,
+   "word": "worry",
+   "pos": "v",
+   "zh": "v. 擔心；擔憂"
+  },
+  {
+   "id": 3019,
+   "word": "would",
+   "pos": "aux",
+   "zh": "aux. 將；要"
+  },
+  {
+   "id": 3020,
+   "word": "wrist",
+   "pos": "n",
+   "zh": "n. 腕；腕關節"
+  },
+  {
+   "id": 3021,
+   "word": "X-ray",
+   "pos": "n/v",
+   "zh": "n. X光檢查｜v. 用X光線檢查"
+  },
+  {
+   "id": 3022,
+   "word": "yacht",
+   "pos": "n",
+   "zh": "n. 快艇；遊艇"
+  },
+  {
+   "id": 3023,
+   "word": "yard",
+   "pos": "n",
+   "zh": "n. 庭院；後院"
+  },
+  {
+   "id": 3024,
+   "word": "yawn",
+   "pos": "n/v",
+   "zh": "n. 呵欠｜v. 打呵欠"
+  },
+  {
+   "id": 3025,
+   "word": "year-end",
+   "pos": "n/a",
+   "zh": "n. 年終｜a. 年終的"
+  },
+  {
+   "id": 3026,
+   "word": "yearly",
+   "pos": "a/ad",
+   "zh": "a. 每年的；一年一次的｜ad. 每年；一年一度"
+  },
+  {
+   "id": 3027,
+   "word": "yearn",
+   "pos": "v",
+   "zh": "v. 思念；渴望"
+  },
+  {
+   "id": 3028,
+   "word": "yearningly",
+   "pos": "ad",
+   "zh": "ad. 思念地；渴望地"
+  },
+  {
+   "id": 3029,
+   "word": "yield",
+   "pos": "v/n",
+   "zh": "v. 出產；產生｜n. 產量；收穫量"
+  },
+  {
+   "id": 3030,
+   "word": "youngster",
+   "pos": "n",
+   "zh": "n. 小孩；年輕人"
+  },
+  {
+   "id": 3031,
+   "word": "youth",
+   "pos": "n",
+   "zh": "n. 青少年時期；青年；小伙子"
+  },
+  {
+   "id": 3032,
+   "word": "youthful",
+   "pos": "a",
+   "zh": "a. 年輕的；青年的"
+  },
+  {
+   "id": 3033,
+   "word": "zip",
+   "pos": "v/n",
+   "zh": "v. 給以速度（或力量）；使增加興趣｜n. 拉鍊"
+  },
+  {
+   "id": 3034,
+   "word": "zone",
+   "pos": "n",
+   "zh": "n. 地帶；地區"
+  },
+  {
+   "id": 3035,
+   "word": "zoom",
+   "pos": "v",
+   "zh": "v. 發出嗡嗡聲；使急遽上升"
+  },
+  {
+   "id": 3036,
+   "word": "zoom-in",
+   "pos": "v",
+   "zh": "v. 用變焦距鏡頭使景物放大"
+  },
+  {
+   "id": 3037,
+   "word": "zoom-out",
+   "pos": "v",
+   "zh": "v. 用變焦距鏡頭使景物縮小"
+  }
+ ],
+ "phrases": [],
+ "quiz": [],
+ "reading": null
+}
