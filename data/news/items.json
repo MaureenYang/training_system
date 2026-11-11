@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -34,6 +34,8 @@
    "https://openai.com/academy/writing",
    "https://openai.com/ads/customers/evernote",
    "https://openai.com/ads/customers/flipsnack",
+   "https://openai.com/business/customer-stories/ada",
+   "https://openai.com/business/customer-stories/blue-j",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -51,9 +53,14 @@
    "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation",
    "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
    "https://openai.com/business/learn/delegate-work-to-chatgpt-agent",
+   "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
+   "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/learn/gpt-5-our-best-model-for-work",
    "https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work",
+   "https://openai.com/business/learn/how-openai-uses-codex",
    "https://openai.com/business/learn/market-research-with-chatgpt",
+   "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+   "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
    "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions",
    "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt",
    "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt",
@@ -145,6 +152,7 @@
    "https://openai.com/index/ai-chemist-improves-reaction",
    "https://openai.com/index/ai-clinical-copilot-penda-health",
    "https://openai.com/index/ai-education-opportunity",
+   "https://openai.com/index/ai-effect-on-freelance-work",
    "https://openai.com/index/ai-first-hire-small-business",
    "https://openai.com/index/ai-literacy-resources-for-teens-and-parents",
    "https://openai.com/index/ai-mental-health-research-grants",
@@ -272,6 +280,7 @@
    "https://openai.com/index/cisco-cyber",
    "https://openai.com/index/clay",
    "https://openai.com/index/clip",
+   "https://openai.com/index/closing-ai-guidance-gap-education",
    "https://openai.com/index/cloudflare-cyber",
    "https://openai.com/index/cloudflare-openai-agent-cloud",
    "https://openai.com/index/cna-walter-fernandez",
@@ -522,6 +531,7 @@
    "https://openai.com/index/genmab",
    "https://openai.com/index/genspark",
    "https://openai.com/index/gilbert-tobin",
+   "https://openai.com/index/gilbert-tobin-sam-nickless",
    "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
    "https://openai.com/index/glow",
    "https://openai.com/index/gotta-learn-fast",
@@ -608,6 +618,7 @@
    "https://openai.com/index/helen-toner-joins",
    "https://openai.com/index/hello-gpt-4o",
    "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+   "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
    "https://openai.com/index/helping-disaster-response-teams-asia",
    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
    "https://openai.com/index/helping-people-when-they-need-it-most",
@@ -678,6 +689,7 @@
    "https://openai.com/index/introducing-agentkit",
    "https://openai.com/index/introducing-apps-in-chatgpt",
    "https://openai.com/index/introducing-b2b-signals",
+   "https://openai.com/index/introducing-businesses-chatgpt",
    "https://openai.com/index/introducing-canvas",
    "https://openai.com/index/introducing-chatgpt-agent",
    "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
@@ -1386,7 +1398,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-05",
    "https://platform.openai.com/docs/changelog#2026-11-06",
    "https://platform.openai.com/docs/changelog#2026-11-07",
-   "https://platform.openai.com/docs/changelog#2026-11-10"
+   "https://platform.openai.com/docs/changelog#2026-11-10",
+   "https://platform.openai.com/docs/changelog#2026-11-11"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1660,6 +1673,7 @@
    "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
    "https://www.anthropic.com/news/releasing-claude-instant-1-2",
    "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+   "https://www.anthropic.com/news/roadshow-launch",
    "https://www.anthropic.com/news/rwandan-government-partnership-ai-education",
    "https://www.anthropic.com/news/s1-sec",
    "https://www.anthropic.com/news/safeguards",
@@ -1948,7 +1962,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-05",
    "https://docs.claude.com/en/release-notes/overview#2026-11-06",
    "https://docs.claude.com/en/release-notes/overview#2026-11-07",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-10"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-10",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-11"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2095,6 +2110,116 @@
   ]
  },
  "items": [
+  {
+   "key": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-11",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-11",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Pushing voice agents further: inside four GPT-Live builds\nBuilding a retro handheld game with Codex and ModRetro Chromatic\nReleased GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation "
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-11",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-11",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "The Compliance API now includes Security posture data, in beta for Claude Enterprise organizations. The Activity Feed records changes to attestations on the Security posture page in claude.ai Organiza"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "title": "Helping caregivers use AI in everyday life",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-businesses-chatgpt",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "title": "Introducing Businesses in ChatGPT",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "title": "Closing the AI guidance gap in education",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/ai-effect-on-freelance-work",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/ai-effect-on-freelance-work",
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/roadshow-launch",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/roadshow-launch",
+   "title": "Anthropic launches roadshow for proposed initial public offering",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-10",
    "company": "OpenAI",
@@ -4458,6 +4583,104 @@
      "wenzhouwu/YoungAi-DeepSeek-V4.1-Flash"
     ]
    }
+  },
+  {
+   "key": "https://openai.com/business/learn/how-openai-uses-codex",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/how-openai-uses-codex",
+   "title": "How OpenAI Uses Codex to Accelerate Engineering",
+   "date": "2026-01-14",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "A detailed look at how OpenAI teams use Codex to understand code, refactor systems, improve performance, boost velocity, and enhance engineering workflows."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/blue-j",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/blue-j",
+   "title": "Blue J’s approach for scaling fast in complex, regulated domains",
+   "date": "2025-08-21",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Blue J scaled to three countries and more than 3,000 firms thanks to focus, domain depth, and the right OpenAI model."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+   "title": "New in ChatGPT for Business: April 2025",
+   "date": "2025-04-24",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
+   "title": "New in ChatGPT for Business: March 2025",
+   "date": "2025-03-18",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/ada",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/ada",
+   "title": "Using GPT-4 to deliver a new customer service standard",
+   "date": "2024-09-05",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Ada uses GPT-4 to deliver a new customer service standard"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
+   "title": "Fine-tuning GPT-4o webinar",
+   "date": "2024-08-26",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "Fine-Tuning GPT-4o Webinar"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
+   "title": "Enabling a data-driven workforce",
+   "date": "2024-08-08",
+   "open_weights": false,
+   "fetched": "2026-11-11",
+   "points": [
+    "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights."
+   ],
+   "pending": true
   }
  ]
 }
