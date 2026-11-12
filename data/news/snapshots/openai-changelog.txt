@@ -503,7 +503,7 @@ Auto-review
 Agent approvals & security
 Codex Security
 Overview
-Codex Security Cloud
+Daybreak Defense Factory
 Setup
 Security Review
 Improving the threat model
@@ -677,6 +677,7 @@ Programs
 Codex Ambassadors
 Meet the ambassadors
 Codex for Students
+Student Collective
 Codex for Open Source
 OpenAI for Startups
 Spaces

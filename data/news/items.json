@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -266,6 +266,7 @@
    "https://openai.com/index/chatgpt-memory-dreaming",
    "https://openai.com/index/chatgpt-plugins",
    "https://openai.com/index/chatgpt-plus",
+   "https://openai.com/index/chatgpt-plus-for-veterans",
    "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
    "https://openai.com/index/chatgpt-shopping-research",
    "https://openai.com/index/chatgpt-study-mode",
@@ -296,6 +297,7 @@
    "https://openai.com/index/codex-now-generally-available",
    "https://openai.com/index/codex-quantum-computing-experiments",
    "https://openai.com/index/codex-security-now-in-research-preview",
+   "https://openai.com/index/cogent-security",
    "https://openai.com/index/cognition-devin-testing-with-astra",
    "https://openai.com/index/collective-alignment-aug-2025-updates",
    "https://openai.com/index/color-health",
@@ -798,6 +800,7 @@
    "https://openai.com/index/jetbrains",
    "https://openai.com/index/jetbrains-2025",
    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "https://openai.com/index/jiostar-vijay-seshadri",
    "https://openai.com/index/john-deere-justin-rose",
    "https://openai.com/index/joint-statement-from-openai-and-microsoft",
    "https://openai.com/index/jukebox",
@@ -1194,6 +1197,7 @@
    "https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization",
    "https://openai.com/index/simplex",
    "https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models",
+   "https://openai.com/index/singapore-airlines-travel-work",
    "https://openai.com/index/singular-bank",
    "https://openai.com/index/small-business-ai-jam",
    "https://openai.com/index/snowflake-partnership",
@@ -1963,7 +1967,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-06",
    "https://docs.claude.com/en/release-notes/overview#2026-11-07",
    "https://docs.claude.com/en/release-notes/overview#2026-11-10",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-11"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-11",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-12"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2111,6 +2116,20 @@
  },
  "items": [
   {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-12",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-12",
+   "points": [
+    "We’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 (claude-mythos-5-2) offers the same capabilities only to organization"
+   ],
+   "pending": true
+  },
+  {
    "key": "https://openai.com/index/gilbert-tobin-sam-nickless",
    "company": "OpenAI",
    "source": "openai-news",
@@ -2121,6 +2140,34 @@
    "fetched": "2026-11-11",
    "points": [
     "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "date": "2026-11-11",
+   "open_weights": false,
+   "fetched": "2026-11-12",
+   "points": [
+    "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/jiostar-vijay-seshadri",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/jiostar-vijay-seshadri",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "date": "2026-11-11",
+   "open_weights": false,
+   "fetched": "2026-11-12",
+   "points": [
+    "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
    ],
    "pending": true
   },
@@ -2149,6 +2196,34 @@
    "fetched": "2026-11-11",
    "points": [
     "The Compliance API now includes Security posture data, in beta for Claude Enterprise organizations. The Activity Feed records changes to attestations on the Security posture page in claude.ai Organiza"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/singapore-airlines-travel-work",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-12",
+   "points": [
+    "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/cogent-security",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/cogent-security",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "date": "2026-11-10",
+   "open_weights": false,
+   "fetched": "2026-11-12",
+   "points": [
+    "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents."
    ],
    "pending": true
   },
