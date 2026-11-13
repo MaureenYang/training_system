@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -35,7 +35,10 @@
    "https://openai.com/ads/customers/evernote",
    "https://openai.com/ads/customers/flipsnack",
    "https://openai.com/business/customer-stories/ada",
+   "https://openai.com/business/customer-stories/amplitude",
    "https://openai.com/business/customer-stories/blue-j",
+   "https://openai.com/business/customer-stories/gondola",
+   "https://openai.com/business/customer-stories/holidays-extras-codex",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -274,6 +277,7 @@
    "https://openai.com/index/chatham-financial",
    "https://openai.com/index/check-point-daybreak",
    "https://openai.com/index/child-safety-adopting-sbd-principles",
+   "https://openai.com/index/children-first-declaration",
    "https://openai.com/index/chime-vineet-mehra",
    "https://openai.com/index/choco",
    "https://openai.com/index/circles",
@@ -1403,7 +1407,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-06",
    "https://platform.openai.com/docs/changelog#2026-11-07",
    "https://platform.openai.com/docs/changelog#2026-11-10",
-   "https://platform.openai.com/docs/changelog#2026-11-11"
+   "https://platform.openai.com/docs/changelog#2026-11-11",
+   "https://platform.openai.com/docs/changelog#2026-11-13"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1968,7 +1973,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-07",
    "https://docs.claude.com/en/release-notes/overview#2026-11-10",
    "https://docs.claude.com/en/release-notes/overview#2026-11-11",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-12"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-12",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-13"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2115,6 +2121,90 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-13",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-13",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "Findings and fixes\nImport scanner findings\nDesktop browser policies\nSecuring persistent agents like OpenClaw at OpenAI\nUse GPT-6 Cyber to investigate vulnerabilities, reproduce them in an authorized t"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-13",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-13",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "November 12, 2026\nWe’ve launched self-hosted Claude Managed Agents. You run the whole Managed Agents service, not only self-hosted sandboxes, on your own infrastructure, and you store agents, sessions"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/amplitude",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/gondola",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "title": "Holiday Extras is rethinking what it can build with Codex",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/children-first-declaration",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/children-first-declaration",
+   "title": "Supporting research on AI and children’s safety",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-13",
+   "points": [
+    "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people."
+   ],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-11-12",
    "company": "Anthropic",
