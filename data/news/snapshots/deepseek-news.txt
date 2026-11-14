@@ -1,5 +1,5 @@
 Skip to main content
-Search / Fetch API is now available, powered by our in-house search engine and supporting web search and fetch. Click here to view the guide
+The full suite of DeepSeek application APIs is now available: web search, file input, URL reading, model safety, ASR, TTS and more. Click here to view the guide
 Open Markdown
 Your First API Call
 The DeepSeek API uses an API format compatible with OpenAI/Anthropic. By modifying the configuration, you can use the OpenAI/Anthropic SDK or softwares compatible with the OpenAI/Anthropic API to access the DeepSeek API.

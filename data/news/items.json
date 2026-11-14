@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -39,6 +39,7 @@
    "https://openai.com/business/customer-stories/blue-j",
    "https://openai.com/business/customer-stories/gondola",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "https://openai.com/business/customer-stories/shield",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -713,6 +714,7 @@
    "https://openai.com/index/introducing-chatgpt-search",
    "https://openai.com/index/introducing-chatgpt-small-business-program",
    "https://openai.com/index/introducing-chatgpt-team",
+   "https://openai.com/index/introducing-chatgpt-wallet",
    "https://openai.com/index/introducing-child-safety-blueprint",
    "https://openai.com/index/introducing-codex",
    "https://openai.com/index/introducing-company-knowledge",
@@ -1408,7 +1410,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-07",
    "https://platform.openai.com/docs/changelog#2026-11-10",
    "https://platform.openai.com/docs/changelog#2026-11-11",
-   "https://platform.openai.com/docs/changelog#2026-11-13"
+   "https://platform.openai.com/docs/changelog#2026-11-13",
+   "https://platform.openai.com/docs/changelog#2026-11-14"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1767,6 +1770,7 @@
    "https://www.anthropic.com/research/building-ai-cyber-defenders",
    "https://www.anthropic.com/research/building-c-compiler",
    "https://www.anthropic.com/research/building-effective-agents",
+   "https://www.anthropic.com/research/building-strong-safety-evaluations",
    "https://www.anthropic.com/research/circuits-updates-april-2024",
    "https://www.anthropic.com/research/circuits-updates-august-2024",
    "https://www.anthropic.com/research/circuits-updates-july-2024",
@@ -1979,7 +1983,8 @@
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
    "https://api-docs.deepseek.com/news#2026-10-18",
-   "https://api-docs.deepseek.com/news#2026-10-31"
+   "https://api-docs.deepseek.com/news#2026-10-31",
+   "https://api-docs.deepseek.com/news#2026-11-14"
   ],
   "deepseek-hf": [
    "hf:deepseek-ai:DeepSeek-Math-V2:2025-11-27",
@@ -2121,6 +2126,74 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-14",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-14",
+   "open_weights": false,
+   "fetched": "2026-11-14",
+   "points": [
+    "Data residency\nOverview Agent Access ChatGPT + Codex user docs Use cases\nPartner Playbook Overview\nCommerce Partner Playbook\nSubmit product feeds\nHelp ensure cloud browser access\nAccept payments\nBuild"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://api-docs.deepseek.com/news#2026-11-14",
+   "company": "DeepSeek",
+   "source": "deepseek-news",
+   "url": "https://api-docs.deepseek.com/news",
+   "title": "DeepSeek 官方新聞更新",
+   "date": "2026-11-14",
+   "open_weights": false,
+   "fetched": "2026-11-14",
+   "points": [
+    "The full suite of DeepSeek application APIs is now available: web search, file input, URL reading, model safety, ASR, TTS and more. Click here to view the guide"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-chatgpt-wallet",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "title": "Introducing ChatGPT Wallet",
+   "date": "2026-11-13",
+   "open_weights": false,
+   "fetched": "2026-11-14",
+   "points": [
+    "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/shield",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "date": "2026-11-13",
+   "open_weights": false,
+   "fetched": "2026-11-14",
+   "points": [
+    "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "title": "Building strong safety evaluations",
+   "date": "2026-11-13",
+   "open_weights": false,
+   "fetched": "2026-11-14",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-13",
    "company": "OpenAI",
