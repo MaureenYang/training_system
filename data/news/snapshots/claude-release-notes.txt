@@ -547,3 +547,4 @@ Tool use is out of beta across the Claude API, Amazon Bedrock, and Vertex AI, wi
 May 10, 2024
 Our prompt generator tool is now available in the Developer Console. The prompt generator helps you guide Claude to generate high-quality prompts tailored to your specific tasks. Read more in our prompt generator blog post.
 Was this page helpful?
+Console
