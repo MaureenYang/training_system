@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -1064,6 +1064,7 @@
    "https://openai.com/index/our-approach-to-the-model-spec",
    "https://openai.com/index/our-commitment-to-community-safety",
    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "https://openai.com/index/our-new-blog-for-science",
    "https://openai.com/index/our-principles",
    "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
    "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
@@ -1239,6 +1240,7 @@
    "https://openai.com/index/start-using-chatgpt-instantly",
    "https://openai.com/index/state-of-minnesota",
    "https://openai.com/index/statement-on-openai-nonprofit-and-pbc",
+   "https://openai.com/index/step-toward-defining-the-standard-model",
    "https://openai.com/index/steuerrecht",
    "https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning",
    "https://openai.com/index/strategic-content-partnership-with-time",
@@ -1411,7 +1413,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-10",
    "https://platform.openai.com/docs/changelog#2026-11-11",
    "https://platform.openai.com/docs/changelog#2026-11-13",
-   "https://platform.openai.com/docs/changelog#2026-11-14"
+   "https://platform.openai.com/docs/changelog#2026-11-14",
+   "https://platform.openai.com/docs/changelog#2026-11-16"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -2126,6 +2129,48 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-16",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-16",
+   "points": [
+    "All use cases\nAll use cases\nProductivity & Collaboration\nBusiness Operations\nData Science\nWeb development\nGame development\nNative development\nProduction systems\nSecurity\nFinance\nSales\nLife Sciences\nEd"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "title": "A step toward defining the Standard Model on a lattice",
+   "date": "2026-11-15",
+   "open_weights": false,
+   "fetched": "2026-11-16",
+   "points": [
+    "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/our-new-blog-for-science",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "title": "Our new blog for science",
+   "date": "2026-11-15",
+   "open_weights": false,
+   "fetched": "2026-11-16",
+   "points": [
+    "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+   ],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-14",
    "company": "OpenAI",
