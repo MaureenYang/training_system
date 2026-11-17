@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -38,6 +38,7 @@
    "https://openai.com/business/customer-stories/amplitude",
    "https://openai.com/business/customer-stories/blue-j",
    "https://openai.com/business/customer-stories/gondola",
+   "https://openai.com/business/customer-stories/holiday-extras-dots",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
    "https://openai.com/business/customer-stories/shield",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
@@ -133,6 +134,7 @@
    "https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors",
    "https://openai.com/index/advanced-account-security",
    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+   "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
    "https://openai.com/index/advancing-computer-use-with-ironclad",
    "https://openai.com/index/advancing-content-provenance",
    "https://openai.com/index/advancing-independent-research-ai-alignment",
@@ -483,6 +485,7 @@
    "https://openai.com/index/evolving-our-structure",
    "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
    "https://openai.com/index/expanding-ai-access-us-government",
+   "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
    "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide",
    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
    "https://openai.com/index/expanding-economic-opportunity-with-ai",
@@ -855,6 +858,7 @@
    "https://openai.com/index/lowes",
    "https://openai.com/index/lowes-chandhu-nair",
    "https://openai.com/index/lseg",
+   "https://openai.com/index/lvmh-media-division-partnership",
    "https://openai.com/index/ly-corporation",
    "https://openai.com/index/machine-learning-unconference",
    "https://openai.com/index/making-chatgpt-better-for-clinicians",
@@ -887,6 +891,7 @@
    "https://openai.com/index/moderna",
    "https://openai.com/index/more-enterprise-grade-features-for-api-customers",
    "https://openai.com/index/more-on-dota-2",
+   "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
    "https://openai.com/index/more-ways-to-work-with-your-team",
    "https://openai.com/index/morgan-stanley",
    "https://openai.com/index/moving-ai-governance-forward",
@@ -1064,6 +1069,7 @@
    "https://openai.com/index/our-approach-to-the-model-spec",
    "https://openai.com/index/our-commitment-to-community-safety",
    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "https://openai.com/index/our-first-phase-of-embedded-assessments",
    "https://openai.com/index/our-new-blog-for-science",
    "https://openai.com/index/our-principles",
    "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
@@ -1187,6 +1193,7 @@
    "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
    "https://openai.com/index/scania",
    "https://openai.com/index/schoolai",
+   "https://openai.com/index/science-at-the-frontier",
    "https://openai.com/index/scientific-computing-agentic-ai",
    "https://openai.com/index/scout24",
    "https://openai.com/index/sea-david-chen",
@@ -1248,6 +1255,7 @@
    "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
    "https://openai.com/index/strengthening-cyber-resilience",
    "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "https://openai.com/index/strengthening-online-child-safety",
    "https://openai.com/index/strengthening-safety-with-external-testing",
    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
    "https://openai.com/index/strengthening-the-us-ai-supply-chain",
@@ -1298,6 +1306,7 @@
    "https://openai.com/index/the-future-of-the-firm",
    "https://openai.com/index/the-instruction-hierarchy",
    "https://openai.com/index/the-international-2018-results",
+   "https://openai.com/index/the-kings-trust-and-openai",
    "https://openai.com/index/the-met-museum",
    "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
    "https://openai.com/index/the-next-chapter-for-uk-sovereign-ai",
@@ -1414,7 +1423,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-11",
    "https://platform.openai.com/docs/changelog#2026-11-13",
    "https://platform.openai.com/docs/changelog#2026-11-14",
-   "https://platform.openai.com/docs/changelog#2026-11-16"
+   "https://platform.openai.com/docs/changelog#2026-11-16",
+   "https://platform.openai.com/docs/changelog#2026-11-17"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1804,6 +1814,7 @@
    "https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback",
    "https://www.anthropic.com/research/constitutional-classifiers",
    "https://www.anthropic.com/research/contextual-retrieval",
+   "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
    "https://www.anthropic.com/research/critical-infrastructure-defense",
    "https://www.anthropic.com/research/crosscoder-model-diffing",
    "https://www.anthropic.com/research/cyber-competitions",
@@ -1981,7 +1992,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-10",
    "https://docs.claude.com/en/release-notes/overview#2026-11-11",
    "https://docs.claude.com/en/release-notes/overview#2026-11-12",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-13"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-13",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-17"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2129,6 +2141,170 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-17",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "CSAM classifier\nNov 16\nomni-moderation-csam-latest\nApproved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review. The model returns separate sig"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-17",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "November 16, 2026\nText generated by Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 carries Anthropic’s text watermark on supported platforms. How Claude marks AI-generated c"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "title": "Broadening access to AI for scientists",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/strengthening-online-child-safety",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/science-at-the-frontier",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/lvmh-media-division-partnership",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "title": "Our first phase of embedded assessments",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/the-kings-trust-and-openai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [
+    "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+   "title": "Updating our coordinated vulnerability disclosure policy timelines",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-17",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-16",
    "company": "OpenAI",
