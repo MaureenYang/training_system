@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -32,14 +32,17 @@
    "https://openai.com/academy/working-with-files",
    "https://openai.com/academy/workspace-agents",
    "https://openai.com/academy/writing",
+   "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
    "https://openai.com/ads/customers/evernote",
    "https://openai.com/ads/customers/flipsnack",
+   "https://openai.com/ads/customers/vistaprint",
    "https://openai.com/business/customer-stories/ada",
    "https://openai.com/business/customer-stories/amplitude",
    "https://openai.com/business/customer-stories/blue-j",
    "https://openai.com/business/customer-stories/gondola",
    "https://openai.com/business/customer-stories/holiday-extras-dots",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "https://openai.com/business/customer-stories/revolut",
    "https://openai.com/business/customer-stories/shield",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/fine-tuning-gpt-4o-webinar",
@@ -187,6 +190,7 @@
    "https://openai.com/index/asana",
    "https://openai.com/index/asana-browser-agent",
    "https://openai.com/index/astra-for-law",
+   "https://openai.com/index/astra-law-6-2",
    "https://openai.com/index/asu",
    "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning",
    "https://openai.com/index/atlassian-partnership",
@@ -707,6 +711,7 @@
    "https://openai.com/index/introducing-chatgpt-edu",
    "https://openai.com/index/introducing-chatgpt-enterprise",
    "https://openai.com/index/introducing-chatgpt-financial-services",
+   "https://openai.com/index/introducing-chatgpt-for-sales",
    "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
    "https://openai.com/index/introducing-chatgpt-go",
    "https://openai.com/index/introducing-chatgpt-health",
@@ -738,6 +743,7 @@
    "https://openai.com/index/introducing-gpt-5-for-developers",
    "https://openai.com/index/introducing-gpt-6-1-sol",
    "https://openai.com/index/introducing-gpt-6-1-terra",
+   "https://openai.com/index/introducing-gpt-6-2-astra-sol",
    "https://openai.com/index/introducing-gpt-6-cyber",
    "https://openai.com/index/introducing-gpt-6-sol-and-luna",
    "https://openai.com/index/introducing-gpt-live",
@@ -759,6 +765,7 @@
    "https://openai.com/index/introducing-o3-and-o4-mini",
    "https://openai.com/index/introducing-openai",
    "https://openai.com/index/introducing-openai-dublin",
+   "https://openai.com/index/introducing-openai-for-chile",
    "https://openai.com/index/introducing-openai-for-nonprofits",
    "https://openai.com/index/introducing-openai-for-singapore",
    "https://openai.com/index/introducing-openai-frontier",
@@ -1255,6 +1262,7 @@
    "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations",
    "https://openai.com/index/strengthening-cyber-resilience",
    "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+   "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
    "https://openai.com/index/strengthening-online-child-safety",
    "https://openai.com/index/strengthening-safety-with-external-testing",
    "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
@@ -1424,7 +1432,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-13",
    "https://platform.openai.com/docs/changelog#2026-11-14",
    "https://platform.openai.com/docs/changelog#2026-11-16",
-   "https://platform.openai.com/docs/changelog#2026-11-17"
+   "https://platform.openai.com/docs/changelog#2026-11-17",
+   "https://platform.openai.com/docs/changelog#2026-11-18"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1993,7 +2002,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-11",
    "https://docs.claude.com/en/release-notes/overview#2026-11-12",
    "https://docs.claude.com/en/release-notes/overview#2026-11-13",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-17"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-17",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-18"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2142,6 +2152,104 @@
  },
  "items": [
   {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-18",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Using GPT-6.2\nNov 17\ngpt-6.2-astra\ngpt-6.2-sol\nUse GPT-6.2 Astra for demanding reasoning and coding tasks, or GPT-6.2 Sol for everyday coding and agent workflows. Both models support the Responses API"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-18",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "November 17, 2026\nWe’ve launched Linked billing in beta with the user-profiles-billing-2026-10-01 beta header. Your customers can now pay for the Claude usage in your app through their own Claude orga"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "title": "Introducing ChatGPT for Sales",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/astra-law-6-2",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/astra-law-6-2",
+   "title": "Astra for Law leads in legal intelligence",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-openai-for-chile",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "title": "Introducing OpenAI for Chile",
+   "date": "2026-11-17",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications."
+   ],
+   "pending": true
+  },
+  {
    "key": "https://platform.openai.com/docs/changelog#2026-11-17",
    "company": "OpenAI",
    "source": "openai-changelog",
@@ -2166,6 +2274,20 @@
    "fetched": "2026-11-17",
    "points": [
     "November 16, 2026\nText generated by Claude Opus 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 carries Anthropic’s text watermark on supported platforms. How Claude marks AI-generated c"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/revolut",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/revolut",
+   "title": "How Revolut raises ambition without lowering the bar",
+   "date": "2026-11-16",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security."
    ],
    "pending": true
   },
@@ -2444,6 +2566,20 @@
    "pending": true
   },
   {
+   "key": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "title": "ChatGPT Ads increases its market presence in 44 countries",
+   "date": "2026-11-12",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies"
+   ],
+   "pending": true
+  },
+  {
    "key": "https://openai.com/business/customer-stories/amplitude",
    "company": "OpenAI",
    "source": "openai-news",
@@ -2704,6 +2840,20 @@
    "fetched": "2026-11-10",
    "points": [
     "November 9, 2026\nWe’ve launched Claude Fable 5.2 (claude-fable-5-2), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 (claude-mythos-5-2) offers the same capabilities onl"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/ads/customers/vistaprint",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/ads/customers/vistaprint",
+   "title": "How VistaPrint helps small businesses get the word out",
+   "date": "2026-11-09",
+   "open_weights": false,
+   "fetched": "2026-11-18",
+   "points": [
+    "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded"
    ],
    "pending": true
   },
