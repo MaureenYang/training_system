@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -44,6 +44,7 @@
    "https://openai.com/business/customer-stories/holidays-extras-codex",
    "https://openai.com/business/customer-stories/revolut",
    "https://openai.com/business/customer-stories/shield",
+   "https://openai.com/business/customer-stories/sumitomo-life",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
@@ -137,6 +138,7 @@
    "https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors",
    "https://openai.com/index/advanced-account-security",
    "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+   "https://openai.com/index/advancing-chip-design-with-our-models",
    "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
    "https://openai.com/index/advancing-computer-use-with-ironclad",
    "https://openai.com/index/advancing-content-provenance",
@@ -689,6 +691,7 @@
    "https://openai.com/index/infrastructure-for-deep-learning",
    "https://openai.com/index/ingredients-for-robotics-research",
    "https://openai.com/index/inside-our-in-house-data-agent",
+   "https://openai.com/index/inside-the-codex-sandbox",
    "https://openai.com/index/insights-from-global-conversations",
    "https://openai.com/index/instacart-partnership",
    "https://openai.com/index/instruction-following",
@@ -832,6 +835,7 @@
    "https://openai.com/index/large-scale-study-of-curiosity-driven-learning",
    "https://openai.com/index/launchdarkly-claire-vo",
    "https://openai.com/index/launching-sora-responsibly",
+   "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
    "https://openai.com/index/leadership-expansion-with-fidji-simo",
    "https://openai.com/index/leadership-team-update",
    "https://openai.com/index/leadership-updates-march-2025",
@@ -871,6 +875,7 @@
    "https://openai.com/index/making-chatgpt-better-for-clinicians",
    "https://openai.com/index/malta-chatgpt-plus-partnership",
    "https://openai.com/index/managing-ai-investments-in-agentic-era",
+   "https://openai.com/index/managing-frontier-ai-risk",
    "https://openai.com/index/mapping-ai-jobs-transition-eu",
    "https://openai.com/index/march-20-chatgpt-outage",
    "https://openai.com/index/march-funding-updates",
@@ -1151,6 +1156,7 @@
    "https://openai.com/index/report-from-the-self-organizing-conference",
    "https://openai.com/index/reptile",
    "https://openai.com/index/requests-for-research-2",
+   "https://openai.com/index/research-acceleration-jagged-frontier",
    "https://openai.com/index/research-acceleration-view-inside-openai",
    "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
    "https://openai.com/index/response-to-nyt-data-demands",
@@ -1321,6 +1327,7 @@
    "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
    "https://openai.com/index/the-next-phase-of-education-for-countries",
    "https://openai.com/index/the-power-of-continuous-learning",
+   "https://openai.com/index/the-silent-consensus",
    "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
    "https://openai.com/index/the-work-now-within-reach",
    "https://openai.com/index/thinking-with-images",
@@ -1433,7 +1440,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-14",
    "https://platform.openai.com/docs/changelog#2026-11-16",
    "https://platform.openai.com/docs/changelog#2026-11-17",
-   "https://platform.openai.com/docs/changelog#2026-11-18"
+   "https://platform.openai.com/docs/changelog#2026-11-18",
+   "https://platform.openai.com/docs/changelog#2026-11-19"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1512,6 +1520,7 @@
    "https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund",
    "https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic",
    "https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam",
+   "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
    "https://www.anthropic.com/news/anthropic-public-record",
    "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
    "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
@@ -1800,6 +1809,7 @@
    "https://www.anthropic.com/research/circuits-updates-may-2023",
    "https://www.anthropic.com/research/circuits-updates-sept-2024",
    "https://www.anthropic.com/research/claude-4-cyber",
+   "https://www.anthropic.com/research/claude-black-hole-physics",
    "https://www.anthropic.com/research/claude-character",
    "https://www.anthropic.com/research/claude-code-auto-mode",
    "https://www.anthropic.com/research/claude-code-best-practices",
@@ -2003,7 +2013,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-12",
    "https://docs.claude.com/en/release-notes/overview#2026-11-13",
    "https://docs.claude.com/en/release-notes/overview#2026-11-17",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-18"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-18",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-19"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2151,6 +2162,156 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-19",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "GPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level instructions field. See the GPT-6.2 migration guide for details and rec"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-19",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "We’ve launched Claude Opus 4.8 (claude-opus-4-8⁠), our most capable model. Claude Opus 4.8 supports a 1M token context window by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft "
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/the-silent-consensus",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/the-silent-consensus",
+   "title": "The Silent Consensus",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "title": "Research acceleration: The jagged frontier",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/sumitomo-life",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/inside-the-codex-sandbox",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/inside-the-codex-sandbox",
+   "title": "Inside the Codex sandbox",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/managing-frontier-ai-risk",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "title": "Managing frontier AI risk: From training to deployment",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "title": "Advancing chip design with OpenAI models",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [
+    "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "title": "Anthropic prices initial public offering ",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
+   "date": "2026-11-18",
+   "open_weights": false,
+   "fetched": "2026-11-19",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-18",
    "company": "OpenAI",

@@ -717,7 +717,7 @@ gpt-6.2-sol
 v1/responses
 v1/chat/completions
 Use GPT-6.2 Astra for demanding reasoning and coding tasks, or GPT-6.2 Sol for everyday coding and agent workflows. Both models support the Responses API and Chat Completions. Tool calling requires the Responses API.
-See the GPT-6.2 migration guide to update an existing integration.
+GPT-6.2 changes how the Responses API preserves reasoning when you edit a conversation’s prefix and how it handles the top-level instructions field. See the GPT-6.2 migration guide for details and recommended updates to your integration.
 Nov 17
 Feature
 gpt-6.2-astra
