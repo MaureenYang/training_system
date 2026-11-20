@@ -647,11 +647,11 @@ Showcase
 DocsShowcase
 All posts
 Recent
+Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
 Pushing voice agents further: inside four GPT-Live builds
 Building a retro handheld game with Codex and ModRetro Chromatic
 Designing failover across OpenAI model providers
-Maintaining software with the GPT-6 family
 Topics
 General
 API
@@ -710,6 +710,12 @@ Try ChatGPT
 Changelog
 Upcoming deprecations can be found on the deprecations page.
 November, 2026
+Nov 19
+Feature
+gpt-live-1.1
+v1/live/sessions
+GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend.
+Configure standby for GPT-Live-1 and GPT-Live-1.1 WebRTC sessions to pause inference during inactivity and resume when someone speaks.
 Nov 17
 Feature
 gpt-6.2-astra
@@ -1191,14 +1197,14 @@ v1/videos
 v1/videos/characters
 v1/videos/extensions
 v1/batch
-Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here.
+Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second.
 Mar 12
 Update
 sora-2
 sora-2-pro
 v1/videos/edits
 v1/videos/{video_id}/remix
-Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here.
+Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months.
 Mar 5
 Feature
 gpt-5.4

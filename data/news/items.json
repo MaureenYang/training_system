@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -57,11 +57,14 @@
    "https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
    "https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report",
    "https://openai.com/business/learn/automate-complex-workflows-with-openai-o3",
+   "https://openai.com/business/learn/codex-security-plugin-demo",
    "https://openai.com/business/learn/collaborate-and-write-with-gpt-4o",
    "https://openai.com/business/learn/connect-internal-knowledge-from-google-drive",
    "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation",
    "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
+   "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
    "https://openai.com/business/learn/delegate-work-to-chatgpt-agent",
+   "https://openai.com/business/learn/deploying-daybreak-red",
    "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
    "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
    "https://openai.com/business/learn/gpt-5-our-best-model-for-work",
@@ -71,6 +74,7 @@
    "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
    "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
    "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions",
+   "https://openai.com/business/learn/pr-scans-demo",
    "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt",
    "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt",
    "https://openai.com/business/learn/strategic-planning-with-chatgpt",
@@ -659,6 +663,7 @@
    "https://openai.com/index/how-enterprises-put-ai-to-work",
    "https://openai.com/index/how-news-organizations-are-using-ai",
    "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+   "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
    "https://openai.com/index/how-people-are-using-chatgpt",
    "https://openai.com/index/how-should-ai-systems-behave",
    "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen",
@@ -1441,7 +1446,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-16",
    "https://platform.openai.com/docs/changelog#2026-11-17",
    "https://platform.openai.com/docs/changelog#2026-11-18",
-   "https://platform.openai.com/docs/changelog#2026-11-19"
+   "https://platform.openai.com/docs/changelog#2026-11-19",
+   "https://platform.openai.com/docs/changelog#2026-11-20"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -2162,6 +2168,90 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-20",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-20",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Prompting GPT-Live for languages and regional accents\nNov 19\ngpt-live-1.1\nGPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/deploying-daybreak-red",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "title": "Deploying Daybreak Red",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/pr-scans-demo",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "title": "See PR scans in action",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "title": "Explore the Codex Security Plugin",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "title": "Get started with Daybreak Blue",
+   "date": "2026-11-19",
+   "open_weights": false,
+   "fetched": "2026-11-20",
+   "points": [
+    "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
+   ],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-19",
    "company": "OpenAI",
