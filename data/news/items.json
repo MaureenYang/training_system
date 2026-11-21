@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -40,6 +40,7 @@
    "https://openai.com/business/customer-stories/amplitude",
    "https://openai.com/business/customer-stories/blue-j",
    "https://openai.com/business/customer-stories/gondola",
+   "https://openai.com/business/customer-stories/hebbia",
    "https://openai.com/business/customer-stories/holiday-extras-dots",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
    "https://openai.com/business/customer-stories/revolut",
@@ -319,6 +320,7 @@
    "https://openai.com/index/collective-alignment-aug-2025-updates",
    "https://openai.com/index/color-health",
    "https://openai.com/index/combating-online-child-sexual-exploitation-abuse",
+   "https://openai.com/index/combatting-adversarial-distillation",
    "https://openai.com/index/commonwealth-bank-of-australia",
    "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
    "https://openai.com/index/competitive-self-play",
@@ -767,6 +769,7 @@
    "https://openai.com/index/introducing-intelligence-age",
    "https://openai.com/index/introducing-life-sci-bench",
    "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+   "https://openai.com/index/introducing-medchembench",
    "https://openai.com/index/introducing-mentalhealthbench",
    "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
    "https://openai.com/index/introducing-nextgenai",
@@ -1447,7 +1450,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-17",
    "https://platform.openai.com/docs/changelog#2026-11-18",
    "https://platform.openai.com/docs/changelog#2026-11-19",
-   "https://platform.openai.com/docs/changelog#2026-11-20"
+   "https://platform.openai.com/docs/changelog#2026-11-20",
+   "https://platform.openai.com/docs/changelog#2026-11-21"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -1673,6 +1677,7 @@
    "https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council",
    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
    "https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future",
+   "https://www.anthropic.com/news/ipo-close",
    "https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors",
    "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
    "https://www.anthropic.com/news/krishna-rao-joins-anthropic",
@@ -2168,6 +2173,74 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-21",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-21",
+   "open_weights": false,
+   "fetched": "2026-11-21",
+   "points": [
+    "Reserved Tier\nHow I stay in the flow with Ultrafast\nTime awareness and async input for personal agents\nNew models will not support Flex processing. Flex remains available on supported models while the"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/combatting-adversarial-distillation",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "title": "Combatting adversarial distillation",
+   "date": "2026-11-20",
+   "open_weights": false,
+   "fetched": "2026-11-21",
+   "points": [
+    "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/hebbia",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/hebbia",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "date": "2026-11-20",
+   "open_weights": false,
+   "fetched": "2026-11-21",
+   "points": [
+    "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-medchembench",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-medchembench",
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "date": "2026-11-20",
+   "open_weights": false,
+   "fetched": "2026-11-21",
+   "points": [
+    "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/news/ipo-close",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/news/ipo-close",
+   "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement ",
+   "date": "2026-11-20",
+   "open_weights": false,
+   "fetched": "2026-11-21",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-20",
    "company": "OpenAI",
