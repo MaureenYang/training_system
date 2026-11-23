@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -1111,6 +1111,7 @@
    "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
    "https://openai.com/index/people-first-ai-fund",
    "https://openai.com/index/people-first-ai-fund-grantees",
+   "https://openai.com/index/perplexity-and-intelligence",
    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
    "https://openai.com/index/personal-finance-chatgpt",
    "https://openai.com/index/philips",
@@ -2174,6 +2175,20 @@
   ]
  },
  "items": [
+  {
+   "key": "https://openai.com/index/perplexity-and-intelligence",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "title": "Perplexity and Intelligence",
+   "date": "2026-11-22",
+   "open_weights": false,
+   "fetched": "2026-11-23",
+   "points": [
+    "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+   ],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-11-22",
    "company": "Anthropic",
