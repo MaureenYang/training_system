@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -44,6 +44,7 @@
    "https://openai.com/business/customer-stories/holiday-extras-dots",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
    "https://openai.com/business/customer-stories/revolut",
+   "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
    "https://openai.com/business/customer-stories/shield",
    "https://openai.com/business/customer-stories/sumitomo-life",
    "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
@@ -61,6 +62,7 @@
    "https://openai.com/business/learn/codex-security-plugin-demo",
    "https://openai.com/business/learn/collaborate-and-write-with-gpt-4o",
    "https://openai.com/business/learn/connect-internal-knowledge-from-google-drive",
+   "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
    "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation",
    "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
    "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
@@ -791,6 +793,7 @@
    "https://openai.com/index/introducing-our-next-generation-audio-models",
    "https://openai.com/index/introducing-parental-controls",
    "https://openai.com/index/introducing-prism",
+   "https://openai.com/index/introducing-shirudo",
    "https://openai.com/index/introducing-simpleqa",
    "https://openai.com/index/introducing-stargate-norway",
    "https://openai.com/index/introducing-stargate-uae",
@@ -1998,6 +2001,7 @@
    "https://www.anthropic.com/research/values-wild",
    "https://www.anthropic.com/research/vibe-physics",
    "https://www.anthropic.com/research/what-work-can-robots-do",
+   "https://www.anthropic.com/research/working-with-ai",
    "https://www.anthropic.com/research/writing-tools-for-agents",
    "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
    "https://www.anthropic.com/research/your-thoughts-on-ai",
@@ -2027,7 +2031,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-17",
    "https://docs.claude.com/en/release-notes/overview#2026-11-18",
    "https://docs.claude.com/en/release-notes/overview#2026-11-19",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-22"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-22",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-24"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2175,6 +2180,74 @@
   ]
  },
  "items": [
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-24",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-24",
+   "points": [
+    "November 23, 2026\nWe announced the deprecation of the Claude Opus 4.5 model (claude-opus-4-5-20251101 and claude-opus-4-5), with retirement on the Claude API scheduled for January 22, 2027. We recomme"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/introducing-shirudo",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "date": "2026-11-23",
+   "open_weights": false,
+   "fetched": "2026-11-24",
+   "points": [
+    "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "title": "Connected intelligence for in-house legal",
+   "date": "2026-11-23",
+   "open_weights": false,
+   "fetched": "2026-11-24",
+   "points": [
+    "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get "
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "date": "2026-11-23",
+   "open_weights": false,
+   "fetched": "2026-11-24",
+   "points": [
+    "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://www.anthropic.com/research/working-with-ai",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/working-with-ai",
+   "title": "Working with AI",
+   "date": "2026-11-23",
+   "open_weights": false,
+   "fetched": "2026-11-24",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://openai.com/index/perplexity-and-intelligence",
    "company": "OpenAI",

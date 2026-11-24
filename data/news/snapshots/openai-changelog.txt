@@ -424,6 +424,7 @@ Create a site
 Data and connections
 Publish and share
 Manage a site
+Usage and cost
 dots
 Meet dots
 Getting started
@@ -647,11 +648,11 @@ Showcase
 DocsShowcase
 All posts
 Recent
+Building security review into your SDLC with Codex Security
 How I stay in the flow with Ultrafast
 Time awareness and async input for personal agents
 Prompting GPT-Live for languages and regional accents
 Securing persistent agents like OpenClaw at OpenAI
-Pushing voice agents further: inside four GPT-Live builds
 Topics
 General
 API
