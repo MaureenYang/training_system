@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -39,10 +39,13 @@
    "https://openai.com/business/customer-stories/ada",
    "https://openai.com/business/customer-stories/amplitude",
    "https://openai.com/business/customer-stories/blue-j",
+   "https://openai.com/business/customer-stories/clay-plugins-openai",
    "https://openai.com/business/customer-stories/gondola",
    "https://openai.com/business/customer-stories/hebbia",
    "https://openai.com/business/customer-stories/holiday-extras-dots",
    "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "https://openai.com/business/customer-stories/ifood",
+   "https://openai.com/business/customer-stories/intentful-dots",
    "https://openai.com/business/customer-stories/revolut",
    "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
    "https://openai.com/business/customer-stories/shield",
@@ -616,6 +619,7 @@
    "https://openai.com/index/gpt-6-astra",
    "https://openai.com/index/gpt-6-astra-next-generation-work",
    "https://openai.com/index/gpt-6-for-everyone",
+   "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
    "https://openai.com/index/gpt-oss-model-card",
    "https://openai.com/index/gpt-oss-safeguard-technical-report",
    "https://openai.com/index/gpts-are-gpts",
@@ -1223,6 +1227,7 @@
    "https://openai.com/index/scout24",
    "https://openai.com/index/sea-david-chen",
    "https://openai.com/index/searchgpt-prototype",
+   "https://openai.com/index/searching-for-distant-planets-with-astra",
    "https://openai.com/index/securing-our-frontier-model-training-environment",
    "https://openai.com/index/security-on-the-path-to-agi",
    "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
@@ -1455,7 +1460,8 @@
    "https://platform.openai.com/docs/changelog#2026-11-18",
    "https://platform.openai.com/docs/changelog#2026-11-19",
    "https://platform.openai.com/docs/changelog#2026-11-20",
-   "https://platform.openai.com/docs/changelog#2026-11-21"
+   "https://platform.openai.com/docs/changelog#2026-11-21",
+   "https://platform.openai.com/docs/changelog#2026-11-25"
   ],
   "anthropic-site": [
    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
@@ -2032,7 +2038,8 @@
    "https://docs.claude.com/en/release-notes/overview#2026-11-18",
    "https://docs.claude.com/en/release-notes/overview#2026-11-19",
    "https://docs.claude.com/en/release-notes/overview#2026-11-22",
-   "https://docs.claude.com/en/release-notes/overview#2026-11-24"
+   "https://docs.claude.com/en/release-notes/overview#2026-11-24",
+   "https://docs.claude.com/en/release-notes/overview#2026-11-25"
   ],
   "deepseek-news": [
    "https://api-docs.deepseek.com/news#2026-10-17",
@@ -2180,6 +2187,102 @@
   ]
  },
  "items": [
+  {
+   "key": "https://platform.openai.com/docs/changelog#2026-11-25",
+   "company": "OpenAI",
+   "source": "openai-changelog",
+   "url": "https://platform.openai.com/docs/changelog",
+   "title": "OpenAI API Changelog 更新",
+   "date": "2026-11-25",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "Production monitoring with Codex\nNov 24\nUpdated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users. We recommend leveraging th"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://docs.claude.com/en/release-notes/overview#2026-11-25",
+   "company": "Anthropic",
+   "source": "claude-release-notes",
+   "url": "https://docs.claude.com/en/release-notes/overview",
+   "title": "Claude Platform Release Notes 更新",
+   "date": "2026-11-25",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "A fix is live for an undercount of web searches in the List User ActivityPreview with links to the API reference available — press Tab until focus enters the card, Escape to return. endpoint of the Cl"
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "title": "Searching for distant planets with Astra",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/intentful-dots",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/intentful-dots",
+   "title": "How Intentful uses dots to make more time for growth",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues."
+   ],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/ifood",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/ifood",
+   "title": "How iFood scales coding agents across 15,000 repositories",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [],
+   "pending": true
+  },
+  {
+   "key": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "company": "OpenAI",
+   "source": "openai-news",
+   "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "date": "2026-11-24",
+   "open_weights": false,
+   "fetched": "2026-11-25",
+   "points": [
+    "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning."
+   ],
+   "pending": true
+  },
   {
    "key": "https://docs.claude.com/en/release-notes/overview#2026-11-24",
    "company": "Anthropic",
