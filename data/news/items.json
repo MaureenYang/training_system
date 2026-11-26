@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "seen": {
   "openai-news": [
    "https://openai.com/academy/applications-of-ai",
@@ -1939,6 +1939,7 @@
    "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
    "https://www.anthropic.com/research/measuring-model-persuasiveness",
    "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+   "https://www.anthropic.com/research/migrating-api-to-rust",
    "https://www.anthropic.com/research/multi-agent-research-system",
    "https://www.anthropic.com/research/multiagent-systems",
    "https://www.anthropic.com/research/mythos-preview",
@@ -2187,6 +2188,18 @@
   ]
  },
  "items": [
+  {
+   "key": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "company": "Anthropic",
+   "source": "anthropic-site",
+   "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "title": "Migrating our Messages API to Rust",
+   "date": "2026-11-25",
+   "open_weights": false,
+   "fetched": "2026-11-26",
+   "points": [],
+   "pending": true
+  },
   {
    "key": "https://platform.openai.com/docs/changelog#2026-11-25",
    "company": "OpenAI",
